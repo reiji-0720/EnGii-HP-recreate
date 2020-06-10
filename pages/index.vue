@@ -25,17 +25,21 @@
         </a>
       </div>
     </div>
+    <contact />
   </div>
+
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import Header from '~/components/Header.vue'
+import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Logo,
-    Header
+    Header,
+    Contact
   }
 }
 </script>
