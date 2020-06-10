@@ -16,5 +16,16 @@ export default {
 </script>
 
 <style>
+.contactContainer{
 
+}
+
+.contactArea{
+    background-color: #E2F1F7;
+    height: 130px;
+}
+
+.contact{
+    line-height: 130px;
+}
 </style>
