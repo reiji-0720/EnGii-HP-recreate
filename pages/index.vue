@@ -25,6 +25,16 @@
         </a>
       </div>
     </div>
+    <div class="sreviceTitle">
+      <p class="serviceMainText">
+        SERVICE
+      </p>
+      <p class="serviceSubText">
+        多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して<br>
+        対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で<br>
+        解決できる場所としてサービスを展開しています。
+      </p>
+    </div>
     <MediaFooter />
     <contact />
       <MediaFooter class="mainFooter"/>
@@ -80,5 +90,20 @@ export default {
 
 .mainFooter {
   background-color: #3E3A39;
+}
+
+.sreviceTitle {
+  margin: 50px 0;
+}
+
+.serviceMainText {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.serviceSubText {
+  text-align: left;
+  margin: 15px 0 15px 240px;
+  
 }
 </style>
