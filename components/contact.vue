@@ -26,9 +26,8 @@ export default {};
 .contact {
 	display: inline-block;
   vertical-align: middle;
-		line-height: 130px;
-
-  height: 60px;
+	line-height: 60px;
+  /* height: 60px; */
   width: 350px;
   background-color: #66bad7;
   text-decoration: none;
