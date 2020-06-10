@@ -32,20 +32,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-<<<<<<< HEAD
-=======
-import Header from '~/components/Header.vue'
 import Contact from '~/components/Contact.vue'
->>>>>>> 90699efee8f2b12f908ce31252deb5f2c17dfcb3
 
 export default {
   components: {
     Logo,
-<<<<<<< HEAD
-=======
-    Header,
     Contact
->>>>>>> 90699efee8f2b12f908ce31252deb5f2c17dfcb3
   }
 }
 </script>
