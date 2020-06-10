@@ -25,8 +25,10 @@
         </a>
       </div>
     </div>
+    <Influencer />
     <MediaFooter />
     <contact />
+
   </div>
 
 </template>
@@ -35,6 +37,7 @@
 import Logo from '~/components/Logo.vue'
 import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
+import Influencer from '~/components/Influencer.vue'
 
 export default {
   components: {
@@ -76,4 +79,8 @@ export default {
 .links {
   padding-top: 15px;
 }
+@media screen and ( max-width:1366px){
+  
+}
+
 </style>
