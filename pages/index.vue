@@ -25,6 +25,7 @@
         </a>
       </div>
     </div>
+    <MediaFooter />
     <contact />
   </div>
 
@@ -32,11 +33,13 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Logo,
+    MediaFooter,
     Contact
   }
 }
