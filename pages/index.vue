@@ -27,6 +27,7 @@
     </div>
     <MediaFooter />
     <contact />
+      <MediaFooter class="mainFooter"/>
   </div>
 
 </template>
@@ -75,5 +76,9 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.mainFooter {
+  background-color: #3E3A39;
 }
 </style>
