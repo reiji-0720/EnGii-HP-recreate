@@ -14,6 +14,7 @@ export default {
 
 <style>
 .mediaFooter {
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #B4B4B5;
