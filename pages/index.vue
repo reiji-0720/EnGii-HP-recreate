@@ -25,7 +25,6 @@
         </a>
       </div>
     </div>
-<<<<<<< HEAD
     <div class="sreviceTitle">
       <p class="serviceMainText">
         SERVICE
@@ -43,11 +42,6 @@
     </section>
     <Influencer />
     <About />
-=======
-    <Influencer />
-    <MediaFooter />
-    <engiiSupport />
->>>>>>> 68c320686a3194dde9702cf48cbdec3acdd8b6b4
     <contact />
 
   </div>
@@ -60,10 +54,7 @@ import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 import Influencer from '~/components/Influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
-<<<<<<< HEAD
 import About from '~/components/About.vue'
-=======
->>>>>>> 68c320686a3194dde9702cf48cbdec3acdd8b6b4
 
 export default {
   components: {
@@ -107,7 +98,6 @@ export default {
 .links {
   padding-top: 15px;
 }
-<<<<<<< HEAD
 
 .Activity{
   width: 1366px;
@@ -128,10 +118,6 @@ export default {
   
 }
 @media screen and (max-width: 1366px) {
-=======
-@media screen and ( max-width:1366px){
-  
->>>>>>> 68c320686a3194dde9702cf48cbdec3acdd8b6b4
 }
 
 </style>
