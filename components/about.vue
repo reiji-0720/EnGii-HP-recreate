@@ -6,7 +6,7 @@
         <div class="aboutMain">
             <div class="aboutImg">
                 <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="65%">
-                <div class="backImg"></div>
+                <div class="aboutBackImg"></div>
             </div>
             <div class="aboutText">
                 <p class="aboutMainText">新しい自分に<br>
@@ -37,7 +37,7 @@ export default {
 <style>
 
 .aboutTitle {
-  margin: 50px 0 30px 0;
+  margin: 0 0 30px 0;
 }
 .aboutTitle p {
   font-size: 54px;

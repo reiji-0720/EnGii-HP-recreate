@@ -1,6 +1,6 @@
 <template>
   <div class="contactContainer">
-    <h1 class="contactText">CONTACT</h1>
+    <p class="contactText">CONTACT</p>
     <div class="contactArea">
       <nuxt-link to class="contact">
         お気軽にお問い合わせください<Triangle />
