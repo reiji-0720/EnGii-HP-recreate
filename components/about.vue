@@ -21,7 +21,7 @@
                     を形にして、皆様の力になれたらと思っています。
                 </p>
                 <div class="aboutMore">
-                    <p>MORE</p>
+                    <p>MORE<Triangle /></p>
                 </div>
             </div>
         </div>
@@ -29,8 +29,12 @@
 </template>
 
 <script>
+import Triangle from '~/components/Triangle.vue'
+
 export default {
-    
+    components: {
+    Triangle
+  }
 }
 </script>
 
@@ -90,5 +94,6 @@ export default {
     text-align: center;
     color: #FFFFFF;
     font-size: 19px;
+    align-items: center;
 }
 </style>
