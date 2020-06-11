@@ -25,6 +25,7 @@
         </a>
       </div>
     </div>
+    <MediaFooter />
     <div class="sreviceTitle">
       <p class="serviceMainText">
         SERVICE
@@ -35,7 +36,6 @@
         解決できる場所としてサービスを展開しています。
       </p>
     </div>
-    <MediaFooter />
     <section class="Activity clearfix">
       <engiiSupport />
       <engiiMedia />

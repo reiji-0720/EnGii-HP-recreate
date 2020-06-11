@@ -5,7 +5,7 @@
         </div>
         <div class="aboutMain">
             <div class="aboutImg">
-                <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="65%">
+                <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415">
                 <div class="aboutBackImg"></div>
             </div>
             <div class="aboutText">
