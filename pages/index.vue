@@ -9,37 +9,34 @@
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
     </div>
-    
-    <Influencer />
+    <div class="sreviceTitle">
+      <p class="serviceMainText">
+        SERVICE
+      </p>
+      <p class="serviceSubText">
+        多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して<br>
+        対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で<br>
+        解決できる場所としてサービスを展開しています。
+      </p>
+    </div>
     <MediaFooter />
-<<<<<<< HEAD
-    <engiiSupport />
-    <About />
-=======
     <section class="Activity">
       <engiiSupport />
       <engiiMedia />
     </section>
->>>>>>> 17603e225bfb750cff205b1fbf0a84518041b430
+    <Influencer />
+    <About />
     <contact />
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import Logo from '~/components/Logo.vue'
 import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 import Influencer from '~/components/Influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
 import About from '~/components/About.vue'
-=======
-import Logo from "~/components/Logo.vue";
-import MediaFooter from "~/components/MediaFooter.vue";
-import Contact from "~/components/Contact.vue";
-import Influencer from "~/components/Influencer.vue";
-import engiiSupport from "~/components/engiiSupport.vue";
->>>>>>> 17603e225bfb750cff205b1fbf0a84518041b430
 
 export default {
   components: {
@@ -86,6 +83,21 @@ export default {
 
 .Activity{
   width: 1366px;
+}
+
+.sreviceTitle {
+  margin: 50px 0;
+}
+
+.serviceMainText {
+  font-size: 54px;
+  margin: 10px 0;
+}
+
+.serviceSubText {
+  text-align: left;
+  margin: 15px 0 15px 240px;
+  
 }
 @media screen and (max-width: 1366px) {
 }
