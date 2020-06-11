@@ -2,44 +2,29 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        EnGii-HP-recreate
-      </h1>
-      <h2 class="subtitle">
-        My classy Nuxt.js project
-      </h2>
+      <h1 class="title">EnGii-HP-recreate</h1>
+      <h2 class="subtitle">My classy Nuxt.js project</h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
+        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
     </div>
     <Influencer />
     <MediaFooter />
-    <engiiSupport />
+    <section class="Activity">
+      <engiiSupport />
+      <engiiMedia />
+    </section>
     <contact />
-
   </div>
-
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import MediaFooter from '~/components/MediaFooter.vue'
-import Contact from '~/components/Contact.vue'
-import Influencer from '~/components/Influencer.vue'
-import engiiSupport from '~/components/engiiSupport.vue'
+import Logo from "~/components/Logo.vue";
+import MediaFooter from "~/components/MediaFooter.vue";
+import Contact from "~/components/Contact.vue";
+import Influencer from "~/components/Influencer.vue";
+import engiiSupport from "~/components/engiiSupport.vue";
 
 export default {
   components: {
@@ -48,7 +33,7 @@ export default {
     Contact,
     engiiSupport
   }
-}
+};
 </script>
 
 <style>
@@ -62,8 +47,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -82,8 +67,10 @@ export default {
 .links {
   padding-top: 15px;
 }
-@media screen and ( max-width:1366px){
-  
-}
 
+.Activity{
+  width: 1366px;
+}
+@media screen and (max-width: 1366px) {
+}
 </style>
