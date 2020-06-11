@@ -27,6 +27,7 @@
     </div>
     <Influencer />
     <MediaFooter />
+    <engiiSupport />
     <contact />
 
   </div>
@@ -38,12 +39,14 @@ import Logo from '~/components/Logo.vue'
 import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 import Influencer from '~/components/Influencer.vue'
+import engiiSupport from '~/components/engiiSupport.vue'
 
 export default {
   components: {
     Logo,
     MediaFooter,
-    Contact
+    Contact,
+    engiiSupport
   }
 }
 </script>
