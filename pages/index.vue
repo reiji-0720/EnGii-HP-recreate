@@ -100,10 +100,6 @@ export default {
   padding-top: 15px;
 }
 
-.Activity{
-  width: 1366px;
-}
-
 .sreviceTitle {
   margin: 50px 0;
 }
