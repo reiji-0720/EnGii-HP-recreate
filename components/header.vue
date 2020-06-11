@@ -1,6 +1,6 @@
 <template>
     <div class="headerContainer">
-        <img src="~/assets/logo.png" class="headerLogo">
+        <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="15%">
         <div class="headerMenue">
             <p>NEWS</p>
             <p>SERVICE</p>
@@ -24,6 +24,7 @@ export default {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .headerLogo {
@@ -35,6 +36,6 @@ export default {
 }
 
 .headerMenue p {
-    margin: 5px 17px 0 17px;
+    margin: 7px 17px 0 17px;
 }
 </style>
