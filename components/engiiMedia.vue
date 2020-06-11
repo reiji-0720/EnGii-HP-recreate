@@ -59,8 +59,10 @@ export default {};
   margin: 15px 5px;
   text-align: center;
 }
-.mediatext {
+.mediattext {
+  display: inline-block;
   font-size: 18px;
+  height: 54px;
 }
 .mediaimg {
   background-image: url("~@/assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
