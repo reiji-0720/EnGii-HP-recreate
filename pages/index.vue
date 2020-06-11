@@ -25,9 +25,11 @@
         </a>
       </div>
     </div>
+    
     <Influencer />
     <MediaFooter />
     <engiiSupport />
+    <About />
     <contact />
 
   </div>
@@ -40,13 +42,15 @@ import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 import Influencer from '~/components/Influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
+import About from '~/components/About.vue'
 
 export default {
   components: {
     Logo,
     MediaFooter,
     Contact,
-    engiiSupport
+    engiiSupport,
+    About
   }
 }
 </script>
