@@ -46,6 +46,7 @@ export default {
     Logo,
     MediaFooter,
     Contact,
+    Influencer,
     engiiSupport
   }
 }
