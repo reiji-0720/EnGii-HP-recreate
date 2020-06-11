@@ -51,7 +51,7 @@ export default {
     width: 50%;
     position: relative;
 }
-.backImg {
+.aboutBackImg {
     background-color: #3BB2DB;
     height: 410px;
     width: 410px;
