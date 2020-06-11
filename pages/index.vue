@@ -36,7 +36,7 @@
       </p>
     </div>
     <MediaFooter />
-    <section class="Activity">
+    <section class="Activity clearfix">
       <engiiSupport />
       <engiiMedia />
     </section>
@@ -54,6 +54,7 @@ import MediaFooter from '~/components/MediaFooter.vue'
 import Contact from '~/components/Contact.vue'
 import Influencer from '~/components/Influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
+import engiiMedia from '~/components/engiiMedia.vue'
 import About from '~/components/About.vue'
 
 export default {
@@ -63,6 +64,7 @@ export default {
     Contact,
     Influencer,
     engiiSupport,
+    engiiMedia,
     About
   }
 }
