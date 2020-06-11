@@ -27,7 +27,7 @@ export default {
 <style scoped>
     .main-container{
         height:375.97px;
-        background-color: #e1f3f5;
+        background-color: #e2f1f7;
         padding: 0 15%;
     }
     .title-box{
