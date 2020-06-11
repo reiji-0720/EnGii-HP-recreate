@@ -9,19 +9,23 @@
 
     <div class="supportlist1 clearfix">
       <p class="listbox">
-        <span class="blueCircle">ワークトーク</span>
+        <span class="blueCircle"></span>
+        ワークトーク
       </p>
       <p class="listbox">
-        <span class="blueCircle">知恵の輪</span>
+        <span class="blueCircle"></span>
+        知恵の輪
       </p>
     </div>
 
     <div class="supportlist2 clearfix">
       <p class="listbox">
-        <span class="blueCircle">ダイエットサポート</span>
+        <span class="blueCircle"></span>
+        ダイエットサポート
       </p>
       <p class="listbox">
-        <span class="blueCircle">進学・就活サポート</span>
+        <span class="blueCircle"></span>
+        進学・就活サポート
       </p>
     </div>
 
@@ -76,13 +80,19 @@ export default {};
 
 .supportlist1,
 .supportlist2 {
+  display: flex;
   margin: 30px auto;
-  width: 50%;
+  width: 100%;
 }
 .listbox {
-  display: inline-block;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 0 10px;
 }
-span::before {
+
+
+.blueCircle {
   display: inline-block;
   background-color: #39acd8;
   border-radius: 50%;

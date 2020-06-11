@@ -6,19 +6,23 @@
 
     <div class="medialist1 clearfix">
       <p class="listbox">
-        <span class="blueCircle">グラフィックデザイン</span>
+        <span class="blueCircle"></span>
+        グラフィックスデザイン
       </p>
       <p class="listbox">
-        <span class="blueCircle">HPデザイン・制作</span>
+        <span class="blueCircle"></span>
+        HPデザイン・制作
       </p>
     </div>
 
     <div class="medialist2 clearfix">
       <p class="listbox">
-        <span class="blueCircle">アプリデザイン・制作</span>
+        <span class="blueCircle"></span>
+        アプリデザイン・制作
       </p>
       <p class="listbox">
-        <span class="blueCircle">動画・CG編集</span>
+        <span class="blueCircle"></span>
+        動画・CG編集
       </p>
     </div>
 
@@ -75,13 +79,17 @@ export default {};
 
 .medialist1,
 .medialist2 {
-  margin: 30px auto;
-  width: 50%;
+  display: flex;
+  margin: 30px 0;
+  width: 100%;
 }
 .listbox {
-  display: inline-block;
+  display: block;
+  float: left;
+  margin-left: 80px;
 }
-span::before {
+
+.blueCircle {
   display: inline-block;
   background-color: #39acd8;
   border-radius: 50%;
