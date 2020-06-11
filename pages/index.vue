@@ -62,7 +62,8 @@ export default {
     MediaFooter,
     Contact,
     Influencer,
-    engiiSupport
+    engiiSupport,
+    About
   }
 }
 </script>
