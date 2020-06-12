@@ -73,6 +73,7 @@ export default {};
   text-align: left;
 }
 .supportimg {
+  opacity: 0.7;
   background-image: url("~@/assets/christina-wocintechchat-com-LQ1t-8Ms5PY-unsplash.jpg");
   background-size: cover;
   background-position: center;
