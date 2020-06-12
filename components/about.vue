@@ -88,6 +88,7 @@ export default {
   color: #231815;
   font-size: 19px;
   text-align: left;
+  line-height: 33px;
 }
 .aboutMore {
   background-color: #3bb2db;
