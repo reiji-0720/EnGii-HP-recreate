@@ -112,8 +112,9 @@ export default {
 }
 
 .serviceSubText {
+  display: inline-block;
   text-align: left;
-  margin: 15px 0 15px 240px;
+  margin: 15px auto;
   
 }
 @media screen and (max-width: 1366px) {
