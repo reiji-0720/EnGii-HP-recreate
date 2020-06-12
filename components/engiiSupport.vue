@@ -6,7 +6,6 @@
       理想の自分、なりたい自分に向けて
       <br />足踏みしているあなたをサポートしたい
     </p>
-
     <div class="supportlist1 clearfix">
       <p class="listbox">
         <span class="blueCircle"></span>
@@ -67,7 +66,9 @@ export default {};
   text-align: center;
 }
 .supporttext {
+  display: inline-block;
   font-size: 18px;
+  text-align: left;
 }
 .supportimg {
   background-image: url("~@/assets/christina-wocintechchat-com-LQ1t-8Ms5PY-unsplash.jpg");
@@ -90,7 +91,6 @@ export default {};
   text-align: center;
   padding: 0 10px;
 }
-
 
 .blueCircle {
   display: inline-block;
