@@ -51,20 +51,20 @@ export default {
 }
 .aboutImg {
     width: 50%;
-    
+    padding: 60px 0 0 0;
     /* position: relative; */
 }
 .aboutBackImg {
     background-color: #3BB2DB;
-    height: 415px;
-    width: 415px;
+   height: 398px;
+    width: 420px;
     /* position: absolute; */
     top: 0px;
     margin: 0 auto;
     z-index: -200;
 }
 .leaderLogo {
-    margin: -50px 0 0 -50px;
+    margin: -40px 0 0 -50px;
     z-index: 900;
 }
 .aboutMain {
