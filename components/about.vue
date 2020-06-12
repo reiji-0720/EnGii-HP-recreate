@@ -5,8 +5,10 @@
         </div>
         <div class="aboutMain">
             <div class="aboutImg">
-                <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415">
-                <div class="aboutBackImg"></div>
+                
+                <div class="aboutBackImg">
+                    <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415">
+                </div>
             </div>
             <div class="aboutText">
                 <p class="aboutMainText">新しい自分に<br>
@@ -49,19 +51,20 @@ export default {
 }
 .aboutImg {
     width: 50%;
-    position: relative;
+    
+    /* position: relative; */
 }
 .aboutBackImg {
     background-color: #3BB2DB;
-    height: 410px;
-    width: 410px;
-    position: absolute;
+    height: 415px;
+    width: 415px;
+    /* position: absolute; */
     top: 0px;
-    margin: 4% 0 0 35%;
+    margin: 0 auto;
     z-index: -200;
 }
 .leaderLogo {
-    margin-left: 170px;
+    margin: -50px 0 0 -50px;
     z-index: 900;
 }
 .aboutMain {
