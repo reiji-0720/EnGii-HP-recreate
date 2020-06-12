@@ -26,6 +26,7 @@
       </div>
     </div>
     <MediaFooter />
+    <News />
     <div class="sreviceTitle">
       <p class="serviceMainText">
         SERVICE
@@ -56,6 +57,8 @@ import Influencer from '~/components/influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
 import engiiMedia from '~/components/engiiMedia.vue'
 import About from '~/components/About.vue'
+import News from '~/components/news.vue'
+import Vue from "vue"
 
 export default {
   components: {
@@ -65,7 +68,8 @@ export default {
     Influencer,
     engiiSupport,
     engiiMedia,
-    About
+    About,
+    News
   }
 }
 </script>
