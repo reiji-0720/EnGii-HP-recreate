@@ -4,28 +4,29 @@
     <h2 class="mediahead">EnGii media</h2>
     <p class="mediattext">EnGiiが持つ様々なサービスを展開します</p>
 
-    <div class="medialist1 clearfix">
-      <p class="listbox">
-        <span class="blueCircle"></span>
-        グラフィックスデザイン
-      </p>
-      <p class="listbox">
-        <span class="blueCircle"></span>
-        HPデザイン・制作
-      </p>
-    </div>
+    <div class="clearfix">
+      <div class="medialist1">
+        <p class="medialistboxgura">
+          <span class="blueCircle"></span>
+          グラフィックデザイン
+        </p>
+        <p class="medialistboxApp">
+          <span class="blueCircle"></span>
+          アプリデザイン・制作
+        </p>
+      </div>
 
-    <div class="medialist2 clearfix">
-      <p class="listbox">
-        <span class="blueCircle"></span>
-        アプリデザイン・制作
-      </p>
-      <p class="listbox">
-        <span class="blueCircle"></span>
-        動画・CG編集
-      </p>
+      <div class="medialist2">
+        <p class="medialistboxHP">
+          <span class="blueCircle"></span>
+          HPデザイン・制作
+        </p>
+        <p class="medialistboxVedio">
+          <span class="blueCircle"></span>
+          動画・CG編集
+        </p>
+      </div>
     </div>
-
     <div class="mediaimg"></div>
   </div>
 </template>
@@ -62,9 +63,10 @@ export default {};
   font-size: 54px;
   margin: 15px 5px;
   text-align: center;
+  font-family: "Helvetica Neue";
 }
 .mediattext {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 18px;
   height: 54px;
 }
@@ -79,21 +81,37 @@ export default {};
 
 .medialist1,
 .medialist2 {
-  display: flex;
+  /* display: flex; */
   margin: 30px 0;
-  width: 100%;
-}
-.listbox {
-  display: block;
+  width: 50%;
   float: left;
-  margin-left: 80px;
+}
+.medialistboxgura,
+.medialistboxApp,
+.medialistboxHP,
+.medialistboxVedio {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "YuGo-Bold-83pv-RKSJ-H";
 }
 
+.medialistboxgura,
+.medialistboxApp {
+  margin-left: 87px;
+}
+
+.medialistboxHP,
+.medialistboxVedio {
+  margin-left: 30px;
+}
 .blueCircle {
   display: inline-block;
   background-color: #39acd8;
   border-radius: 50%;
   height: 11px;
   width: 11px;
+  margin-right: 5px;
 }
 </style>
