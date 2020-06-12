@@ -51,8 +51,8 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import MediaFooter from '~/components/MediaFooter.vue'
-import Contact from '~/components/Contact.vue'
-import Influencer from '~/components/Influencer.vue'
+import Contact from '~/components/contact.vue'
+import Influencer from '~/components/influencer.vue'
 import engiiSupport from '~/components/engiiSupport.vue'
 import engiiMedia from '~/components/engiiMedia.vue'
 import About from '~/components/About.vue'
