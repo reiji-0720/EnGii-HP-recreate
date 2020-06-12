@@ -57,7 +57,7 @@ export default {
     width: 410px;
     position: absolute;
     top: 0px;
-    margin: 25px 0 0 220px;
+    margin: 4% 0 0 35%;
     z-index: -200;
 }
 .leaderLogo {
