@@ -115,4 +115,12 @@ export default {};
   width: 11px;
   margin-right: 5px;
 }
+@media screen and(max-width: 1240px) {
+  .medialistboxgura,
+  .medialistboxApp,
+  .medialistboxHP,
+  .medialistboxVedio {
+    font-size: 18px;
+  }
+}
 </style>
