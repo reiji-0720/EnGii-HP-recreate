@@ -1,5 +1,5 @@
 <template>
-    <div class="main-container">
+    <div class="influencer-main-container">
         <div class="title-box">
             <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%">
             <h1>インフルエンサー事業</h1>
@@ -25,7 +25,7 @@ export default {
 };
 </script>
 <style scoped>
-    .main-container{
+    .influencer-main-container{
         height:375.97px;
         background-color: #e2f1f7;
         padding: 0 15%;
