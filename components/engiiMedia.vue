@@ -55,8 +55,8 @@ export default {};
   background-image: url("~@/assets/mediaIcon.png");
   background-size: cover;
   background-position: center;
-  height: 126px;
-  width: 126px;
+  height: 128px;
+  width: 130px;
   margin: 0 auto;
 }
 .mediahead {
