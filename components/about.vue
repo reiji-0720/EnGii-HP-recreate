@@ -25,11 +25,11 @@
           <br />「あったらいいな、できたらいいな」
           <br />を形にして、皆様の力になれたらと思っています。
         </p>
-        <div class="aboutMore">
-          <p>
-            MORE
+        <div class="btn-more">
+          <nuxt-link to class="about">
+            <btnMore />
             <Triangle />
-          </p>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -37,11 +37,12 @@
 </template>
 
 <script>
-import Triangle from "~/components/Triangle.vue";
+import btnMore from '~/components/parts/btnMore'
+
 
 export default {
   components: {
-    Triangle
+    btnMore
   }
 };
 </script>
@@ -49,8 +50,12 @@ export default {
 <style>
 
 @media screen and (max-width:1000px){
+    .aboutText .aboutMainText{
+        font-size:24px;
+    }
     .aboutText .aboutSubText{
-        font-size: 15px;
+        font-size: 12px;
+        line-height: 24px;
     }
 }
 .aboutTitle {
@@ -107,11 +112,9 @@ export default {
   text-align: left;
   line-height: 33px;
 }
-.aboutMore {
-  background-color: #3bb2db;
-  width: 33%;
-  padding: 10px 0;
+.btn-more {
   margin-top: 55px;
+  text-align: left;
 }
 .aboutMore p {
   text-align: center;

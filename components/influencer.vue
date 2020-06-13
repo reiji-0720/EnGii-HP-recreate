@@ -10,17 +10,17 @@
         </div>
         <div class="btn-more">
       <nuxt-link to class="influencer">
-        more<Triangle />
+        <btnMore />
       </nuxt-link>
     </div>
     </div>
 </template>
 <script>
-import Triangle from '~/components/Triangle.vue'
+import btnMore from '~/components/parts/btnMore'
 
 export default {
   components: {
-    Triangle
+    btnMore
   }
 };
 </script>
@@ -52,16 +52,5 @@ export default {
         text-align:left;
         
     }
-    .influencer{
-        padding: 10px;
-      text-align: center;
-	  display: inline-block;
-      vertical-align: middle;
-      /* height: 60px; */
-      width: 159.89px;
-      background-color: #66bad7;
-      text-decoration: none;
-      color: #FFFFFF;
-      font-size: 16px;
-    }
+    
 </style>
