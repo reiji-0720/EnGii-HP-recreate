@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    
+    <Top />
     <MediaFooter />
     <News />
     <div class="sreviceTitle">
@@ -35,6 +35,7 @@ import engiiMedia from "~/components/engiiMedia.vue";
 import About from "~/components/About.vue";
 import News from "~/components/news.vue";
 import Vue from "vue";
+import Top from "~/components/Top.vue";
 
 export default {
   components: {
@@ -45,7 +46,8 @@ export default {
     engiiSupport,
     engiiMedia,
     About,
-    News
+    News,
+    Top
   }
 };
 </script>
