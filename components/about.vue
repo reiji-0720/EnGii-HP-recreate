@@ -6,7 +6,7 @@
     <div class="aboutMain">
       <div class="aboutImg">
           <div class="aboutImgBox">
-           <div class="aboutBackImg"></div>
+           <div class="aboutBackImg bg-mainColor"></div>
            <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
            
           </div>
@@ -52,11 +52,61 @@ export default {
 @media screen and (max-width:1000px){
     .aboutText .aboutMainText{
         font-size:24px;
+        margin-bottom: 10px;
     }
     .aboutText .aboutSubText{
         font-size: 12px;
         line-height: 24px;
     }
+    .aboutImg .aboutImgBox{
+      height:344.8px;    /* 455pxの0.615倍　aboutTextの高さと等しい*/
+      width:344.8px;
+    }
+    .aboutImgBox .aboutBackImg {
+      background-color: #3bb2db;
+      height: 318.86px;    /* 420 × 0.615　= 318.86 */
+      width: 318.86px;
+      position:absolute;
+      /* position: absolute; */
+      bottom: 0px;
+      right: 0;
+      z-index: -200;
+    }
+    .aboutImgBox .leaderLogo {
+      position:absolute;
+      top:10px;
+      left:0;
+      z-index: 900;
+      width:318.86px;
+      height: 318.86px;
+    }
+    
+}
+@media screen and (min-width:1001px) and (max-width:1365px){
+.aboutText .aboutMainText{
+        font-size:32.64px;
+        margin-bottom: 10px;
+    }
+    .aboutText .aboutSubText{
+        font-size: 16.32px;
+        line-height: 32px;
+    }
+    .aboutImg .aboutImgBox{
+      height:426.8px;   /* 455pxの0.9380倍　aboutTextの高さと等しい*/
+      width:426.8px;
+    }
+    .aboutImgBox .aboutBackImg {
+      height: 393.96px;  /* 420 × 0.9380　= 393.96 */
+      width: 393.96px;
+    }
+    .aboutImgBox .leaderLogo {
+      z-index: 900;
+      width:393.96px;
+      height: 393.96px;
+    }
+}
+.aboutContainer{
+    margin-top:100px;
 }
 .aboutTitle {
   margin: 0 0 30px 0;
@@ -77,8 +127,8 @@ export default {
     position:relative;
 }
 .aboutBackImg {
-  background-color: #3bb2db;
-  height: 398px;
+  
+  height: 420px;
   width: 420px;
   position:absolute;
   /* position: absolute; */
@@ -91,6 +141,8 @@ export default {
   top:10px;
   left:0;
   z-index: 900;
+  width: 420px;
+  height: 420px;
 }
 .aboutMain {
   display: flex;

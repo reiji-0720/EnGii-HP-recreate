@@ -2,7 +2,7 @@
   <div class="contactContainer">
     <p class="contactText">CONTACT</p>
     <div class="contactArea">
-      <nuxt-link to class="contact">
+      <nuxt-link to class="contact bg-mainColor">
         お気軽にお問い合わせください<Triangle />
       </nuxt-link>
     </div>
@@ -39,7 +39,6 @@ export default {
 	line-height: 50px;
   /* height: 60px; */
   width: 334px;
-  background-color: #66bad7;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;

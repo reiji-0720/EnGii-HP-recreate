@@ -9,10 +9,10 @@
             win-winを提供しています。</p>
         </div>
         <div class="btn-more">
-      <nuxt-link to class="influencer">
-        <btnMore />
-      </nuxt-link>
-    </div>
+          <nuxt-link to class="influencer">
+            <btnMore />
+          </nuxt-link>
+        </div>
     </div>
 </template>
 <script>
