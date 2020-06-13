@@ -112,7 +112,7 @@ export default {
   text-align: left;
   line-height: 33px;
 }
-.btn-more {
+.aboutText .btn-more {
   margin-top: 55px;
   text-align: left;
 }
