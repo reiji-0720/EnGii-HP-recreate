@@ -5,9 +5,11 @@
     </div>
     <div class="aboutMain">
       <div class="aboutImg">
-        <div class="aboutBackImg">
-          <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
-        </div>
+          <div class="aboutImgBox">
+           <div class="aboutBackImg"></div>
+           <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
+           
+          </div>
       </div>
       <div class="aboutText">
         <p class="aboutMainText">
@@ -45,6 +47,12 @@ export default {
 </script>
 
 <style>
+
+@media screen and (max-width:1000px){
+    .aboutText .aboutSubText{
+        font-size: 15px;
+    }
+}
 .aboutTitle {
   margin: 0 0 30px 0;
 }
@@ -54,20 +62,29 @@ export default {
 }
 .aboutImg {
   width: 50%;
-  padding: 60px 0 0 0;
   /* position: relative; */
+}
+.aboutImgBox{
+    padding-top:10px;
+    height:455px;
+    width:455px;
+    float: right;
+    position:relative;
 }
 .aboutBackImg {
   background-color: #3bb2db;
   height: 398px;
   width: 420px;
+  position:absolute;
   /* position: absolute; */
-  top: 0px;
-  float: right;
+  bottom: 0px;
+  right: 0;
   z-index: -200;
 }
 .leaderLogo {
-  margin: -40px 0 0 -50px;
+  position:absolute;
+  top:10px;
+  left:0;
   z-index: 900;
 }
 .aboutMain {
