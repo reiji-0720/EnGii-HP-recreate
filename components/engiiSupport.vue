@@ -7,26 +7,28 @@
       <br />足踏みしているあなたをサポートしたい
     </p>
     <div class="clearfix">
-      <div class="supportlist1 clearfix">
-        <p class="supportlistboxwork">
-          <span class="blueCircle"></span>
-          ワークトーク
-        </p>
-        <p class="supportlistboxdai">
-          <span class="blueCircle"></span>
-          ダイエットサポート
-        </p>
-      </div>
+      <div class="supportBox">
+        <div class="supportlist1 clearfix">
+          <p class="supportlistboxwork">
+            <span class="blueCircle "></span>
+            ワークトーク
+          </p>
+          <p class="supportlistboxdai">
+            <span class="blueCircle"></span>
+            ダイエットサポート
+          </p>
+        </div>
 
-      <div class="supportlist2 clearfix">
-        <p class="supportlistboxchie">
-          <span class="blueCircle"></span>
-          知恵の輪
-        </p>
-        <p class="supportlistboxEmployment">
-          <span class="blueCircle"></span>
-          進学・就活サポート
-        </p>
+        <div class="supportlist2 clearfix">
+          <p class="supportlistboxchie">
+            <span class="blueCircle"></span>
+            知恵の輪
+          </p>
+          <p class="supportlistboxEmployment">
+            <span class="blueCircle"></span>
+            進学・就活サポート
+          </p>
+        </div>
       </div>
     </div>
     <div class="supportimg"></div>
@@ -48,6 +50,7 @@ export default {};
   content: "";
   clear: both;
 }
+
 .support {
   float: left;
   width: 50%;
@@ -114,5 +117,83 @@ export default {};
   height: 11px;
   width: 11px;
   margin-right: 5px;
+}
+@media screen and (max-width:1000px){
+  .support .supportlogo{
+    height: 67.28px;  /* 126×0.534 = 67.284 */
+    width: 67.28px;
+  }
+  .support .supporthead {
+    font-size: 28.84px;  /* 126×0.534 = 28.836 */
+    margin: 15px 5px;
+  }
+  .support .supporttext{
+    font-size: 9.612px; /* 18×0.534 = 9.612 */
+  }
+  .supportBox{
+    width:277.68px;
+    margin:0 auto;
+  }
+  .support .supportimg {
+    height: 180.49px;  /* 338×0.534 = 180.49 */
+    width: 277.68px;      /* 520×0.534 = 277.68 */
+  }
+  .clearfix .supportlistboxwork,
+  .clearfix .supportlistboxdai,
+  .clearfix .supportlistboxchie,
+  .clearfix .supportlistboxEmployment {
+    margin-bottom: 10.68px;  /* 20×0.534 = 10.68 */
+    font-size: 10.68px;
+  }
+  .blueCircle {
+    height: 6px !important;  /* 11×0.534 = 5.874 */ 
+    width: 6px !important;
+    margin-right: 5px;
+  }
+  .supportlistboxchie,
+.supportlistboxEmployment {
+  margin-left: 20px;
+}
+  .supportlistboxwork,
+  .supportlistboxdai {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width:1001px) and (max-width:1365px){
+  .support .supportlogo{
+    height: 92.23px;  /* 126×0.732 = 92.232 */
+    width: 92.23px;
+  }
+  .support .supporthead {
+    font-size: 39.53px;  /* 54×0.732 = 39.528 */
+    margin: 15px 5px;
+  }
+  .support .supporttext{
+    font-size: 13.176px; /* 18×0.732 = 13.176 */
+  }
+  .supportBox{
+    width:380.64px;
+    margin:0 auto;
+  }
+  .support .supportimg {
+    height: 244.49px;  /* 338×0.732 = 244.488 */
+    width: 380.64px;      /* 520×0.732 = 380.64 */
+  }
+  .clearfix .supportlistboxwork,
+  .clearfix .supportlistboxdai,
+  .clearfix .supportlistboxchie,
+  .clearfix .supportlistboxEmployment {
+    margin-bottom: 14.64px !important;  /* 20×0.732 = 14.64 */
+    font-size: 14.64px !important;
+  }
+  .blueCircle {
+    height: 8px !important;  /* 11×0.732 = 8.052 */ 
+    width: 8px !important;
+    margin-right: 5px;
+  }
+  .supportlistboxwork,
+  .supportlistboxdai {
+    margin-left: 0px;
+  }
 }
 </style>

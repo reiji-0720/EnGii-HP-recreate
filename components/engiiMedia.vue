@@ -2,29 +2,31 @@
   <div class="media clearfix">
     <div class="medialogo"></div>
     <h2 class="mediahead">EnGii media</h2>
-    <p class="mediattext">EnGiiが持つ様々なサービスを展開します</p>
+    <p class="mediatext">EnGiiが持つ様々なサービスを展開します</p>
 
     <div class="clearfix">
-      <div class="medialist1">
-        <p class="medialistboxgura">
-          <span class="blueCircle"></span>
-          グラフィックデザイン
-        </p>
-        <p class="medialistboxApp">
-          <span class="blueCircle"></span>
-          アプリデザイン・制作
-        </p>
-      </div>
+      <div class="mediaBox">
+        <div class="medialist1">
+          <p class="medialistboxgura">
+            <span class="blueCircle"></span>
+            グラフィックデザイン
+          </p>
+          <p class="medialistboxApp">
+            <span class="blueCircle"></span>
+            アプリデザイン・制作
+         </p>
+       </div>
 
-      <div class="medialist2">
-        <p class="medialistboxHP">
-          <span class="blueCircle"></span>
-          HPデザイン・制作
-        </p>
-        <p class="medialistboxVedio">
-          <span class="blueCircle"></span>
-          動画・CG編集
-        </p>
+        <div class="medialist2">
+          <p class="medialistboxHP">
+            <span class="blueCircle"></span>
+            HPデザイン・制作
+          </p>
+          <p class="medialistboxVedio">
+            <span class="blueCircle"></span>
+            動画・CG編集
+          </p>
+        </div>
       </div>
     </div>
     <div class="mediaimg"></div>
@@ -46,6 +48,8 @@ export default {};
   content: "";
   clear: both;
 }
+
+
 .media {
   float: left;
   width: 50%;
@@ -65,7 +69,7 @@ export default {};
   text-align: center;
   font-family: "Helvetica Neue";
 }
-.mediattext {
+.mediatext {
   /* display: inline-block; */
   font-size: 18px;
   height: 54px;
@@ -115,12 +119,91 @@ export default {};
   width: 11px;
   margin-right: 5px;
 }
-@media screen and(max-width: 1240px) {
+
+@media screen and (max-width:1000px){
+.media .medialogo{
+    height: 67.28px;  /* 126×0.534 = 67.284 */
+    width: 67.28px;
+  }
+  .media .mediahead {
+    font-size: 28.84px;  /* 126×0.534 = 28.836 */
+    margin: 15px 5px;
+  }
+  .mediaBox{
+    width:277.68px;
+    margin:0 auto;
+  }
+  .media .mediatext{
+    font-size: 9.612px; /* 18×0.534 = 9.612 */
+    height: 30px;
+  }
+  .media .mediaimg {
+    height: 180.49px;  /* 338×0.534 = 180.49 */
+    width: 277.68px;      /* 520×0.534 = 277.68 */
+  }
+  .medialistboxgura,
+  .medialistboxApp,
+  .medialistboxHP,
+  .medialistboxVedio  {
+    margin-bottom: 10.68px !important;  /* 20×0.534 = 10.68 */
+    font-size: 10.68px !important;
+  }
+  .blueCircle {
+    height: 6px !important;  /* 11×0.534 = 5.874 */ 
+    width: 6px !important;
+    margin-right: 5px;
+  }
+  .medialistboxgura,
+  .medialistboxApp {
+    margin-left: 0px;
+  }
+}
+
+
+@media screen and (min-width:1001px) and (max-width:1365px){
+.media .medialogo{
+    height: 92.23px;  /* 126×0.732 = 92.232 */
+    width: 92.23px;
+  }
+  .media .mediahead {
+    font-size: 39.53px;  /* 54×0.732 = 39.528 */
+    margin: 15px 5px;
+  }
+  .media .mediatext{
+    font-size: 13.176px; /* 18×0.732 = 13.176 */
+    height: 42px;
+  }
+  .media .mediaimg {
+    height: 244.49px;  /* 338×0.732 = 244.488 */
+    width: 380.64px;      /* 520×0.732 = 380.64 */
+  }
+  .mediaBox{
+    width:380.64px;
+    margin:0 auto;
+  }
+  .medialistboxgura,
+  .medialistboxApp,
+  .medialistboxHP,
+  .medialistboxVedio  {
+    margin-bottom: 14.64px !important;  /* 20×0.732 = 14.64 */
+    font-size: 14.64px !important;
+  }
+  .blueCircle {
+    height: 8px !important;  /* 11×0.732 = 8.052 */ 
+    width: 8px !important;
+    margin-right: 5px;
+  }
+  .medialistboxgura,
+  .medialistboxApp {
+  margin-left: 0px;
+}
+}
+/*@media screen and (min-width:1000px) and (max-width: 1240px) {
   .medialistboxgura,
   .medialistboxApp,
   .medialistboxHP,
   .medialistboxVedio {
-    font-size: 18px;
+    font-size: 10px !important;
   }
-}
+}*/
 </style>
