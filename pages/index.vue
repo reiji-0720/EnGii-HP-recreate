@@ -2,63 +2,47 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        EnGii-HP-recreate
-      </h1>
-      <h2 class="subtitle">
-        My classy Nuxt.js project
-      </h2>
+      <h1 class="title">EnGii-HP-recreate</h1>
+      <h2 class="subtitle">My classy Nuxt.js project</h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
+        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
     </div>
     <MediaFooter />
     <News />
     <div class="sreviceTitle">
-      <p class="serviceMainText">
-        SERVICE
-      </p>
+      <p class="serviceMainText">SERVICE</p>
       <p class="serviceSubText">
-        多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して<br>
-        対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で<br>
-        解決できる場所としてサービスを展開しています。
+        多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して
+        <br />対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で
+        <br />解決できる場所としてサービスを展開しています。
       </p>
     </div>
     <section class="Activity clearfix">
       <engiiSupport />
       <engiiMedia />
     </section>
+    <div class="scrollsecond">
+      <p class="scrolltext">scroll</p>
+      <div class="scrollborder"></div>
+    </div>
     <Influencer />
     <About />
     <contact />
-
   </div>
-
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import MediaFooter from '~/components/MediaFooter.vue'
-import Contact from '~/components/contact.vue'
-import Influencer from '~/components/influencer.vue'
-import engiiSupport from '~/components/engiiSupport.vue'
-import engiiMedia from '~/components/engiiMedia.vue'
-import About from '~/components/About.vue'
-import News from '~/components/news.vue'
-import Vue from "vue"
+import Logo from "~/components/Logo.vue";
+import MediaFooter from "~/components/MediaFooter.vue";
+import Contact from "~/components/contact.vue";
+import Influencer from "~/components/influencer.vue";
+import engiiSupport from "~/components/engiiSupport.vue";
+import engiiMedia from "~/components/engiiMedia.vue";
+import About from "~/components/About.vue";
+import News from "~/components/news.vue";
+import Vue from "vue";
 
 export default {
   components: {
@@ -71,7 +55,7 @@ export default {
     About,
     News
   }
-}
+};
 </script>
 
 <style>
@@ -85,8 +69,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -119,9 +103,20 @@ export default {
   display: inline-block;
   text-align: left;
   margin: 15px auto;
-  
+}
+
+.scrolltext {
+  writing-mode: vertical-rl;
+  margin-left: 25px;
+  color: #3bb2db;
+  font-size: 14px;
+}
+.scrollborder{
+  border-left: 1px solid #3bb2db;
+  display: block;
+  height: 80px;
+  margin: 10px 0 10px 32px;
 }
 @media screen and (max-width: 1366px) {
 }
-
 </style>
