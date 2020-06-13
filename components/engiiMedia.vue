@@ -94,7 +94,7 @@ export default {};
   display: block;
   text-align: left;
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "YuGo-Bold-83pv-RKSJ-H";
 }
 
