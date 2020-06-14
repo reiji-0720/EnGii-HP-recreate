@@ -18,14 +18,14 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
+            src="~/assets/TopMain.png"
             class="slide-image"
             width="620"
           />
         </div>
         <div class="slide">
           <img
-            src="~/assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
             class="slide-image"
             width="620"
           />
@@ -39,14 +39,14 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
+            src="~/assets/TopMain.png"
             class="slide-image"
             width="620"
           />
         </div>
         <div class="slide">
           <img
-            src="~/assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
             class="slide-image"
             width="620"
           />
