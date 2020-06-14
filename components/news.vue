@@ -1,5 +1,5 @@
 <template>
-  <div id="newsContainer">
+  <div class="newsContainer">
     <div class="newsList" v-for="elem in lists" :key="elem.name">
       <p class="newsText">{{elem.name}} {{elem.date}} {{elem.title}}</p>
     </div>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style>
-#newsContainer {
+.newsContainer {
   margin: 0 auto;
   width: 55%;
 }

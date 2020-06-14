@@ -3,7 +3,7 @@
     <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="15%" />
     <div class="headerMenue">
       <p>
-        <a href="#" v-scroll-to="toNewsContainer">NEWS</a>
+        <a href="#" v-scroll-to="toNews">NEWS</a>
       </p>
       <p>SERVICE</p>
       <p>INFLUENCER</p>
@@ -19,14 +19,14 @@ import Vue from "vue";
 import VueScrollTo from "vue-scrollto";
 
 Vue.use(VueScrollTo, {
-  duration: 700,
+  duration: 3000,
   easing: [0, 0, 0.1, 1],
-  offset: -100
+  offset: 400
 });
 
 export default {
   data: {
-    toNewsContainer: '#newsContainer'
+    toNewsContainer: '#News'
   }
 };
 </script>
