@@ -73,7 +73,7 @@ h1 {
   display: flex;
   
   position: relative;
-  z-index: 900;
+  z-index: 10;
 }
 .title-box {
   padding-top: 100px;
@@ -122,14 +122,67 @@ h1 {
   right: 0;
   z-index: -1;
 }
+
 @media screen and (max-width:1000px) {
+  .main-container {
+    height: 300px;
+  }
+  .influencerhead{
+    line-height: 101.65px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .Influencer{
+    margin-top: 5%;
+  }
   .influencerImg{
     width: 350px;
+    height: 300px;
   }
+  .title-box{
+    padding-top:50px;
+  }
+  .influencerImg::after {
+  left: 0;
+  content: "";
+  height: 0;
+  width: 0;
+  border-bottom: 300px solid #e2f1f7;
+  border-right: 50px solid transparent;
+  /* border-top: 50px solid white;
+  border-left: 50px solid yellow; */
+  display: block;
+}
 }
 @media screen and (max-width:720px) {
   .influencerImg{
     display:none;
+  }
+}
+@media screen and (max-width:730px){
+  .influencerLogo {
+    height: 60px;
+    width: 60px;
+  }
+  .main-container{
+    padding:0;
+  }
+  .influencerleft{
+    margin:0 auto;
+    padding:0;
+  }
+  .influencerhead{
+    line-height: 60px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .influencerleft .btn-more{
+    padding-top:50px;
+    float:none;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 </style>
