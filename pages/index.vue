@@ -175,7 +175,7 @@ export default {
 @media screen and (max-width:730px){
 #sreviceTitle{
   width: 90%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .serviceSubText{
   font-size: 10px;
