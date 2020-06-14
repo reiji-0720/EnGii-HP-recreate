@@ -106,7 +106,7 @@ export default {
     }
 }
 .aboutContainer{
-    margin-top:100px;
+    
 }
 .aboutTitle {
   margin: 0 0 30px 0;

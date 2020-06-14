@@ -13,7 +13,6 @@
       </div>
       <div class="btn-more">
         <nuxt-link to class="influencer">
-          
           <btnMore />
         </nuxt-link>
       </div>
@@ -63,18 +62,6 @@ h1 {
   padding-top: 20px;
   text-align: left;
 }
-.influencer {
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  /* height: 60px; */
-  /* width: 159.89px; */
-  /* background-color: #66bad7; */
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-}
 .influencerleft {
   /* float: left; */
 }
@@ -122,18 +109,6 @@ h1 {
   padding-top: 20px;
   text-align: left;
   float: left;
-}
-.influencer {
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  /* height: 60px; */
-  width: 159.89px;
-  background-color: #66bad7;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
 }
 
 .influencerImg {

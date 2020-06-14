@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <Top />
-    <MediaFooter />
-    <News />
+    <Top class="Top"/>
+    <MediaFooter class="MediaFooter"/>
+    <News class="News"/>
     <div class="sreviceTitle">
       <p class="serviceMainText">SERVICE</p>
       <p class="serviceSubText">
@@ -11,17 +11,17 @@
         <br />解決できる場所としてサービスを展開しています。
       </p>
     </div>
-    <section class="Activity clearfix">
+    <div class="Activity clearfix">
       <engiiSupport />
       <engiiMedia />
-    </section>
+    </div>
     <div class="scrollsecond">
       <p class="scrolltext">scroll</p>
       <div class="scrollborder"></div>
     </div>
-    <Influencer />
-    <About />
-    <contact />
+    <Influencer class="Influencer"/>
+    <About class="About"/>
+    <contact class="indexContact"/>
       <MediaFooter class="backColor"/>
   </div>
 </template>
@@ -63,6 +63,14 @@ export default {
   text-align: center;
 }
 
+.Top, .MediaFooter, .News, .Activity, .About, .indexContact {
+  margin-top: 15%;
+}
+
+.Influencer {
+  margin-top: 10%;
+}
+
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -86,7 +94,7 @@ export default {
 }
 
 .sreviceTitle {
-  margin: 50px 0;
+  margin-top:20%;
 }
 
 .serviceMainText {
@@ -106,6 +114,11 @@ export default {
   color: #3bb2db;
   font-size: 14px;
 }
+
+.scrollsecond {
+  padding-top: 5%;
+}
+
 .scrollborder {
   border-left: 1px solid #3bb2db;
   display: block;

@@ -21,7 +21,7 @@ export default {
 
 <style>
 .contactContainer {
-  margin-top:100px;
+ 
 }
 
 .contactText{
