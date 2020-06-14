@@ -124,6 +124,8 @@ export default {};
   .media{
     float: none;
     margin-top:30px ;
+    width: 90%;
+    margin: 30px auto 0;
   }
 }
 @media screen and (max-width:1000px){
