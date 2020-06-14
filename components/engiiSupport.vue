@@ -122,6 +122,8 @@ export default {};
 @media screen and (max-width: 730px){
   .support{
     float: none;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width:1000px){
