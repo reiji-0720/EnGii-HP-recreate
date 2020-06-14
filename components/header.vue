@@ -3,32 +3,27 @@
     <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="15%" />
     <div class="headerMenue">
       <p>
-        <a href="#" v-scroll-to="toNews">NEWS</a>
+        <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
       </p>
-      <p>SERVICE</p>
-      <p>INFLUENCER</p>
-      <p>ABOUT</p>
-      <p>CONTACT</p>
+      <p>
+        <nuxt-link class="borderNone" v-scroll-to="'#sreviceTitle'" to>SERVICE</nuxt-link>
+      </p>
+      <p>
+        <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
+      </p>
+      <p>
+        <nuxt-link class="borderNone" v-scroll-to="'#About'" to>ABOUT</nuxt-link>
+      </p>
+      <p>
+        <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>CONTACT</nuxt-link>
+      </p>
       <p>MEMBER</p>
     </div>
   </div>
 </template>
 
 <script>
-import Vue from "vue";
-import VueScrollTo from "vue-scrollto";
 
-Vue.use(VueScrollTo, {
-  duration: 3000,
-  easing: [0, 0, 0.1, 1],
-  offset: 400
-});
-
-export default {
-  data: {
-    toNewsContainer: '#News'
-  }
-};
 </script>
 
 <style>
@@ -51,4 +46,10 @@ export default {
 .headerMenue p {
   margin: 7px 17px 0 17px;
 }
+
+.borderNone {
+    text-decoration: none;
+    color: #231815;
+}
+
 </style>

@@ -29,10 +29,6 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-   /* new webpack.ProvidePlugin({
-      jQuery: 'jquery',
-      $: 'jquery'
-    })*/
     '~plugins/vue-scrollto'
   ],
   /*
@@ -46,7 +42,6 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    ['vue-scrollto/nuxt', { duration: 1000 }],
   ],
   
   /*
