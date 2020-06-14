@@ -6,9 +6,7 @@
     <div class="aboutMain">
       <div class="aboutImg">
           <div class="aboutImgBox">
-           <div class="aboutBackImg bg-mainColor"></div>
            <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
-           
           </div>
       </div>
       <div class="aboutText">
@@ -143,6 +141,7 @@ export default {
   z-index: 100;
   width: 420px;
   height: 420px;
+  filter:drop-shadow(30px 30px 0 #3bb2db);
 }
 .aboutMain {
   display: flex;

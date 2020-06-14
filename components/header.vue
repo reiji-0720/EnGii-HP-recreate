@@ -17,7 +17,9 @@
       <p>
         <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>CONTACT</nuxt-link>
       </p>
-      <p>MEMBER</p>
+      <p>
+        <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>MEMBER</nuxt-link>
+      </p>
     </div>
   </div>
 </template>
