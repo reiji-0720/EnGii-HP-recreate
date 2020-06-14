@@ -76,7 +76,7 @@ export default {
       position:absolute;
       top:10px;
       left:0;
-      z-index: 900;
+      z-index: 100;
       width:318.86px;
       height: 318.86px;
     }
@@ -100,7 +100,7 @@ export default {
       width: 393.96px;
     }
     .aboutImgBox .leaderLogo {
-      z-index: 900;
+      z-index: 100;
       width:393.96px;
       height: 393.96px;
     }
@@ -140,7 +140,7 @@ export default {
   position:absolute;
   top:10px;
   left:0;
-  z-index: 900;
+  z-index: 100;
   width: 420px;
   height: 420px;
 }

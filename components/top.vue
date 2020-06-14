@@ -97,7 +97,7 @@ export default {};
 .topContainer {
   margin: 13% auto;
   position: relative;
-  z-index: 900;
+  z-index: 100;
 }
 
 .topText {
