@@ -10,7 +10,7 @@
     <MediaFooter class="MediaFooter" />
     <News id="News" />
     <div id="sreviceTitle">
-      <p class="serviceMainText">SERVICE</p>
+      <h2 class="serviceMainText">SERVICE</h2>
       <p class="serviceSubText">
         多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して
         <br />対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で
@@ -173,7 +173,7 @@ export default {
 }
 
 @media screen and (max-width:730px){
-.sreviceTitle{
+#sreviceTitle{
   width: 90%;
   margin: 0 auto;
 }
@@ -181,7 +181,13 @@ export default {
   font-size: 10px;
 }
 .serviceMainText{
-  font-size: 28.84px;
+  font-size: 25.84px;
+}
+.scrollsecond{
+  display: none;
+}
+.serviceSubText{
+  margin: 0 auto;
 }
 }
 
