@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Top class="Top" />
+    <Top id="Top" />
 
     <div class="scrollOne">
       <div class="borderOne"></div>
@@ -8,9 +8,9 @@
     </div>
 
     <MediaFooter class="MediaFooter" />
-    <News class="News" />
-    <div class="sreviceTitle">
-      <p class="serviceMainText">SERVICE</p>
+    <News id="News" />
+    <div id="sreviceTitle">
+      <h2 class="serviceMainText">SERVICE</h2>
       <p class="serviceSubText">
         多くの人が抱える悩みや不安とHP作成やアプリ制作といったメディア領域の問題に対して
         <br />対面での寄り添ったサポート、デザインやデジタルプロフェッショナル面で
@@ -25,9 +25,9 @@
       <p class="scrolltext">scroll</p>
       <div class="scrollborder"></div>
     </div>
-    <Influencer class="Influencer" />
-    <About class="About" />
-    <contact class="indexContact" />
+    <Influencer id="Influencer" />
+    <About id="About" />
+    <contact id="indexContact" />
     <MediaFooter class="backColor" />
   </div>
 </template>
@@ -69,10 +69,10 @@ export default {
   text-align: center;
 }
 
-.Top,
-.News,
-.About,
-.indexContact {
+#Top,
+#News,
+#About,
+#indexContact {
   margin-top: 15%;
 }
 
@@ -106,7 +106,7 @@ export default {
   padding-top: 15px;
 }
 
-.sreviceTitle {
+#sreviceTitle {
   margin-top: 20%;
 }
 
@@ -171,4 +171,24 @@ export default {
 }
 @media screen and (max-width: 1366px) {
 }
+
+@media screen and (max-width:730px){
+#sreviceTitle{
+  width: 90%;
+  margin: 40px auto;
+}
+.serviceSubText{
+  font-size: 10px;
+}
+.serviceMainText{
+  font-size: 25.84px;
+}
+.scrollsecond{
+  display: none;
+}
+.serviceSubText{
+  margin: 0 auto;
+}
+}
+
 </style>

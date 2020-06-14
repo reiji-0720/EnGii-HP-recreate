@@ -46,4 +46,13 @@ export default {
   border-bottom: solid 1px #3bb2db;
   position: relative;
 }
+
+@media screen and (max-width: 730px){
+  .newsText{
+    font-size: 10px;
+  }
+  .newsText::after{
+    top: 11px;
+  }
+}
 </style>

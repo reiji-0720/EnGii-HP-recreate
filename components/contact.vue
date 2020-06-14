@@ -1,6 +1,6 @@
 <template>
   <div class="contactContainer">
-    <p class="contactText">CONTACT</p>
+    <h2 class="contactText">CONTACT</h2>
     <div class="contactArea">
       <nuxt-link to class="contact bg-mainColor">
         お気軽にお問い合わせください<Triangle />
@@ -42,5 +42,10 @@ export default {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;
+}
+@media screen and (max-width: 730px){
+  .contactText{
+    font-size: 25.84px;
+  }
 }
 </style>
