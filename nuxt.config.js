@@ -33,6 +33,7 @@ export default {
       jQuery: 'jquery',
       $: 'jquery'
     })*/
+    '~plugins/vue-scrollto'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -45,6 +46,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    ['vue-scrollto/nuxt', { duration: 1000 }],
   ],
   
   /*
