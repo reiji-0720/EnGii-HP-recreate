@@ -71,10 +71,13 @@ export default {
 
 .Top,
 .News,
-.Activity,
 .About,
 .indexContact {
   margin-top: 15%;
+}
+
+.Activity {
+  margin-top: 5%;
 }
 
 .Influencer {

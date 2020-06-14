@@ -75,7 +75,6 @@ export default {};
   overflow: hidden;
   display: flex;
   height: 400px;
-  transform: rotate(-4deg);
 }
 .slider-wrap {
   animation: scroll 30s linear infinite;
@@ -110,7 +109,6 @@ export default {};
   position: relative;
   position: absolute;
   top: -90px;
-  display: -webkit-flex;
   display: flex;
   left: 50%;
   margin-left: -50vw;
