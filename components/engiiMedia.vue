@@ -120,6 +120,12 @@ export default {};
   margin-right: 5px;
 }
 
+@media screen and (max-width: 730px){
+  .media{
+    float: none;
+    margin-top:30px ;
+  }
+}
 @media screen and (max-width:1000px){
 .media .medialogo{
     height: 67.28px;  /* 126×0.534 = 67.284 */
@@ -206,4 +212,6 @@ export default {};
     font-size: 10px !important;
   }
 }*/
+
+
 </style>

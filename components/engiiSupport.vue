@@ -118,6 +118,12 @@ export default {};
   width: 11px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 730px){
+  .support{
+    float: none;
+  }
+}
 @media screen and (max-width:1000px){
   .support .supportlogo{
     height: 67.28px;  /* 126×0.534 = 67.284 */
