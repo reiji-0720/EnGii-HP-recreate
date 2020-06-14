@@ -22,14 +22,16 @@ export default {};
 .footerContainer {
   display: flex;
   align-items: center;
+  position: relative;
  padding: 10px 0 7px 0;
 }
 .mediaFooter p {
   color: #ffff;
-  margin: 0 430px 7px 60px;
+  margin-left: 20px;
 }
 .mediaLogo {
-  margin: 0 10px 0 375px;
+  position:absolute;
+  right:20px;
 }
 .mediaLogo img{
   margin: 0 7px 0 7px;
