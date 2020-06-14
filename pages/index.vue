@@ -1,8 +1,14 @@
 <template>
   <div class="container">
-    <Top class="Top"/>
-    <MediaFooter class="MediaFooter"/>
-    <News class="News"/>
+    <Top class="Top" />
+
+    <div class="scrollOne">
+      <div class="borderOne"></div>
+      <p class="scrolltext colorOne">scroll</p>
+    </div>
+
+    <MediaFooter class="MediaFooter" />
+    <News class="News" />
     <div class="sreviceTitle">
       <p class="serviceMainText">SERVICE</p>
       <p class="serviceSubText">
@@ -19,10 +25,10 @@
       <p class="scrolltext">scroll</p>
       <div class="scrollborder"></div>
     </div>
-    <Influencer class="Influencer"/>
-    <About class="About"/>
-    <contact class="indexContact"/>
-      <MediaFooter class="backColor"/>
+    <Influencer class="Influencer" />
+    <About class="About" />
+    <contact class="indexContact" />
+    <MediaFooter class="backColor" />
   </div>
 </template>
 
@@ -63,7 +69,11 @@ export default {
   text-align: center;
 }
 
-.Top, .MediaFooter, .News, .Activity, .About, .indexContact {
+.Top,
+.News,
+.Activity,
+.About,
+.indexContact {
   margin-top: 15%;
 }
 
@@ -94,7 +104,7 @@ export default {
 }
 
 .sreviceTitle {
-  margin-top:20%;
+  margin-top: 20%;
 }
 
 .serviceMainText {
@@ -126,7 +136,35 @@ export default {
   margin: 10px 0 10px 32px;
 }
 .backColor {
-  background-color: #3E3A39;
+  background-color: #3e3a39;
+}
+.borderOne {
+  border-left: 1px solid #231815;
+  height: 80px;
+  margin: 0 auto;
+  width: 1px;
+  display: inline-block;
+}
+.scrollOne {
+  margin: 0 auto;
+}
+.colorOne {
+  color: #231815;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+  /* height: 80px; */
+  margin: 0 0 45px 3px;
+}
+.colorSecond {
+  color: #3bb2db;
+}
+
+.borderSecond {
+  border-left: 1px solid #3bb2db;
+}
+.backColor {
+  background-color: #3e3a39;
 }
 @media screen and (max-width: 1366px) {
 }
