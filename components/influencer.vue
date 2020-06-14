@@ -122,4 +122,14 @@ h1 {
   right: 0;
   z-index: -1;
 }
+@media screen and (max-width:1000px) {
+  .influencerImg{
+    width: 350px;
+  }
+}
+@media screen and (max-width:720px) {
+  .influencerImg{
+    display:none;
+  }
+}
 </style>

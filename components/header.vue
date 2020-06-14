@@ -21,9 +21,9 @@ export default {
 <style>
 .headerContainer {
     background-color: #ffff;
+    height: 75px;
     display: flex;
     align-items: center;
-    margin-top: 25px;
     margin-bottom: 25px;
 }
 
