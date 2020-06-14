@@ -77,7 +77,7 @@ export default {
 }
 
 .Activity {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .Influencer {

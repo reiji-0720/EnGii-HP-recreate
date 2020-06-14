@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header class="headerPosition"/>
     <nuxt />
   </div>
 </template>
@@ -63,5 +63,11 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.headerPosition {
+  position: fixed;
+  top:0;
+  z-index: 900;
 }
 </style>
