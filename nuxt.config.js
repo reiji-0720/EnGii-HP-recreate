@@ -29,6 +29,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+   /* new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery'
+    })*/
   ],
   /*
   ** Nuxt.js dev-modules
