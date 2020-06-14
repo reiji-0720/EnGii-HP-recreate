@@ -84,7 +84,7 @@ h1 {
   padding: 0 0 0 15%;
   width: 100%;
   display: flex;
-  float: left;
+  
   position: relative;
   z-index: 900;
 }
