@@ -124,6 +124,7 @@ export default {};
     float: none;
     width: 90%;
     margin: 0 auto;
+    font-size: 25.84px;
   }
 }
 @media screen and (max-width:1000px){
