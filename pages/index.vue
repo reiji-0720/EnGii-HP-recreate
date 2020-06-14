@@ -22,6 +22,7 @@
     <Influencer />
     <About />
     <contact />
+      <MediaFooter class="backColor"/>
   </div>
 </template>
 
@@ -105,11 +106,14 @@ export default {
   color: #3bb2db;
   font-size: 14px;
 }
-.scrollborder{
+.scrollborder {
   border-left: 1px solid #3bb2db;
   display: block;
   height: 80px;
   margin: 10px 0 10px 32px;
+}
+.backColor {
+  background-color: #3E3A39;
 }
 @media screen and (max-width: 1366px) {
 }
