@@ -64,8 +64,9 @@ export default {};
     transform: translateX(calc(-760px * 3));
   }
 }
+
 .slider {
-  width: 60%;
+  /* width: 60%; */
   /* margin: auto; */
   overflow: hidden;
   display: flex;
@@ -81,6 +82,7 @@ export default {};
   /* width: 800px; */
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 .slide {
   width: 800px;
@@ -123,6 +125,14 @@ export default {};
 }
 
 @media screen and (max-width: 730px){
+  @keyframes scrollRes {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-470px * 3));
+  }
+}
   .topText{
     font-size: 16px;
   }
@@ -146,8 +156,9 @@ export default {};
   height: 260px;
 }
 .slider-wrap{
-  width: calc(760px * 6);
+  width: calc(470px * 6);
   margin-top: 130px;
+  animation: scrollRes 20s linear infinite;
 }
 }
 
