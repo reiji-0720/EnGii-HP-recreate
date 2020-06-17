@@ -55,7 +55,7 @@
 </script>
 
 <style>
-@media screen and (min-width: 1001px) and (max-width: 1365px) {
+@media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
     height: 75px;
