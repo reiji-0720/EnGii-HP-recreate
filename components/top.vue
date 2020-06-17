@@ -14,42 +14,36 @@
           <img
             src="~/assets/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg"
             class="slide-image"
-            width="620"
           />
         </div>
         <div class="slide">
           <img
             src="~/assets/TopMain.png"
             class="slide-image"
-            width="620"
           />
         </div>
         <div class="slide">
           <img
             src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
             class="slide-image"
-            width="620"
           />
         </div>
         <div class="slide">
           <img
             src="~/assets/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg"
             class="slide-image"
-            width="620"
           />
         </div>
         <div class="slide">
           <img
             src="~/assets/TopMain.png"
             class="slide-image"
-            width="620"
           />
         </div>
         <div class="slide">
           <img
             src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
             class="slide-image"
-            width="620"
           />
         </div>
       </div>
@@ -89,7 +83,7 @@ export default {};
   object-fit: cover;
 }
 .slide {
-  width: 800px;
+  width: auto;
   height: 100%;
   text-align: center;
   margin: 0 70px;
@@ -141,6 +135,16 @@ export default {};
   right: 0;
   width: 100%;
   height: 200px
+}
+.slide-image{
+  height: 90%;
+  width: 70%;
+}
+.slide{
+  margin: 0 5px;
+}
+.slider-wrap{
+  width: calc(760px * 6);
 }
 }
 
