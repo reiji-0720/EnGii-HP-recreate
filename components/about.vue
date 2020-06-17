@@ -75,8 +75,7 @@ export default {
       top:10px;
       left:0;
       z-index: 100;
-      width:318.86px;
-      height: 318.86px;
+      
     }
     
 }
@@ -99,8 +98,7 @@ export default {
     }
     .aboutImgBox .leaderLogo {
       z-index: 100;
-      width:393.96px;
-      height: 393.96px;
+     
     }
 }
 .aboutContainer{
@@ -139,8 +137,8 @@ export default {
   top:10px;
   left:0;
   z-index: 100;
-  width: 420px;
-  height: 420px;
+  width:  calc(100% - 40px);
+  height:calc(100% - 40px);
   filter:drop-shadow(30px 30px 0 #3bb2db);
 }
 .aboutMain {
