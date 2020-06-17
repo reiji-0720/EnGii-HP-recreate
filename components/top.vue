@@ -133,6 +133,9 @@ export default {};
     transform: translateX(calc(-470px * 3));
   }
 }
+.topMainTitle{
+  height: 350px;
+}
   .topText{
     font-size: 16px;
   }
@@ -144,7 +147,7 @@ export default {};
   left: 0;
   right: 0;
   width: 100%;
-  height: 200px
+  height: 110px
 }
 .slide-image{
   height: 100%;
