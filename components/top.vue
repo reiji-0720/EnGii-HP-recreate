@@ -78,12 +78,12 @@ export default {};
   height: 100%;
 }
 .slide-image {
-  /* width: 80%; */
+  /* width: 800px; */
   height: 100%;
   object-fit: cover;
 }
 .slide {
-  width: auto;
+  width: 800px;
   height: 100%;
   text-align: center;
   margin: 0 70px;
@@ -137,14 +137,17 @@ export default {};
   height: 200px
 }
 .slide-image{
-  height: 90%;
-  width: 70%;
+  height: 100%;
+  width: 100%;
 }
 .slide{
-  margin: 0 5px;
+  margin: 0 10px;
+  width: 450px;
+  height: 260px;
 }
 .slider-wrap{
   width: calc(760px * 6);
+  margin-top: 130px;
 }
 }
 
