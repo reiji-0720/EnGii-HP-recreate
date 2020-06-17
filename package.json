@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.11.0",
+    "bulma": "^0.9.0",
     "nuxt": "^2.12.2",
     "vue-scrollto": "^2.18.1"
   },
