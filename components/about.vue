@@ -70,16 +70,7 @@ export default {
     float: right;
     position:relative;
 }
-.aboutBackImg {
-  
-  height: 420px;
-  width: 420px;
-  position:absolute;
-  /* position: absolute; */
-  bottom: 0px;
-  right: 0;
-  z-index: -200;
-}
+
 .leaderLogo {
   position:absolute;
   top:10px;
@@ -132,10 +123,7 @@ export default {
       height:426.8px;   /* 455pxの0.9380倍　aboutTextの高さと等しい*/
       width:426.8px;
     }
-    .aboutImgBox .aboutBackImg {
-      height: 393.96px;  /* 420 × 0.9380　= 393.96 */
-      width: 393.96px;
-    }
+  
     .aboutImgBox .leaderLogo {
       z-index: 100;
      
@@ -155,16 +143,7 @@ export default {
       height:344.8px;    /* 455pxの0.615倍　aboutTextの高さと等しい*/
       width:344.8px;
     }
-    .aboutImgBox .aboutBackImg {
-      background-color: #3bb2db;
-      height: 318.86px;    /* 420 × 0.615　= 318.86 */
-      width: 318.86px;
-      position:absolute;
-      /* position: absolute; */
-      bottom: 0px;
-      right: 0;
-      z-index: -200;
-    }
+    
     .aboutImgBox .leaderLogo {
       position:absolute;
       top:10px;
@@ -180,5 +159,48 @@ export default {
   .aboutMain{
     display:block;
   }
+  .aboutImg{
+    height:350px;
+    margin: 0 auto;
+     width:277.67px;
+  }
+  .aboutImg .aboutImgBox{
+    height:277.67px;    /* 455pxの0.615倍　aboutTextの高さと等しい*/
+    width:277.67px;
+  }
+  .aboutText{
+    padding:0;
+    margin: 0 auto;
+    width:277.67px;
+  }
+  .aboutText p{
+    
+  }
+  .aboutText .btn-more{
+    margin:0 auto;
+    margin-top:50px;
+    width: 159.88px;
+  }
+
+}
+@media screen and (max-width:278px) {
+  .aboutImg{
+    width: 220px;
+    height: 250px;
+  }
+   .aboutImg .aboutImgBox{
+    height:220px;    /* 455pxの0.615倍　aboutTextの高さと等しい*/
+    width:220px;
+  }
+  .leaderLogo {
+  
+  width:  calc(100% - 20px);
+  height:calc(100% - 20px);
+  filter:drop-shadow(10px 10px 0 #3bb2db);
+}
+  .aboutText{
+    width: 220px;
+  }
+  
 }
 </style>
