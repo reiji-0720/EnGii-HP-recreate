@@ -36,4 +36,16 @@ export default {};
 .mediaLogo img{
   margin: 0 7px 0 7px;
 }
+
+@media screen and (min-width: 1001px) {
+
+}
+
+@media screen and (min-width: 731px) and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 730px) {
+  
+}
 </style>
