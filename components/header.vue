@@ -27,7 +27,26 @@
         <span></span>
       </label>
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-      <div id="nav-content">ここに中身を入れる</div>
+      <div id="nav-content">
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
+        </p>
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#sreviceTitle'" to>SERVICE</nuxt-link>
+        </p>
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
+        </p>
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#About'" to>ABOUT</nuxt-link>
+        </p>
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>CONTACT</nuxt-link>
+        </p>
+        <p>
+          <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>MEMBER</nuxt-link>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -96,7 +115,7 @@
 
 @media screen and (max-width: 730px) {
   .headerContainer {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -166,13 +185,20 @@
     top: 0;
     left: 0;
     z-index: 9999; /*最前面に*/
-    width: 50%; /*右側に隙間を作る（閉じるカバーを表示）*/
+    width: 70%; /*右側に隙間を作る（閉じるカバーを表示）*/
     max-width: 330px; /*最大幅（調整してください）*/
     height: 100%;
     background: #fff; /*背景色*/
     transition: 0.3s ease-in-out; /*滑らかに表示*/
     -webkit-transform: translateX(-105%);
     transform: translateX(-105%); /*左に隠しておく*/
+  }
+
+  #nav-content p {
+    padding: 40px 0 0 50px;
+    text-align: left;
+    margin: auto;
+    font-size: 1.2rem;
   }
 
   /*チェックが入ったらもろもろ表示*/
@@ -185,6 +211,10 @@
     -webkit-transform: translateX(0%);
     transform: translateX(0%); /*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+  }
+  .borderNone {
+    text-decoration: none;
+    color: #231815;
   }
 }
 </style>
