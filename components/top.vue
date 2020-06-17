@@ -133,7 +133,7 @@ export default {};
     transform: translateX(calc(-470px * 3));
   }
 }
-.topMainTitle{
+.topContainer{
   height: 350px;
 }
   .topText{
@@ -147,7 +147,7 @@ export default {};
   left: 0;
   right: 0;
   width: 100%;
-  height: 110px
+  height: 140px
 }
 .slide-image{
   height: 100%;
