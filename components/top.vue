@@ -2,9 +2,10 @@
   <div class="topContainer">
     <div class="topMainTitle">
       <div class="topContents">
-        <img src="~/assets/EngiiLogoNew.png" class="topLogo" width="620" />
-      </div>
+        <img src="~/assets/EngiiLogoNew.png" class="topLogo" width="45%" />
+      
       <p class="topText">EnGiiで叶える、EnGiiが適える。</p>
+      </div>
     </div>
 
     <div class="topImg slider">
@@ -95,9 +96,10 @@ export default {};
 }
 
 .topContainer {
-  margin: 13% auto;
+  /* margin: 13% auto; */
   position: relative;
   z-index: 100;
+  height: 400px;
 }
 
 .topText {
@@ -115,12 +117,32 @@ export default {};
   width: 100%;
   z-index: -200;
 }
+.topMainTitle{
+  /* vertical-align: middle; */
+  position: relative;
+  height: 400px;
+}
 
 .topLogo {
   margin: 0 5%;
+  /* vertical-align: middle; */
 }
 
-
+@media screen and (max-width: 730px){
+  .topText{
+    font-size: 16px;
+  }
+  .topContents{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 200px
+}
+}
 
 
 </style>
