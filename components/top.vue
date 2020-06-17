@@ -133,6 +133,9 @@ export default {};
     transform: translateX(calc(-470px * 3));
   }
 }
+.topContainer{
+  height: 350px;
+}
   .topText{
     font-size: 16px;
   }
@@ -144,7 +147,7 @@ export default {};
   left: 0;
   right: 0;
   width: 100%;
-  height: 200px
+  height: 140px
 }
 .slide-image{
   height: 100%;
