@@ -137,7 +137,7 @@ export default {};
     margin: 15px 5px;
   }
   .support .supporttext{
-    font-size: 9.612px; /* 18×0.534 = 9.612 */
+    font-size: 10px; /* 18×0.534 = 9.612 */
   }
   .supportBox{
     width:277.68px;

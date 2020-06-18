@@ -142,7 +142,7 @@ export default {};
     margin:0 auto;
   }
   .media .mediatext{
-    font-size: 9.612px; /* 18×0.534 = 9.612 */
+    font-size: 10px; /* 18×0.534 = 9.612 */
     height: 30px;
   }
   .media .mediaimg {
