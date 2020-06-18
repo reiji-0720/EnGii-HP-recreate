@@ -168,7 +168,12 @@ h1 {
   .influencerImg{
     width: 30%;
     height: 300px;
+    position:relative;
   }
+   .influencerImg::after{
+     position:absolute;
+     left:-1px;
+   }
   .main-container{
     padding:0;
   }
