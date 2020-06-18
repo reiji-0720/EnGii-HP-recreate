@@ -122,7 +122,11 @@ h1 {
   right: 0;
   z-index: -1;
 }
-
+@media screen and (max-width:1366px){
+  .influencerImg{
+    width: 35%;
+  }
+}
 @media screen and (max-width:1000px) {
   .main-container {
     height: 300px;
@@ -137,7 +141,7 @@ h1 {
     margin-top: 5%;
   }
   .influencerImg{
-    width: 350px;
+    width: 40%;
     height: 300px;
   }
   .title-box{
@@ -155,15 +159,15 @@ h1 {
   display: block;
 }
 }
-@media screen and (max-width:720px) {
-  .influencerImg{
-    display:none;
-  }
-}
+
 @media screen and (max-width:730px){
   .influencerLogo {
     height: 60px;
     width: 60px;
+  }
+  .influencerImg{
+    width: 30%;
+    height: 300px;
   }
   .main-container{
     padding:0;
