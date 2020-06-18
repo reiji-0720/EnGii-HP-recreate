@@ -179,6 +179,9 @@ export default {
   #sreviceTitle {
     margin-top: 20%;
   }
+  .serviceSubText {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 730px) {

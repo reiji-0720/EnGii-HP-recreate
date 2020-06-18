@@ -20,9 +20,6 @@ export default {
 </script>
 
 <style>
-.contactContainer {
- 
-}
 
 .contactText{
   font-size: 54px;
@@ -38,21 +35,30 @@ export default {
   vertical-align: middle;
 	line-height: 50px;
   /* height: 60px; */
-  width: 334px;
+  width: 35%;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;
 }
 
 @media screen and (max-width: 1000px) {
+  .contact {
+    width: 50%;
+  }
   .contactText{
     font-size: 35px;
+  }
+  .contact {
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 730px){
   .contactText{
     font-size: 26px;
+  }
+  .contact {
+    font-size: 10px;
   }
 }
 </style>

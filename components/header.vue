@@ -198,7 +198,7 @@
     padding: 40px 0 0 50px;
     text-align: left;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   /*チェックが入ったらもろもろ表示*/

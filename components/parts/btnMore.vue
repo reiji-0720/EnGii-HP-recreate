@@ -26,4 +26,10 @@ export default {
       color: #FFFFFF;
       font-size: 16px;
     }
+
+@media screen and (max-width: 1000px) {
+  .more {
+    font-size: 13px;
+  }
+}
 </style>
