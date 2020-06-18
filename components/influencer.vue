@@ -162,9 +162,6 @@ h1 {
 }
 
 @media screen and (max-width:730px){
-  .influencerhead h2{
-    font-size: 26px;
-  }
   .influencerLogo {
     height: 60px;
     width: 60px;
@@ -193,7 +190,11 @@ h1 {
     line-height: 60px;
     padding-left: 20px;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 26px;
+  }
+  .influencerLogo{
+    width:67.28px;
+    height:67.28px;
   }
   .influencerleft .btn-more{
     padding-top:50px;
@@ -208,14 +209,15 @@ h1 {
   }
   .title-box{
     display:block;
+    padding-top:30px;
   }
   .influencerImg{
     height:350px;
   }
   .influencerImg::after{
-    height:350px;
+    border-bottom: 350px solid #e2f1f7;
   }
-  .title-box h2{
+  .influencerhead{
     text-align: left;
     padding:0;
   }
