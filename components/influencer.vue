@@ -3,7 +3,7 @@
     <div class="influencerleft">
       <div class="title-box">
         <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%" />
-        <h1 class="influencerhead">インフルエンサー事業</h1>
+        <h2 class="influencerhead">インフルエンサー事業</h2>
       </div>
       <div class="content">
         <p>
@@ -40,6 +40,7 @@ export default {
   height: 375.97px;
   background-color: #e2f1f7;
   padding: 0 15%;
+  position: relative;
 }
 .title-box {
   padding-top: 100px;
@@ -161,6 +162,9 @@ h1 {
 }
 
 @media screen and (max-width:730px){
+  .influencerhead h2{
+    font-size: 26px;
+  }
   .influencerLogo {
     height: 60px;
     width: 60px;
@@ -169,6 +173,7 @@ h1 {
     width: 30%;
     height: 300px;
     position:relative;
+    position:absolute;
   }
    .influencerImg::after{
      position:absolute;
@@ -181,6 +186,9 @@ h1 {
     margin:0 auto;
     padding:0;
   }
+  .content p{
+    font-size: 12px;
+  }
   .influencerhead{
     line-height: 60px;
     padding-left: 20px;
@@ -192,6 +200,24 @@ h1 {
     float:none;
     text-align: center;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container{
+    height:350px;
+  }
+  .title-box{
+    display:block;
+  }
+  .influencerImg{
+    height:350px;
+  }
+  .influencerImg::after{
+    height:350px;
+  }
+  .title-box h2{
+    text-align: left;
+    padding:0;
   }
 }
 </style>
