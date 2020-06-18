@@ -172,23 +172,28 @@ export default {
 @media screen and (max-width: 1366px) {
 }
 
-@media screen and (max-width:730px){
-#sreviceTitle{
-  width: 90%;
-  margin: 40px auto;
+@media screen and (max-width: 730px) {
+  .borderOne {
+    height: 60px;
+  }
+  .colorOne {
+    margin-bottom: 25px;
+  }
+  #sreviceTitle {
+    width: 90%;
+    margin: 40px auto;
+  }
+  .serviceSubText {
+    font-size: 10px;
+  }
+  .serviceMainText {
+    font-size: 25.84px;
+  }
+  .scrollsecond {
+    display: none;
+  }
+  .serviceSubText {
+    margin: 0 auto;
+  }
 }
-.serviceSubText{
-  font-size: 10px;
-}
-.serviceMainText{
-  font-size: 25.84px;
-}
-.scrollsecond{
-  display: none;
-}
-.serviceSubText{
-  margin: 0 auto;
-}
-}
-
 </style>
