@@ -60,8 +60,8 @@ export default {};
   background-image: url("~@/assets/supportIcon.png");
   background-size: cover;
   background-position: center;
-  height: 126px;
-  width: 126px;
+  height: 128px;
+  width: 128px;
   margin: 0 auto;
 }
 .supporthead {
