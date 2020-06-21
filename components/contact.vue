@@ -61,4 +61,9 @@ export default {
     font-size: 10px;
   }
 }
+@media screen and (max-width:400px){
+  .contact {
+    width: 80%;
+  }
+}
 </style>
