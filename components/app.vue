@@ -3,28 +3,45 @@
     <div class="appBox">
       <div class="appLogo"></div>
       <p class="appText">アプリデザイン・制作</p>
-      <p class="appTextEng">APPLICATION<br>DESIGN / PRODUCTION</p>
+      <p class="appTextEng">
+        APPLICATION
+        <br />DESIGN / PRODUCTION
+      </p>
     </div>
-    <p class="appExplanation">
-      アプリケーションのロゴ作成から
-      <br />システムの構築などをゼロから
-      <br />クライアント様とご相談し制作しています。
-    </p>
+    <div class="center">
+      <p class="appExplanation">
+        アプリケーションのロゴ作成から
+        <br />システムの構築などをゼロから
+        <br />クライアント様とご相談し制作しています。
+      </p>
+    </div>
+    <div class="appBtn">
+      <btnMore />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import btnMore from "~/components/parts/btnMore.vue";
+
+export default {
+  components: {
+    btnMore
+  }
+};
 </script>
 
 <style>
-.app{
+.app {
   float: left;
+  width: 50%;
+  margin: 0 auto;
 }
 .appBox {
   height: 372px;
   width: 372px;
   border: solid 2px #3bb2db;
+  margin: 0 auto;
 }
 .appLogo {
   height: 116px;
@@ -34,17 +51,23 @@ export default {};
   background-position: center;
   margin: 60px auto;
 }
-.appText{
+.appText {
   text-align: center;
   font-size: 26px;
 }
-.appTextEng{
+.appTextEng {
   text-align: center;
   font-size: 19px;
   margin-top: 15px;
 }
-.appExplanation{
+.appExplanation {
   font-size: 20px;
   margin-top: 60px;
+  text-align: left;
+  display: inline-block;
+}
+.appBtn {
+  margin: 67px auto 100px;
+  width: 165px;
 }
 </style>

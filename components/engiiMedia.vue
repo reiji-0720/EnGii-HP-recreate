@@ -38,18 +38,6 @@ export default {};
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
-
 .media {
   float: left;
   width: 50%;
@@ -67,7 +55,7 @@ export default {};
   font-size: 54px;
   margin: 15px 5px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  /* font-family: "Helvetica Neue"; */
 }
 .mediatext {
   /* display: inline-block; */
@@ -99,7 +87,7 @@ export default {};
   text-align: left;
   margin-bottom: 20px;
   font-size: 20px;
-  font-family: "YuGo-Bold-83pv-RKSJ-H";
+  /* font-family: "YuGo-Bold-83pv-RKSJ-H"; */
 }
 
 .medialistboxgura,
