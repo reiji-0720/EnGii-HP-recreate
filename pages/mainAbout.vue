@@ -127,10 +127,15 @@ export default {};
 }
 
 .leaderMessageText {
-    
+    margin-top: 364px;
+    margin-left: 30%;
+    width: 50%;
+    background-color:#3bb2db ;
 }
 
 .leaderMessageText p{
     font-size: 16px;
+    color: #FFFF;
+    padding: 10px 0 0 20px;
 }
 </style>
