@@ -1,11 +1,11 @@
 <template>
-    <div class="more bg-mainColor">
-        more<Triangle />
-    </div>
+  <div class="more bg-mainColor">
+    more
+    <Triangle />
+  </div>
 </template>
 <script>
-import Triangle from '~/components/Triangle.vue'
-
+import Triangle from "~/components/Triangle.vue";
 
 export default {
   components: {
@@ -14,18 +14,17 @@ export default {
 };
 </script>
 <style scoped>
-
-.more{
-        padding: 10px;
-      text-align: center;
-	  display: inline-block;
-      vertical-align: middle;
-      /* height: 60px; */
-      width: 159.89px;
-      text-decoration: none;
-      color: #FFFFFF;
-      font-size: 16px;
-    }
+.more {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  /* height: 60px; */
+  width: 159.89px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
 
 @media screen and (max-width: 1000px) {
   .more {

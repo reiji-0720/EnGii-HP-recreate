@@ -10,18 +10,20 @@
         <p class="mediaExp">EnGiiが持つ様々なサービスを展開します</p>
       </div>
     </div>
+
     <div class="subArea">
       <div class="mediaContens">
         <p class="mediaContentsText">contents</p>
       </div>
     </div>
+
     <div class="mediaUp clearfix">
-      <graphics id="graphics" />
-      <app id="app" />
+      <graphics id="graphics"/>
+      <app />
     </div>
     <div class="mediaDown">
-      <webHP id="webHP" />
-      <video id="video" />
+      <webHP />
+      <Video />
     </div>
   </div>
 </template>
@@ -43,8 +45,8 @@ export default {
 </script>
 
 <style>
-.flex {
-  display: flex;
+.mediacontainer{
+  margin-top: 10%;
 }
 .mediaTopLeft {
   float: left;
@@ -94,7 +96,8 @@ export default {
   height: 30px;
   width: 79px;
 }
+
 .mediaUp {
-  height: 600px;
+
 }
 </style>

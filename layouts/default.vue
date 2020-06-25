@@ -2,15 +2,18 @@
   <div>
     <Header class="headerPosition"/>
     <nuxt />
+    <!-- <MediaFooter class="backColor" /> -->
   </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
+import MediaFooter from "~/components/MediaFooter.vue";
 
 export default {
   components: {
-    Header
+    Header,
+    MediaFooter,
   }
 }
 </script>
@@ -33,7 +36,28 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.backColor {
+  background-color: #3e3a39;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .button--green {
   display: inline-block;
@@ -69,4 +93,5 @@ html {
   top:0;
   z-index: 900;
 }
+
 </style>

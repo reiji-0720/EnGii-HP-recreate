@@ -5,43 +5,66 @@
       <p class="videoText">動画・CG編集</p>
       <p class="videoTextEng">MOVIE / CG EDIT</p>
     </div>
-    <p class="videoExplanation">
-      テロップ作成やBGM、画面の構成
-      <br />CG合成といった専門的な分野も
-      <br />制作しています。
-    </p>
+    <div class="center">
+      <p class="videoExplanation">
+        テロップ作成やBGM、画面の構成
+        <br />CG合成といった専門的な分野も
+        <br />制作しています。
+      </p>
+    </div>
+    <div class="videoBtn">
+      <btnMore />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import btnMore from "~/components/parts/btnMore.vue";
+
+export default {
+  components: {
+    btnMore
+  }
+};
 </script>
 
 <style>
+.video {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+}
 .videoBox {
   height: 372px;
   width: 372px;
   border: solid 2px #3bb2db;
+  margin: 0 auto;
 }
 .videoLogo {
-  height: 116px;
-  width: 121px;
+  height: 120px;
+  width: 123px;
   background-image: url("~@/assets/video.png");
   background-size: cover;
   background-position: center;
   margin: 60px auto;
 }
-.videoText{
+.videoText {
   text-align: center;
   font-size: 26px;
 }
-.videoTextEng{
+.videoTextEng {
   text-align: center;
   font-size: 19px;
   margin-top: 15px;
 }
-.videoExplanation{
+.videoExplanation {
   font-size: 20px;
   margin-top: 60px;
+  text-align: left;
+  display: inline-block;
+}
+.videoBtn {
+  margin: 100px auto;
+  width: 165px;
 }
 </style>
