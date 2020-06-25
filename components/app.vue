@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="app clearfix">
     <div class="appBox">
       <div class="appLogo"></div>
       <p class="appText">アプリデザイン・制作</p>
@@ -18,6 +18,9 @@ export default {};
 </script>
 
 <style>
+.app{
+  float: left;
+}
 .appBox {
   height: 372px;
   width: 372px;
