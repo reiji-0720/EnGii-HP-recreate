@@ -17,6 +17,9 @@
 export default {};
 </script>
 <style scoped>
+.main{
+    margin-top:75px;
+}
 .header{
     display:flex;
 }
@@ -25,9 +28,13 @@ export default {};
 }
 .boxAdjust{
     width:50%;
+    margin:0 auto;
 }
 .boxAdjust img{
     width:50%;
+}
+.boxAdjust h1{
+    font-size:54px;
 }
 
 .headerBoxRight img{
