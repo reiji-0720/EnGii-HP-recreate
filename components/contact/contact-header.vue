@@ -18,7 +18,7 @@ export default {};
 </script>
 <style scoped>
 .main{
-    margin-top:175px;
+    margin-top:125px;
 }
 .header{
     display:flex;
@@ -40,5 +40,41 @@ export default {};
 
 .headerBoxRight img{
     width:100%;
+}
+
+@media screen and (max-width:1336px){
+    .boxAdjust h1{
+        font-size:40px;
+    }
+}
+@media screen and (max-width:1000px){
+    .main{
+        margin-top:100px;
+    }
+    .boxAdjust h1{
+        font-size:35px;
+    }
+}
+@media screen and (max-width:730px){
+    .main{
+        margin-top:75px;
+    }
+    .boxAdjust{
+        margin-top:50px;
+        margin-left:35%;
+    }
+    .boxAdjust h1{
+        font-size:22px;
+    }
+}
+@media screen and (max-width:400px){
+    .boxAdjust{
+        margin-top:30px;
+        margin-left:40%;
+    }
+    .boxAdjust h1{
+        font-size:12px;
+    }
+    
 }
 </style>
