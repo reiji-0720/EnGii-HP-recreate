@@ -18,8 +18,7 @@ export default {
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'YuGo-Medium-83pv-RKSJ-H';
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
