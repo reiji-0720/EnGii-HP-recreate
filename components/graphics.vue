@@ -17,6 +17,9 @@ export default {};
 </script>
 
 <style>
+.graphics{
+  float: left;
+}
 .graphicsBox {
   height: 372px;
   width: 372px;

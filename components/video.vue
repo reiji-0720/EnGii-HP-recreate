@@ -1,11 +1,11 @@
 <template>
-  <div class="graphics">
-    <div class="graphicsBox">
-      <div class="graphicsLogo"></div>
-      <p class="graphicsText">動画・CG編集</p>
-      <p class="graphicsTextEng">MOVIE / CG EDIT</p>
+  <div class="video">
+    <div class="videoBox">
+      <div class="videoLogo"></div>
+      <p class="videoText">動画・CG編集</p>
+      <p class="videoTextEng">MOVIE / CG EDIT</p>
     </div>
-    <p class="graphicsExplanation">
+    <p class="videoExplanation">
       テロップ作成やBGM、画面の構成
       <br />CG合成といった専門的な分野も
       <br />制作しています。
@@ -18,29 +18,29 @@ export default {};
 </script>
 
 <style>
-.graphicsBox {
+.videoBox {
   height: 372px;
   width: 372px;
   border: solid 2px #3bb2db;
 }
-.graphicsLogo {
+.videoLogo {
   height: 116px;
   width: 121px;
-  background-image: url("~@/assets/graphics.png");
+  background-image: url("~@/assets/video.png");
   background-size: cover;
   background-position: center;
   margin: 60px auto;
 }
-.graphicsText{
+.videoText{
   text-align: center;
   font-size: 26px;
 }
-.graphicsTextEng{
+.videoTextEng{
   text-align: center;
   font-size: 19px;
   margin-top: 15px;
 }
-.graphicsExplanation{
+.videoExplanation{
   font-size: 20px;
   margin-top: 60px;
 }
