@@ -18,7 +18,6 @@
     </div>
     <div class="mainAboutScroll"></div>
     <div class="leaderMessage">
-      <div class="aaaa">
       <div class="leaderMessageMainTitle">
         <h1>代表メッセージ</h1>
       </div>
