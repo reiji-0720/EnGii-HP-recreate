@@ -22,7 +22,7 @@
             <div class="text">
               <label for="nameFurigana"adjustP>お名前（フリガナ）</label>
               </div>
-              <input id="nameFurigana"type="text"mame="entry.588093518">
+              <input id="nameFurigana"type="text"name="entry.588093518">
             </div>
             <div class="formBox tel">
             <div class="text">
