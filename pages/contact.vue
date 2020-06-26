@@ -162,9 +162,28 @@ textarea{
 }
 @media screen and (max-width:500px){
   .explain{
-    margin-top:100px;
+    margin-top:70px;
     font-size:5px;
     letter-spacing:0.2em;
+  }
+.form{
+  margin-top:70px;
+}
+  .formBox{
+    display:block;
+  }
+  .text{
+    width:100%;
+  }
+  input,textarea{
+    width:100%;
+  }
+  input{
+    height:50px;
+  }
+
+  .btn-submit{
+    margin-top:100px;
   }
 }
 @media screen and (max-width:400px){
