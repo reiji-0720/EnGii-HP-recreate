@@ -77,5 +77,14 @@ export default {
     width:90%;
     margin: 0 auto;
   }
+  .graphicsBox{
+    width: 90%;
+  }
+  .graphicsBox p{
+    font-size: 21px;
+  }
+  .graphicsExplanation{
+    font-size: 16px;
+  }
 }
 </style>

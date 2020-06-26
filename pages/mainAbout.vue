@@ -18,16 +18,16 @@
     </div>
     <div class="mainAboutScroll"></div>
     <div class="leaderMessage">
+      <img src="~/assets/IMG_3609.jpeg" class="leaderImg" width="40%" />
       <div class="leaderMessageMainTitle">
         <h1>代表メッセージ</h1>
       </div>
       <div class="leaderMessageSubTitle">
         <h2>「自らの経験は必ず誰かの役に立つ」</h2>
       </div>
-      <img src="~/assets/IMG_3609.jpeg" class="leaderImg" width="40%" />
       <div class="leaderMessageText">
         <p>「自らの経験は必ず誰かの役に立つ」</p>
-
+        <div class="blank"></div>
         <p>
           私は、高校受験から新卒で大手鉄道会社に就職し
           <br />現職で働くまでに沢山の後悔をし、多くのタラレバを吐いてきました。
@@ -35,7 +35,7 @@
           <br />タラレバを実現するために転職を決断し、
           <br />2年間の転職活動の末、現職に出会い入社することを決めました。
         </p>
-
+        <div class="blank"></div>
         <p>
           生まれ育った長野を出て、自分ができることを
           <br />最大限やりきる覚悟を持って都内へ出ました。
@@ -43,7 +43,7 @@
           <br />「自分はこの分野が向いてるのではないか」
           <br />と思った現職で全力で働いたことで自らの人生は大きく前進しました。
         </p>
-
+        <div class="blank"></div>
         <p>
           そして、挑戦を選んだことで出会えた人達のおかげで
           <br />1人ではできなかったことができるようになり
@@ -94,14 +94,18 @@ export default {};
 }
 
 .leaderMessageMainTitle {
-  margin-top: 10%;
+  margin-top: 2%;
+  width: 50%;
+  position: absolute;
+  top:0;
+  margin-left: 1%;
+  text-align: center;
 }
 
 .leaderMessageMainTitle h1 {
   font-weight: 500;
   font-size: 54px;
   color: #231815;
-  margin-left: 12%;
   padding-top: 2%;
 }
 
@@ -110,7 +114,9 @@ export default {};
   width: 50%;
   z-index: 2;
   margin-left: 7%;
-  margin-top: 12%;
+  margin-top: 22%;
+  position: absolute;
+  top:0;
 }
 
 .leaderMessageSubTitle h2 {
@@ -120,20 +126,23 @@ export default {};
 }
 
 .leaderImg {
-  position: absolute;
-  top: 0;
   margin-left: 50%;
   z-index: -1;
 }
 
 .leaderMessageText {
-    width: 50%;
-    background-color:#3bb2db ;
+  width: 45%;
+  background-color: #3bb2db;
+  margin: -7px 0 auto 35%;
 }
 
-.leaderMessageText p{
-    font-size: 16px;
-    color: #FFFF;
-    padding: 10px 0 0 20px;
+.leaderMessageText p {
+  font-size: 16px;
+  color: #ffff;
+  padding: 25px 0 0 25px;
+}
+
+.blank {
+    margin-top: 3%;
 }
 </style>

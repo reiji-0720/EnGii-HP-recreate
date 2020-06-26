@@ -1,7 +1,7 @@
 
 <template>
  <div class="modal">
- <button class="modal" @click="$emit('modal')">
+ 
 
    <div class="modal-wrap">
     <div class="modal-thanks">
@@ -14,12 +14,13 @@
        </div>
      </button>
    </div>
-   </button>
+
  </div>
 </template>
 
 <style  scoped>
  .modal {
+     padding-top:200px;
    position: fixed;
    top: 0;
    width: 100%;
