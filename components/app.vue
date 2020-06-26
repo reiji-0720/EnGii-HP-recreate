@@ -70,4 +70,12 @@ export default {
   margin: 67px auto 100px;
   width: 165px;
 }
+
+@media screen and (max-width: 730px) {
+  .app {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 </style>
