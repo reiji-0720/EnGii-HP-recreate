@@ -229,4 +229,49 @@ export default {};
 .blank {
   margin-top: 3%;
 }
+
+@media screen and (max-width: 1200px) {
+  .leaderMessageSubTitle h2{
+    font-size: 2.0rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 2.0rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 2.0rem;
+  }
+}
+@media screen and (max-width: 1115px) {
+  .leaderMessageSubTitle h2{
+    font-size: 1.7rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 1.7rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .leaderMessageSubTitle h2{
+    font-size: 1.4rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 1.4rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+
+}
 </style>
