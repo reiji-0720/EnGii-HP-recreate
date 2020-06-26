@@ -5,7 +5,8 @@
           <p class="explain">EnGiiについてご相談やご質問などがある方は<br>
             下記の電話番号かお問い合わせフォームよりお問い合わせください。</p>
           <div class="form">
-          <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScp65y3TPoo0lu4EU4wCzYBghCQVIcUg-AIKFDCO_W0ddg9Mg/formResponse">
+          <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScp65y3TPoo0lu4EU4wCzYBghCQVIcUg-AIKFDCO_W0ddg9Mg/formResponse" target="dummy">
+          <iframe name="dummy" style="display:none;"></iframe>
             <div class="formBox genre">
               <div class="text">
               <label for="genre"class="adjustP">お問い合わせジャンル</label>
@@ -43,19 +44,28 @@
               <textarea name="entry.1417750318"id="content"rows="20"cols="60" ></textarea>
             </div>
             <div class="submit">
-              <button type="submit" value="送信" class="btn-submit bg-mainColor">送信</button>
+              <!--<button type="submit" value="送信" class="btn-submit bg-mainColor" @click="show=true">送信</button>-->
+              <button  class="btn-submit bg-mainColor" @click="show=true">送信</button>
+      
             </div>
             </form>
           </div>
         </div>
+                      <modal @modal="show=false" v-if="show" />
     </div>
 </template>
 <script>
 import contactHeader from "~/components/contact/contact-header";
-
+import modal from "~/components/parts/contactModal.vue";
 export default {
   components: {
-    contactHeader
+    contactHeader,
+    modal
+  },
+  data(){
+    return{
+      show: false,
+    }
   }
 };
 </script>
@@ -115,6 +125,7 @@ textarea{
   color: #ffffff;
   font-size: 16px;
   border:none;
+  cursor:pointer;
 }
 
 @media screen and (max-width: 1000px) {
