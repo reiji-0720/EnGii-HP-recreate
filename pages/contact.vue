@@ -28,7 +28,7 @@
             <div class="text">
               <label for="tel"adjustP>電話番号</label>
               </div>
-              <input name="entry.880583967"id="tel"type="tel"pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678">
+              <input name="entry.880583967"id="tel"type="tel"pattern="[0-9]{11}" placeholder="090-1234-5678">
             </div>
             <div class="formBox mail">
             <div class="text">
