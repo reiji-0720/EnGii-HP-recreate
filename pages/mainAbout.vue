@@ -161,12 +161,12 @@ export default {};
   width: 45%;
   background-color: #3bb2db;
   margin: -7px 0 auto 35%;
+  padding: 25px 0 25px 25px;
 }
 
 .leaderMessageText p {
   font-size: 16px;
   color: #ffff;
-  padding: 25px 0 0 25px;
 }
 
 .leaderSecondMessage {
@@ -215,13 +215,13 @@ export default {};
 
 .leaderSecondMessageText {
   background-color: #3bb2db;
-  width: 60%;
-  padding: 25px 0 0 25px;
+  width: 56%;
+  padding: 25px 0 25px 25px;
   margin: 10% 0 0 12%;
 }
 
 .leaderSecondMessageText p {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 500;
   color: #ffff;
 }
