@@ -18,13 +18,13 @@
     </div>
     <div class="mainAboutScroll"></div>
     <div class="leaderMessage">
+      <img src="~/assets/IMG_3609.jpeg" class="leaderImg" width="40%" />
       <div class="leaderMessageMainTitle">
         <h1>代表メッセージ</h1>
       </div>
       <div class="leaderMessageSubTitle">
         <h2>「自らの経験は必ず誰かの役に立つ」</h2>
       </div>
-      <img src="~/assets/IMG_3609.jpeg" class="leaderImg" width="40%" />
       <div class="leaderMessageText">
         <p>「自らの経験は必ず誰かの役に立つ」</p>
 
@@ -94,14 +94,18 @@ export default {};
 }
 
 .leaderMessageMainTitle {
-  margin-top: 10%;
+  margin-top: 2%;
+  width: 50%;
+  position: absolute;
+  top:0;
+  margin-left: 1%;
+  text-align: center;
 }
 
 .leaderMessageMainTitle h1 {
   font-weight: 500;
   font-size: 54px;
   color: #231815;
-  margin-left: 12%;
   padding-top: 2%;
 }
 
@@ -110,7 +114,9 @@ export default {};
   width: 50%;
   z-index: 2;
   margin-left: 7%;
-  margin-top: 12%;
+  margin-top: 22%;
+  position: absolute;
+  top:0;
 }
 
 .leaderMessageSubTitle h2 {
@@ -120,20 +126,19 @@ export default {};
 }
 
 .leaderImg {
-  position: absolute;
-  top: 0;
   margin-left: 50%;
   z-index: -1;
 }
 
 .leaderMessageText {
-    width: 50%;
-    background-color:#3bb2db ;
+  width: 45%;
+  margin-left: 35%;
+  background-color: #3bb2db;
 }
 
-.leaderMessageText p{
-    font-size: 16px;
-    color: #FFFF;
-    padding: 10px 0 0 20px;
+.leaderMessageText p {
+  font-size: 16px;
+  color: #ffff;
+  padding: 10px 0 0 20px;
 }
 </style>
