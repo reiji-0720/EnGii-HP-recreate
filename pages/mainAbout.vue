@@ -52,6 +52,32 @@
         </p>
       </div>
     </div>
+    <div class="leaderSecondMessage">
+      <div class="leaderMessagePosition">
+        <img src="~/assets/leaderVision.png" class="leaderSecondImg" width="70%" />
+        <div class="leaderSecondMessageSubTitle">
+          <h2>「縁起のいい出会い」は</h2>
+        </div>
+        <div class="leaderSecondMessageSubTitle2">
+          <h2>人生を変えてしまうこともある</h2>
+        </div>
+      </div>
+      <div class="leaderSecondMessageText">
+        <p>
+          EnGiiは「縁起のいい出会い」から派生したグループ名ですが、
+          <br />今まで知らなかったサービス、知識、商品や新しい人との出会いは
+          <br />その人にとっては人生を変えてしまう事だってあります。
+          <br />私達はそんな出会いを創造、提供したいと思っています。
+        </p>
+        <div class="blank"></div>
+        <p>EnGiiが提供できることで、より多くの人の手助けができればと思います。</p>
+        <div class="blank"></div>
+        <p>
+          EnGii CEO
+          <br />宮坂 塁
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -98,7 +124,7 @@ export default {};
   margin-top: 2%;
   width: 50%;
   position: absolute;
-  top:0;
+  top: 0;
   margin-left: 1%;
   text-align: center;
 }
@@ -117,7 +143,7 @@ export default {};
   margin-left: 7%;
   margin-top: 22%;
   position: absolute;
-  top:0;
+  top: 0;
 }
 
 .leaderMessageSubTitle h2 {
@@ -143,7 +169,63 @@ export default {};
   padding: 25px 0 0 25px;
 }
 
+.leaderSecondMessage {
+  background-color: #c2edfb;
+}
+
+.leaderMessagePosition {
+  position: relative;
+  padding-top: 12%;
+}
+
+.leaderSecondImg {
+  margin-left: 8%;
+}
+
+.leaderSecondMessageSubTitle {
+  position: absolute;
+  top: 0;
+  margin-top: 37.7%;
+  width: 35%;
+  margin-left: 50%;
+  background-color: #3bb2db;
+}
+
+.leaderSecondMessageSubTitle h2 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #ffff;
+}
+
+.leaderSecondMessageSubTitle2 {
+  position: absolute;
+  top: 0;
+  margin-top: 43%;
+  width: 41%;
+  margin-left: 52%;
+  background-color: #3bb2db;
+}
+
+.leaderSecondMessageSubTitle2 h2 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #ffff;
+}
+
+.leaderSecondMessageText {
+  background-color: #3bb2db;
+  width: 60%;
+  padding: 25px 0 0 25px;
+  margin: 10% 0 0 12%;
+}
+
+.leaderSecondMessageText p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #ffff;
+}
+
 .blank {
-    margin-top: 3%;
+  margin-top: 3%;
 }
 </style>
