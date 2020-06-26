@@ -171,6 +171,7 @@ export default {};
 
 .leaderSecondMessage {
   background-color: #c2edfb;
+  padding-bottom: 20%;
 }
 
 .leaderMessagePosition {
