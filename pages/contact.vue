@@ -9,39 +9,39 @@
           <iframe name="dummy" style="display:none;"></iframe>
             <div class="formBox genre">
               <div class="text">
-              <label for="genre"class="adjustP">お問い合わせジャンル</label>
+              <label for="genre" class="adjustP">お問い合わせジャンル</label>
               </div>
-              <input id="genre"type="text"name="entry.1349348887">
+              <input id="genre" type="text" name="entry.1349348887">
             </div>
             <div class="formBox name">
             <div class="text">
-              <label for="name"adjustP>お名前</label>
+              <label for="name" adjustP>お名前</label>
               </div>
-              <input id="name"type="text"name="entry.1266804582">
+              <input id="name" type="text" name="entry.1266804582">
             </div>
             <div class="formBox nameFurigana">
             <div class="text">
-              <label for="nameFurigana"adjustP>お名前（フリガナ）</label>
+              <label for="nameFurigana" adjustP>お名前（フリガナ）</label>
               </div>
-              <input id="nameFurigana"type="text"name="entry.588093518">
+              <input id="nameFurigana" type="text" name="entry.588093518">
             </div>
             <div class="formBox tel">
             <div class="text">
-              <label for="tel"adjustP>電話番号</label>
+              <label for="tel" adjustP>電話番号</label>
               </div>
-              <input name="entry.880583967"id="tel"type="tel"pattern="[0-9]{11}" placeholder="090-1234-5678">
+              <input name="entry.880583967" id="tel" type="tel" pattern="[0-9]{11}" placeholder="090-1234-5678">
             </div>
             <div class="formBox mail">
             <div class="text">
-              <label for="email"adjustP>メールアドレス</label>
+              <label for="email" adjustP>メールアドレス</label>
               </div>
-              <input  placeholder="info@sample.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="email" name="entry.1756975779"id="email">
+              <input  placeholder="info@sample.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="email" name="entry.1756975779" id="email">
             </div>
             <div class="formBox content">
             <div class="text">
-              <label for="content"adjustP>お問い合わせ内容</label>
+              <label for="content" adjustP>お問い合わせ内容</label>
               </div>
-              <textarea name="entry.1417750318"id="content"rows="20"cols="60" ></textarea>
+              <textarea name="entry.1417750318" id="content" rows="20" cols="60" ></textarea>
             </div>
             <div class="submit">
               <!--<button type="submit" value="送信" class="btn-submit bg-mainColor" @click="show=true">送信</button>-->
@@ -133,7 +133,7 @@ textarea{
     font-size: 13px;
   }
 }
-@media screen (min-width:1366px){
+@media screen and (min-width:1366px) {
   .cotactContainer{
     max-width:1366px;
  
