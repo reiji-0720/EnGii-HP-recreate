@@ -133,7 +133,7 @@ export default {};
 .leaderMessageText {
   width: 45%;
   background-color: #3bb2db;
-  margin: auto 0 auto 35%;
+  margin: -7px 0 auto 35%;
 }
 
 .leaderMessageText p {
