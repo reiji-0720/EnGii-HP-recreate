@@ -5,45 +5,47 @@
           <p class="explain">EnGiiについてご相談やご質問などがある方は<br>
             下記の電話番号かお問い合わせフォームよりお問い合わせください。</p>
           <div class="form">
+          <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScp65y3TPoo0lu4EU4wCzYBghCQVIcUg-AIKFDCO_W0ddg9Mg/formResponse">
             <div class="formBox genre">
               <div class="text">
-              <p class="adjustP">お問い合わせジャンル</p>
+              <label for="genre"class="adjustP">お問い合わせジャンル</label>
               </div>
-              <input type="text">
+              <input id="genre"type="text"name="entry.1349348887">
             </div>
             <div class="formBox name">
             <div class="text">
-              <p adjustP>お名前</p>
+              <label for="name"adjustP>お名前</label>
               </div>
-              <input type="text">
+              <input id="name"type="text"name="entry.1349348887">
             </div>
             <div class="formBox nameFurigana">
             <div class="text">
-              <p adjustP>お名前（フリガナ）</p>
+              <label for="nameFurigana"adjustP>お名前（フリガナ）</label>
               </div>
-              <input type="text">
+              <input id="nameFurigana"type="text"mame="entry.588093518">
             </div>
             <div class="formBox tel">
             <div class="text">
-              <p adjustP>電話番号</p>
+              <label for="tel"adjustP>電話番号</label>
               </div>
-              <input type="text">
+              <input name="entry.880583967"id="tel"type="tel"pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678">
             </div>
             <div class="formBox mail">
             <div class="text">
-              <p adjustP>メールアドレス</p>
+              <label for="email"adjustP>メールアドレス</label>
               </div>
-              <input placeholder="サンプルテキスト" type="text">
+              <input  placeholder="info@sample.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="email" name="entry.1756975779"id="email">
             </div>
             <div class="formBox content">
             <div class="text">
-              <p adjustP>お問い合わせ内容</p>
+              <label for="content"adjustP>お問い合わせ内容</label>
               </div>
-              <textarea rows="20"cols="60" ></textarea>
+              <textarea name="entry.1417750318"id="content"rows="20"cols="60" ></textarea>
             </div>
             <div class="submit">
-              <button class="btn-submit bg-mainColor">送信</button>
+              <button type="submit" value="送信" class="btn-submit bg-mainColor">送信</button>
             </div>
+            </form>
           </div>
         </div>
     </div>
@@ -128,31 +130,31 @@ textarea{
 }
 @media screen and (max-width:1366px){
   .explain{
-  margin-top:100px;
-  font-size:18px;
-  letter-spacing:0.2em;
-}
+    margin-top:100px;
+    font-size:18px;
+    letter-spacing:0.2em;
+  }
 }
 @media screen and (max-width:1000px){
   .explain{
-  margin-top:100px;
-  font-size:13px;
-  letter-spacing:0.2em;
-}
+    margin-top:100px;
+    font-size:13px;
+    letter-spacing:0.2em;
+  }
 }
 @media screen and (max-width:730px){
     .explain{
-  margin-top:100px;
-  font-size:8px;
-  letter-spacing:0.2em;
-}
+    margin-top:100px;
+    font-size:8px;
+    letter-spacing:0.2em;
+  }
 }
 @media screen and (max-width:500px){
-      .explain{
-  margin-top:100px;
-  font-size:5px;
-  letter-spacing:0.2em;
-}
+  .explain{
+    margin-top:100px;
+    font-size:5px;
+    letter-spacing:0.2em;
+  }
 }
 @media screen and (max-width:400px){
   
