@@ -156,17 +156,8 @@ textarea{
   margin-top:100px;
 }
 }
+
 @media screen and (max-width:730px){
-    .explain{
-    margin-top:60px;
-    font-size:8px;
-    letter-spacing:0.2em;
-  }
-  .form{
-    margin-top:70px;
-  }
-}
-@media screen and (max-width:500px){
   .explain{
    margin-top:50px;
     font-size:5px;
