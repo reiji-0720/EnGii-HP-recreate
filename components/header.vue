@@ -6,16 +6,16 @@
         <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
       </p>
       <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#sreviceTitle'" to>SERVICE</nuxt-link>
+        <nuxt-link class="borderNone" to="/media" exact exact-active-class="active">SERVICE</nuxt-link>
       </p>
       <p>
         <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
       </p>
       <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#About'" to>ABOUT</nuxt-link>
+        <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
       </p>
       <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>CONTACT</nuxt-link>
+        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">CONTACT</nuxt-link>
       </p>
       <p>
         <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>MEMBER</nuxt-link>
@@ -216,5 +216,9 @@
     text-decoration: none;
     color: #231815;
   }
+}
+.active {
+  border: 2px solid #3BB2DB;
+  padding: 5px;
 }
 </style>
