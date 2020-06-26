@@ -12,13 +12,24 @@
     </div>
 
     <div class="subArea">
+      <div class="mediLeftVertical">
+        <div class="inline clearfix">
+          <p class="verticalOne">EnGii support</p>
+          <div class="border borderOne"></div>
+        </div>
+
+        <div class="inline clearfix">
+          <p class="verticalSecond">EnGii media</p>
+          <div class="border borderSecond"></div>
+        </div>
+      </div>
       <div class="mediaContens">
         <p class="mediaContentsText">contents</p>
       </div>
     </div>
 
     <div class="mediaUp clearfix">
-      <graphics id="graphics"/>
+      <graphics id="graphics" />
       <app />
     </div>
     <div class="mediaDown">
@@ -44,16 +55,18 @@ export default {
 };
 </script>
 
-<style>
-.mediacontainer{
+<style scoped>
+.mediacontainer {
   margin-top: 10%;
 }
 .mediaTopLeft {
   float: left;
+  width: 60%;
 }
 .mediaTopRight {
   float: left;
-  margin-left: 30px;
+  padding-left: 30px;
+  width: 40%;
 }
 .mediaTop {
   height: 568px;
@@ -62,7 +75,7 @@ export default {
   background-image: url("~@/assets/anonymous-woman-using-laptop-in-bedroom-3975590.jpg");
   background-size: cover;
   background-position: center;
-  width: 853px;
+  /* width: 853px; */
   height: 568px;
 }
 .mediaIcon {
@@ -84,6 +97,38 @@ export default {
   height: 380px;
   position: relative;
 }
+.inline {
+  /* float: left; */
+  display: inline-block;
+}
+.mediLeftVertical {
+  padding-top: 72px;
+}
+.mediLeftVertical p {
+  writing-mode: vertical-rl;
+  font-size: 24px;
+}
+.verticalOne {
+  padding-left: 32px;
+  color: #9b9b9b;
+}
+.verticalSecond {
+  padding-left: 15px;
+}
+.border {
+  height: 80px;
+  width: 1px;
+  background-color: black;
+  display: block;
+}
+.borderOne {
+  margin: 10px 0 10px 47px;
+  border: 1px solid #9b9b9b;
+}
+.borderSecond {
+  margin: 10px 0 10px 31px;
+  border: 1px solid #3bb2db;
+}
 .mediaContens {
   font-size: 20px;
   border-bottom: solid 2px #3bb2db;
@@ -98,6 +143,5 @@ export default {
 }
 
 .mediaUp {
-
 }
 </style>
