@@ -90,6 +90,7 @@ export default {};
 .leaderMessage {
   position: relative;
   background-color: #f0f0f0;
+  margin-top: 10%;
   z-index: -100;
 }
 
