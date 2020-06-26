@@ -57,6 +57,10 @@ export default {
   font-size: 19px;
   margin-top: 15px;
 }
+.center {
+  margin: 0 auto;
+  max-width: 398px;
+}
 .videoExplanation {
   font-size: 20px;
   margin-top: 60px;
@@ -73,6 +77,15 @@ export default {
     float: none;
     width: 90%;
     margin: 0 auto;
+  }
+  .videoBox{
+    width: 90%;
+  }
+  .videoBox p{
+    font-size: 21px;
+  }
+  .videoExplanation{
+    font-size: 16px;
   }
 }
 </style>

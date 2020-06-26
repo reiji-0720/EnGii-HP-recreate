@@ -66,6 +66,7 @@ export default {
 .mediaTopLeft {
   float: left;
   width: 60%;
+  
 }
 .mediaTopRight {
   float: left;
@@ -80,7 +81,8 @@ export default {
   background-size: cover;
   background-position: center;
   /* width: 853px; */
-  height: 568px;
+  height: auto;
+  padding-top: 75%;
 }
 .mediaIcon {
   background-image: url("~@/assets/mediaIcon.png");
@@ -95,7 +97,6 @@ export default {
 }
 .mediaExp {
   font-size: 20px;
-  text-align: center;
 }
 .subArea {
   height: 380px;
@@ -143,7 +144,7 @@ export default {
   position: absolute;
   margin: auto;
   height: 30px;
-  width: 79px;
+  width: 89px;
 }
 .scrollsecond {
   float: right;
@@ -170,6 +171,21 @@ export default {
   }
   .mediLeftVertical{
     display: none;
+  }
+  .mediaText{
+    font-size: 26px;
+  }
+  .mediaExp{
+    font-size: 16px;
+  }
+  .subArea{
+    height: 250px;
+  }
+  .mediaTopRight{
+    padding-left: 5px;
+  }
+  .mediaTop{
+    height: 280px;
   }
 }
 </style>

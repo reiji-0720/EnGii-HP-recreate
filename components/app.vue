@@ -60,6 +60,10 @@ export default {
   font-size: 19px;
   margin-top: 15px;
 }
+.center {
+  margin: 0 auto;
+  max-width: 398px;
+}
 .appExplanation {
   font-size: 20px;
   margin-top: 60px;
@@ -76,6 +80,20 @@ export default {
     float: none;
     width: 90%;
     margin: 0 auto;
+  }
+  .appBox{
+    width: 90%;
+  }
+  .appBox p{
+    font-size: 21px;
+  }
+  .appExplanation{
+    font-size: 16px;
+    text-align: left;
+  }
+  .center{
+    margin: 0 auto;
+    width: 100%;
   }
 }
 </style>
