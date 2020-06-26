@@ -61,19 +61,19 @@ export default {};
     }
     .boxAdjust{
         margin-top:50px;
-        margin-left:35%;
+        margin-left:25%;
     }
     .boxAdjust h1{
-        font-size:22px;
+        font-size:25px;
     }
 }
 @media screen and (max-width:400px){
     .boxAdjust{
         margin-top:30px;
-        margin-left:40%;
+        margin-left:15%;
     }
     .boxAdjust h1{
-        font-size:12px;
+        font-size:20px;
     }
     
 }
