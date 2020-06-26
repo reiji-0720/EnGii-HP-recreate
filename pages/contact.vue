@@ -16,7 +16,7 @@
             <div class="text">
               <label for="name"adjustP>お名前</label>
               </div>
-              <input id="name"type="text"name="entry.1349348887">
+              <input id="name"type="text"name="entry.1266804582">
             </div>
             <div class="formBox nameFurigana">
             <div class="text">
