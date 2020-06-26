@@ -77,7 +77,7 @@ export default {};
 }
 .supportimg {
   opacity: 0.7;
-  background-image: url("~@/assets/christina-wocintechchat-com-LQ1t-8Ms5PY-unsplash.jpg");
+  background-image: url("~@/assets/TopLeft.jpg");
   background-size: cover;
   background-position: center;
   height: 338px;

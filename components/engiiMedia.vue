@@ -64,7 +64,7 @@ export default {};
 }
 .mediaimg {
   opacity: 0.7;
-  background-image: url("~@/assets/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+  background-image: url("~@/assets/TopRight.jpg");
   background-size: cover;
   background-position: center;
   height: 338px;
