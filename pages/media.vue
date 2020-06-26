@@ -31,6 +31,10 @@
     <div class="mediaUp clearfix">
       <graphics id="graphics" />
       <app />
+      <div class="scrollsecond">
+        <p class="scrolltext">scroll</p>
+        <div class="scrollborder"></div>
+      </div>
     </div>
     <div class="mediaDown">
       <webHP />
@@ -141,7 +145,22 @@ export default {
   height: 30px;
   width: 79px;
 }
-
+.scrollsecond{
+  float:right;
+  margin: -730px 30px 0;
+}
+.scrolltext {
+  writing-mode: vertical-rl;
+  margin-left: 25px;
+  color: #3bb2db;
+  font-size: 14px;
+}
+.scrollborder {
+  border-left: 1px solid #3bb2db;
+  display: block;
+  height: 80px;
+  margin: 10px 0 0 35px;
+}
 .mediaUp {
 }
 </style>
