@@ -63,8 +63,16 @@ export default {
   text-align: left;
   display: inline-block;
 }
-.webHPBtn{
+.webHPBtn {
   margin: 100px auto;
   width: 165px;
+}
+
+@media screen and (max-width: 730px) {
+  .hp {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 </style>

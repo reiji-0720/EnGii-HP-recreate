@@ -66,8 +66,16 @@ export default {
   text-align: left;
   display: inline-block;
 }
-.graphicsBtn{
+.graphicsBtn {
   margin: 100px auto;
   width: 165px;
+}
+
+@media screen and (max-width: 730px) {
+  .graphics {
+    float: none;
+    width:90%;
+    margin: 0 auto;
+  }
 }
 </style>

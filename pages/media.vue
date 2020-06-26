@@ -145,8 +145,8 @@ export default {
   height: 30px;
   width: 79px;
 }
-.scrollsecond{
-  float:right;
+.scrollsecond {
+  float: right;
   margin: -730px 30px 0;
 }
 .scrolltext {
@@ -162,5 +162,14 @@ export default {
   margin: 10px 0 0 35px;
 }
 .mediaUp {
+}
+
+@media screen and (max-width: 730px) {
+  .scrollsecond {
+    display: none;
+  }
+  .mediLeftVertical{
+    display: none;
+  }
 }
 </style>
