@@ -231,8 +231,28 @@ export default {};
 }
 
 @media screen and (max-width: 1200px) {
+
+  .visionText h1 {
+    font-size: 2.2rem;
+  }
+
+  .visionText h2 {
+    font-size: 2.0rem;
+  }
+
+  .visionText p {
+    font-size: 0.87rem;
+  }
+  .leaderMessageMainTitle h1 {
+    font-size: 2.2rem;
+  }
+
   .leaderMessageSubTitle h2{
     font-size: 2.0rem;
+  }
+
+  .leaderMessageText p {
+    font-size: 0.87rem;
   }
 
   .leaderSecondMessageSubTitle h2{
@@ -241,19 +261,23 @@ export default {};
 
   .leaderSecondMessageSubTitle2 h2{
     font-size: 2.0rem;
+  }
+
+  .leaderSecondMessageText p {
+    font-size: 0.87rem;
   }
 }
 @media screen and (max-width: 1115px) {
   .leaderMessageSubTitle h2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .leaderSecondMessageSubTitle h2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .leaderSecondMessageSubTitle2 h2{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -271,7 +295,50 @@ export default {};
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 782px) {
+  .leaderMessageMainTitle, .leaderMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle2 {
+    position: static;
+  }
 
+  .visionText h1 {
+    font-size: 1.625rem;
+  }
+
+  .leaderMessageMainTitle h1 {
+    font-size: 1.625rem;
+  }
+
+  .visionText h2, .leaderMessageSubTitle h2, .leaderSecondMessageSubTitle h2, .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.2rem;
+  }
+
+  .leaderMessageSubTitle {
+    margin-top: 12px;
+    width: 70%;
+  }
+
+  .leaderMessageText {
+    width: 75%;
+    margin: 20px auto 0 auto;
+    padding: 10px 10px;
+  }
+
+  .leaderSecondMessageSubTitle {
+    margin-top: 12px;
+    width: 53%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageSubTitle2 {
+    margin-top: 12px;
+    width: 67%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageText{
+    width: 75%;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px ;
+  }
 }
 </style>
