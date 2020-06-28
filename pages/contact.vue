@@ -9,65 +9,103 @@
           <iframe name="dummy" style="display:none;"></iframe>
             <div class="formBox genre">
               <div class="text">
-              <label for="genre" class="adjustP">お問い合わせジャンル</label>
+              <label for="genre" class="adjustP" >お問い合わせジャンル</label>
               </div>
-              <input id="genre" type="text" name="entry.398878031">
+              <input id="genre"  type="text" v-model="inputCase[0]" name="entry.398878031">
             </div>
             <div class="formBox name">
             <div class="text">
               <label for="name" adjustP>お名前</label>
               </div>
-              <input id="name" type="text" name="1191593904">
+              <input id="name"  type="text" v-model="inputCase[1]" name="1191593904">
             </div>
             <div class="formBox nameFurigana">
             <div class="text">
               <label for="nameFurigana" adjustP>お名前（フリガナ）</label>
               </div>
-              <input id="nameFurigana" type="text" name="entry.1441505981">
+              <input id="nameFurigana"  type="text" v-model="inputCase[2]" name="entry.1441505981">
             </div>
             <div class="formBox tel">
             <div class="text">
               <label for="tel" adjustP>電話番号</label>
               </div>
-              <input name="entry.1537312469" id="tel" type="tel" pattern="[0-9]{11}" placeholder="090-1234-5678">
+              <input name="entry.1537312469"  id="tel" type="tel" v-model="inputCase[3]" pattern="[0-9]{11}" placeholder="090-1234-5678">
             </div>
             <div class="formBox mail">
             <div class="text">
               <label for="email" adjustP>メールアドレス</label>
               </div>
-              <input  placeholder="info@sample.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="email" name="entry.1059388771" id="email">
+              <input  placeholder="info@sample.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="email" v-model="inputCase[4]" name="entry.1059388771" id="email">
             </div>
             <div class="formBox content">
             <div class="text">
               <label for="content" adjustP>お問い合わせ内容</label>
               </div>
-              <textarea name="entry.770171748" id="content" rows="20" cols="60" ></textarea>
+              <textarea name="entry.770171748" v-model="inputCase[5]" id="content" rows="20" cols="60" ></textarea>
             </div>
-            <div class="submit">
+            <div class="submit" >
               <!--<button type="submit" value="送信" class="btn-submit bg-mainColor" @click="show=true">送信</button>-->
-              <button  class="btn-submit bg-mainColor" @click="show=true">送信</button>
-      
+              <button class="btn-submit bg-mainColor" @click="checkForm">check</button>
+              <p>{{ Validation.result }}</p>
+              <button    class="btn-submit bg-mainColor"  @click="show=true">送信</button>
             </div>
             </form>
+            <contactBox message="Hello Vue.js"></contactBox>
           </div>
         </div>
-                      <modal @modal="show=false" v-if="show" />
+        <modal @modal="show=false" v-if="show" />
     </div>
 </template>
 <script>
 import contactHeader from "~/components/contact/contact-header";
 import modal from "~/components/parts/contactModal.vue";
+import contactBox from "~/components/contact/contact-box"
 export default {
   components: {
     contactHeader,
-    modal
+    modal,
+    contactBox,
   },
   data(){
     return{
-      show: false,
+      genre: null,
+      inputCase:[
+        '',
+        '',
+        '',
+        '',
+        '',
+        ''
+      ],
+   show:false,
+   lengthError:true,
+   Validation:{
+     result:"",
+   }
+    }
+  },
+  methods:{
+    checkForm(){
+      var mailBool = false;
+      var arrayFalse = [];
+      var falseNum = '';
+      
+      for (let i=0; i <= 5; i++){
+        if(!this.inputCase[i]){
+          arrayFalse[i]= i;
+      } else{
+        arrayFalse[i] = -i;
+      }
+      if(arrayFalse != null){
+        falseNum = arrayFalse.join('+')
+      this.Validation.result= falseNum+"を入力してください"
+      }
+      }
+    
     }
   }
-};
+
+}
 </script>
 <style scoped>
 .cotactContainer{
@@ -136,7 +174,7 @@ textarea{
 @media screen and (min-width:1366px) {
   .cotactContainer{
     max-width:1366px;
- 
+
   }
 }
 @media screen and (max-width:1366px){
@@ -184,6 +222,5 @@ textarea{
   }
 }
 @media screen and (max-width:400px){
-  
 }
 </style>
