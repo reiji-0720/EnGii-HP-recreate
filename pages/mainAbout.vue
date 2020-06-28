@@ -314,7 +314,58 @@ export default {};
 
   .leaderMessageSubTitle {
     margin-top: 12px;
+    width: 50%;
+  }
+
+  .leaderMessageText {
     width: 70%;
+    margin: 20px auto 0 auto;
+    padding: 10px 10px;
+  }
+
+  .leaderSecondMessageSubTitle {
+    margin-top: 12px;
+    width: 40%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageSubTitle2 {
+    margin-top: 12px;
+    width: 50%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageText{
+    width: 70%;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px ;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .leaderMessageMainTitle, .leaderMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle2 {
+    position: static;
+  }
+
+  .visionText h1 {
+    font-size: 1.5rem;
+  }
+
+  .leaderMessageMainTitle h1 {
+    font-size: 1.3rem;
+  }
+
+  .visionText h2, .leaderMessageSubTitle h2, .leaderSecondMessageSubTitle h2, .leaderSecondMessageSubTitle2 h2{
+    font-size: 0.9rem;
+  }
+
+  .visionText p, .leaderMessageText p, .leaderSecondMessageText p {
+    font-size: 0.7rem;
+  }
+
+  .leaderMessageSubTitle {
+    margin-top: 12px;
+    width: 73%;
   }
 
   .leaderMessageText {
@@ -325,13 +376,13 @@ export default {};
 
   .leaderSecondMessageSubTitle {
     margin-top: 12px;
-    width: 53%;
+    width: 50%;
     margin-left: 20%;
   }
 
   .leaderSecondMessageSubTitle2 {
     margin-top: 12px;
-    width: 67%;
+    width: 59%;
     margin-left: 20%;
   }
 
@@ -340,5 +391,6 @@ export default {};
     margin: 30px auto 0 auto;
     padding: 10px 10px ;
   }
+
 }
 </style>
