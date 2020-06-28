@@ -77,7 +77,7 @@ export default {
   height: 568px;
 }
 .mediaImg {
-  background-image: url("~@/assets/anonymous-woman-using-laptop-in-bedroom-3975590.jpg");
+  background-image: url("~@/assets/mediaTop.jpg");
   background-size: cover;
   background-position: center;
   /* width: 853px; */
@@ -164,8 +164,17 @@ export default {
 }
 .mediaUp {
 }
+.mediaDown{
+  height: 766px;
+}
 
 @media screen and (max-width: 730px) {
+  /* .mediaTopLeft{
+    float: none;
+  } */
+  .mediaIcon{
+    float: left;
+  }
   .scrollsecond {
     display: none;
   }
@@ -186,6 +195,9 @@ export default {
   }
   .mediaTop{
     height: 280px;
+  }
+  .mediaDown{
+    height: 1500px;
   }
 }
 </style>

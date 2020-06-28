@@ -52,6 +52,32 @@
         </p>
       </div>
     </div>
+    <div class="leaderSecondMessage">
+      <div class="leaderMessagePosition">
+        <img src="~/assets/leaderVision.png" class="leaderSecondImg" width="70%" />
+        <div class="leaderSecondMessageSubTitle">
+          <h2>「縁起のいい出会い」は</h2>
+        </div>
+        <div class="leaderSecondMessageSubTitle2">
+          <h2>人生を変えてしまうこともある</h2>
+        </div>
+      </div>
+      <div class="leaderSecondMessageText">
+        <p>
+          EnGiiは「縁起のいい出会い」から派生したグループ名ですが、
+          <br />今まで知らなかったサービス、知識、商品や新しい人との出会いは
+          <br />その人にとっては人生を変えてしまう事だってあります。
+          <br />私達はそんな出会いを創造、提供したいと思っています。
+        </p>
+        <div class="blank"></div>
+        <p>EnGiiが提供できることで、より多くの人の手助けができればと思います。</p>
+        <div class="blank"></div>
+        <p>
+          EnGii CEO
+          <br />宮坂 塁
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -90,6 +116,7 @@ export default {};
 .leaderMessage {
   position: relative;
   background-color: #f0f0f0;
+  margin-top: 10%;
   z-index: -100;
 }
 
@@ -97,7 +124,7 @@ export default {};
   margin-top: 2%;
   width: 50%;
   position: absolute;
-  top:0;
+  top: 0;
   margin-left: 1%;
   text-align: center;
 }
@@ -116,7 +143,7 @@ export default {};
   margin-left: 7%;
   margin-top: 22%;
   position: absolute;
-  top:0;
+  top: 0;
 }
 
 .leaderMessageSubTitle h2 {
@@ -134,15 +161,184 @@ export default {};
   width: 45%;
   background-color: #3bb2db;
   margin: -7px 0 auto 35%;
+  padding: 25px 0 25px 25px;
 }
 
 .leaderMessageText p {
   font-size: 16px;
   color: #ffff;
-  padding: 25px 0 0 25px;
+}
+
+.leaderSecondMessage {
+  background-color: #c2edfb;
+  padding-bottom: 20%;
+}
+
+.leaderMessagePosition {
+  position: relative;
+  padding-top: 12%;
+}
+
+.leaderSecondImg {
+  margin-left: 8%;
+}
+
+.leaderSecondMessageSubTitle {
+  position: absolute;
+  top: 0;
+  margin-top: 37.7%;
+  width: 35%;
+  margin-left: 50%;
+  background-color: #3bb2db;
+}
+
+.leaderSecondMessageSubTitle h2 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #ffff;
+}
+
+.leaderSecondMessageSubTitle2 {
+  position: absolute;
+  top: 0;
+  margin-top: 43%;
+  width: 41%;
+  margin-left: 52%;
+  background-color: #3bb2db;
+}
+
+.leaderSecondMessageSubTitle2 h2 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #ffff;
+}
+
+.leaderSecondMessageText {
+  background-color: #3bb2db;
+  width: 56%;
+  padding: 25px 0 25px 25px;
+  margin: 10% 0 0 12%;
+}
+
+.leaderSecondMessageText p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
 }
 
 .blank {
-    margin-top: 3%;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .visionText h1 {
+    font-size: 2.2rem;
+  }
+
+  .visionText h2 {
+    font-size: 2.0rem;
+  }
+
+  .visionText p {
+    font-size: 0.87rem;
+  }
+  .leaderMessageMainTitle h1 {
+    font-size: 2.2rem;
+  }
+
+  .leaderMessageSubTitle h2{
+    font-size: 2.0rem;
+  }
+
+  .leaderMessageText p {
+    font-size: 0.87rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 2.0rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 2.0rem;
+  }
+
+  .leaderSecondMessageText p {
+    font-size: 0.87rem;
+  }
+}
+@media screen and (max-width: 1115px) {
+  .leaderMessageSubTitle h2{
+    font-size: 1.8rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 1.8rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .leaderMessageSubTitle h2{
+    font-size: 1.4rem;
+  }
+
+  .leaderSecondMessageSubTitle h2{
+    font-size: 1.4rem;
+  }
+
+  .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .leaderMessageMainTitle, .leaderMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle2 {
+    position: static;
+  }
+
+  .visionText h1 {
+    font-size: 1.625rem;
+  }
+
+  .leaderMessageMainTitle h1 {
+    font-size: 1.625rem;
+  }
+
+  .visionText h2, .leaderMessageSubTitle h2, .leaderSecondMessageSubTitle h2, .leaderSecondMessageSubTitle2 h2{
+    font-size: 1.2rem;
+  }
+
+  .leaderMessageSubTitle {
+    margin-top: 12px;
+    width: 70%;
+  }
+
+  .leaderMessageText {
+    width: 75%;
+    margin: 20px auto 0 auto;
+    padding: 10px 10px;
+  }
+
+  .leaderSecondMessageSubTitle {
+    margin-top: 12px;
+    width: 53%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageSubTitle2 {
+    margin-top: 12px;
+    width: 67%;
+    margin-left: 20%;
+  }
+
+  .leaderSecondMessageText{
+    width: 75%;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px ;
+  }
 }
 </style>

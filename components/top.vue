@@ -12,7 +12,7 @@
       <div class="slider-wrap">
         <div class="slide">
           <img
-            src="~/assets/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg"
+            src="~/assets/TopSubSecond.jpg"
             class="slide-image"
           />
         </div>
@@ -24,13 +24,13 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
+            src="~/assets/TopSubOne.jpg"
             class="slide-image"
           />
         </div>
         <div class="slide">
           <img
-            src="~/assets/gabrielle-henderson-HJckKnwCXxQ-unsplash.jpg"
+            src="~/assets/TopSubSecond.jpg"
             class="slide-image"
           />
         </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/pensive-young-female-athlete-standing-near-window-in-modern-3931372.jpg"
+            src="~/assets/TopSubOne.jpg"
             class="slide-image"
           />
         </div>

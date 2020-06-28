@@ -2,7 +2,7 @@
   <div>
     <Header class="headerPosition"/>
     <nuxt />
-    <!-- <MediaFooter class="backColor" /> -->
+    <MediaFooter class="backColor" />
   </div>
 </template>
 
