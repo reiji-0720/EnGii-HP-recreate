@@ -7,7 +7,7 @@
       <div class="mediaTopRight">
         <div class="mediaIcon"></div>
         <h2 class="mediaText">EnGii media</h2>
-        <p class="mediaExp">EnGiiが持つ様々なサービスを展開します</p>
+        <p class="mediaExp">EnGiiが持つ様々な<br class="sp-br">サービスを展開します</p>
       </div>
     </div>
 
@@ -97,6 +97,9 @@ export default {
 }
 .mediaExp {
   font-size: 20px;
+}
+.sp-br{
+  display: none;
 }
 .subArea {
   height: 380px;
@@ -203,9 +206,12 @@ export default {
   .mediaExp{
     font-size: 16px;
   }
-  /* .subArea{
-    height: 250px;
-  } */
+  .sp-br{
+    display: block;
+  }
+  .subArea{
+    margin: 70px 0 -30px;
+  }
   .mediaTopRight{
     padding: 0;
     float: none;
