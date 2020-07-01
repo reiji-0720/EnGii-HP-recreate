@@ -4,7 +4,9 @@
       <h2>アプリケーションデザイン</h2>
       <p>APPLICATION DESIGN</p>
     </div>
-    <example class="examplePosition" />
+    <div class="requestPosition">
+      <request />
+    </div>
     <div class="neopaImg">
       <img src="~/assets/neopa6.png" width="15%" />
     </div>
@@ -34,13 +36,11 @@
 
 <script>
 import appAchievement from "~/components/appAchievement.vue";
-import example from "~/components/example.vue";
 import request from "~/components/request.vue";
 
 export default {
   components: {
     appAchievement,
-    example,
     request
   }
 };
@@ -69,8 +69,8 @@ export default {
   color: #231815;
 }
 
-.examplePosition {
-  margin: 10% auto;
+.requestPosition {
+  margin: 7% auto;
 }
 
 .neopaImg {
@@ -92,7 +92,7 @@ export default {
   margin: 10% auto;
 }
 
-.applicationText p{
+.applicationText p {
   margin: 2% auto 0 20%;
   text-align: left;
   font-size: 1.125rem;
