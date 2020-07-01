@@ -28,17 +28,20 @@
       </p>
     </div>
     <appAchievement />
+    <request />
   </div>
 </template>
 
 <script>
 import appAchievement from "~/components/appAchievement.vue";
 import example from "~/components/example.vue";
+import request from "~/components/request.vue";
 
 export default {
   components: {
     appAchievement,
-    example
+    example,
+    request
   }
 };
 </script>
