@@ -83,7 +83,7 @@ export default {
 
 .appConcept p {
   margin: auto;
-  width: 8%;
+  width: 72px;
   font-size: 1.125rem;
   border-bottom: solid 2px #3bb2db;
 }
