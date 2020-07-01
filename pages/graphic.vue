@@ -1,11 +1,14 @@
 <template>
   <div class="graphicContainer">
     <div class="graphicTop">
-      <div class="graphicImg"></div>
-      <div class="graphicText">
-        <h2>グラフィックスデザイン</h2>
-        <p>GRAPHIC DESIGN</p>
+      <div class="graphicTopMain">
+        <div class="graphicImg"></div>
+        <div class="graphicText">
+          <h2>グラフィックスデザイン</h2>
+          <p>GRAPHIC DESIGN</p>
+        </div>
       </div>
+      <example />
     </div>
 
     <div class="graphicLogo">
@@ -94,17 +97,26 @@
 </template>
 
 <script>
-export default {};
+import example from "~/components/example.vue";
+export default {
+  components: {
+    example
+  }
+};
 </script>
 
 <style>
 .graphicContainer {
   margin-top: 10%;
 }
-.graphicTop {
+.graphicTop{
+	padding-bottom: 50px;
+}
+.graphicTopMain {
   display: flex;
   justify-content: center;
   width: 100%;
+	margin-bottom: 50px;
 }
 .graphicImg {
   background-image: url("~@/assets/graphics.png");
