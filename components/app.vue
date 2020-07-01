@@ -16,7 +16,9 @@
       </p>
     </div>
     <div class="appBtn">
-      <btnMore />
+      <nuxt-link to="/application">
+        <btnMore />
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -81,17 +83,17 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
-  .appBox{
+  .appBox {
     width: 90%;
   }
-  .appBox p{
+  .appBox p {
     font-size: 21px;
   }
-  .appExplanation{
+  .appExplanation {
     font-size: 16px;
     text-align: left;
   }
-  .center{
+  .center {
     margin: 0 auto;
     width: 100%;
   }
