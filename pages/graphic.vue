@@ -24,6 +24,20 @@
         <br />最優先にした場合適していると考えた
         <br />
       </p>
+      <div class="ConceptArea">
+        <div class="ConceptAreaTop">
+        <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
+        <div class="topArrow"></div>
+        <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
+        <p>
+          ・円が渦を巻いているような完璧な
+          <br />塗りつぶした丸ではないのは手書きで
+          <br />円を描くことで温かみをデザイン
+          <br />・アナログとデジタルの
+          <br />コントラストを生み出している
+        </p>
+        </div>
+      </div>
     </div>
 
     <div class="REM">
@@ -107,16 +121,16 @@ export default {
 
 <style>
 .graphicContainer {
-  margin-top: 10%;
+  margin: 10% 0 300px;
 }
-.graphicTop{
-	padding-bottom: 50px;
+.graphicTop {
+  padding-bottom: 50px;
 }
 .graphicTopMain {
   display: flex;
   justify-content: center;
   width: 100%;
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .graphicImg {
   background-image: url("~@/assets/graphics.png");
@@ -147,6 +161,33 @@ export default {
   font-size: 18px;
   line-height: 32px;
 }
+.ConceptAreaTop {
+  width: 820px;
+  margin: 100px auto 0;
+  display: flex;
+}
+.ConceptArea p{
+  text-align: left;
+  display: inline-block;
+  margin-left: 20px;
+}
+.EnGiiConcept {
+  display: block;
+  width: 314px;
+  height: 59px;
+}
+.topArrow {
+  background-image: url("~@/assets/arrow.png");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 10px;
+  margin: 30px 50px;
+}
+.EnGiiRound{
+  width: 34px;
+  height: 74px;
+}
 
 .REM {
   padding: 110px 0;
@@ -164,7 +205,12 @@ export default {
   text-align: left;
   display: inline-block;
 }
-
+.card {
+  margin-top: 50px;
+}
+.REMMember {
+  margin-top: 110px;
+}
 .atelier {
   text-align: center;
   padding-top: 110px;
@@ -177,6 +223,6 @@ export default {
 }
 .atelierLogo {
   display: block;
-  margin: 0 auto;
+  margin: 110px auto 0;
 }
 </style>
