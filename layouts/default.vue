@@ -21,7 +21,7 @@ export default {
 
 <style>
 html {
-  font-family: 'YuGo-Medium-83pv-RKSJ-H';
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

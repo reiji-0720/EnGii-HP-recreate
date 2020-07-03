@@ -7,7 +7,7 @@
       <div class="mediaTopRight">
         <div class="mediaIcon"></div>
         <h2 class="mediaText">EnGii media</h2>
-        <p class="mediaExp">EnGiiが持つ様々なサービスを展開します</p>
+        <p class="mediaExp">EnGiiが持つ様々な<br class="sp-br">サービスを展開します</p>
       </div>
     </div>
 
@@ -66,7 +66,7 @@ export default {
 .mediaTopLeft {
   float: left;
   width: 60%;
-  
+  /* height: 568px; */
 }
 .mediaTopRight {
   float: left;
@@ -80,8 +80,8 @@ export default {
   background-image: url("~@/assets/mediaTop.jpg");
   background-size: cover;
   background-position: center;
-  /* width: 853px; */
-  height: auto;
+  width: 100%;
+  /* height: 75%; */
   padding-top: 75%;
 }
 .mediaIcon {
@@ -97,6 +97,9 @@ export default {
 }
 .mediaExp {
   font-size: 20px;
+}
+.sp-br{
+  display: none;
 }
 .subArea {
   height: 380px;
@@ -169,12 +172,28 @@ export default {
 }
 
 @media screen and (max-width: 730px) {
-  /* .mediaTopLeft{
-    float: none;
-  } */
-  .mediaIcon{
-    float: left;
+  .mediaTop{
+    margin-top: 15%;
   }
+  .mediaTopLeft{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .mediaIcon{
+    float: right;
+    width: 92px;
+    height: 90px;
+  }
+  .mediaImg{
+    width: 100%;
+    padding: 0;
+    height: 280px;
+  }
+  /* .mediaIcon h2, .mediaIcon p{
+    float: left;
+  } */
+
   .scrollsecond {
     display: none;
   }
@@ -187,14 +206,20 @@ export default {
   .mediaExp{
     font-size: 16px;
   }
+  .sp-br{
+    display: block;
+  }
   .subArea{
-    height: 250px;
+    margin: 70px 0 -30px;
   }
   .mediaTopRight{
-    padding-left: 5px;
+    padding: 0;
+    float: none;
+    margin: 25px auto;
+    width: 85%;
   }
   .mediaTop{
-    height: 280px;
+    height: 230px;
   }
   .mediaDown{
     height: 1500px;

@@ -12,7 +12,9 @@
       </p>
     </div>
     <div class="graphicsBtn">
-      <btnMore />
+      <nuxt-link to="/graphic">
+        <btnMore />
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -74,16 +76,16 @@ export default {
 @media screen and (max-width: 730px) {
   .graphics {
     float: none;
-    width:90%;
+    width: 90%;
     margin: 0 auto;
   }
-  .graphicsBox{
+  .graphicsBox {
     width: 90%;
   }
-  .graphicsBox p{
+  .graphicsBox p {
     font-size: 21px;
   }
-  .graphicsExplanation{
+  .graphicsExplanation {
     font-size: 16px;
   }
 }
