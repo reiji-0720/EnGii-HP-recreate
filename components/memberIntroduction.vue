@@ -28,9 +28,11 @@
           <p>Webエンジニア</p>
         </div>
         <div class="memberText">
-            <p>Webフロントエンド、エンジニア統括担当しています。<br>
-            主にNuxt.js,Vue.jsを中心に開発を行っています。<br>
-            趣味は音楽鑑賞とDJとトランプマジックで、EDMフェスが生きがいです！</p>
+          <p>
+            Webフロントエンド、エンジニア統括担当しています。
+            <br />主にNuxt.js,Vue.jsを中心に開発を行っています。
+            <br />趣味は音楽鑑賞とDJとトランプマジックで、EDMフェスが生きがいです！
+          </p>
         </div>
       </div>
       <div class="memberIntroductionFrame">
@@ -45,10 +47,12 @@
           <p>Webエンジニア</p>
         </div>
         <div class="memberText">
-            <p>Webフロントエンジニア<br>
-            趣味は筋トレ、学生のうちにベンチプレスで100キロあげることが目標<br>
-            小学1年の頃から空手道を習っており、高校で全国準優勝<br>
-            大学に入りプログラミングを習った。現在フロントサイドをメインに活動している。サーバーサイドも今後学習していく。</p>
+          <p>
+            Webフロントエンジニア
+            <br />趣味は筋トレ、学生のうちにベンチプレスで100キロあげることが目標
+            <br />小学1年の頃から空手道を習っており、高校で全国準優勝
+            <br />大学に入りプログラミングを習った。現在フロントサイドをメインに活動している。サーバーサイドも今後学習していく。
+          </p>
         </div>
       </div>
     </div>
@@ -78,9 +82,11 @@
           <p>Webエンジニア</p>
         </div>
         <div class="memberText">
-            <p>Webサイト制作、動画編集をメインに活動しています。<br>
-            最近ではNuxt.jsを活用したWebアプリケーションの作成をしています。<br>
-            趣味はスクーバダイビングで沖縄や八丈島、伊豆へ良く行ってます！</p>
+          <p>
+            Webサイト制作、動画編集をメインに活動しています。
+            <br />最近ではNuxt.jsを活用したWebアプリケーションの作成をしています。
+            <br />趣味はスクーバダイビングで沖縄や八丈島、伊豆へ良く行ってます！
+          </p>
         </div>
       </div>
       <div class="memberIntroductionFrame">
@@ -95,7 +101,7 @@
           <p>グラフィック・Webデザイナー</p>
         </div>
         <div class="memberText">
-            <p>ロゴや名刺などグラフィックデザインWebページのデザインも担当しています。</p>
+          <p>ロゴや名刺などグラフィックデザインWebページのデザインも担当しています。</p>
         </div>
       </div>
     </div>
@@ -103,10 +109,9 @@
 </template>
 
 <style>
-
 .memberIntroductionContainer {
-    margin: 10% auto 0 auto;
-    background-color: #ECF7FB;
+  margin: 10% auto 0 auto;
+  background-color: #ecf7fb;
 }
 
 .memberUpThree {
@@ -120,8 +125,8 @@
 }
 
 .memberIntroductionFrame {
- width: 269px;
- margin: 7% 5%;
+  width: 269px;
+  margin: 7% 5%;
 }
 
 .memberImgRui {
@@ -184,4 +189,148 @@
   margin: 10% auto 0 auto;
 }
 
+@media screen and (max-width: 1070px) {
+  .memberIntroductionFrame {
+    width: 225px;
+    margin: 7% 5%;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 225px;
+    width: 225px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .memberIntroductionFrame {
+    width: 195px;
+    margin: 7% 5%;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 195px;
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .memberIntroductionFrame {
+    width: 168px;
+    margin: 7% 5%;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 168px;
+    width: 168px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .memberIntroductionContainer {
+    margin: 10% auto 0 auto;
+    background-color: #ecf7fb;
+  }
+  .memberUpThree {
+    display: block;
+  }
+
+  .memberDownThree {
+    display: block;
+  }
+  .memberIntroductionFrame {
+   margin: 7% 5%;
+    width: 400px;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .memberIntroductionContainer {
+    margin: 10% auto 0 auto;
+    background-color: #ecf7fb;
+  }
+  .memberUpThree {
+    display: block;
+  }
+
+  .memberDownThree {
+    display: block;
+  }
+  .memberIntroductionFrame {
+    margin: 10% auto 0 auto;
+    width: 285px;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 285px;
+    width: 285px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .memberIntroductionContainer {
+    margin: 10% auto 0 auto;
+    background-color: #ecf7fb;
+  }
+  .memberUpThree {
+    display: block;
+  }
+
+  .memberDownThree {
+    display: block;
+  }
+  .memberIntroductionFrame {
+    margin: 10% auto 0 auto;
+    width: 228px;
+  }
+
+  .memberImgRui,
+  .memberImgHiroaki,
+  .memberImgMasato,
+  .memberImgShun,
+  .memberImgReiji,
+  .memberImgKazutomo {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 228px;
+    width: 228px;
+  }
+}
 </style>
