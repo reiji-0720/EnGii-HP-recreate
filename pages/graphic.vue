@@ -26,16 +26,41 @@
       </p>
       <div class="ConceptArea">
         <div class="ConceptAreaTop">
-        <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
-        <div class="topArrow"></div>
-        <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
-        <p>
-          ・円が渦を巻いているような完璧な
-          <br />塗りつぶした丸ではないのは手書きで
-          <br />円を描くことで温かみをデザイン
-          <br />・アナログとデジタルの
-          <br />コントラストを生み出している
-        </p>
+          <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
+          <div class="topArrow"></div>
+          <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
+          <p class="ConceptRow">
+            ・円が渦を巻いているような完璧な
+            <br />塗りつぶした丸ではないのは手書きで
+            <br />円を描くことで温かみをデザイン
+            <br />・アナログとデジタルの
+            <br />コントラストを生み出している
+          </p>
+        </div>
+
+        <div class="secondArrow">
+          <div class="ArrowOne"></div>
+          <div class="ArrowSecond"></div>
+        </div>
+        <div class="thirdConcept">
+          <p class="Helvetica">Helveticaを使用</p>
+          <div class="ArrowThird"></div>
+          <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRod" />
+          <p class="conceptdif">
+            ・互いに違う大きさのまると直線
+            <br />→様々な人と関わっていくので
+            <br />iの文字の大きさを変えて表現
+          </p>
+        </div>
+        <div class="conseptHill">
+          <img src="~assets/graphicsHill.png" alt="EnGii Logo" class="EnGiiHill" />
+        </div>
+        <div class="conseptfin">
+          <p class="lastconsept">
+            直線の下の部分を少し斜め右上と斜め右下にすることで
+            <br />丘の上に立ち、しっかりと立ち上がっていることを
+            <br />イメージさせるようにデザインしました。
+          </p>
         </div>
       </div>
     </div>
@@ -142,10 +167,10 @@ export default {
 .graphicText {
   margin-left: 30px;
 }
-.graphicText h2{
+.graphicText h2 {
   font-size: 32px;
 }
-.graphicText p{
+.graphicText p {
   font-size: 24px;
 }
 .graphicLogo {
@@ -172,7 +197,7 @@ export default {
   margin: 100px auto 0;
   display: flex;
 }
-.ConceptArea p{
+.ConceptRow {
   text-align: left;
   display: inline-block;
   margin-left: 20px;
@@ -181,6 +206,7 @@ export default {
   display: block;
   width: 314px;
   height: 59px;
+  /* position: relative; */
 }
 .topArrow {
   background-image: url("~@/assets/arrow.png");
@@ -190,11 +216,78 @@ export default {
   height: 10px;
   margin: 30px 50px;
 }
-.EnGiiRound{
+.EnGiiRound {
   width: 34px;
   height: 74px;
 }
-
+.secondArrow {
+  display: flex;
+  width: 820px;
+  margin: 0 auto;
+}
+.ArrowOne {
+  background-image: url("~@/assets/arrow.png");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 10px;
+  margin-left: -20px;
+  transform: rotateZ(135deg);
+}
+.ArrowSecond {
+  background-image: url("~@/assets/arrow.png");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 10px;
+  margin: 0 270px;
+  transform: rotateZ(45deg);
+}
+.thirdConcept {
+  display: flex;
+  width: 820px;
+  margin: 30px auto;
+}
+.Helvetica {
+  margin-left: -90px;
+}
+.ArrowThird {
+  background-image: url("~@/assets/arrow.png");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 10px;
+  margin-left: 210px;
+  transform: rotateZ(90deg);
+}
+.EnGiiRod {
+  width: 46.67px;
+  height: 23.89px;
+  margin-left: 70px;
+}
+.conceptdif {
+  margin-left: 20px;
+}
+.conseptHill {
+  display: flex;
+  width: 820px;
+  margin: 0 auto;
+}
+.conseptfin{
+  width: 820px;
+  margin: 0 auto;
+  display: flex;
+}
+.lastconsept{
+  text-align: left;
+  margin: 20px 190px 0;
+  font-size: 14px;
+}
+.EnGiiHill {
+  width: 130px;
+  height: 37px;
+  margin: -40px 190px;
+}
 .REM {
   padding: 110px 0;
   text-align: center;
