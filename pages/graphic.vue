@@ -142,6 +142,12 @@ export default {
 .graphicText {
   margin-left: 30px;
 }
+.graphicText h2{
+  font-size: 32px;
+}
+.graphicText p{
+  font-size: 24px;
+}
 .graphicLogo {
   text-align: center;
   background-color: #e9f8fc;
