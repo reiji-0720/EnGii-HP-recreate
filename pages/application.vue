@@ -99,4 +99,69 @@ export default {
   color: #231815;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1000px) {
+  .applicationTitle h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #231815;
+    margin-bottom: 1%;
+  }
+  .applicationTitle p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #231815;
+  }
+
+  .appConcept p {
+    margin: auto;
+    width: 72px;
+    font-size: 1rem;
+    border-bottom: solid 2px #3bb2db;
+  }
+
+  .applicationText p {
+    margin: 2% 10% 0 20%;
+    text-align: left;
+    font-size: 1rem;
+    color: #231815;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .applicationContainer {
+    margin: 15% auto;
+    text-align: center;
+  }
+  .applicationTitle h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #231815;
+    margin-bottom: 1%;
+  }
+  .applicationTitle p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #231815;
+  }
+  .neopaImg img {
+    width: 20%;
+  }
+
+  .appConcept p {
+    margin: auto;
+    width: 72px;
+    font-size: 1rem;
+    border-bottom: solid 2px #3bb2db;
+  }
+
+  .applicationText p {
+    margin: 2% 9% 0 9%;
+    text-align: left;
+    font-size: 1rem;
+    color: #231815;
+    font-weight: 500;
+  }
+}
 </style>
