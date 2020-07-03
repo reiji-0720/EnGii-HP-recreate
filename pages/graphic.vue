@@ -193,7 +193,7 @@ export default {
   line-height: 32px;
 }
 .ConceptAreaTop {
-  width: 820px;
+  width: 750px;
   margin: 100px auto 0;
   display: flex;
 }
@@ -201,6 +201,7 @@ export default {
   text-align: left;
   display: inline-block;
   margin-left: 20px;
+  font-size: 14px;
 }
 .EnGiiConcept {
   display: block;
@@ -222,7 +223,7 @@ export default {
 }
 .secondArrow {
   display: flex;
-  width: 820px;
+  width: 750px;
   margin: 0 auto;
 }
 .ArrowOne {
@@ -245,7 +246,7 @@ export default {
 }
 .thirdConcept {
   display: flex;
-  width: 820px;
+  width: 750px;
   margin: 30px auto;
 }
 .Helvetica {
@@ -267,14 +268,15 @@ export default {
 }
 .conceptdif {
   margin-left: 20px;
+  font-size: 14px;
 }
 .conseptHill {
   display: flex;
-  width: 820px;
+  width: 750px;
   margin: 0 auto;
 }
 .conseptfin{
-  width: 820px;
+  width: 750px;
   margin: 0 auto;
   display: flex;
 }
