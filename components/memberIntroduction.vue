@@ -195,11 +195,44 @@
     margin: 7% 5%;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 225px;
+    width: 225px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 225px;
+    width: 225px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 225px;
+    width: 225px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 225px;
+    width: 225px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+   height: 225px;
+    width: 225px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
@@ -213,11 +246,44 @@
     margin: 7% 5%;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 195px;
+    width: 195px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 195px;
+    width: 195px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 195px;
+    width: 195px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 195px;
+    width: 195px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+    height: 195px;
+    width: 195px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
@@ -232,11 +298,44 @@
     margin: 7% 5%;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 168px;
+    width: 168px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 168px;
+    width: 168px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 168px;
+    width: 168px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 168px;
+    width: 168px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+    height: 168px;
+    width: 168px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
@@ -258,15 +357,49 @@
     display: block;
   }
   .memberIntroductionFrame {
-   margin: 7% 5%;
+    margin: 10% auto 0 auto;
+    padding: 10% 0;
     width: 400px;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 400px;
+    width: 400px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 400px;
+    width: 400px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 400px;
+    width: 400px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
@@ -292,11 +425,44 @@
     width: 285px;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 285px;
+    width: 285px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 285px;
+    width: 285px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 285px;
+    width: 285px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    height: 285px;
+    width: 285px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+    height: 285px;
+    width: 285px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
@@ -321,11 +487,44 @@
     width: 228px;
   }
 
-  .memberImgRui,
-  .memberImgHiroaki,
-  .memberImgMasato,
-  .memberImgShun,
-  .memberImgReiji,
+  .memberImgRui {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+    background-position: right 40% bottom 40%;
+    height: 228px;
+    width: 228px;
+  }
+
+  .memberImgHiroaki {
+    background-image: url("~@/assets/yamadaHiroaki.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+   height: 228px;
+    width: 228px;
+  }
+
+  .memberImgMasato {
+    background-image: url("~@/assets/tanakaMasato.jpg");
+    background-size: cover;
+    background-position: right 10% bottom 10%;
+    height: 228px;
+    width: 228px;
+  }
+
+  .memberImgShun {
+    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-size: cover;
+   height: 228px;
+    width: 228px;
+  }
+
+  .memberImgReiji {
+    background-image: url("~@/assets/shinozakiReiji.JPG");
+    background-size: cover;
+    height: 228px;
+    width: 228px;
+  }
+
   .memberImgKazutomo {
     background-image: url("~@/assets/miyasakaRui.JPG");
     background-size: cover;
