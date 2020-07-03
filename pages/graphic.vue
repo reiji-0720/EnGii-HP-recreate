@@ -177,6 +177,7 @@ export default {
   text-align: center;
   background-color: #e9f8fc;
   margin: 20px auto 0;
+  padding-bottom: 110px;
 }
 .EnGiiLogo {
   margin-top: 40px;
