@@ -36,7 +36,7 @@
         <div class="scrollborder"></div>
       </div>
     </div>
-    <div class="mediaDown">
+    <div class="mediaDown clearfix">
       <webHP />
       <Video />
     </div>
