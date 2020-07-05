@@ -12,7 +12,7 @@
       </p>
     </div>
     <div class="graphicsBtn">
-      <nuxt-link to="/graphic">
+      <nuxt-link to="/media/graphic" >
         <btnMore />
       </nuxt-link>
     </div>
@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style>
+.active {
+  border: 2px solid #3BB2DB;
+  padding: 5px;
+}
 .graphics {
   float: left;
   width: 50%;
