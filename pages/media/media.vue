@@ -36,7 +36,7 @@
         <div class="scrollborder"></div>
       </div>
     </div>
-    <div class="mediaDown">
+    <div class="mediaDown clearfix">
       <webHP />
       <Video />
     </div>
@@ -164,11 +164,6 @@ export default {
   display: block;
   height: 80px;
   margin: 10px 0 0 35px;
-}
-.mediaUp {
-}
-.mediaDown{
-  height: 766px;
 }
 
 @media screen and (max-width: 730px) {

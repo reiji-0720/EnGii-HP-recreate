@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="appBtn">
-      <nuxt-link to="/application">
+      <nuxt-link to="/media/application">
         <btnMore />
       </nuxt-link>
     </div>

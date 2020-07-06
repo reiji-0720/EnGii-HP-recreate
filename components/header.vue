@@ -6,7 +6,7 @@
         <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
       </p>
       <p>
-        <nuxt-link class="borderNone" to="/media" exact exact-active-class="active">SERVICE</nuxt-link>
+        <nuxt-link class="borderNone" to="/media" active-class="active">SERVICE</nuxt-link>
       </p>
       <p>
         <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
