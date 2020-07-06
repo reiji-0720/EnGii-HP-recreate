@@ -79,10 +79,16 @@
         <br />入っていただけることを表現
       </p>
       <div class="card">
-        <img src="~assets/REMCard.png" alt="REM 名刺デザイン" class="REMCard" width="50%" />
-        <p>名刺デザイン</p>
-        <img src="~assets/REMmember.png" alt="REM メンバーズカード" class="REMMember" width="50%" />
-        <p>メンバーズカード</p>
+        <div class="cardtop">
+          <img src="~assets/REMBusinessCard.png" alt="REM 名刺デザイン" class="REMCardleft" />
+          <img src="~assets/REMBusiness.png" alt="REM 名刺デザイン" class="REMCardright" />
+        </div>
+        <p class="cardText">名刺デザイン</p>
+        <div class="cardDown">
+          <img src="~assets/memberLeft.png" alt="REM メンバーズカード" class="memberLeft" />
+          <img src="~assets/memberRight.png" alt="REM メンバーズカード" class="memberRight" />
+        </div>
+        <p class="memberText">メンバーズカード</p>
       </div>
     </div>
 
@@ -106,26 +112,29 @@
         <br />プレゼンツという名前からも、リボンを結んだ状態も表しており
         <br />お客様が訪れた時に、プレゼントをもらったような特別感も演出している
       </p>
-      <div class="atelier">
-        <img
-          src="~assets/atelierLogo.png"
-          alt="atelier atelierLogo"
-          class="atelierLogo"
-          width="50%"
-        />
-        <img
-          src="~assets/atelierCard.png"
-          alt="atelier atelierLogo"
-          class="atelierLogo"
-          width="50%"
-        />
+      <div class="atelierMain">
+        <img src="~assets/atelierLogo.png" alt="atelier atelierLogo" class="atelierLogo" />
+        <div class="atelieTop">
+          <img src="~assets/atelierCardleft.png" alt="atelier atelierLogo" class="atelierCardleft" />
+          <img
+            src="~assets/atelierCardright.png"
+            alt="atelier atelierLogo"
+            class="atelierCardright"
+          />
+        </div>
         <p>名刺デザイン</p>
-        <img
-          src="~assets/atelierFlyer.png"
-          alt="atelier atelierLogo"
-          class="atelierLogo"
-          width="50%"
-        />
+        <div class="atelieDown">
+          <img
+            src="~assets/atelierTirasLeft.png"
+            alt="atelier atelierLogo"
+            class="atelierTirasLeft"
+          />
+          <img
+            src="~assets/atelierTirasRight.png"
+            alt="atelier atelierLogo"
+            class="atelierTirasRight"
+          />
+        </div>
         <p>
           ダイレクトメッセージ
           <br />チラシデザイン
@@ -187,12 +196,14 @@ export default {
   border-bottom: solid 2px #3bb2db;
   width: 65px;
 }
+
 .LogoText {
   text-align: left;
   display: inline-block;
   font-size: 18px;
   line-height: 32px;
 }
+
 .ConceptAreaTop {
   width: 750px;
   margin: 100px auto 0;
@@ -276,12 +287,12 @@ export default {
   width: 750px;
   margin: 0 auto;
 }
-.conseptfin{
+.conseptfin {
   width: 750px;
   margin: 0 auto;
   display: flex;
 }
-.lastconsept{
+.lastconsept {
   text-align: left;
   margin: 20px 190px 0;
   font-size: 14px;
@@ -310,8 +321,45 @@ export default {
 .card {
   margin-top: 50px;
 }
-.REMMember {
-  margin-top: 110px;
+.cardtop {
+  border: 1px solid #4d4d4d;
+  width: 737px;
+  height: 412;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.REMCardleft {
+  height: 257px;
+  width: 154px;
+}
+.REMCardright {
+  margin-left: 110px;
+  height: 257px;
+  width: 154px;
+}
+.cardText {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.cardDown {
+  border: 1px solid #4d4d4d;
+  width: 737px;
+  height: 412;
+  margin: 110px auto 0;
+  padding: 80px 0;
+}
+.memberLeft {
+  height: 146px;
+  width: 226px;
+}
+.memberRight {
+  margin-left: 110px;
+  height: 146px;
+  width: 226px;
+}
+.memberText {
+  font-size: 18px;
+  margin-top: 15px;
 }
 .atelier {
   text-align: center;
@@ -326,5 +374,40 @@ export default {
 .atelierLogo {
   display: block;
   margin: 110px auto 0;
+  width: 632px;
+  height: 212px;
+}
+.atelieTop {
+  border: 1px solid #4d4d4d;
+  width: 737px;
+  height: 412;
+  margin: 110px auto 15px;
+  padding: 80px 0;
+
+}
+.atelierCardleft {
+  height: 257px;
+  width: 154px;
+}
+.atelierCardright {
+  margin-left: 110px;
+  height: 257px;
+  width: 154px;
+}
+.atelieDown {
+  border: 1px solid #4d4d4d;
+  width: 737px;
+  height: 412;
+  margin: 110px auto 15px;
+  padding: 80px 0;
+}
+.atelierTirasLeft {
+  height: 289px;
+  width: 209px;
+}
+.atelierTirasRight {
+  margin-left: 110px;
+  height: 289px;
+  width: 209px;
 }
 </style>

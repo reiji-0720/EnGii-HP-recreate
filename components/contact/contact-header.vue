@@ -75,6 +75,5 @@ export default {};
     .boxAdjust h1{
         font-size:20px;
     }
-    
 }
 </style>

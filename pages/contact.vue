@@ -96,7 +96,6 @@ export default {
         content: ''
       },
    show:false,
-   
   validation:{
    lengthError:true,
    genre:true,
