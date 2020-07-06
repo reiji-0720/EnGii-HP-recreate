@@ -5,11 +5,13 @@
       <li>
         <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
       </li>
-      <li>
-        <nuxt-link class="borderNone" to="/media" active-class="active">SERVICE</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+      <li class="menuSingle">
+        SERVICE
+        <ul class="menueSecondLevel">
+          <nuxt-link class="borderNone subMenuePosition" to="/support" active-class="active">SUPPORT</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+        </ul>
       </li>
       <li>
         <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
@@ -32,10 +34,12 @@
           <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone" to="/media" active-class="active">SERVICE</nuxt-link>
-        </li>
-        <li>
-          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+          SERVICE
+          <ul class="menueSecondLevel">
+            <nuxt-link class="borderNone" to="/support" active-class="active">SUPPORT</nuxt-link>
+            <nuxt-link class="borderNone" to="/media" active-class="active">MEDIA</nuxt-link>
+            <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+          </ul>
         </li>
         <li>
           <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
@@ -55,7 +59,6 @@
 </script>
 
 <style>
-
 ul {
   list-style: none;
 }
@@ -79,6 +82,29 @@ ul {
 
   .headerMenue li {
     margin: 7px 17px 0 17px;
+  }
+
+  .headerMenue > li.menueSecondLevel {
+    position: relative;
+  }
+
+  .subMenuePosition {
+    margin: auto 20px auto 0;
+  }
+
+  li.menuSingle ul.menueSecondLevel {
+    position: absolute;
+    width: 70%;
+    background-color: #FFFF;
+    top:30px;
+    opacity: 0;
+  }
+
+  li.menuSingle:hover ul.menueSecondLevel {
+    top: 60px;
+    opacity: 1;
+    padding-top:20px;
+    padding-bottom: 20px;
   }
 
   .borderNone {
@@ -223,7 +249,7 @@ ul {
   }
 }
 .active {
-  border: 2px solid #3BB2DB;
+  border: 2px solid #3bb2db;
   padding: 5px;
 }
 </style>
