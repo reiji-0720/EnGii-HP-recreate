@@ -113,7 +113,7 @@
         <br />お客様が訪れた時に、プレゼントをもらったような特別感も演出している
       </p>
       <div class="atelierMain">
-        <img src="~assets/atelierLogo.png" alt="atelier atelierLogo" class="atelierLogo" />
+        <img src="~assets/atelierLogo.png" alt="atelier atelierLogo" width="50%" class="atelierLogo" />
         <div class="atelieTop">
           <img src="~assets/atelierCardleft.png" alt="atelier atelierLogo" class="atelierCardleft" />
           <img
@@ -410,6 +410,13 @@ export default {
   width: 209px;
 }
 @media screen and (max-width: 730px) {
+  .graphicContainer{
+    margin-top: 110px;
+  }
+  .graphicTop{
+    margin: 0 auto;
+  }
+  .graphicTop,
   .cardtop,
   .cardDown,
   .atelieTop,
@@ -436,7 +443,8 @@ export default {
   .atelierText,
   .REMLogo,
   .atelierLogoMain,
-  .ConceptArea {
+  .ConceptArea,
+  .EnGiiLogo{
     width: 90%;
   }
   .ConceptAreaTop,
@@ -452,6 +460,18 @@ export default {
   .ArrowThird
   {
     display: none;
+  }
+  .graphicText h2{
+    font-size: 21px;
+  }
+  .graphicText p{
+    font-size: 18px;
+    text-align: center;
+  }
+  .LogoText,
+  .REMText,
+  .atelierText{
+    font-size: 10px;
   }
 }
 </style>
