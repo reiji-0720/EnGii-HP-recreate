@@ -8,9 +8,20 @@
       <li class="menuSingle">
         SERVICE
         <ul class="menueSecondLevel">
-          <nuxt-link class="borderNone subMenuePosition" to="/support" active-class="active">SUPPORT</nuxt-link>
-          <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
-          <nuxt-link class="borderNone subMenuePosition" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+          <li>
+            <nuxt-link
+              class="borderNone subMenuePosition"
+              to="/support"
+              active-class="active"
+            >SUPPORT</nuxt-link>
+            <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+            <nuxt-link
+              class="borderNone subMenuePosition"
+              to="/contact"
+              exact
+              exact-active-class="active"
+            >INFLUENCER</nuxt-link>
+          </li>
         </ul>
       </li>
       <li>
@@ -94,16 +105,16 @@ ul {
 
   li.menuSingle ul.menueSecondLevel {
     position: absolute;
-    background-color: #FFFF;
-    top:30px;
-    display: none;
+    background-color: #ffff;
+    top: 30px;
     width: 70%;
+    visibility: hidden;
   }
 
-  .menuSingle:hover .menueSecondLevel {
+  li.menuSingle:hover ul.menueSecondLevel {
     top: 60px;
-    display: block;
-    padding-top:20px;
+    padding-top: 20px;
+    visibility: visible;
     padding-bottom: 20px;
     width: 70%;
   }
