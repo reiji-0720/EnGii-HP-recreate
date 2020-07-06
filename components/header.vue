@@ -96,15 +96,16 @@ ul {
     position: absolute;
     background-color: #FFFF;
     top:30px;
-    opacity: 0;
+    display: none;
     width: 70%;
   }
 
   .menuSingle:hover .menueSecondLevel {
     top: 60px;
-    opacity: 1;
+    display: block;
     padding-top:20px;
     padding-bottom: 20px;
+    width: 70%;
   }
 
   .borderNone {
