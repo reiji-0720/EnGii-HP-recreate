@@ -97,7 +97,7 @@
         src="~assets/atelierLogoMain.png"
         alt="atelier atelierLogo"
         class="atelierLogoMain"
-        width="40%"
+        width="50%"
       />
       <p class="LogoConcept">concept</p>
       <p class="atelierText">
@@ -374,8 +374,8 @@ export default {
 .atelierLogo {
   display: block;
   margin: 110px auto 0;
-  width: 632px;
-  height: 212px;
+  /* width: 632px;
+  height: 212px; */
 }
 .atelieTop {
   border: 1px solid #4d4d4d;
@@ -383,7 +383,6 @@ export default {
   height: 412;
   margin: 110px auto 15px;
   padding: 80px 0;
-
 }
 .atelierCardleft {
   height: 257px;
@@ -409,5 +408,50 @@ export default {
   margin-left: 110px;
   height: 289px;
   width: 209px;
+}
+@media screen and (max-width: 730px) {
+  .cardtop,
+  .cardDown,
+  .atelieTop,
+  .atelieDown {
+    width: 90%;
+  }
+  .REMCardleft,
+  .memberLeft,
+  .atelierCardleft,
+  .atelierTirasLeft {
+    display: block;
+    margin: 0 auto;
+  }
+  .REMCardright,
+  .memberRight,
+  .atelierCardright,
+  .atelierTirasRight {
+    display: block;
+    margin: 20px auto 0;
+  }
+  .atelierLogo,
+  .LogoText,
+  .REMText,
+  .atelierText,
+  .REMLogo,
+  .atelierLogoMain,
+  .ConceptArea {
+    width: 90%;
+  }
+  .ConceptAreaTop,
+  .secondArrow,
+  .thirdConcept,
+  .conseptHill,
+  .conseptfin{
+    display: block;
+  }
+  .topArrow,
+  .ArrowOne,
+  .ArrowSecond,
+  .ArrowThird
+  {
+    display: none;
+  }
 }
 </style>
