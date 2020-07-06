@@ -51,7 +51,7 @@
              <span v-show="!validation.content" class="text-warning">お問い合わせ内容を入力してください</span>
             </div>
             <div class="submit" >
-              <button　 @click="analize" type="submit" value="送信" class="btn-submit bg-mainColor" >送信</button>
+              <button @click="analize" type="submit" value="送信" class="btn-submit bg-mainColor" >送信</button>
 
               <!-- @clickのところにもう一つの関数(analize)を呼び出して、@click="show=true"を判別して表示させる。 -->
               <!-- <button class="btn-submit bg-mainColor" @click="checkForm">check</button>
