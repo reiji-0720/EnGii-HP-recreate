@@ -1,52 +1,52 @@
 <template>
   <div class="headerContainer">
     <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="15%" />
-    <div class="headerMenue">
-      <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
-      </p>
-      <p>
+    <ul class="headerMenue">
+      <li>
+        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
+      </li>
+      <li>
         <nuxt-link class="borderNone" to="/media" active-class="active">SERVICE</nuxt-link>
-      </p>
-      <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
-      </p>
-      <p>
+      </li>
+      <li>
+        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+      </li>
+      <li>
         <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
-      </p>
-      <p>
+      </li>
+      <li>
         <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">CONTACT</nuxt-link>
-      </p>
-      <p>
-        <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>MEMBER</nuxt-link>
-      </p>
-    </div>
+      </li>
+      <li>
+        <nuxt-link class="borderNone" to="/member" exact exact-active-class="active">MEMBER</nuxt-link>
+      </li>
+    </ul>
     <div id="nav-drawer">
       <input id="nav-input" type="checkbox" class="nav-unshown" />
       <label id="nav-open" for="nav-input">
         <span></span>
       </label>
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-      <div id="nav-content">
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#News'" to>NEWS</nuxt-link>
-        </p>
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#sreviceTitle'" to>SERVICE</nuxt-link>
-        </p>
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#Influencer'" to>INFLUENCER</nuxt-link>
-        </p>
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#About'" to>ABOUT</nuxt-link>
-        </p>
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>CONTACT</nuxt-link>
-        </p>
-        <p>
-          <nuxt-link class="borderNone" v-scroll-to="'#indexContact'" to>MEMBER</nuxt-link>
-        </p>
-      </div>
+      <ul id="nav-content">
+        <li>
+          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/media" active-class="active">SERVICE</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">CONTACT</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/member" exact exact-active-class="active">MEMBER</nuxt-link>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -55,6 +55,11 @@
 </script>
 
 <style>
+
+ul {
+  list-style: none;
+}
+
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
@@ -72,7 +77,7 @@
     display: flex;
   }
 
-  .headerMenue p {
+  .headerMenue li {
     margin: 7px 17px 0 17px;
   }
 
@@ -100,7 +105,7 @@
   .headerMenue {
     display: flex;
   }
-  .headerMenue p {
+  .headerMenue li {
     margin: 4px 15px 0 15px;
     font-size: 0.7rem;
   }
@@ -194,7 +199,7 @@
     transform: translateX(-105%); /*左に隠しておく*/
   }
 
-  #nav-content p {
+  #nav-content li {
     padding: 40px 0 0 50px;
     text-align: left;
     margin: auto;
