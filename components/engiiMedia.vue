@@ -37,7 +37,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .media {
   float: left;
   width: 50%;
