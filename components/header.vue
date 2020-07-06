@@ -94,13 +94,13 @@ ul {
 
   li.menuSingle ul.menueSecondLevel {
     position: absolute;
-    width: 70%;
     background-color: #FFFF;
     top:30px;
     opacity: 0;
+    width: 70%;
   }
 
-  li.menuSingle:hover ul.menueSecondLevel {
+  .menuSingle:hover .menueSecondLevel {
     top: 60px;
     opacity: 1;
     padding-top:20px;
