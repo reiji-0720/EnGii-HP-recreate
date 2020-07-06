@@ -14,14 +14,13 @@
     <div class="subArea">
       <div class="supportLeftVertical">
         <div class="inline clearfix">
-            <div class="border borderOne"></div>
           <p class="verticalOne">EnGii support</p>
+          <div class="border borderOne"></div>
         </div>
 
         <div class="inline clearfix">
-        <div class="border borderSecond"></div>
           <p class="verticalSecond">EnGii media</p>
-          
+          <div class="border borderSecond"></div>
         </div>
       </div>
       <div class="supportContens">
@@ -52,6 +51,8 @@ components: {
 .supportTopLeft {
   float: right;
   width: 60%;
+  height:100%;
+  overflow:hidden;
   /* height: 568px; */
 }
 .supportTopRight {
@@ -94,20 +95,22 @@ components: {
 .inline {
   /* float: left; */
   display: inline-block;
+  transform:rotate(180deg);
 }
 .supportLeftVertical {
   padding-top: 72px;
+   text-align:right;
 }
 .supportLeftVertical p {
   writing-mode: vertical-rl;
   font-size: 24px;
 }
 .verticalOne {
-  padding-left: 32px;
+  padding-left: 18px;
   color: #9b9b9b;
 }
 .verticalSecond {
-  padding-left: 15px;
+  padding-left: 18px;
 }
 .border {
   height: 80px;
@@ -116,11 +119,11 @@ components: {
   display: block;
 }
 .borderOne {
-  margin: 10px 0 10px 47px;
+  margin: 10px 0 10px 35px;
   border: 1px solid #9b9b9b;
 }
 .borderSecond {
-  margin: 10px 0 10px 31px;
+  margin: 10px 0 10px 35px;
   border: 1px solid #3bb2db;
 }
 .mediaContens {
