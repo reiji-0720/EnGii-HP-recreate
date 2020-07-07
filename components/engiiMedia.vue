@@ -60,7 +60,7 @@ export default {};
 .mediatext {
   /* display: inline-block; */
   font-size: 18px;
-  height: 54px;
+  height: 41px;
 }
 .mediaimg {
   opacity: 0.7;
