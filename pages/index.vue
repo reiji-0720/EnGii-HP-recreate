@@ -4,7 +4,7 @@
 
     <div class="scrollOne">
       <div class="borderOne"></div>
-      <p class="scrolltext colorOne">scroll</p>
+      <p class="textOne colorOne">scroll</p>
     </div>
 
     <MediaFooter class="MediaFooter" />
@@ -28,7 +28,6 @@
     <Influencer id="Influencer" />
     <About id="About" />
     <contact id="indexContact" />
-    <MediaFooter class="backColor" />
   </div>
 </template>
 
@@ -125,6 +124,13 @@ export default {
   writing-mode: vertical-rl;
   margin-left: 25px;
   color: #3bb2db;
+  font-size: 14px;
+}
+
+.textOne {
+  writing-mode: vertical-rl;
+  margin-left: 25px;
+  color:#231815;
   font-size: 14px;
 }
 
