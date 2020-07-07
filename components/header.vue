@@ -49,12 +49,18 @@
           <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
         </li>
         <li>
-          SERVICE
-          <ul class="menueSecondLevel">
-            <nuxt-link class="borderNone" to="/support" active-class="active">SUPPORT</nuxt-link>
-            <nuxt-link class="borderNone" to="/media" active-class="active">MEDIA</nuxt-link>
-            <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">INFLUENCER</nuxt-link>
-          </ul>
+          <nuxt-link class="borderNone subMenuePosition" to="/support" active-class="active">SUPPORT</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link
+            class="borderNone subMenuePosition"
+            to="/contact"
+            exact
+            exact-active-class="active"
+          >INFLUENCER</nuxt-link>
         </li>
         <li>
           <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
@@ -115,7 +121,7 @@ ul {
     position: absolute;
     top: 40px;
     width: 100%;
-    background: #FFFF;
+    background: #ffff;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
@@ -158,6 +164,37 @@ ul {
     margin: 4px 15px 0 15px;
     font-size: 0.7rem;
   }
+
+  .headerMenu > li.menu__single {
+    position: relative;
+  }
+
+  ul.menu__second-level {
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    z-index: 1;
+    padding: 15px 0;
+  }
+
+  li.menu__single ul.menu__second-level {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: #ffff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+
+  li.menu__single:hover ul.menu__second-level {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .subMenuePosition {
+    margin: auto 20px auto 0;
+    padding: 10px autos;
+  }
   .borderNone {
     text-decoration: none;
     color: #231815;
@@ -181,6 +218,34 @@ ul {
   .headerMenue {
     display: none;
   }
+
+  #nav-content > li.menu__single {
+    position: relative;
+  }
+
+  ul.menu__second-level {
+    visibility: hidden;
+    display: block;
+    opacity: 0;
+    z-index: 1;
+    padding: 5px 0;
+  }
+
+  li.menu__single ul.menu__second-level {
+    position: absolute;
+    top: 40px;
+    width: 50%;
+    background: #ffff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+
+  li.menu__single:hover ul.menu__second-level {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
+
   #nav-drawer {
     position: relative;
   }
