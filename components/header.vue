@@ -166,6 +166,11 @@ ul {
   .headerMenue {
     display: flex;
   }
+
+  .headerImgPosition {
+    width: 30%;
+  }
+  
   .headerMenue li {
     margin: 4px 15px 0 15px;
     font-size: 0.7rem;
