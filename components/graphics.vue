@@ -12,7 +12,7 @@
       </p>
     </div>
     <div class="graphicsBtn">
-      <nuxt-link to="/media/graphic" >
+      <nuxt-link to="/sevice/media/graphic" >
         <btnMore />
       </nuxt-link>
     </div>

@@ -13,12 +13,12 @@
           <li>
             <nuxt-link
               class="borderNone subMenuePosition"
-              to="/support"
+              to="/sevice/support"
               active-class="active"
             >SUPPORT</nuxt-link>
           </li>
           <li>
-            <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+            <nuxt-link class="borderNone subMenuePosition" to="/sevice/media" active-class="active">MEDIA</nuxt-link>
           </li>
           <li>
             <nuxt-link
@@ -51,10 +51,10 @@
           <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone subMenuePosition" to="/support" active-class="active">SUPPORT</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/sevice/support" active-class="active">SUPPORT</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/sevice/media" active-class="active">MEDIA</nuxt-link>
         </li>
         <li>
           <nuxt-link
