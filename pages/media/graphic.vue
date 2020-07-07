@@ -8,7 +8,9 @@
           <p>GRAPHIC DESIGN</p>
         </div>
       </div>
-      <example />
+      <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">
+        <request />
+      </nuxt-link>
     </div>
 
     <div class="graphicLogo">
@@ -113,7 +115,12 @@
         <br />お客様が訪れた時に、プレゼントをもらったような特別感も演出している
       </p>
       <div class="atelierMain">
-        <img src="~assets/atelierLogo.png" alt="atelier atelierLogo" width="50%" class="atelierLogo" />
+        <img
+          src="~assets/atelierLogo.png"
+          alt="atelier atelierLogo"
+          width="50%"
+          class="atelierLogo"
+        />
         <div class="atelieTop">
           <img src="~assets/atelierCardleft.png" alt="atelier atelierLogo" class="atelierCardleft" />
           <img
@@ -145,10 +152,10 @@
 </template>
 
 <script>
-import example from "~/components/example.vue";
+import request from "~/components/request.vue";
 export default {
   components: {
-    example
+    request
   }
 };
 </script>
@@ -410,10 +417,10 @@ export default {
   width: 209px;
 }
 @media screen and (max-width: 730px) {
-  .graphicContainer{
+  .graphicContainer {
     margin-top: 110px;
   }
-  .graphicTop{
+  .graphicTop {
     margin: 0 auto;
   }
   .graphicTop,
@@ -444,33 +451,32 @@ export default {
   .REMLogo,
   .atelierLogoMain,
   .ConceptArea,
-  .EnGiiLogo{
+  .EnGiiLogo {
     width: 90%;
   }
   .ConceptAreaTop,
   .secondArrow,
   .thirdConcept,
   .conseptHill,
-  .conseptfin{
+  .conseptfin {
     display: block;
   }
   .topArrow,
   .ArrowOne,
   .ArrowSecond,
-  .ArrowThird
-  {
+  .ArrowThird {
     display: none;
   }
-  .graphicText h2{
+  .graphicText h2 {
     font-size: 21px;
   }
-  .graphicText p{
+  .graphicText p {
     font-size: 18px;
     text-align: center;
   }
   .LogoText,
   .REMText,
-  .atelierText{
+  .atelierText {
     font-size: 10px;
   }
 }
