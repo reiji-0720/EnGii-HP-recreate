@@ -119,7 +119,7 @@ ul {
 
   li.menu__single ul.menu__second-level {
     position: absolute;
-    top: 40px;
+    top: 60px;
     width: 100%;
     background: #ffff;
     -webkit-transition: all 0.2s ease;
@@ -127,7 +127,7 @@ ul {
   }
 
   li.menu__single:hover ul.menu__second-level {
-    top: 50px;
+    top: 60px;
     visibility: visible;
     opacity: 1;
   }
@@ -217,33 +217,6 @@ ul {
 
   .headerMenue {
     display: none;
-  }
-
-  #nav-content > li.menu__single {
-    position: relative;
-  }
-
-  ul.menu__second-level {
-    visibility: hidden;
-    display: block;
-    opacity: 0;
-    z-index: 1;
-    padding: 5px 0;
-  }
-
-  li.menu__single ul.menu__second-level {
-    position: absolute;
-    top: 40px;
-    width: 50%;
-    background: #ffff;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-  }
-
-  li.menu__single:hover ul.menu__second-level {
-    top: 50px;
-    visibility: visible;
-    opacity: 1;
   }
 
   #nav-drawer {
