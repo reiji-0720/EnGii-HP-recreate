@@ -44,7 +44,7 @@ components: {
   }
 };
 </script>
-<style>
+<style scoped>
 .supportContainer {
   margin-top: 10%;
 }
