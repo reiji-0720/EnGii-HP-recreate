@@ -1,6 +1,8 @@
 <template>
   <div class="headerContainer">
-    <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="15%" />
+    <nuxt-link class="borderNone headerImgPosition" to="/">
+      <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" />
+    </nuxt-link>
     <ul class="headerMenue">
       <li>
         <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
@@ -91,6 +93,10 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
+  }
+
+  .headerImgPosition {
+    width: 30%;
   }
 
   .headerLogo {
