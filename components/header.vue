@@ -5,16 +5,20 @@
       <li>
         <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
       </li>
-      <li class="menuSingle">
-        SERVICE
-        <ul class="menueSecondLevel">
+      <li class="menu__single">
+        SEVICE
+        <ul class="menu__second-level">
           <li>
             <nuxt-link
               class="borderNone subMenuePosition"
               to="/support"
               active-class="active"
             >SUPPORT</nuxt-link>
+          </li>
+          <li>
             <nuxt-link class="borderNone subMenuePosition" to="/media" active-class="active">MEDIA</nuxt-link>
+          </li>
+          <li>
             <nuxt-link
               class="borderNone subMenuePosition"
               to="/contact"
@@ -95,28 +99,35 @@ ul {
     margin: 7px 17px 0 17px;
   }
 
-  .headerMenue > li.menueSecondLevel {
+  .headerMenu > li.menu__single {
     position: relative;
   }
 
+  ul.menu__second-level {
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    z-index: 1;
+    padding: 15px 0;
+  }
+
+  li.menu__single ul.menu__second-level {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: #FFFF;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+
+  li.menu__single:hover ul.menu__second-level {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+  }
   .subMenuePosition {
     margin: auto 20px auto 0;
-  }
-
-  li.menuSingle ul.menueSecondLevel {
-    position: absolute;
-    background-color: #ffff;
-    top: 30px;
-    width: 70%;
-    visibility: hidden;
-  }
-
-  li.menuSingle:hover ul.menueSecondLevel {
-    top: 60px;
-    padding-top: 20px;
-    visibility: visible;
-    padding-bottom: 20px;
-    width: 70%;
+    padding: 10px autos;
   }
 
   .borderNone {
