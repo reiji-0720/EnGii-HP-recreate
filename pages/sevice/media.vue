@@ -174,38 +174,81 @@ export default {
     font-size: 70px;
   }
 }
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1130px) {
   .mediaText {
     font-size: 64px;
   }
+  .mediaTop {
+    height: 510px;
+  }
+  .mediLeftVertical p {
+    font-size: 20px;
+  }
 }
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1110px) {
   .mediaText {
     font-size: 60px;
   }
-  .mediaExp{
+  .mediaExp {
+    font-size: 18px;
+  }
+  .mediaTop {
+    height: 480px;
+  }
+  .mediLeftVertical p {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 731px) and (max-width: 960px) {
   .mediaText {
     font-size: 55px;
+  }
+  .mediaTop {
+    height: 460px;
+  }
+  .mediLeftVertical {
+    padding-top: 0;
+  }
+  .mediLeftVertical p {
+    font-size: 17px;
+  }
+  .subArea {
+    height: auto;
+  }
+  .scrollsecond {
+    display: none;
   }
 }
 @media screen and (max-width: 885px) {
   .mediaText {
     font-size: 50px;
   }
-  .mediaExp{
+  .mediaExp {
     font-size: 15px;
+  }
+  .mediaTop {
+    height: 440px;
   }
 }
 @media screen and (max-width: 810px) {
   .mediaText {
     font-size: 45px;
   }
-  .mediaExp{
+  .mediaExp {
     font-size: 13px;
+  }
+}
+@media screen and (min-width: 731px) and (max-width: 765px) {
+  .graphics,
+  .app,
+  .hp,
+  .video {
+    width: 330px;
+    margin-left: 2px;
+  }
+  .app,
+  .video {
+    margin-left: 45px;
   }
 }
 @media screen and (max-width: 730px) {
