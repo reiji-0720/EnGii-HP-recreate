@@ -87,17 +87,6 @@ h1 {
   font-size: 54px;
 }
 
-.influencerImg::after {
-  left: 0;
-  content: "";
-  height: 0;
-  width: 0;
-  border-bottom: 375.97px solid #e2f1f7;
-  border-right: 50px solid transparent;
-  /* border-top: 50px solid white;
-  border-left: 50px solid yellow; */
-  display: block;
-}
 .influencerLogo {
   height: 101.65px;
   width: 101.65px;
@@ -122,6 +111,7 @@ h1 {
   position: absolute;
   right: 0;
   z-index: -1;
+  clip-path: polygon(15% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 @media screen and (max-width:1366px){
   .influencerImg{
@@ -148,17 +138,6 @@ h1 {
   .title-box{
     padding-top:50px;
   }
-  .influencerImg::after {
-  left: 0;
-  content: "";
-  height: 0;
-  width: 0;
-  border-bottom: 300px solid #e2f1f7;
-  border-right: 50px solid transparent;
-  /* border-top: 50px solid white;
-  border-left: 50px solid yellow; */
-  display: block;
-}
 }
 
 @media screen and (max-width:730px){
@@ -172,10 +151,6 @@ h1 {
     position:relative;
     position:absolute;
   }
-   .influencerImg::after{
-     position:absolute;
-     left:-1px;
-   }
   .main-container{
     padding:0;
   }
@@ -213,9 +188,6 @@ h1 {
   }
   .influencerImg{
     height:350px;
-  }
-  .influencerImg::after{
-    border-bottom: 350px solid #e2f1f7;
   }
   .influencerhead{
     text-align: left;

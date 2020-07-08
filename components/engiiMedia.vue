@@ -55,6 +55,7 @@ export default {};
   font-size: 54px;
   margin: 15px 5px;
   text-align: center;
+  font-weight: 500;
   /* font-family: "Helvetica Neue"; */
 }
 .mediatext {
@@ -158,8 +159,8 @@ export default {};
 
 @media screen and (min-width:1001px) and (max-width:1365px){
 .media .medialogo{
-    height: 92.23px;  /* 126×0.732 = 92.232 */
-    width: 92.23px;
+    height: 108px;  /* 126×0.732 = 92.232 */
+    width: 110px;
   }
   .media .mediahead {
     font-size: 39.53px;  /* 54×0.732 = 39.528 */

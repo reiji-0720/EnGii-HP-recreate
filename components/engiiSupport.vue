@@ -68,7 +68,7 @@ export default {};
   font-size: 54px;
   margin: 15px 5px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-weight: 500;
 }
 .supporttext {
   display: inline-block;
@@ -170,8 +170,8 @@ export default {};
 }
 @media screen and (min-width:1001px) and (max-width:1365px){
   .support .supportlogo{
-    height: 92.23px;  /* 126×0.732 = 92.232 */
-    width: 92.23px;
+    height: 108px;  /* 126×0.732 = 92.232 */
+    width: 108px;
   }
   .support .supporthead {
     font-size: 39.53px;  /* 54×0.732 = 39.528 */
