@@ -286,7 +286,7 @@ textarea{
 @media screen and (max-width:1000px){
   .explain{
     margin-top:100px;
-    font-size:13px;
+    font-size:1.0rem;
     letter-spacing:0.2em;
   }
   .form{
@@ -297,7 +297,7 @@ textarea{
 @media screen and (max-width:730px){
   .explain{
    margin-top:50px;
-    font-size:5px;
+    font-size:0.7rem;
     letter-spacing:0.2em;
   }
 .form{
@@ -319,7 +319,5 @@ textarea{
   .btn-submit{
     margin-top:100px;
   }
-}
-@media screen and (max-width:400px){
 }
 </style>
