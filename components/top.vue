@@ -108,8 +108,8 @@ export default {};
   position: absolute;
   top: -90px;
   display: flex;
-  left: 50%;
-  margin-left: -50vw;
+  /* left: 50%;
+  margin-left: -50vw; */
   width: 100%;
   z-index: -200;
 }
