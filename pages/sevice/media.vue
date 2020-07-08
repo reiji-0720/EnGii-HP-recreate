@@ -7,7 +7,10 @@
       <div class="mediaTopRight">
         <div class="mediaIcon"></div>
         <h2 class="mediaText">EnGii media</h2>
-        <p class="mediaExp">EnGiiが持つ様々な<br class="sp-br">サービスを展開します</p>
+        <p class="mediaExp">
+          EnGiiが持つ様々な
+          <br class="sp-br" />サービスを展開します
+        </p>
       </div>
     </div>
 
@@ -98,7 +101,7 @@ export default {
 .mediaExp {
   font-size: 20px;
 }
-.sp-br{
+.sp-br {
   display: none;
 }
 .subArea {
@@ -166,21 +169,60 @@ export default {
   margin: 10px 0 0 35px;
 }
 
+@media screen and (max-width: 1350px) {
+  .mediaText {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .mediaText {
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .mediaText {
+    font-size: 60px;
+  }
+  .mediaExp{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .mediaText {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 885px) {
+  .mediaText {
+    font-size: 50px;
+  }
+  .mediaExp{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .mediaText {
+    font-size: 45px;
+  }
+  .mediaExp{
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 730px) {
-  .mediaTop{
+  .mediaTop {
     margin-top: 15%;
   }
-  .mediaTopLeft{
+  .mediaTopLeft {
     float: none;
     margin: 0 auto;
     width: 100%;
   }
-  .mediaIcon{
+  .mediaIcon {
     float: right;
     width: 92px;
     height: 90px;
   }
-  .mediaImg{
+  .mediaImg {
     width: 100%;
     padding: 0;
     height: 280px;
@@ -192,31 +234,31 @@ export default {
   .scrollsecond {
     display: none;
   }
-  .mediLeftVertical{
+  .mediLeftVertical {
     display: none;
   }
-  .mediaText{
+  .mediaText {
     font-size: 26px;
   }
-  .mediaExp{
+  .mediaExp {
     font-size: 16px;
   }
-  .sp-br{
+  .sp-br {
     display: block;
   }
-  .subArea{
+  .subArea {
     margin: 70px 0 -30px;
   }
-  .mediaTopRight{
+  .mediaTopRight {
     padding: 0;
     float: none;
     margin: 25px auto;
     width: 85%;
   }
-  .mediaTop{
+  .mediaTop {
     height: 230px;
   }
-  .mediaDown{
+  .mediaDown {
     height: 1500px;
   }
 }
