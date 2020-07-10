@@ -8,7 +8,7 @@
         <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
       </li>
       <li class="menu__single">
-        SEVICE
+        SERVICE
         <ul class="menu__second-level">
           <li>
             <nuxt-link
@@ -125,18 +125,21 @@ ul {
 
   li.menu__single ul.menu__second-level {
     position: absolute;
-    top: 60px;
+    top: 75px;
     width: 100%;
-    background: #ffff;
+    height:100%;
+    margin-left: -80px;
+    background:#e2f1f7 ;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
 
   li.menu__single:hover ul.menu__second-level {
-    top: 60px;
+    top: 75px;
     visibility: visible;
     opacity: 1;
   }
+
   .subMenuePosition {
     margin: auto 20px auto 0;
     padding: 10px autos;
@@ -191,8 +194,10 @@ ul {
   li.menu__single ul.menu__second-level {
     position: absolute;
     top: 40px;
+    margin-left: -100px;
     width: 100%;
-    background: #ffff;
+    margin-left: -70px;
+    background:#e2f1f7 ;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
@@ -202,6 +207,11 @@ ul {
     visibility: visible;
     opacity: 1;
   }
+
+  li.menu__single:hover + .result{
+    
+  }
+
   .subMenuePosition {
     margin: auto 20px auto 0;
     padding: 10px autos;
