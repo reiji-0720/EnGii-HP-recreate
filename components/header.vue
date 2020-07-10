@@ -5,7 +5,7 @@
     </nuxt-link>
     <ul class="headerMenue">
       <li>
-        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
+        <nuxt-link class="borderNone" to="/news" exact exact-active-class="active">NEWS</nuxt-link>
       </li>
       <li class="menu__single">
         SERVICE
@@ -48,7 +48,7 @@
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <ul id="nav-content">
         <li>
-          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">NEWS</nuxt-link>
+          <nuxt-link class="borderNone" to="/news" exact exact-active-class="active">NEWS</nuxt-link>
         </li>
         <li>
           <nuxt-link class="borderNone subMenuePosition" to="/sevice/support" active-class="active">SUPPORT</nuxt-link>

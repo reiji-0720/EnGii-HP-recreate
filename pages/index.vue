@@ -8,7 +8,7 @@
     </div>
 
     <MediaFooter class="MediaFooter" />
-    <News id="News" />
+    <Newstop id="News" />
     <div id="sreviceTitle">
       <h2 class="serviceMainText">SERVICE</h2>
       <p class="serviceSubText">
@@ -39,7 +39,7 @@ import Influencer from "~/components/influencer.vue";
 import engiiSupport from "~/components/engiiSupport.vue";
 import engiiMedia from "~/components/engiiMedia.vue";
 import About from "~/components/About.vue";
-import News from "~/components/news.vue";
+import Newstop from "~/components/newstop.vue";
 import Vue from "vue";
 import Top from "~/components/Top.vue";
 
@@ -52,7 +52,7 @@ export default {
     engiiSupport,
     engiiMedia,
     About,
-    News,
+    Newstop,
     Top
   }
 };
