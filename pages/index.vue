@@ -128,7 +128,7 @@ export default {
 .serviceMainText {
   font-size: 54px;
   margin: 10px 0;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .serviceSubText {

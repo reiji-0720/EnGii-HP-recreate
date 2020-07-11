@@ -23,6 +23,7 @@ export default {
 
 .contactText{
   font-size: 54px;
+  font-weight: 700;
 }
 .contactArea {
   background-color: #e2f1f7;

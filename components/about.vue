@@ -52,6 +52,7 @@ export default {
 }
 .aboutTitle p {
   font-size: 54px;
+  font-weight: 700;
   color: #231815;
 }
 .aboutImg {

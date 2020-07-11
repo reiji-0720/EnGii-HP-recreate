@@ -39,7 +39,7 @@ export default {
 
 .memberTopTitle h1 {
   font-size: 3.375rem;
-  font-weight: 500;
+  font-weight: 700
 }
 
 .memberConcept {

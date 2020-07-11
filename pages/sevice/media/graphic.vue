@@ -187,6 +187,7 @@ export default {
 }
 .graphicText h2 {
   font-size: 32px;
+  font-weight: 700;
 }
 .graphicText p {
   font-size: 24px;

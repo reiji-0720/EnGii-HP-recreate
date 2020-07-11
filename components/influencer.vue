@@ -44,10 +44,12 @@ export default {
   padding-top: 100px;
   display: flex;
 }
-h1 {
+.title-box h2 {
+  font-weight: 700;
+}
+h2 {
   line-height: 101.65px;
   padding-left: 20px;
-  font-weight: 100;
 }
 .influencerLogo {
   height: 101.65px;

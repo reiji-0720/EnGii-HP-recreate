@@ -97,6 +97,7 @@ export default {
 }
 .mediaText {
   font-size: 72px;
+  font-weight: 700
 }
 .mediaExp {
   font-size: 20px;

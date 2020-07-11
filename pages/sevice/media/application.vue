@@ -58,7 +58,7 @@ export default {
 
 .applicationTitle h2 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #231815;
   margin-bottom: 1%;
 }

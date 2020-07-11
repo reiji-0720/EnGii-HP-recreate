@@ -55,7 +55,7 @@ export default {};
   font-size: 54px;
   margin: 15px 5px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   /* font-family: "Helvetica Neue"; */
 }
 .mediatext {

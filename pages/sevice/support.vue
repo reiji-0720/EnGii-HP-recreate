@@ -81,6 +81,7 @@ components: {
 }
 .supportText {
   font-size: 72px;
+  font-weight: 700
 }
 .supportExp {
   font-size: 20px;

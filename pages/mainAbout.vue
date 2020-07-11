@@ -97,7 +97,7 @@ export default {};
 .visionText h1 {
   font-size: 58px;
   color: #231815;
-  font-weight: 500;
+  font-weight: 700
 }
 
 .visionText h2 {
@@ -130,7 +130,7 @@ export default {};
 }
 
 .leaderMessageMainTitle h1 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 54px;
   color: #231815;
   padding-top: 2%;
