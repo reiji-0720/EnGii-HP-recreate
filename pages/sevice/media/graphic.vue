@@ -14,18 +14,20 @@
     </div>
 
     <div class="graphicLogo">
-      <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiLogo" width="25%" />
-      <p class="LogoConcept">concept</p>
-      <p class="LogoText">
-        コンセプトとしては、ロゴタイポという文字を主体にした
-        <br />ロゴで作成しました。理由として、「縁起が良い」という言葉を
-        <br />アイコンでイメージさせるよりはこれから新しいサービスを
-        <br />多く展開するにあたり、EnGii をブランド化することと文字で
-        <br />表現することで覚えてもらい、伝わりやすいという特徴がある為に作成
-        <br />また、ブランドやこのグループを覚えてもらいたいことを
-        <br />最優先にした場合適していると考えた
-        <br />
-      </p>
+      <div class="graphicLogoTop">
+        <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiLogo" width="25%" />
+        <p class="LogoConcept">concept</p>
+        <p class="LogoText">
+          コンセプトとしては、ロゴタイポという文字を主体にした
+          <br />ロゴで作成しました。理由として、「縁起が良い」という言葉を
+          <br />アイコンでイメージさせるよりはこれから新しいサービスを
+          <br />多く展開するにあたり、EnGii をブランド化することと文字で
+          <br />表現することで覚えてもらい、伝わりやすいという特徴がある為に作成
+          <br />また、ブランドやこのグループを覚えてもらいたいことを
+          <br />最優先にした場合適していると考えた
+          <br />
+        </p>
+      </div>
       <div class="ConceptArea">
         <div class="ConceptAreaTop">
           <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
@@ -190,10 +192,13 @@ export default {
   font-size: 24px;
 }
 .graphicLogo {
-  text-align: center;
   background-color: #e9f8fc;
   margin: 20px auto 0;
   padding-bottom: 110px;
+}
+.graphicLogoTop{
+  text-align: center;
+
 }
 .EnGiiLogo {
   margin-top: 40px;
@@ -453,6 +458,7 @@ export default {
   .ConceptArea,
   .EnGiiLogo {
     width: 90%;
+    margin: 0 auto;
   }
   .ConceptAreaTop,
   .secondArrow,
@@ -460,12 +466,17 @@ export default {
   .conseptHill,
   .conseptfin {
     display: block;
+    width: 90%;
   }
-  .topArrow,
+  /* .topArrow, */
   .ArrowOne,
   .ArrowSecond,
   .ArrowThird {
     display: none;
+  }
+  .topArrow{
+    margin: 30px auto 70px;
+    transform: rotateZ(90deg);
   }
   .graphicText h2 {
     font-size: 21px;
@@ -478,6 +489,24 @@ export default {
   .REMText,
   .atelierText {
     font-size: 10px;
+  }
+  .EnGiiConcept{
+    margin-bottom: 60px;
+  }
+  .Helvetica{
+    display: none;
+  }
+  .EnGiiRod{
+    margin: 15px 0 0 15px;
+  }
+  .conceptdif{
+    display: inline-block;
+  }
+  .EnGiiHill{
+    margin: 15px 0 0 10px;
+  }
+  .lastconsept{
+    margin: 0;
   }
 }
 </style>
