@@ -1,6 +1,6 @@
 <template>
   <div class="newsContainer">
-    <div class="newsList">
+    <div v-for="news in newstop" :key="news" class="newsList">
       <p class="newsText">{{news.title}} {{news.date}} {{news.text}}</p>
     </div>
   </div>
@@ -10,11 +10,8 @@
 import axios from "axios";
 
 export default {
-  props: ["news"],
-  mounted () {
-    console.log(news.title);
-  }
-}
+  props: ["newstop"]
+};
 </script>
 
 <style>
@@ -43,11 +40,11 @@ export default {
   color: black;
 }
 
-@media screen and (max-width: 730px){
-  .newsText{
+@media screen and (max-width: 730px) {
+  .newsText {
     font-size: 10px;
   }
-  .newsText::after{
+  .newsText::after {
     top: 11px;
   }
 }
