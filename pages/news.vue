@@ -28,9 +28,6 @@ export default {
       items: ""
     };
   },
-  head: {
-    script: []
-  },
   async asyncData() {
     const { data } = await axios.get(
       "https://engii.microcms.io/api/v1/news",
@@ -39,7 +36,7 @@ export default {
       }
     );
     return {
-      items: data.contents
+      items: data.contents 
     };
   }
 };

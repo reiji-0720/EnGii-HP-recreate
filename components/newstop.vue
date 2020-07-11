@@ -1,25 +1,20 @@
 <template>
   <div class="newsContainer">
-    <div class="newsList" v-for="elem in lists" :key="elem.name">
-      <p class="newsText">{{elem.name}} {{elem.date}} {{elem.title}}</p>
+    <div class="newsList">
+      <p class="newsText">{{news.title}} {{news.date}} {{news.text}}</p>
     </div>
   </div>
 </template>
 
 <script>
-import Vue from "vue";
+import axios from "axios";
 
 export default {
-  data() {
-    return {
-      lists: [
-        { name: "NEWS", date: "2020.06.07", title: "お知らせが入ります。" },
-        { name: "NEWS", date: "2020.06.03", title: "お知らせが入ります。" },
-        { name: "NEWS", date: "2020.06.01", title: "HPリニューアルのお知らせ" }
-      ]
-    };
+  props: ["news"],
+  mounted () {
+    console.log(news.title);
   }
-};
+}
 </script>
 
 <style>
@@ -45,6 +40,7 @@ export default {
   text-align: left;
   border-bottom: solid 1px #3bb2db;
   position: relative;
+  color: black;
 }
 
 @media screen and (max-width: 730px){

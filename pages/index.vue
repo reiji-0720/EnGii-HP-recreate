@@ -6,9 +6,10 @@
       <div class="borderOne"></div>
       <p class="textOne colorOne">scroll</p>
     </div>
-
     <MediaFooter class="MediaFooter" />
-    <Newstop id="News" />
+    <div v-for="item in items" :key="item" class="newsTest">
+      <Newstop :news="item" id="News" />
+    </div>
     <div id="sreviceTitle">
       <h2 class="serviceMainText">SERVICE</h2>
       <p class="serviceSubText">
@@ -42,8 +43,17 @@ import About from "~/components/About.vue";
 import Newstop from "~/components/newstop.vue";
 import Vue from "vue";
 import Top from "~/components/Top.vue";
+import axios from "axios";
 
 export default {
+  async asyncData() {
+    const { data } = await axios.get("https://engii.microcms.io/api/v1/news", {
+      headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" }
+    });
+    return {
+      items: data.contents
+    };
+  },
   components: {
     Logo,
     MediaFooter,
@@ -131,7 +141,7 @@ export default {
 .textOne {
   writing-mode: vertical-rl;
   margin-left: 25px;
-  color:#231815;
+  color: #231815;
   font-size: 14px;
 }
 
@@ -157,7 +167,6 @@ export default {
 }
 .scrollOne {
   margin: 0 auto -8px auto;
-
 }
 .colorOne {
   color: #231815;
@@ -219,7 +228,7 @@ export default {
   }
 
   #Influencer {
-    margin-top:20%;
+    margin-top: 20%;
   }
 }
 </style>
