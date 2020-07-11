@@ -5,39 +5,22 @@
     </nuxt-link>
     <ul class="headerMenue">
       <li>
-        <nuxt-link class="borderNone" to="/news" exact exact-active-class="active">NEWS</nuxt-link>
-      </li>
-      <li class="menu__single">
-        SERVICE
-        <ul class="menu__second-level">
-          <li>
-            <nuxt-link
-              class="borderNone subMenuePosition"
-              to="/sevice/support"
-              active-class="active"
-            >SUPPORT</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link class="borderNone subMenuePosition" to="/sevice/media" active-class="active">MEDIA</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              class="borderNone subMenuePosition"
-              to="/contact"
-              exact
-              exact-active-class="active"
-            >INFLUENCER</nuxt-link>
-          </li>
-        </ul>
+        <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
+        <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">CONTACT</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" to="/sevice/support">SUPPORT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" to="/member" exact exact-active-class="active">MEMBER</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" to="/sevice/media">MEDIA</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link class="borderNone subMenuePosition" to="/contact">INFLUENCER</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
       </li>
     </ul>
     <div id="nav-drawer">
@@ -48,30 +31,25 @@
       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
       <ul id="nav-content">
         <li>
-          <nuxt-link class="borderNone" to="/news" exact exact-active-class="active">NEWS</nuxt-link>
+          <nuxt-link class="borderNone" to="/">TOP</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone subMenuePosition" to="/sevice/support" active-class="active">SUPPORT</nuxt-link>
+          <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone subMenuePosition" to="/sevice/media" active-class="active">MEDIA</nuxt-link>
+          <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
         </li>
         <li>
-          <nuxt-link
-            class="borderNone subMenuePosition"
-            to="/contact"
-            exact
-            exact-active-class="active"
-          >INFLUENCER</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/sevice/support">SUPPORT</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone" to="/mainAbout" exact exact-active-class="active">ABOUT</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/sevice/media">MEDIA</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">CONTACT</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/contact">INFLUENCER</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone" to="/member" exact exact-active-class="active">MEMBER</nuxt-link>
+          <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
         </li>
       </ul>
     </div>
@@ -89,7 +67,7 @@ ul {
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
-    height: 75px;
+    height: 90px;
     display: flex;
     align-items: center;
     margin-bottom: 25px;
@@ -110,42 +88,25 @@ ul {
 
   .headerMenue li {
     margin: 7px 17px 0 17px;
-  }
-
-  .headerMenu > li.menu__single {
     position: relative;
+    display: inline-block;
+    text-decoration: none;
   }
-
-  ul.menu__second-level {
-    visibility: hidden;
-    display: flex;
-    opacity: 0;
-    z-index: 1;
-    padding: 15px 0;
-  }
-
-  li.menu__single ul.menu__second-level {
+  .headerMenue li::after {
     position: absolute;
-    top: 75px;
+    bottom: -4px;
+    left: 0;
+    content: "";
     width: 100%;
-    height:100%;
-    margin-left: -80px;
-    background:#e2f1f7 ;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    height: 3px;
+    background: #39acd8;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.3s;
   }
-
-  li.menu__single:hover ul.menu__second-level {
-    top: 75px;
-    visibility: visible;
-    opacity: 1;
+  .headerMenue li:hover::after {
+    transform: scale(1, 1);
   }
-
-  .subMenuePosition {
-    margin: auto 20px auto 0;
-    padding: 10px autos;
-  }
-
   .borderNone {
     text-decoration: none;
     color: #231815;
@@ -174,7 +135,7 @@ ul {
   .headerImgPosition {
     width: 30%;
   }
-  
+
   .headerMenue li {
     margin: 4px 15px 0 15px;
     font-size: 0.7rem;
@@ -198,7 +159,7 @@ ul {
     margin-left: -100px;
     width: 100%;
     margin-left: -70px;
-    background:#e2f1f7 ;
+    background: #e2f1f7;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
@@ -209,8 +170,7 @@ ul {
     opacity: 1;
   }
 
-  li.menu__single:hover + .result{
-    
+  li.menu__single:hover + .result {
   }
 
   .subMenuePosition {
@@ -313,6 +273,7 @@ ul {
     text-align: left;
     margin: auto;
     font-size: 0.9rem;
+    font-weight: 700;
   }
 
   /*チェックが入ったらもろもろ表示*/
@@ -331,8 +292,8 @@ ul {
     color: #231815;
   }
 }
-.active {
+/* .active {
   border: 2px solid #3bb2db;
   padding: 5px;
-}
+} */
 </style>
