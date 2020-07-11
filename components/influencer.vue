@@ -33,8 +33,6 @@ export default {
 </script>
 
 
-
-
 <style scoped>
 .main-container {
   height: 375.97px;
@@ -63,16 +61,12 @@ h1 {
   padding-top: 20px;
   text-align: left;
 }
-.influencerleft {
-  /* float: left; */
-}
 .main-container {
   height: 375.97px;
   background-color: #e2f1f7;
   padding: 0 0 0 15%;
   width: 100%;
   display: flex;
-  
   position: relative;
   z-index: 10;
 }
