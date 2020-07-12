@@ -94,7 +94,7 @@
             <div class="borderSupport"></div>
             <div class="review-main">
               <div class="reviewChatWrapper rcwTop">
-                <div class="reviewChatBox">
+                <div class="reviewChatBoxLeft">
                   <p>
                     １人でやってても、このくらいならいいか。とか、今日はいいやってなってしまってたのが、
                     るいさんが管理してくださってたおかげで、意識が変わって、ちゃんと目標持って
@@ -118,7 +118,7 @@
                 </div>
               </div>
               <div class="reviewChatWrapper rcwMiddle rcwRight">
-                <div class="reviewChatBox">
+                <div class="reviewChatBoxRight">
                   <p>
                     私は増えたり減ったりと毎日に差があったり、自分にあったダイエットにたどり着くのに
                     時間がかかり気持ち的にもブルーになりそうになりましたが、るいさん仕事忙しいのに
@@ -136,7 +136,7 @@
                 </div>
               </div>
               <div class="reviewChatWrapper rcwBottom">
-                <div class="reviewChatBox">
+                <div class="reviewChatBoxLeft">
                   <p>
                     最初の方は夕食後にお腹減ったり、すごい甘いもの食べたくなったりして辛かったんですけど、
                     食生活変えたら体重どころかお肌にも影響出てきて、そこからは何がなんでもやりきる！！
@@ -192,13 +192,13 @@
             <div class="borderSupport"></div>
             <div class="review-main">
               <div class="reviewChatWrapper rcw_es_top rcwRight">
-                <div class="reviewChatBox"></div>
+                <div class="reviewChatBoxRight"></div>
                 <div class="customerRight">
                   <img src="~/assets/サポート　アイコン　 女性.png">
                 </div>
               </div>
               <div class="reviewChatWrapper rcw_es_bottom">
-                <div class="reviewChatBox"></div>
+                <div class="reviewChatBoxLeft"></div>
                 <div class="customerLeft">
                   <img src="~/assets/サポート　アイコン　 男性.png">
                 </div>
@@ -477,22 +477,52 @@ components: {
 
 
 /*    Chatの装飾     */
-.reviewChatBox{
+.reviewChatBoxLeft,
+.reviewChatBoxRight{
   width: 600px;
   line-height: 40px;
   font-size:12px;
   background-color: #BEE6F3;
   border-radius: 15px;
   padding: 10px 30px;
+  position:relative;
+  text-align: left;
+ 
+}
+.reviewChatBoxLeft:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -7px;
+  bottom: -68px;
+  border-style: solid;
+  z-index: 10;
+  border-color: transparent transparent transparent #BEE6F3;
+  border-width: 77px 0px 28px 47px;
+  transform: rotate(223deg);
 }
 
+.reviewChatBoxRight:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 7px;
+  bottom: -68px;
+  border-style: solid;
+  z-index: 10;
+  border-color: transparent transparent transparent #BEE6F3;
+  border-width: 77px 0px 28px 47px;
+  transform: rotate(162deg);
+}
 /* (rcwTop)reviwChatBox Top */
 
 .rcwTop {
   margin-left: 20%;
   margin-bottom: 100px;
 }
-.rcwTop .reviewChatBox{
+.rcwTop .reviewChatBoxLeft{
   margin-left: 10%;
 }
 
@@ -506,7 +536,7 @@ components: {
 .rcwMiddle{
   margin-left: 40%;
 }
-.rcwMiddle .reviewChatBox{
+.rcwMiddle .reviewChatBoxRight{
   margin-left: 10%;
 }
 
@@ -525,12 +555,13 @@ components: {
   margin-left: 10%;
   margin-bottom: 100px;
 }
-.rcwBottom .reviewChatBox{
+.rcwBottom .reviewChatBoxLeft{
   margin-left: 10%;
 }
 /*    customer 画像    */
 .customerRight img,
 .customerLeft img{
+  margin-top:50px;
   width: 80px;
   height:80px;
 }
@@ -582,11 +613,11 @@ components: {
   margin-left:25%;
   margin-bottom:200px;
 }
-.rcw_es_top .reviewChatBox{
+.rcw_es_top .reviewChatBoxRight{
   height:200px;
   margin-left:90px;
 }
-.rcw_es_bottom .reviewChatBox{
+.rcw_es_bottom .reviewChatBoxLeft{
   height:200px;
   margin-left:120px;
 }
