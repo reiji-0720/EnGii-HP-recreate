@@ -14,14 +14,14 @@
     <div class="subArea">
       <div class="supportLeftVertical">
         <div class="sp-subAreaBox">
-            <div class="inline clearfix sp-index-main">
-          <p class="verticalOne">EnGii support</p>
-          <div class="border borderOne"></div>
+            <div class="sp-index-main">
+          <p class="sp-verticalOne">EnGii support</p>
+          <div class="sp-border sp-borderOne"></div>
         </div>
 
-        <div class="inline clearfix sp-index-sub">
-          <p class="verticalSecond">EnGii media</p>
-          <div class="border borderSecond"></div>
+        <div class="sp-index-sub">
+          <p class="sp-verticalSecond">EnGii media</p>
+          <div class="sp-border sp-borderSecond"></div>
         </div>
         </div>
         
@@ -286,7 +286,7 @@ components: {
  **           が横文字になってるところ                  **
  **                                                 **
 ****************************************************** */
-.subArea {
+.supportContainer .subArea {
   height: 100px;
   position: relative;
 }
@@ -307,11 +307,12 @@ components: {
   top:0;
   height:220.25px;
 }
-.inline {
-  /* float: left; */
+.sp-index-main,
+.sp-index-sub{
   display: inline-block;
   transform:rotate(180deg);
 }
+
 .supportLeftVertical {
   position:absolute;
   right:0;
@@ -322,40 +323,29 @@ components: {
   writing-mode: vertical-rl;
   font-size: 24px;
 }
-.verticalOne {
+.sp-verticalOne {
   padding-left: 18px;
   color: #9b9b9b;
 }
-.verticalSecond {
+.sp-verticalSecond {
   padding-left: 18px;
 }
-.border {
+.sp-border {
   height: 80px;
   width: 1px;
   background-color: black;
   display: block;
 }
-.borderOne {
+.sp-borderOne {
   margin: 10px 0 10px 35px;
   border: 1px solid #9b9b9b;
 }
-.borderSecond {
+.sp-borderSecond {
   margin: 10px 0 10px 35px;
   border: 1px solid #3bb2db;
 }
-.mediaContens {
-  font-size: 20px;
-  border-bottom: solid 2px #3bb2db;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  margin: auto;
-  height: 30px;
-  width: 89px;
-}
-.scrollsecond {
+
+/* .scrollsecond {
   float: right;
   margin: -730px 30px 0;
 }
@@ -370,12 +360,7 @@ components: {
   display: block;
   height: 80px;
   margin: 10px 0 0 35px;
-}
-.mediaUp {
-}
-.mediaDown{
-  height: 766px;
-}
+} */
 
 .E-Chat_E-Ring_wrapper{
   display: flex;
