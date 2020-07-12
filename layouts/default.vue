@@ -21,7 +21,7 @@ export default {
 
 <style>
 html {
-  font-family: brandon-grotesque, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo sans-serif;
+  font-family: "YakuHanJP, “Open sans”, “ヒラギノ角ゴ ProN W3", “Hiragino Kaku Gothic ProN”, “メイリオ“, Meiryo, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

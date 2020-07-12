@@ -17,7 +17,7 @@
         <nuxt-link class="borderNone subMenuePosition" to="/sevice/media">MEDIA</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" to="/contact">INFLUENCER</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" to="/influencer">INFLUENCER</nuxt-link>
       </li>
       <li>
         <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
@@ -46,7 +46,7 @@
           <nuxt-link class="borderNone subMenuePosition" to="/sevice/media">MEDIA</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone subMenuePosition" to="/contact">INFLUENCER</nuxt-link>
+          <nuxt-link class="borderNone subMenuePosition" to="/influencer">INFLUENCER</nuxt-link>
         </li>
         <li>
           <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
@@ -67,7 +67,6 @@ ul {
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
-    height: 90px;
     display: flex;
     align-items: center;
     margin-bottom: 25px;
