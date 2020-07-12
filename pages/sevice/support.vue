@@ -514,7 +514,7 @@ components: {
   z-index: 10;
   border-color: transparent transparent transparent #BEE6F3;
   border-width: 77px 0px 28px 47px;
-  transform: rotate(162deg);
+  transform: rotate(170deg);
 }
 /* (rcwTop)reviwChatBox Top */
 
