@@ -67,7 +67,6 @@ ul {
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
-    height: 90px;
     display: flex;
     align-items: center;
     margin-bottom: 25px;
