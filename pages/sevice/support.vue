@@ -466,7 +466,7 @@ components: {
 .reviewChatBoxRight{
   width: 600px;
   line-height: 40px;
-  font-size:12px;
+  font-size:0.8rem;
   background-color: #BEE6F3;
   border-radius: 15px;
   padding: 10px 30px;
@@ -504,7 +504,8 @@ components: {
 /* (rcwTop)reviwChatBox Top */
 
 .rcwTop {
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-top: 5%;
   margin-bottom: 100px;
 }
 .rcwTop .reviewChatBoxLeft{
@@ -519,7 +520,7 @@ components: {
   width:800px;
 }
 .rcwMiddle{
-  margin-left: 40%;
+  margin-left: 30%;
 }
 .rcwMiddle .reviewChatBoxRight{
   margin-left: 10%;

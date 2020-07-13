@@ -70,6 +70,7 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
+    height: 90px;
   }
 
   .headerImgPosition {
