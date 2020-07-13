@@ -59,7 +59,7 @@
               <button     class="btn-submit bg-mainColor"  @click="show=true">送信</button> -->
             </div>
             </form>
-            <contactBox message="Hello Vue.js"></contactBox>
+            
           </div>
         </div>
         <modal @modal="show=false" v-if="show" />
