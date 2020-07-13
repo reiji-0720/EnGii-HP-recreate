@@ -506,7 +506,7 @@ components: {
 .rcwTop {
   margin-left: 10%;
   margin-top: 5%;
-  margin-bottom: 100px;
+  margin-bottom: auto;
 }
 .rcwTop .reviewChatBoxLeft{
   margin-left: 10%;
