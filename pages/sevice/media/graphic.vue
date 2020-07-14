@@ -508,13 +508,13 @@ export default {
   /* .atelierText, */
   .REMLogo,
   .atelierLogoMain,
-  /* .ConceptArea, */
+  .ConceptArea,
   .EnGiiLogo {
     width: 90%;
     margin: 0 auto;
   }
   .LogoText{
-    width: 393px;
+    /* width: 393px; */
   }
   .ConceptAreaTop,
   .secondArrow,
@@ -526,7 +526,7 @@ export default {
   }
   .ConceptArea {
     max-width: 700px;
-    width: 330px;
+    /* width: 330px; */
     margin: 0 auto;
     display: block;
   }
