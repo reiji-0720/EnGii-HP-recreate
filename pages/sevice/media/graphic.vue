@@ -31,22 +31,11 @@
           <div class="ConceptAreaSP">
             <div class="ConceptAreaTopLeft">
               <img src="~assets/EnGiiSideRound.png" alt="EnGii Logo" class="EnGiiSideRound" />
-              <p class="ConceptRowSP">
-                円が渦を巻いているような
-                <br />完璧な塗りつぶした
-                <br />丸ではないのは手書きで
-                <br />円を描くことで温かみをデザイン
-                <br />アナログとデジタルの
-                <br />コントラストを表現
-              </p>
+              <p class="ConceptRowSP">渦を巻くように手書きで描くことで温かみをデザイン。アナログとデジタルのコントラストを表現</p>
             </div>
             <div class="ConceptAreaTopRight">
               <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRodSP" />
-              <p class="conceptdifSP">
-                互いに違う大きさの丸と直線で
-                <br />様々な人と関わっていくことを
-                <br />iの文字の大きさを変えて表現
-              </p>
+              <p class="conceptdifSP">様々な人と関わっていくことを文字の大きさを変えて表現</p>
             </div>
           </div>
           <div class="conceptBorder"></div>
@@ -64,12 +53,7 @@
             <img src="~assets/EnGiiHillSP.png" alt="EnGii Logo" class="EnGiiConceptHillSP" />
           </div>
           <div class="conceptDown">
-            <p class="lastconseptSP">
-              直線の下の部分を少し斜め右上と
-              <br />斜め右下にすることで丘の上に立ち、
-              <br />しっかりと立ち上がっていることを
-              <br />イメージさせるようにデザイン
-            </p>
+            <p class="lastconseptSP">直線の下の部分を少し斜めにすることで丘の上に立ち、しっかりと立ち上がっていることをイメージさせるようにデザイン</p>
           </div>
           <div class="topArrow"></div>
           <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
@@ -100,8 +84,8 @@
         </div>
         <div class="conseptfin">
           <p class="lastconsept">
-            直線の下の部分を少し斜め右上と
-            <br />斜め右下にすることで丘の上に立ち、
+            直線の下の部分を少し斜めに
+            <br />することで丘の上に立ち、
             <br />しっかりと立ち上がっていることを
             <br />イメージさせるようにデザイン
           </p>
@@ -113,14 +97,13 @@
       <img src="~assets/REMLogo.png" alt="REM Logo ロゴ" class="REMLogo" width="30%" />
       <p class="LogoConcept">concept</p>
       <p class="REMText">
-        某法人様のサロン新ブランド立ち上げブランディングを担当
+        某法人様のサロンブランド立ち上げブランディングを担当
         <br />REMのロゴ名刺、メンバーズカード制作
         <br />
-        <br />クライアント様からお店に訪れると夢の中のような空間を
-        <br />イメージしてREMという名前をネーミングしたと言われたので
+        <br />クライアント様が「お店に訪れると夢の中のような空間を
+        <br />イメージ」してREMというネーミングしたので
         <br />夢から連想する「幻」や「幻想」からぼやけた空間やフワッとした印象を
-        <br />持ってもらうために、文字の外側をぼやかすことでREMという空間に
-        <br />入っていただけることを表現
+        <br />文字の外側をぼかすことで表現
       </p>
       <div class="card">
         <div class="cardtop">
@@ -149,12 +132,12 @@
         <br />ロゴや名刺、チラシ、看板制作
         <br />
         <br />ロゴのイメージとして、お店の頭文字を使ったモノグラム手法で
-        <br />aとpの二文字を重なり合わせる。
-        <br />美容室という事もあり、美容師さんが使用するハサミを表現している。
-        <br />左右で円の大きさが違うのは対象であると無機質な感覚がでてしまうので
+        <br />aとpの二文字を重なり合わせた。
+        <br />美容室をイメージしやすいようにハサミを表現している。
+        <br />左右で円の大きさが対象だと無機質になってしまうので
         <br />あえてバランスを崩した有機的なイメージを表現。
-        <br />プレゼンツという名前からも、リボンを結んだ状態も表しており
-        <br />お客様が訪れた時に、プレゼントをもらったような特別感も演出している
+        <br />プレゼンツという名前は、リボンを結んだ状態を表しており
+        <br />お客様が訪れた時に、プレゼントをもらったような特別感を演出している
       </p>
       <div class="atelierMain">
         <img
@@ -513,7 +496,7 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
-  .LogoText{
+  .LogoText {
     /* width: 393px; */
   }
   .ConceptAreaTop,
