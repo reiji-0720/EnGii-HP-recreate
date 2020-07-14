@@ -18,27 +18,66 @@
         <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiLogo" width="25%" />
         <p class="LogoConcept">concept</p>
         <p class="LogoText">
-          コンセプトとしては、ロゴタイポという文字を主体にした
-          <br />ロゴで作成しました。理由として、「縁起が良い」という言葉を
-          <br />アイコンでイメージさせるよりはこれから新しいサービスを
-          <br />多く展開するにあたり、EnGii をブランド化することと文字で
-          <br />表現することで覚えてもらい、伝わりやすいという特徴がある為に作成
-          <br />また、ブランドやこのグループを覚えてもらいたいことを
-          <br />最優先にした場合適していると考えた
-          <br />
+          ロゴタイポを主体として作成。
+          <br />理由は、「縁起が良い」という言葉をアイコンでイメージさせるより、
+          <br />EnGiiをブランド化するため。
+          <br />さらに、文字で表現することで認知されやすい特徴があるため。
+          <br />また、プランドやEnGiiというグループを
+          <br />記憶されやすいということを考えたときに最適だと考えた。
         </p>
       </div>
       <div class="ConceptArea">
         <div class="ConceptAreaTop">
+          <div class="ConceptAreaSP">
+            <div class="ConceptAreaTopLeft">
+              <img src="~assets/EnGiiSideRound.png" alt="EnGii Logo" class="EnGiiSideRound" />
+              <p class="ConceptRowSP">
+                円が渦を巻いているような
+                <br />完璧な塗りつぶした
+                <br />丸ではないのは手書きで
+                <br />円を描くことで温かみをデザイン
+                <br />アナログとデジタルの
+                <br />コントラストを表現
+              </p>
+            </div>
+            <div class="ConceptAreaTopRight">
+              <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRodSP" />
+              <p class="conceptdifSP">
+                互いに違う大きさの丸と直線で
+                <br />様々な人と関わっていくことを
+                <br />iの文字の大きさを変えて表現
+              </p>
+            </div>
+          </div>
+          <div class="conceptBorder"></div>
           <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
+          <div class="conceptLogoLeft">
+            <img src="~assets/EnG.png" alt="EnGii Logo" class="EnGiiConceptSP" />
+          </div>
+          <img src="~assets/EnGiiII.png" alt="EnGii Logo" class="EnGiiConceptIISP" />
+          <div class="conceptBorderArea">
+            <div class="conceptBorderLeft"></div>
+            <div class="conceptBorderRight"></div>
+          </div>
+          <div class="conceptBorderDown">
+            <p class="HelveticaSP">Helveticaを使用</p>
+            <img src="~assets/EnGiiHillSP.png" alt="EnGii Logo" class="EnGiiConceptHillSP" />
+          </div>
+          <div class="conceptDown">
+            <p class="lastconseptSP">
+              直線の下の部分を少し斜め右上と
+              <br />斜め右下にすることで丘の上に立ち、
+              <br />しっかりと立ち上がっていることを
+              <br />イメージさせるようにデザイン
+            </p>
+          </div>
           <div class="topArrow"></div>
           <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
-          <p class="ConceptRow">
-            ・円が渦を巻いているような完璧な
+          <p class="ConceptRowPC">
+            円が渦を巻いているような完璧な
             <br />塗りつぶした丸ではないのは手書きで
             <br />円を描くことで温かみをデザイン
-            <br />・アナログとデジタルの
-            <br />コントラストを生み出している
+            <br />アナログとデジタルのコントラストを表現
           </p>
         </div>
 
@@ -51,8 +90,8 @@
           <div class="ArrowThird"></div>
           <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRod" />
           <p class="conceptdif">
-            ・互いに違う大きさのまると直線
-            <br />→様々な人と関わっていくので
+            互いに違う大きさの丸と直線で
+            <br />様々な人と関わっていくことを
             <br />iの文字の大きさを変えて表現
           </p>
         </div>
@@ -61,9 +100,10 @@
         </div>
         <div class="conseptfin">
           <p class="lastconsept">
-            直線の下の部分を少し斜め右上と斜め右下にすることで
-            <br />丘の上に立ち、しっかりと立ち上がっていることを
-            <br />イメージさせるようにデザインしました。
+            直線の下の部分を少し斜め右上と
+            <br />斜め右下にすることで丘の上に立ち、
+            <br />しっかりと立ち上がっていることを
+            <br />イメージさせるようにデザイン
           </p>
         </div>
       </div>
@@ -112,7 +152,7 @@
         <br />aとpの二文字を重なり合わせる。
         <br />美容室という事もあり、美容師さんが使用するハサミを表現している。
         <br />左右で円の大きさが違うのは対象であると無機質な感覚がでてしまうので
-        <br />あえてバランスを崩した有機的なイメージを作成
+        <br />あえてバランスを崩した有機的なイメージを表現。
         <br />プレゼンツという名前からも、リボンを結んだ状態も表しており
         <br />お客様が訪れた時に、プレゼントをもらったような特別感も演出している
       </p>
@@ -163,6 +203,17 @@ export default {
 </script>
 
 <style>
+@media screen and (min-width: 731px) {
+  .ConceptAreaSP,
+  .ConceptAreaSP,
+  .ConceptRowSP,
+  .conceptdifSP,
+  .conceptBorderDown,
+  .conceptDown,
+  .EnGiiConceptIISP {
+    display: none;
+  }
+}
 .graphicContainer {
   margin: 10% 0 300px;
 }
@@ -197,9 +248,9 @@ export default {
   margin: 20px auto 0;
   padding-bottom: 110px;
 }
-.graphicLogoTop{
+.graphicLogoTop {
   text-align: center;
-
+  margin: 0 auto;
 }
 .EnGiiLogo {
   margin-top: 40px;
@@ -209,20 +260,18 @@ export default {
   border-bottom: solid 2px #3bb2db;
   width: 65px;
 }
-
 .LogoText {
   text-align: left;
   display: inline-block;
   font-size: 18px;
   line-height: 32px;
 }
-
 .ConceptAreaTop {
   width: 750px;
   margin: 100px auto 0;
   display: flex;
 }
-.ConceptRow {
+.ConceptRowPC {
   text-align: left;
   display: inline-block;
   margin-left: 20px;
@@ -233,6 +282,9 @@ export default {
   width: 314px;
   height: 59px;
   /* position: relative; */
+}
+.EnGiiConceptSP {
+  display: none;
 }
 .topArrow {
   background-image: url("~@/assets/arrow.png");
@@ -451,15 +503,18 @@ export default {
     margin: 20px auto 0;
   }
   .atelierLogo,
-  .LogoText,
-  .REMText,
-  .atelierText,
+  /* .LogoText, */
+  /* .REMText, */
+  /* .atelierText, */
   .REMLogo,
   .atelierLogoMain,
-  .ConceptArea,
+  /* .ConceptArea, */
   .EnGiiLogo {
     width: 90%;
     margin: 0 auto;
+  }
+  .LogoText{
+    width: 393px;
   }
   .ConceptAreaTop,
   .secondArrow,
@@ -469,15 +524,22 @@ export default {
     display: block;
     width: 90%;
   }
-  /* .topArrow, */
+  .ConceptArea {
+    max-width: 700px;
+    width: 330px;
+    margin: 0 auto;
+    display: block;
+  }
+  .topArrow,
   .ArrowOne,
   .ArrowSecond,
-  .ArrowThird {
+  .ArrowThird,
+  .EnGiiRound,
+  .ConceptRowPC,
+  .thirdConcept,
+  .conseptHill,
+  .conseptfin {
     display: none;
-  }
-  .topArrow{
-    margin: 30px auto 70px;
-    transform: rotateZ(90deg);
   }
   .graphicText h2 {
     font-size: 21px;
@@ -488,25 +550,87 @@ export default {
   }
   .LogoText,
   .REMText,
-  .atelierText {
-    font-size: 10px;
+  .atelierText,
+  .ConceptRowSP,
+  .conceptdifSP,
+  .HelveticaSP,
+  .lastconseptSP {
+    font-size: 12px;
   }
-  .EnGiiConcept{
-    margin-bottom: 60px;
+  .ConceptAreaSP {
+    display: flex;
   }
-  .Helvetica{
+  .EnGiiRodSP {
+    width: 26px;
+    height: 13px;
+    margin-left: 50px;
+  }
+  .EnGiiSideRound {
+    width: 56px;
+    height: 17px;
+  }
+  .EnGiiConcept {
     display: none;
   }
-  .EnGiiRod{
-    margin: 15px 0 0 15px;
+  .conceptLogoLeft {
+    display: inline-block;
+    height: 40px;
+    border-bottom: solid 1px #999999;
   }
-  .conceptdif{
+  .EnGiiConceptSP {
+    width: 150px;
+    height: 20px;
     display: inline-block;
   }
-  .EnGiiHill{
+  .EnGiiConceptIISP {
+    width: 58px;
+    height: 46px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .conceptBorderArea,
+  .conceptBorderDown {
+    display: flex;
+  }
+  .conceptBorder {
+    border-left: 1px solid #999999;
+    height: 25px;
+    margin: 0 0 25px 210px;
+  }
+  .conceptBorderLeft {
+    border-left: 1px solid #999999;
+    height: 25px;
+    margin-left: 73px;
+  }
+  .conceptBorderRight {
+    border-left: 1px solid #999999;
+    height: 25px;
+    margin: -5px 0 0 135px;
+  }
+  .HelveticaSP {
+    margin: 5px 0 0 34px;
+  }
+  .EnGiiConceptHillSP {
+    height: 6px;
+    width: 58px;
+    margin: 8px 0 0 60px;
+  }
+  .lastconseptSP {
+    margin: 5px 0 0 135px;
+  }
+  .Helvetica {
+    display: none;
+  }
+  .EnGiiRod {
+    margin: 15px 0 0 15px;
+  }
+  .conceptdif {
+    display: inline-block;
+  }
+  .EnGiiHill {
     margin: 15px 0 0 10px;
   }
-  .lastconsept{
+  .lastconsept {
     margin: 0;
   }
 }
