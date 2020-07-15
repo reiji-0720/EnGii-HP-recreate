@@ -130,6 +130,7 @@ ul {
   }
   .headerMenue {
     display: flex;
+    font-weight: 700;
   }
 
   .headerImgPosition {

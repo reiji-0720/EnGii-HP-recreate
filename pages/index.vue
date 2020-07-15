@@ -7,6 +7,7 @@
       <p class="textOne colorOne">scroll</p>
     </div>
     <MediaFooter class="MediaFooter" />
+    <h2 class="newsMainText">NEWS</h2>
     <Newstop :newstop="newsitems" id="News" />
     <div id="sreviceTitle">
       <h2 class="serviceMainText">SERVICE</h2>
@@ -50,14 +51,11 @@ export default {
     };
   },
   async asyncData() {
-    const { data } = await axios.get(
-      "https://engii.microcms.io/api/v1/news",
-      {
-        headers: { "X-API-KEY" : "ff71a3f4-d0d9-4250-9060-9b660b690fe6" }
-      }
-    );
+    const { data } = await axios.get("https://engii.microcms.io/api/v1/news", {
+      headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" }
+    });
     return {
-      newsitems: data.contents 
+      newsitems: data.contents
     };
   },
   components: {
@@ -85,10 +83,13 @@ export default {
 }
 
 #Top,
-#News,
 #About,
 #indexContact {
   margin-top: 15%;
+}
+
+#News {
+  margin-top: 3%;
 }
 
 .Activity {
@@ -119,6 +120,12 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.newsMainText {
+  font-size: 54px;
+  margin: 10% auto 0 auto;
+  font-weight: 600;
 }
 
 #sreviceTitle {
@@ -172,7 +179,7 @@ export default {
   display: inline-block;
 }
 .scrollOne {
-  margin: 0 auto -8px auto;
+  margin: 0 auto -8px 20px;
 }
 .colorOne {
   color: #231815;
@@ -201,6 +208,11 @@ export default {
   }
   #sreviceTitle {
     margin-top: 20%;
+  }
+  .newsMainText {
+    font-size: 35px;
+    margin: 10% auto 0 auto;
+    font-weight: 600;
   }
   .serviceSubText {
     font-size: 10px;

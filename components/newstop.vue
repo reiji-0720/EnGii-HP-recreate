@@ -17,19 +17,16 @@ export default {
 <style>
 .newsContainer {
   margin: 0 auto;
-  width: 55%;
+  width: 70%;
+  overflow-y: scroll;
+	margin: 0 auto;
+  height: 300px;
+	padding: 10px 20px;
+	border: 2px solid #ccc;
 }
 
-.newsText::after {
-  position: absolute;
-  left: 100%;
-  top: 20px;
-  content: " ";
-  width: 0;
-  height: 0;
-  border: solid transparent;
-  border-width: 5px 20px;
-  border-left-color: #3bb2db;
+.newsList {
+  margin: 10px auto;
 }
 
 .newsText {
