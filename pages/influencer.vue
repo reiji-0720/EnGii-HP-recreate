@@ -59,19 +59,23 @@
     </div>
 
     <div class="mainInfluencerUpThree">
-      <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
-        <div class="mainInfluencerImg">
-          <img :src="member.img.url" alt width="20%" />
-        </div>
-        <div class="mainInfluencerName">
-          <p>{{member.name}}</p>
-          <p>{{member.nameKey}}</p>
-        </div>
-        <div class="mainInfluencerPosition">
-          <p>{{member.title}}</p>
-        </div>
-        <div class="mainInfluencerText">
-          <p>{{member.introduction}}</p>
+      <h2 class="influencerMember">The member List</h2>
+      <p class="memberList">メンバーリスト</p>
+      <div class="influencerArea">
+        <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
+          <div class="mainInfluencerImg">
+            <img :src="member.img.url" alt width="20%" />
+          </div>
+          <div class="mainInfluencerName">
+            <p>{{member.name}}</p>
+            <p>{{member.nameKey}}</p>
+          </div>
+          <div class="mainInfluencerPosition">
+            <p>{{member.title}}</p>
+          </div>
+          <div class="mainInfluencerText">
+            <p>{{member.introduction}}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -111,8 +115,6 @@ export default {
 }
 .title-box h2 {
   font-weight: 700;
-}
-h2 {
   line-height: 101.65px;
   padding-left: 20px;
 }
@@ -242,7 +244,7 @@ h2 {
   background-size: cover;
   width: 104px;
   height: 104px;
-  margin: 0 70px
+  margin: 0 70px;
 }
 .upArrow {
   background-image: url("~@/assets/arrowUp.png");
@@ -281,5 +283,42 @@ h2 {
   display: inline-block;
   line-height: 35px;
   font-size: 18px;
+}
+.mainInfluencerUpThree {
+  padding-top: 110px;
+}
+.influencerMember {
+  text-align: center;
+  font-size: 54px;
+}
+.memberList {
+  text-align: center;
+  font-size: 24px;
+}
+.influencerArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  width: 60%;
+
+}
+.mainInfluencerFrame {
+  width: 33%;
+  margin: 0 auto;
+  text-align: center;
+}
+.mainInfluencerImg{
+  margin: 0 auto;
+}
+.mainInfluencerName{
+
+}
+.mainInfluencerPosition{
+
+}
+.mainInfluencerText{
+  text-align: left;
 }
 </style>
