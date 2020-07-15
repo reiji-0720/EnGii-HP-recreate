@@ -30,10 +30,10 @@ export default {
 </script>
 
 <style>
-.active {
-  border: 2px solid #3BB2DB;
+/* .active {
+  border-bottom: 2px solid #3BB2DB;
   padding: 5px;
-}
+} */
 .graphics {
   float: left;
   width: 50%;

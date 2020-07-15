@@ -8,7 +8,7 @@
           <p>GRAPHIC DESIGN</p>
         </div>
       </div>
-      <nuxt-link class="borderNone" to="/contact" exact exact-active-class="active">
+      <nuxt-link class="borderNone" to="/contact" >
         <request />
       </nuxt-link>
     </div>

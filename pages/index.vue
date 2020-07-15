@@ -172,14 +172,14 @@ export default {
   background-color: #3e3a39;
 }
 .borderOne {
-  border-left: 1.5px solid #231815;
+  border-left: 1px solid #231815;
   height: 80px;
   margin: 0 auto;
   width: 1px;
   display: inline-block;
 }
 .scrollOne {
-  margin: 0 auto -8px 20px;
+  margin: 0 auto -6px;
 }
 .colorOne {
   color: #231815;

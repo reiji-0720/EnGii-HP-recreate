@@ -5,22 +5,22 @@
     </nuxt-link>
     <ul class="headerMenue">
       <li>
-        <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/mainAbout">ABOUT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/member">MEMBER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" to="/sevice/support">SUPPORT</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/sevice/support">SUPPORT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" to="/sevice/media">MEDIA</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/sevice/media">MEDIA</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" to="/influencer">INFLUENCER</nuxt-link>
+        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/influencer">INFLUENCER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/contact">CONTACT</nuxt-link>
       </li>
     </ul>
     <div id="nav-drawer">
@@ -94,11 +94,11 @@ ul {
   }
   .headerMenue li::after {
     position: absolute;
-    bottom: -4px;
+    bottom: -3px;
     left: 0;
     content: "";
     width: 100%;
-    height: 3px;
+    height: 2px;
     background: #39acd8;
     transform: scale(0, 1);
     transform-origin: left top;
@@ -293,8 +293,8 @@ ul {
     color: #231815;
   }
 }
-/* .active {
-  border: 2px solid #3bb2db;
+.active {
+  border-bottom: 2px solid #3bb2db;
   padding: 5px;
-} */
+}
 </style>
