@@ -24,7 +24,7 @@
           <br />を形にして、皆様の力になれたらと思っています。
         </p>
         <div class="btn-more">
-          <nuxt-link to class="about">
+          <nuxt-link to="mainAbout" class="about">
             <btnMore />
             <Triangle />
           </nuxt-link>

@@ -12,7 +12,7 @@
         </p>
       </div>
       <div class="btn-more">
-        <nuxt-link to class="influencer">
+        <nuxt-link to="/influencer" class="influencer">
           <btnMore />
         </nuxt-link>
       </div>

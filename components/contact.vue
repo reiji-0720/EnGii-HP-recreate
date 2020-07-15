@@ -2,7 +2,7 @@
   <div class="contactContainer">
     <p class="contactText">CONTACT</p>
     <div class="contactArea">
-      <nuxt-link to class="contact bg-mainColor">
+      <nuxt-link to="contact" class="contact bg-mainColor">
         お気軽にお問い合わせください<Triangle />
       </nuxt-link>
     </div>
