@@ -21,7 +21,6 @@
             <p class="sp-verticalOne">EnGii support</p>
             <div class="sp-border sp-borderOne"></div>
           </div>
-
           <div class="sp-index-sub">
             <p class="sp-verticalSecond">EnGii media</p>
             <div class="sp-border sp-borderSecond"></div>
@@ -744,6 +743,10 @@ input {
     font-size: 55px;
   }
 
+  .supportExp {
+    font-size: 1rem;
+  }
+
   .supportIcon {
     background-image: url("~@/assets/supportIcon.png");
     background-size: cover;
@@ -752,6 +755,12 @@ input {
     width: 110px;
     /* float: left; */
   }
+
+  .sp-index-main p,
+  .sp-index-sub p {
+    font-size: 1.2rem;
+  }
+
   .review-main {
     display: none;
   }
@@ -815,9 +824,14 @@ input {
   }
 }
 
+@media screen and (max-width: 850px) {
+  .subArea {
+    display: none;
+  }
+}
 @media screen and (max-width: 730px) {
   .supportTop {
-    margin-top: 15%;
+    margin: 15% auto 30% auto;
   }
   .supportTopLeft {
     float: none;
@@ -827,7 +841,7 @@ input {
   .supportIcon {
     float: right;
     width: 92px;
-    height: 90px;
+    height: 92px;
   }
   .supportImg {
     width: 100%;
@@ -837,7 +851,12 @@ input {
   /* .mediaIcon h2, .mediaIcon p{
     float: left;
   } */
-
+  .E-Chat-wrapper {
+    border: none;
+  }
+  .E-Ring-wrapper {
+    border: none;
+  }
   .scrollsecond {
     display: none;
   }
@@ -854,7 +873,7 @@ input {
     display: block;
   }
   .subArea {
-    margin: 70px 0 -30px;
+    display: none;
   }
   .supportTopRight {
     padding: 0;
@@ -867,6 +886,9 @@ input {
   }
   .supportDown {
     height: 1500px;
+  }
+  .E-Chat_E-Ring_wrapper {
+    display: block;
   }
 }
 </style>
