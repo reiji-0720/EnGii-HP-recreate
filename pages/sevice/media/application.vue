@@ -5,7 +5,9 @@
       <p>APPLICATION DESIGN</p>
     </div>
     <div class="requestPosition">
-      <request />
+      <nuxt-link class="borderNone" to="/contact" >
+        <request />
+      </nuxt-link>
     </div>
     <div class="neopaImg">
       <img src="~/assets/neopa6.png" width="15%" />
