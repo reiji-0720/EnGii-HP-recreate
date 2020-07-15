@@ -5,7 +5,7 @@
       <p>APPLICATION DESIGN</p>
     </div>
     <div class="requestPosition">
-      <nuxt-link class="borderNone" to="/contact" >
+      <nuxt-link class="borderNone" to="/contact">
         <request />
       </nuxt-link>
     </div>
@@ -17,22 +17,24 @@
     </div>
     <div class="applicationText">
       <p>
-        オンラインマッチングアプリというコンセプトで作成した作品になります。
+        オンラインマッチングアプリというコンセプトで作成した作品です。
         <br />マッチングアプリではお互いにメッセージを交換し、実際に会うという方法が
-        <br />ほとんどですが、今回はリモートでのオンライン飲み会を行ってもらい、
+        <br />一般的ですが、今回はリモートでのオンライン飲み会を行い、
         <br />その場でマッチングするというアプリを制作しました。
       </p>
 
       <p>
-        ロゴコンセプトとしては、新しい時代の飲み会という事もあり基本カラーをグラデーション
-        <br />にし時代に順応する、様々な人たちのカラーが混ざり合うというイメージになります。
-        <br />また、パーティーの時に乾杯をして弾ける楽しさ＝泡という印象があったので
-        <br />気泡を使わず、あえてのneopaという文字を泡のように上昇するイメージで配置し
+        ロゴコンセプトは、新しい時代の飲み会という事で基本カラーをグラデーションにし、
+        <br />時代に順応する、様々な人のカラーが混ざり合うというイメージです。
+        <br />また、「パーティーの時に乾杯をして弾ける楽しさ」＝「泡」という印象から
+        <br />neopaという文字を泡のように上昇するイメージで配置し
         <br />アイコニックに表現しています。
       </p>
     </div>
     <appAchievement />
-    <request />
+    <nuxt-link class="borderNone" to="/contact">
+      <request />
+    </nuxt-link>
   </div>
 </template>
 
@@ -91,7 +93,7 @@ export default {
 }
 
 .applicationText {
-  margin: 10% auto;
+  margin: 10%;
 }
 
 .applicationText p {
