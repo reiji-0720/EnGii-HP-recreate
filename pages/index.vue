@@ -18,8 +18,12 @@
       </p>
     </div>
     <div class="Activity clearfix">
-      <engiiSupport />
-      <engiiMedia />
+      <nuxt-link class="borderNone" to="/sevice/support">
+        <engiiSupport />
+      </nuxt-link>
+      <nuxt-link class="borderNone" to="/sevice/media">
+        <engiiMedia />
+      </nuxt-link>
     </div>
     <div class="scrollsecond">
       <p class="scrolltext">scroll</p>

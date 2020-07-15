@@ -173,6 +173,9 @@
         </p>
       </div>
     </div>
+    <nuxt-link class="borderNone" to="/contact" >
+        <request />
+      </nuxt-link>
   </div>
 </template>
 
@@ -412,6 +415,7 @@ export default {
 .atelier {
   text-align: center;
   padding-top: 110px;
+  margin-bottom: 110px;
 }
 .atelierText {
   font-size: 18px;
