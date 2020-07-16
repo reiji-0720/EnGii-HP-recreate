@@ -285,7 +285,7 @@ export default {
     font-size: 26px;
   }
   .mediaExp {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
   .sp-br {
     display: block;

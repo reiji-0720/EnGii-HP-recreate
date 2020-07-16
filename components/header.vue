@@ -11,13 +11,13 @@
         <nuxt-link class="borderNone" active-class="active" to="/member">MEMBER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/sevice/support">SUPPORT</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/sevice/support">SUPPORT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/sevice/media">MEDIA</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/sevice/media">MEDIA</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone subMenuePosition" active-class="active" to="/influencer">INFLUENCER</nuxt-link>
+        <nuxt-link class="borderNone" active-class="active" to="/influencer">INFLUENCER</nuxt-link>
       </li>
       <li>
         <nuxt-link class="borderNone" active-class="active" to="/contact">CONTACT</nuxt-link>

@@ -75,15 +75,14 @@
             <br />無理ないダイエットを叶えるE-Fitness！
             <br />1人だとついつい甘えてしまったり、
             <br />どうやったらうまく痩せれるか分からない、運動は苦手、
-            <br />などなどダイエットって本当に難しいですよね。
+            <br />などなどダイエットって難しいですよね。
             <br />痩せたいのに痩せれない！そんな人の「痩せたい！」を叶える
             <br />ダイエットサポートE-Fitness。
             <br />代表でもあるサポーターの宮坂が2週間、公式LINEでやり取りするだけ！
             <br />1日の振り返りを夜に10分ほど行います。
-            <br />あなたの食生活、生活の仕方にフィードバックすることで
-            <br />正しい知識を身につ、1人でもしっかりダイエット
-            <br />できるように致します！！詳しいことをお聞きしたい場合は
-            <br />コンタクトから公式LINEを追加してください！
+            <br />あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエット
+            <br />できるように致します！！
+            <br />サポートをご希望の方はコンタクトから公式LINEを追加してください！
           </p>
         </div>
         <div class="review-wrapper">
@@ -221,13 +220,13 @@
           <div class="borderSupport"></div>
           <p>
             E-start （初回相談無料）
-            <br />E-startは、みなさんの進学、就職、転職などの
-            <br />進路についてやその他（恋愛なども）のお悩みを聞き、
+            <br />E-startは、皆様の進学、就職、転職などの
+            <br />進路についてやその他のお悩みを聞き、
             <br />アドバイスやサポートを行います！
-            <br />公式LINEとのチャットでのやり取りでも
+            <br />公式LINEのトークでのやり取りでも
             <br />お電話でのやり取りであなたの悩みに寄り添い、アドバイスします。
             <br />国立の高等専門学校卒業後、大手鉄道会社に就職、
-            <br />色んな葛藤をしながら3年かけて都内大手広告代理店に
+            <br />色んな葛藤をしながら3年かけて都内大手広告代理店に入社
             <br />転職した経験やこれまで何十件と色んな方の相談にのってきた
             <br />経験から多岐に渡るアドバイスをします！
             <br />悩んでることがあるなら、まずは気軽にコンタクトページから
@@ -822,6 +821,9 @@ input {
     height: 270px;
     opacity: 1;
   }
+  .subArea {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -829,7 +831,7 @@ input {
     display: none;
   }
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 770px) {
   .supportTop {
     margin: 15% auto 30% auto;
   }
@@ -857,6 +859,9 @@ input {
   .E-Ring-wrapper {
     border: none;
   }
+  .E-Fitness-container p, .E-Start-container p {
+    margin: 20px;
+  }
   .scrollsecond {
     display: none;
   }
@@ -867,7 +872,73 @@ input {
     font-size: 26px;
   }
   .supportExp {
-    font-size: 16px;
+    font-size: 0.8rem;
+  }
+  .sp-br {
+    display: block;
+  }
+  .subArea {
+    display: none;
+  }
+  .supportTopRight {
+    padding: 0;
+    float: none;
+    margin: 25px auto;
+    width: 85%;
+  }
+  .supportTop {
+    height: 230px;
+  }
+  .supportDown {
+    height: 1500px;
+  }
+  .E-Chat_E-Ring_wrapper {
+    display: block;
+  }
+}
+@media screen and (max-width: 730px) {
+  
+  .supportTop {
+    margin: 15% auto 50% auto;
+  }
+  .supportTopLeft {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .supportIcon {
+    float: right;
+    width: 92px;
+    height: 92px;
+  }
+  .supportImg {
+    width: 100%;
+    padding: 0;
+    height: 280px;
+  }
+  /* .mediaIcon h2, .mediaIcon p{
+    float: left;
+  } */
+  .E-Chat-wrapper {
+    border: none;
+  }
+  .E-Ring-wrapper {
+    border: none;
+  }
+  .E-Fitness-container p, .E-Start-container p {
+    margin: 20px;
+  }
+  .scrollsecond {
+    display: none;
+  }
+  .supportLeftVertical {
+    display: none;
+  }
+  .supportText {
+    font-size: 26px;
+  }
+  .supportExp {
+    font-size: 0.8rem;
   }
   .sp-br {
     display: block;
