@@ -51,6 +51,7 @@ export default {
 .hpText {
   text-align: center;
   font-size: 26px;
+  font-weight: bold;
 }
 .hpTextEng {
   text-align: center;

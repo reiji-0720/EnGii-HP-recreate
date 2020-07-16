@@ -56,6 +56,7 @@ export default {
 .graphicsText {
   text-align: center;
   font-size: 26px;
+  font-weight: bold;
 }
 .graphicsTextEng {
   text-align: center;

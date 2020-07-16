@@ -51,6 +51,7 @@ export default {
 .videoText {
   text-align: center;
   font-size: 26px;
+  font-weight: bold;
 }
 .videoTextEng {
   text-align: center;

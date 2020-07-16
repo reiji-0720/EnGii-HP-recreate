@@ -56,6 +56,7 @@ export default {
 .appText {
   text-align: center;
   font-size: 26px;
+  font-weight: bold;
 }
 .appTextEng {
   text-align: center;
