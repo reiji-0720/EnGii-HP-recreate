@@ -5,130 +5,121 @@
           <p class="explain">EnGiiについてご相談やご質問などがある方は<br>
             下記の電話番号かお問い合わせフォームよりお問い合わせください。</p>
           <div class="form">
-          <form
-            id="formApp"
-            
-            @submit="show=true"
-            action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd9P0cnQTmkVHGT6lLnmWuXGlFrdtyJRwSTwq2XDRPT2vrFCg/formResponse" 
-            method="post"
-            
-            target="dummy"
-          >
-          <iframe name="dummy" style="display:none;"></iframe>
-          <!-- <p v-if="errors.length">
-              <b>Please correct the following error(s):</b>
-              <ul>
-                <li v-for="error in errors">{{ error }}</li>
-              </ul>
-          </p> -->
-            <div class="formBox genre">
-              <div class="text">
-              <label for="genre" class="adjustP" >お問い合わせジャンル</label>
-              </div>
-              <div class="inputBox">
-              <input
-                name="entry.398878031"
-                id="genre"
-                type="text"
-                pattern="[^\x20-\x7E]*"
-                v-model="userInfo.genre"
-                required
-              >
-              </div>
-
-            </div>
-            <div class="formBox name">
-            <div class="text">
-              <label for="name" class="adjustP">お名前</label>
-            </div>
-            <div　class="inputBox">
-              <input
-                name="entry.1191593904"
-                id="name"
-                type="text"
-                pattern="[^\x20-\x7E]*"
-                v-model="userInfo.name"
-                required
-              >
-            
-            </div>
-
-              <!-- 日本語のみ認識 -->
-            </div>
-            
-            <div class="formBox nameFurigana">
-            <div class="text">
-              <label for="nameFurigana" adjustP>お名前（フリガナ）</label>
-              </div>
-              <div class="inputBox">
-              <input
-                name="entry.1441505981"
-                id="nameFurigana"
-                type="text"
-                pattern="(([\u30A1-\u30F6]*)||([\uFF66-\uFF9F]*))"
-                v-model="userInfo.nameFurigana"
-                required
-              >
-              </div>
-
-            </div>
-            <div class="formBox tel">
-            <div class="text">
-              <label for="tel" adjustP>電話番号{{userInfo.tel}}</label>
-              </div>
-              <div class="inputBox">
+            <form
+              id="formApp"
+              @submit="((show=true)||(rset()))"
+              action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd9P0cnQTmkVHGT6lLnmWuXGlFrdtyJRwSTwq2XDRPT2vrFCg/formResponse" 
+              method="post"
+              target="dummy"
+            >
+              <iframe name="dummy" style="display:none;"></iframe>
+              <!-- <p v-if="errors.length">
+                <b>Please correct the following error(s):</b>
+                <ul>
+                  <li v-for="error in errors">{{ error }}</li>
+                </ul>
+              </p> -->
+              <div class="formBox genre">
+                <div class="text">
+                <label for="genre" class="adjustP" >お問い合わせジャンル</label>
+                </div>
+                <div class="inputBox">
                 <input
-                  name="entry.1537312469"
-                  id="tel"
-                  type="tel"
-                  v-model="userInfo.tel" pattern="(([0-9]{11})||[0-9]{10}))"
-            
+                  name="entry.398878031"
+                  id="genre"
+                  type="text"
+                  pattern="[^\x20-\x7E]*"
+                  v-model="userInfo.genre"
                   required
                 >
-              </div>
+                </div>
 
-            </div>
-            <div class="formBox mail">
-            <div class="text">
-              <label for="email" adjustP>メールアドレス</label>
               </div>
-              <div class="inputBox">
-                <input
-                  name="entry.1059388771"
-                  id="email"
-                  type="email"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-                  v-model="userInfo.email"
-                  
+              <div class="formBox name">
+                <div class="text">
+                  <label for="name" class="adjustP">お名前</label>
+                </div>
+                <div　class="inputBox">
+                  <input
+                    name="entry.1191593904"
+                    id="name"
+                    type="text"
+                    pattern="[^\x20-\x7E]*"
+                    v-model="userInfo.name"
+                    required
+                  >
+                </div>
+                <!-- 日本語のみ認識 -->
+              </div>
+              <div class="formBox nameFurigana">
+                <div class="text">
+                  <label for="nameFurigana" adjustP>お名前（フリガナ）</label>
+                  </div>
+                  <div class="inputBox">
+                  <input
+                    name="entry.1441505981"
+                    id="nameFurigana"
+                    type="text"
+                    pattern="(([\u30A1-\u30F6]*)||([\uFF66-\uFF9F]*))"
+                    v-model="userInfo.nameFurigana"
+                    required
+                  >
+                </div>
+              </div>
+              <div class="formBox tel">
+                <div class="text">
+                  <label for="tel" adjustP>電話番号</label>
+                </div>
+                <div class="inputBox">
+                  <input
+                    name="entry.1537312469"
+                    id="tel"
+                    type="tel"
+                    v-model="userInfo.tel" pattern="(([0-9]{11})||[0-9]{10}))"
+                    required
+                  >
+                </div>
+              </div>
+              <div class="formBox mail">
+                <div class="text">
+                  <label for="email" adjustP>メールアドレス</label>
+                </div>
+                <div class="inputBox">
+                  <input
+                    name="entry.1059388771"
+                    id="email"
+                    type="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                    v-model="userInfo.email"
+                    required
+                  >
+                </div>
+              </div>
+              <div class="formBox content">
+                <div class="text">
+                  <label for="content" adjustP>お問い合わせ内容</label>
+                </div>
+                <div class="inputBox">
+                  <textarea
+                  name="entry.770171748"
+                  v-model="userInfo.content"
+                  id="content"
+                  rows="20"
+                  cols="60"
                   required
-                >
+                  >
+                  </textarea>
+                </div>
               </div>
-            </div>
-            <div class="formBox content">
-            <div class="text">
-              <label for="content" adjustP>お問い合わせ内容</label>
+              <div class="submit" >
+                <p>
+                  <input
+                    type="submit"
+                    value="送信"
+                    class="btnSubmit bg-mainColor"
+                  >
+                </p>
               </div>
-              <div class="inputBox">
-                <textarea
-                name="entry.770171748"
-                v-model="userInfo.content"
-                id="content"
-                rows="20"
-                cols="60"
-                required
-                >
-                </textarea>
-              </div>
-            </div>
-            <div class="submit" >
-              <p>
-                <input
-                  type="submit"
-                  value="送信"
-                  class="btnSubmit bg-mainColor"
-                >
-              </p>
-            </div>
             </form>
           </div>
         </div>
