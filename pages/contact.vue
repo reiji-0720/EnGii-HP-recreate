@@ -13,33 +13,26 @@
               target="dummy"
             >
               <iframe name="dummy" style="display:none;"></iframe>
-              <!-- <p v-if="errors.length">
-                <b>Please correct the following error(s):</b>
-                <ul>
-                  <li v-for="error in errors">{{ error }}</li>
-                </ul>
-              </p> -->
               <div class="formBox genre">
                 <div class="text">
-                <label for="genre" class="adjustP" >お問い合わせジャンル</label>
+                  <label for="genre" class="adjustP" >お問い合わせジャンル</label>
                 </div>
                 <div class="inputBox">
-                <input
-                  name="entry.398878031"
-                  id="genre"
-                  type="text"
-                  pattern="[^\x20-\x7E]*"
-                  v-model="userInfo.genre"
-                  required
-                >
+                  <input
+                    name="entry.398878031"
+                    id="genre"
+                    type="text"
+                    pattern="[^\x20-\x7E]*"
+                    v-model="userInfo.genre"
+                    required
+                  >
                 </div>
-
               </div>
               <div class="formBox name">
                 <div class="text">
                   <label for="name" class="adjustP">お名前</label>
                 </div>
-                <div　class="inputBox">
+                <div class="inputBox">
                   <input
                     name="entry.1191593904"
                     id="name"
@@ -49,13 +42,12 @@
                     required
                   >
                 </div>
-                <!-- 日本語のみ認識 -->
               </div>
               <div class="formBox nameFurigana">
                 <div class="text">
                   <label for="nameFurigana" adjustP>お名前（フリガナ）</label>
-                  </div>
-                  <div class="inputBox">
+                </div>
+                <div class="inputBox">
                   <input
                     name="entry.1441505981"
                     id="nameFurigana"
@@ -119,7 +111,7 @@
                     class="btnSubmit bg-mainColor"
                   >
                 </p>
-              </div>
+              </div> 
             </form>
           </div>
         </div>
