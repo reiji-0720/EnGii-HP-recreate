@@ -157,8 +157,9 @@
 }
 
 .memberImgShun {
-  background-image: url("~@/assets/noFace.jpeg");
+  background-image: url("~@/assets/kiyouraShun.jpg");
   background-size: cover;
+  background-position: right 10% bottom 45%;
   height: 269px;
   width: 269px;
 }
