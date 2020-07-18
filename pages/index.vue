@@ -225,8 +225,8 @@ export default {
 }
 
 @media screen and (max-width: 730px) {
-  .borderOne {
-    height: 60px;
+  .scrollOne {
+    display: none;
   }
   .newsMainText {
     font-size: 26px;
