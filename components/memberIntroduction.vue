@@ -171,7 +171,7 @@
 }
 
 .memberImgKazutomo {
-  background-image: url("~@/assets/noFace.jpeg");
+  background-image: url("~@/assets/dobashikazutomo.JPG");
   background-size: cover;
   height: 269px;
   width: 269px;
