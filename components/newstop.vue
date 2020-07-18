@@ -42,7 +42,7 @@ export default {
   display: flex;
 }
 .newsText p {
-  margin: auto 5px;
+  margin: auto 10px;
 }
 
 @media screen and (max-width: 730px) {
