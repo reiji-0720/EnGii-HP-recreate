@@ -81,7 +81,7 @@
                   name="entry.1537312469"
                   id="tel"
                   type="tel"
-                  v-model="userInfo.tel" pattern="[0-9]{11}"
+                  v-model="userInfo.tel" pattern="(([0-9]{11})||[0-9]{10}))"
             
                   required
                 >
