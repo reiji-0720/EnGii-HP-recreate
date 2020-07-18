@@ -743,14 +743,15 @@ input {
 
 .LINEArea{
   text-decoration: none;
-    height: 60px;
+  height: 60px;
 
 }
 .LINE{
   width: 170px;
-  margin: 30px auto 0;  
+  margin: 30px auto 0 auto;  
   background-color: #17B005;
   color: white;
+  display: inline-block;
   line-height: 60px;
 }
 @media screen and (max-width: 1000px) {
