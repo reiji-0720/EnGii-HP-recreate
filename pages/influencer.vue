@@ -65,7 +65,7 @@
       <div class="influencerArea">
         <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
           <div class="mainInfluencerImg">
-            <img :src="member.img.url" alt width="20%" />
+            <img :src="member.img.url" alt width="70%" />
           </div>
           <div class="mainInfluencerName">
             <p>{{member.name}}</p>
@@ -293,21 +293,22 @@ export default {
 .influencerArea {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  margin: 80px auto;
-  width: 60%;
+  margin: 3% auto;
+  width: 80%;
 }
 .mainInfluencerFrame {
   width: 33%;
-  margin: 0 auto;
+  margin: 10% auto;
   text-align: center;
 }
 .mainInfluencerImg {
   margin: 0 auto;
 }
-.mainInfluencerText {
+.mainInfluencerText, .mainInfluencerName, .mainInfluencerPosition{
   text-align: left;
+  margin: 0 auto;
+  width: 85%;
 }
 
 /* @media screen and (max-width: 1366px) {
