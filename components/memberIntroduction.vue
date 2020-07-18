@@ -157,7 +157,7 @@
 }
 
 .memberImgShun {
-  background-image: url("~@/assets/non_face.png");
+  background-image: url("~@/assets/noFace.jpeg");
   background-size: cover;
   height: 269px;
   width: 269px;
@@ -171,7 +171,7 @@
 }
 
 .memberImgKazutomo {
-  background-image: url("~@/assets/non_face.png");
+  background-image: url("~@/assets/noFace.jpeg");
   background-size: cover;
   height: 269px;
   width: 269px;

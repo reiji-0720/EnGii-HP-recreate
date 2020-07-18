@@ -241,54 +241,53 @@
           <div class="borderSupport"></div>
           <div class="review-main">
             <div class="reviewChatWrapper rcw_es_top rcwRight">
-              <div class="reviewChatBoxRight"></div>
+              <div class="reviewChatBoxRight">
+                <P>
+                  進学で悩んでたけど、話聞いてもらって、的を得たアドバイスもらってスッキリしました！嫌だなと思うことがあって相談したときに「どうせやるなら精一杯やろ！」って言われてから自分の考え方が変わりました。
+                  やるからには精一杯やるって思ってると嫌だなって思うことが少なくなりました!
+                </P>
+              </div>
               <div class="customerRight">
                 <img src="~/assets/サポート　アイコン　 女性.png" />
+                <p>女性</p>
+                <p>10代後半</p>
               </div>
             </div>
             <div class="reviewChatWrapper rcw_es_bottom">
-              <div class="reviewChatBoxLeft"></div>
+              <div class="reviewChatBoxLeft">
+                <p>
+                  就職先について、2つの内定先のどちらにするか迷っており相談に乗ってもらった。自分のやりたいことや将来的なキャリアステップのプランをふまえながら親身になって一緒に考えてもらい、気持ちの整理をつけることができた。
+                  相談にのってくださった方は年が近くフランクでとても話しやすいが、経験豊富なため参考になる考えを聞くことができる。
+                </p>
+              </div>
               <div class="customerLeft">
                 <img src="~/assets/サポート　アイコン　 男性.png" />
+                <p>男性</p>
+                <p>20代前半</p>
               </div>
             </div>
           </div>
           <div class="reviewPullDown">
-            <label for="reviewBar04">とても楽しく１ヶ月終えることができました！〈女性20代前半〉</label>
+            <label for="reviewBar04">的を得たアドバイスもらってスッキリしました！〈女性10代後半〉</label>
             <input type="checkbox" id="reviewBar04" class="accordion" />
             <ul id="links04">
               <li>
-                <!-- １人でやってても、このくらいならいいか。とか、今日はいいやってなってしまってたのが、
-                <br />るいさんが管理してくださってたおかげで、意識が変わって、ちゃんと目標持って
-                <br />ダイエットできました！食べたものとか、運動とか、何か良くて、なにがいけないのかを夜の
-                <br />電話でしっかり教えてくださったり、頑張ってるねって言ってもらったりして、
-                <br />すごいモチベーションも上がったし、自分が今まで知らなかった知識も身につきました。
-                <br />今まではアイス選ぶ時、裏面なんて見なかったのに、るいさんに教えていただいてからは、
-                <br />裏面を見るようになりました！るいさんのダイエットサポートが終わってから、
-                <br />周りにも痩せた？とか、可愛くなったね！って言われて、とても嬉しいです！
-                <br />いまは、成人式に向けて頑張ってます！るいさんは、とても話しやすいし、
-                <br />相談とか質問もしやすくて、私に合ったペースをアドバイスしてくれたので、
-                <br />無理なく痩せることができました。しんどいとか、キツいイメージのダイエットですが、
-                <br />とても楽しく１ヶ月終えることができました！ほんとうにありがとうございました！-->
+                進学で悩んでたけど、話聞いてもらって、的を得たアドバイスもらってスッキリしました！嫌だなと思うことがあって相談したときに「どうせやるなら精一杯やろ！」って言われてから自分の考え方が変わりました。
+                やるからには精一杯やるって思ってると嫌だなって思うことが少なくなりました!
               </li>
             </ul>
-            <label for="reviewBar05">サポートしてもらって良かったです！ありがとうございました！〈女性20代前半〉</label>
+            <label for="reviewBar05">経験豊富なため参考になる考えを聞くことができる〈男性20代前半〉</label>
             <input type="checkbox" id="reviewBar05" class="accordion" />
             <ul id="links05">
               <li>
-                <!-- 私は増えたり減ったりと毎日に差があったり、自分にあったダイエットにたどり着くのに
-                <br />時間がかかり気持ち的にもブルーになりそうになりましたが、るいさん仕事忙しいのに
-                <br />毎日電話して下さりアドバイスして下さって嬉しかったです！初めの体重より
-                <br />1kg以上落とせたことが嬉しかったです！生理前とか体調崩してきちんと
-                <br />最後までできなかったけどダイエットにモチベが上がりました！！
-                <br />HIITも続けたらほんとに速攻効果でてびっくりしたので続けます笑
-                <br />るいさんにサポートしてもらって良かったです！ありがとうございました！-->
+                就職先について、2つの内定先のどちらにするか迷っており相談に乗ってもらった。自分のやりたいことや将来的なキャリアステップのプランをふまえながら親身になって一緒に考えてもらい、気持ちの整理をつけることができた。
+                相談にのってくださった方は年が近くフランクでとても話しやすいが、経験豊富なため参考になる考えを聞くことができる。
               </li>
             </ul>
-            <nuxt-link to>
-              <btnService class="supportBtn" />
-            </nuxt-link>
           </div>
+          <nuxt-link to>
+            <btnService class="supportBtn" />
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -684,15 +683,19 @@ input {
 }
 
 #reviewBar01:checked ~ #links01 li,
-#reviewBar03:checked ~ #links03 li,
-#reviewBar04:checked ~ #links04 li,
-#reviewBar05:checked ~ #links05 li {
+#reviewBar03:checked ~ #links03 li {
   height: 370px;
   opacity: 1;
 }
 
 #reviewBar02:checked ~ #links02 li {
   height: 270px;
+  opacity: 1;
+}
+
+#reviewBar04:checked ~ #links04 li,
+#reviewBar05:checked ~ #links05 li {
+  height: 200px;
   opacity: 1;
 }
 /*****************************************************
@@ -809,16 +812,24 @@ input {
     transition: all 0.5s;
   }
 
-  #reviewBar01:checked ~ #links01 li,
-  #reviewBar03:checked ~ #links03 li,
-  #reviewBar04:checked ~ #links04 li,
-  #reviewBar05:checked ~ #links05 li {
-    height: 370px;
+  #reviewBar01:checked ~ #links01 li{
+    height: 450px;
+    opacity: 1;
+  }
+
+  #reviewBar03:checked ~ #links03 li {
+    height: 420px;
     opacity: 1;
   }
 
   #reviewBar02:checked ~ #links02 li {
     height: 270px;
+    opacity: 1;
+  }
+
+  #reviewBar04:checked ~ #links04 li,
+  #reviewBar05:checked ~ #links05 li {
+    height: 160px;
     opacity: 1;
   }
   .subArea {
@@ -859,7 +870,8 @@ input {
   .E-Ring-wrapper {
     border: none;
   }
-  .E-Fitness-container p, .E-Start-container p {
+  .E-Fitness-container p,
+  .E-Start-container p {
     margin: 20px;
   }
   .scrollsecond {
@@ -897,7 +909,12 @@ input {
   }
 }
 @media screen and (max-width: 730px) {
-  
+  li {
+    font-size: 0.7rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
   .supportTop {
     margin: 15% auto 50% auto;
   }
@@ -925,7 +942,8 @@ input {
   .E-Ring-wrapper {
     border: none;
   }
-  .E-Fitness-container p, .E-Start-container p {
+  .E-Fitness-container p,
+  .E-Start-container p {
     margin: 20px;
   }
   .scrollsecond {
