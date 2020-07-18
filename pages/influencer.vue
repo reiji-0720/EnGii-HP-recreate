@@ -171,7 +171,7 @@ export default {
   padding: 30px 0;
 }
 .winwin {
-  width: 352px;
+  /* width: 352px; */
   height: 98px;
 }
 .influencerWinArea h3 {
