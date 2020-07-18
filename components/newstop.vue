@@ -31,6 +31,8 @@ export default {
 
 .newsList {
   margin: 10px auto;
+  padding-right: 20px;
+  width: 140%;
 }
 
 .newsText {

@@ -224,7 +224,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
     height: 225px;
     width: 225px;
@@ -238,7 +238,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 225px;
     width: 225px;
@@ -275,7 +275,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
     height: 195px;
     width: 195px;
@@ -289,7 +289,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 195px;
     width: 195px;
@@ -327,7 +327,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
     height: 168px;
     width: 168px;
@@ -341,7 +341,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 168px;
     width: 168px;
@@ -391,7 +391,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
     height: 400px;
     width: 400px;
@@ -405,7 +405,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 400px;
     width: 400px;
@@ -454,7 +454,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
     height: 285px;
     width: 285px;
@@ -468,7 +468,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 285px;
     width: 285px;
@@ -516,7 +516,7 @@
   }
 
   .memberImgShun {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/kiyouraShun.jpg");
     background-size: cover;
    height: 228px;
     width: 228px;
@@ -530,7 +530,7 @@
   }
 
   .memberImgKazutomo {
-    background-image: url("~@/assets/miyasakaRui.JPG");
+    background-image: url("~@/assets/dobashikazutomo.JPG");
     background-size: cover;
     height: 228px;
     width: 228px;
