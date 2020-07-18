@@ -8,17 +8,17 @@
     <p class="text-main">回答ありがとうございました</p>
     <p class="subText">回答いただいた内容は無事送信されました</p>
     </div>
-     <nuxt-link 
+     <nuxt-link
        v-bind="$attrs"
        class="btnCloseModal"
-       
        @click="$emit('modal')"
-       
     >
        <div class="btn-close">
        <p>閉じる</p>
+       
        </div>
      </nuxt-link>
+     <p class="warnningMessage">※ TOPページへ移動します。</p>
    </div>
 
  </div>
@@ -53,10 +53,16 @@
 
 }
 .btnCloseModal{
+   text-decoration: none;
+}
+.btn-close{
+    
+    border:none;
+    margin:0 auto;
     margin-top:50px;
     padding: 10px 0;
     font-size:20px;
-   
+   text-align: center;
     cursor:pointer;
     background-color:#3bb2db;
     border-radius: 5px;
@@ -64,8 +70,13 @@
     border:none;
     width:50%;
 }
-.btn-close{
-    border:none;
+.btn-close p{
+
+}
+.warnningMessage{
+    color:red;
+    font-size:8px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 600px){
@@ -93,6 +104,9 @@
     color:white;
     border:none;
     width:50%;
+}
+.warnningMessage{
+    margin-top: 20px;
 }
 }
 
