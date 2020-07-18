@@ -13,6 +13,7 @@
           </p>
         </div>
       </div>
+      
       <div class="influencerImg"></div>
     </div>
 
@@ -309,11 +310,11 @@ export default {
   text-align: left;
 }
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
   .influencerImg {
     width: 35%;
   }
-}
+} */
 @media screen and (max-width: 1000px) {
   .main-container {
     height: 300px;
@@ -328,15 +329,19 @@ export default {
     margin-top: 5%;
   }
   .influencerImg {
-    width: 40%;
+    /* width: 40%; */
     height: 300px;
   }
   .title-box {
     padding-top: 50px;
+    margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 730px) {
+  .mainInfluencerContainer{
+    margin-top: 15%;
+  }
   .influencerLogo {
     height: 60px;
     width: 60px;
@@ -345,8 +350,8 @@ export default {
     padding: 0;
   }
   .influencerImg {
-    width: 50%;
-    height: 300px;
+    width: 850px;
+    height: 150px;
     position: relative;
     position: absolute;
   }
@@ -416,9 +421,13 @@ export default {
   .title-box {
     display: block;
     padding-top: 30px;
+    margin-top: 80px;
+  }
+  .content{
+    margin: 0;
   }
   .influencerImg {
-    height: 350px;
+    height: 150px;
   }
   .influencerhead {
     text-align: left;
