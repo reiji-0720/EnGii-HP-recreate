@@ -5,22 +5,22 @@
     </nuxt-link>
     <ul class="headerMenue">
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/mainAbout">ABOUT</nuxt-link>
+        <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/member">MEMBER</nuxt-link>
+        <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/sevice/support">SUPPORT</nuxt-link>
+        <nuxt-link class="borderNone" to="/sevice/support">SUPPORT</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/sevice/media">MEDIA</nuxt-link>
+        <nuxt-link class="borderNone" to="/sevice/media">MEDIA</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/influencer">INFLUENCER</nuxt-link>
+        <nuxt-link class="borderNone" to="/influencer">INFLUENCER</nuxt-link>
       </li>
       <li>
-        <nuxt-link class="borderNone" active-class="active" to="/contact">CONTACT</nuxt-link>
+        <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
       </li>
     </ul>
     <div id="nav-drawer">

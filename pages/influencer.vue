@@ -152,11 +152,6 @@ export default {
   margin-top: 20px;
   text-align: left;
 }
-.btn-more {
-  padding-top: 20px;
-  text-align: left;
-  float: left;
-}
 
 .influencerImg {
   display: inline-block;
@@ -310,10 +305,6 @@ export default {
 .mainInfluencerImg {
   margin: 0 auto;
 }
-.mainInfluencerName {
-}
-.mainInfluencerPosition {
-}
 .mainInfluencerText {
   text-align: left;
 }
@@ -378,7 +369,7 @@ export default {
     width: 67.28px;
     height: 67.28px;
   }
-  .influencerleft .btn-more {
+  .influencerleft{
     padding-top: 50px;
     float: none;
     text-align: center;
