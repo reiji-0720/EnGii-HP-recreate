@@ -7,7 +7,7 @@
           <div class="form">
             <form
               id="formApp"
-              @submit="((show=true)||(rset()))"
+              @submit="((show=true)||(this.rset()))"
               action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd9P0cnQTmkVHGT6lLnmWuXGlFrdtyJRwSTwq2XDRPT2vrFCg/formResponse" 
               method="post"
               target="dummy"
@@ -138,16 +138,6 @@ export default {
   },
   data(){
     return{
-      genre: null,
-      count : 0,
-      inputCase:[
-        '',
-        '',
-        '',
-        '',
-        '',
-        ''
-      ],
       errors: [
         null,
         null,
@@ -168,9 +158,7 @@ export default {
     }
   },
 }
-
 </script>
-
 <style scoped>
 .cotactContainer{
   width:80%;
