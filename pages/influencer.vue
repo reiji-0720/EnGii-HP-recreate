@@ -321,4 +321,119 @@ export default {
 .mainInfluencerText{
   text-align: left;
 }
+
+@media screen and (max-width:1366px){
+  .influencerImg{
+    width: 35%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .main-container {
+    height: 300px;
+  }
+  .influencerhead{
+    line-height: 101.65px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .Influencer{
+    margin-top: 5%;
+  }
+  .influencerImg{
+    width: 40%;
+    height: 300px;
+  }
+  .title-box{
+    padding-top:50px;
+  }
+}
+
+@media screen and (max-width:730px){
+  .influencerLogo {
+    height: 60px;
+    width: 60px;
+  }
+  .influencerTop{
+    padding: 0;
+  }
+  .influencerImg{
+    width: 50%;
+    height: 300px;
+    position:relative;
+    position:absolute;
+  }
+  .main-container{
+    padding:0;
+  }
+  .influencerleft{
+    margin:0 auto;
+    padding:0;
+  }
+  .content p{
+    font-size: 12px;
+  }
+  .influencerhead{
+    line-height: 60px;
+    font-weight: 100;
+    font-size: 26px;
+  }
+  .influencerLogo{
+    width:67.28px;
+    height:67.28px;
+  }
+  .influencerleft .btn-more{
+    padding-top:50px;
+    float:none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .influencerWinArea{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .influencerWinArea h3,.influencerMember,.memberList{
+    font-size: 19px;
+  }
+  .influencerWinArea p{
+    font-size: 12px;
+  }
+  .EnGiiMerritText{
+    font-size: 12px;
+  }
+  .good{
+    margin: 0 30px;
+  }
+  .mainInfluencerFrame{
+    width: 90%;
+    margin-top: 80px;
+  }
+  .influencerMerritArea{
+    width: 90%;
+    margin: 30px auto 0;
+  }
+  .ambassador{
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .influencerMerritText{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container{
+    height:350px;
+  }
+  .title-box{
+    display:block;
+    padding-top:30px;
+  }
+  .influencerImg{
+    height:350px;
+  }
+  .influencerhead{
+    text-align: left;
+    padding:0;
+  }
+}
 </style>
