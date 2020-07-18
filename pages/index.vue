@@ -228,6 +228,9 @@ export default {
   .borderOne {
     height: 60px;
   }
+  .newsMainText {
+    font-size: 26px;
+  }
   .colorOne {
     margin-bottom: 25px;
   }
