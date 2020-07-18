@@ -81,6 +81,9 @@
             <br />あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエットできるように致します！！
             <br />サポートをご希望の方は以下の公式LINEを追加してください！
           </p>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
         <div class="review-wrapper">
           <div class="E-Fitness_reviewTitle">
@@ -204,9 +207,9 @@
               </li>
             </ul>
           </div>
-          <nuxt-link to>
-            <btnService class="supportBtn" />
-          </nuxt-link>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
       </div>
       <div class="E-Start-container">
@@ -226,7 +229,11 @@
             <br />皆様の相談にアドバイスいたします！
             <br />悩みや不安がある方は、ご気軽に以下の公式LINEを追加してください！
           </p>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
+        
         <div class="review-wrapper">
           <div class="E-Start_reviewTitle">
             <img class="sp-reviewIcon" src="~/assets/サポート　アイコン　 レビュー.png" />
@@ -279,9 +286,9 @@
               </li>
             </ul>
           </div>
-          <nuxt-link to>
-            <btnService class="supportBtn" />
-          </nuxt-link>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
       </div>
     </div>
@@ -734,6 +741,18 @@ input {
   margin-left: 120px;
 }
 
+.LINEArea{
+  text-decoration: none;
+    height: 60px;
+
+}
+.LINE{
+  width: 170px;
+  margin: 30px auto 0;  
+  background-color: #17B005;
+  color: white;
+  line-height: 60px;
+}
 @media screen and (max-width: 1000px) {
   .supportText {
     font-size: 55px;
