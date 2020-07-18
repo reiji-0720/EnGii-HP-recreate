@@ -53,11 +53,9 @@
           <p class="underTitle">知識共有</p>
           <div class="borderSupport"></div>
           <p>
-            E-Ringは、オンライン上で周りに聞けない
-            <br />悩みや疑問に思っていることを質問したり、
-            <br />自分の持っている知識を使って
-            <br />質問に回答することで、ユーザー同士で
-            <br />悩みを解決し合うEnGii独自のサービスです。
+            <br /> E-Ringは、ユーザー同士で悩みを解決するEnGii独自のサービスです。
+            <br /> 周りの人に言えない悩みや疑問を質問したり、
+            <br /> 自分の持っている知識を使って質問に回答できます。
           </p>
           <nuxt-link to>
             <btnService class="supportBtn" />
@@ -71,19 +69,21 @@
           <p class="underTitle">ダイエットサポート</p>
           <div class="borderSupport"></div>
           <p>
-            ダイエットサポート（1200円〜）
-            <br />無理ないダイエットを叶えるE-Fitness！
+            ダイエットサポート（1000円〜）
+            <br />理想的なダイエットを叶えるE-Fitness！
             <br />1人だとついつい甘えてしまったり、
-            <br />どうやったらうまく痩せれるか分からない、運動は苦手、
+            <br />どうしたら痩せられるかわからない、運動は苦手、
             <br />などなどダイエットって難しいですよね。
-            <br />痩せたいのに痩せれない！そんな人の「痩せたい！」を叶える
-            <br />ダイエットサポートE-Fitness。
-            <br />代表でもあるサポーターの宮坂が2週間、公式LINEでやり取りするだけ！
-            <br />1日の振り返りを夜に10分ほど行います。
-            <br />あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエット
-            <br />できるように致します！！
-            <br />サポートをご希望の方はコンタクトから公式LINEを追加してください！
+            <br />痩せたいのに痩せられない。そんな人の「痩せたい！」を叶える
+            <br />ダイエットサポートE-Fitness
+            <br />代表であるサポーターの宮坂が2週間、公式LINEでやり取りします！
+            <br />1日の振り返りを10分ほど行います。
+            <br />あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエットできるように致します！！
+            <br />サポートをご希望の方は以下の公式LINEを追加してください！
           </p>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
         <div class="review-wrapper">
           <div class="E-Fitness_reviewTitle">
@@ -207,9 +207,9 @@
               </li>
             </ul>
           </div>
-          <nuxt-link to>
-            <btnService class="supportBtn" />
-          </nuxt-link>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
       </div>
       <div class="E-Start-container">
@@ -223,16 +223,17 @@
             <br />E-startは、皆様の進学、就職、転職などの
             <br />進路についてやその他のお悩みを聞き、
             <br />アドバイスやサポートを行います！
-            <br />公式LINEのトークでのやり取りでも
+            <br />公式LINEのトークでのやり取りや
             <br />お電話でのやり取りであなたの悩みに寄り添い、アドバイスします。
-            <br />国立の高等専門学校卒業後、大手鉄道会社に就職、
-            <br />色んな葛藤をしながら3年かけて都内大手広告代理店に入社
-            <br />転職した経験やこれまで何十件と色んな方の相談にのってきた
-            <br />経験から多岐に渡るアドバイスをします！
-            <br />悩んでることがあるなら、まずは気軽にコンタクトページから
-            <br />公式LINEを追加してみてください！
+            <br />これまで様々な経験をして、何十件もの相談にのってきた代表の宮坂が
+            <br />皆様の相談にアドバイスいたします！
+            <br />悩みや不安がある方は、ご気軽に以下の公式LINEを追加してください！
           </p>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
+        
         <div class="review-wrapper">
           <div class="E-Start_reviewTitle">
             <img class="sp-reviewIcon" src="~/assets/サポート　アイコン　 レビュー.png" />
@@ -241,54 +242,53 @@
           <div class="borderSupport"></div>
           <div class="review-main">
             <div class="reviewChatWrapper rcw_es_top rcwRight">
-              <div class="reviewChatBoxRight"></div>
+              <div class="reviewChatBoxRight">
+                <P>
+                  進学で悩んでたけど、話聞いてもらって、的を得たアドバイスもらってスッキリしました！嫌だなと思うことがあって相談したときに「どうせやるなら精一杯やろ！」って言われてから自分の考え方が変わりました。
+                  やるからには精一杯やるって思ってると嫌だなって思うことが少なくなりました!
+                </P>
+              </div>
               <div class="customerRight">
                 <img src="~/assets/サポート　アイコン　 女性.png" />
+                <p>女性</p>
+                <p>10代後半</p>
               </div>
             </div>
             <div class="reviewChatWrapper rcw_es_bottom">
-              <div class="reviewChatBoxLeft"></div>
+              <div class="reviewChatBoxLeft">
+                <p>
+                  就職先について、2つの内定先のどちらにするか迷っており相談に乗ってもらった。自分のやりたいことや将来的なキャリアステップのプランをふまえながら親身になって一緒に考えてもらい、気持ちの整理をつけることができた。
+                  相談にのってくださった方は年が近くフランクでとても話しやすいが、経験豊富なため参考になる考えを聞くことができる。
+                </p>
+              </div>
               <div class="customerLeft">
                 <img src="~/assets/サポート　アイコン　 男性.png" />
+                <p>男性</p>
+                <p>20代前半</p>
               </div>
             </div>
           </div>
           <div class="reviewPullDown">
-            <label for="reviewBar04">とても楽しく１ヶ月終えることができました！〈女性20代前半〉</label>
+            <label for="reviewBar04">的を得たアドバイスもらってスッキリしました！〈女性10代後半〉</label>
             <input type="checkbox" id="reviewBar04" class="accordion" />
             <ul id="links04">
               <li>
-                <!-- １人でやってても、このくらいならいいか。とか、今日はいいやってなってしまってたのが、
-                <br />るいさんが管理してくださってたおかげで、意識が変わって、ちゃんと目標持って
-                <br />ダイエットできました！食べたものとか、運動とか、何か良くて、なにがいけないのかを夜の
-                <br />電話でしっかり教えてくださったり、頑張ってるねって言ってもらったりして、
-                <br />すごいモチベーションも上がったし、自分が今まで知らなかった知識も身につきました。
-                <br />今まではアイス選ぶ時、裏面なんて見なかったのに、るいさんに教えていただいてからは、
-                <br />裏面を見るようになりました！るいさんのダイエットサポートが終わってから、
-                <br />周りにも痩せた？とか、可愛くなったね！って言われて、とても嬉しいです！
-                <br />いまは、成人式に向けて頑張ってます！るいさんは、とても話しやすいし、
-                <br />相談とか質問もしやすくて、私に合ったペースをアドバイスしてくれたので、
-                <br />無理なく痩せることができました。しんどいとか、キツいイメージのダイエットですが、
-                <br />とても楽しく１ヶ月終えることができました！ほんとうにありがとうございました！-->
+                進学で悩んでたけど、話聞いてもらって、的を得たアドバイスもらってスッキリしました！嫌だなと思うことがあって相談したときに「どうせやるなら精一杯やろ！」って言われてから自分の考え方が変わりました。
+                やるからには精一杯やるって思ってると嫌だなって思うことが少なくなりました!
               </li>
             </ul>
-            <label for="reviewBar05">サポートしてもらって良かったです！ありがとうございました！〈女性20代前半〉</label>
+            <label for="reviewBar05">経験豊富なため参考になる考えを聞くことができる〈男性20代前半〉</label>
             <input type="checkbox" id="reviewBar05" class="accordion" />
             <ul id="links05">
               <li>
-                <!-- 私は増えたり減ったりと毎日に差があったり、自分にあったダイエットにたどり着くのに
-                <br />時間がかかり気持ち的にもブルーになりそうになりましたが、るいさん仕事忙しいのに
-                <br />毎日電話して下さりアドバイスして下さって嬉しかったです！初めの体重より
-                <br />1kg以上落とせたことが嬉しかったです！生理前とか体調崩してきちんと
-                <br />最後までできなかったけどダイエットにモチベが上がりました！！
-                <br />HIITも続けたらほんとに速攻効果でてびっくりしたので続けます笑
-                <br />るいさんにサポートしてもらって良かったです！ありがとうございました！-->
+                就職先について、2つの内定先のどちらにするか迷っており相談に乗ってもらった。自分のやりたいことや将来的なキャリアステップのプランをふまえながら親身になって一緒に考えてもらい、気持ちの整理をつけることができた。
+                相談にのってくださった方は年が近くフランクでとても話しやすいが、経験豊富なため参考になる考えを聞くことができる。
               </li>
             </ul>
-            <nuxt-link to>
-              <btnService class="supportBtn" />
-            </nuxt-link>
           </div>
+          <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
+            <p class="LINE">公式LINEはこちら</p>
+          </a>
         </div>
       </div>
     </div>
@@ -684,15 +684,19 @@ input {
 }
 
 #reviewBar01:checked ~ #links01 li,
-#reviewBar03:checked ~ #links03 li,
-#reviewBar04:checked ~ #links04 li,
-#reviewBar05:checked ~ #links05 li {
+#reviewBar03:checked ~ #links03 li {
   height: 370px;
   opacity: 1;
 }
 
 #reviewBar02:checked ~ #links02 li {
   height: 270px;
+  opacity: 1;
+}
+
+#reviewBar04:checked ~ #links04 li,
+#reviewBar05:checked ~ #links05 li {
+  height: 200px;
   opacity: 1;
 }
 /*****************************************************
@@ -737,6 +741,19 @@ input {
   margin-left: 120px;
 }
 
+.LINEArea{
+  text-decoration: none;
+  height: 60px;
+
+}
+.LINE{
+  width: 170px;
+  margin: 30px auto 0 auto;  
+  background-color: #17B005;
+  color: white;
+  display: inline-block;
+  line-height: 60px;
+}
 @media screen and (max-width: 1000px) {
   .supportText {
     font-size: 55px;
@@ -809,16 +826,24 @@ input {
     transition: all 0.5s;
   }
 
-  #reviewBar01:checked ~ #links01 li,
-  #reviewBar03:checked ~ #links03 li,
-  #reviewBar04:checked ~ #links04 li,
-  #reviewBar05:checked ~ #links05 li {
-    height: 370px;
+  #reviewBar01:checked ~ #links01 li {
+    height: 450px;
+    opacity: 1;
+  }
+
+  #reviewBar03:checked ~ #links03 li {
+    height: 420px;
     opacity: 1;
   }
 
   #reviewBar02:checked ~ #links02 li {
     height: 270px;
+    opacity: 1;
+  }
+
+  #reviewBar04:checked ~ #links04 li,
+  #reviewBar05:checked ~ #links05 li {
+    height: 160px;
     opacity: 1;
   }
   .subArea {
@@ -859,7 +884,8 @@ input {
   .E-Ring-wrapper {
     border: none;
   }
-  .E-Fitness-container p, .E-Start-container p {
+  .E-Fitness-container p,
+  .E-Start-container p {
     margin: 20px;
   }
   .scrollsecond {
@@ -897,7 +923,12 @@ input {
   }
 }
 @media screen and (max-width: 730px) {
-  
+  li {
+    font-size: 0.7rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
   .supportTop {
     margin: 15% auto 50% auto;
   }
@@ -925,7 +956,8 @@ input {
   .E-Ring-wrapper {
     border: none;
   }
-  .E-Fitness-container p, .E-Start-container p {
+  .E-Fitness-container p,
+  .E-Start-container p {
     margin: 20px;
   }
   .scrollsecond {

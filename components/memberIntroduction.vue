@@ -68,7 +68,10 @@
         <div class="memberPosition">
           <p>アプリエンジニア</p>
         </div>
-        <div class="memberText"></div>
+        <div class="memberText">
+          <p>主にSwiftを使ってiOSアプリを作っています。ゲーム以外のアプリだったら基本的になんでもできます。<br>
+            趣味は煙草とドライブです。地元神奈川の夜景が綺麗な穴場で煙草を吸うのが至福のひとときです。</p>
+        </div>
       </div>
       <div class="memberIntroductionFrame">
         <div class="memberImgReiji"></div>
@@ -154,8 +157,9 @@
 }
 
 .memberImgShun {
-  background-image: url("~@/assets/miyasakaRui.JPG");
+  background-image: url("~@/assets/kiyouraShun.jpg");
   background-size: cover;
+  background-position: right 10% bottom 45%;
   height: 269px;
   width: 269px;
 }
@@ -168,7 +172,7 @@
 }
 
 .memberImgKazutomo {
-  background-image: url("~@/assets/miyasakaRui.JPG");
+  background-image: url("~@/assets/dobashikazutomo.JPG");
   background-size: cover;
   height: 269px;
   width: 269px;

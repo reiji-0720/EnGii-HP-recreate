@@ -18,7 +18,7 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/TopMain.png"
+            src="~/assets/homeTop.png"
             class="slide-image"
           />
         </div>
@@ -36,7 +36,7 @@
         </div>
         <div class="slide">
           <img
-            src="~/assets/TopMain.png"
+            src="~/assets/homeTop.png"
             class="slide-image"
           />
         </div>
@@ -82,7 +82,6 @@ export default {};
   /* width: 800px; */
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 .slide {
   width: 800px;
@@ -92,7 +91,6 @@ export default {};
 }
 
 .topContainer {
-  /* margin: 13% auto; */
   position: relative;
   z-index: 100;
   height: 400px;

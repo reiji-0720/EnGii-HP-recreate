@@ -7,13 +7,14 @@
         <br />出会えるキッカケを
       </h2>
       <p>
-        1人ではできないことが新しい出会いの中で
-        <br />できるようになる縁起がいい出会い＝EnGii
-        <br />EnGiiが介在することでより多くの人に今までなかった出会い、
-        <br />喜び、楽しさ、嬉しさを提供し皆さんが前に進んでいけるような
+        縁起がいい出会い = EnGii
+        <br />1人ではできないことが新しい出会いの中で
+        <br />できるようになる縁起がいい出会い
+        <br />EnGiiが介在することで今までなかった出会い、
+        <br />喜び、楽しさ、嬉しさを提供し皆様が前に進んでいけるような
         <br />サポートができる。そんなグループを目指します。
         <br />私たちEnGiiは「あったらいいな、できたらいいな」を形にして、
-        <br />皆様の力になれたらと思っています。
+        <br />皆様の力になりたいと思っています。
       </p>
     </div>
     <div class="mainAboutScroll"></div>
@@ -97,7 +98,7 @@ export default {};
 .visionText h1 {
   font-size: 58px;
   color: #231815;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .visionText h2 {
@@ -231,13 +232,12 @@ export default {};
 }
 
 @media screen and (max-width: 1200px) {
-
   .visionText h1 {
     font-size: 2.2rem;
   }
 
   .visionText h2 {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   .visionText p {
@@ -247,20 +247,20 @@ export default {};
     font-size: 2.2rem;
   }
 
-  .leaderMessageSubTitle h2{
-    font-size: 2.0rem;
+  .leaderMessageSubTitle h2 {
+    font-size: 2rem;
   }
 
   .leaderMessageText p {
     font-size: 0.87rem;
   }
 
-  .leaderSecondMessageSubTitle h2{
-    font-size: 2.0rem;
+  .leaderSecondMessageSubTitle h2 {
+    font-size: 2rem;
   }
 
-  .leaderSecondMessageSubTitle2 h2{
-    font-size: 2.0rem;
+  .leaderSecondMessageSubTitle2 h2 {
+    font-size: 2rem;
   }
 
   .leaderSecondMessageText p {
@@ -268,35 +268,39 @@ export default {};
   }
 }
 @media screen and (max-width: 1115px) {
-  .leaderMessageSubTitle h2{
+  .leaderMessageSubTitle h2 {
     font-size: 1.8rem;
   }
 
-  .leaderSecondMessageSubTitle h2{
+  .leaderSecondMessageSubTitle h2 {
     font-size: 1.8rem;
   }
 
-  .leaderSecondMessageSubTitle2 h2{
+  .leaderSecondMessageSubTitle2 h2 {
     font-size: 1.8rem;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .leaderMessageSubTitle h2{
+  .leaderMessageSubTitle h2 {
     font-size: 1.4rem;
   }
 
-  .leaderSecondMessageSubTitle h2{
+  .leaderSecondMessageSubTitle h2 {
     font-size: 1.4rem;
   }
 
-  .leaderSecondMessageSubTitle2 h2{
+  .leaderSecondMessageSubTitle2 h2 {
     font-size: 1.4rem;
   }
 }
 
 @media screen and (max-width: 782px) {
-  .leaderMessageMainTitle, .leaderMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle2 {
+  .leaderMessageMainTitle,
+  .leaderMessageSubTitle,
+  .leaderSecondMessageSubTitle,
+  .leaderSecondMessageSubTitle,
+  .leaderSecondMessageSubTitle2 {
     position: static;
   }
 
@@ -308,7 +312,10 @@ export default {};
     font-size: 1.625rem;
   }
 
-  .visionText h2, .leaderMessageSubTitle h2, .leaderSecondMessageSubTitle h2, .leaderSecondMessageSubTitle2 h2{
+  .visionText h2,
+  .leaderMessageSubTitle h2,
+  .leaderSecondMessageSubTitle h2,
+  .leaderSecondMessageSubTitle2 h2 {
     font-size: 1.2rem;
   }
 
@@ -335,15 +342,19 @@ export default {};
     margin-left: 20%;
   }
 
-  .leaderSecondMessageText{
+  .leaderSecondMessageText {
     width: 70%;
     margin: 30px auto 0 auto;
-    padding: 10px 10px ;
+    padding: 10px 10px;
   }
 }
 
 @media screen and (max-width: 470px) {
-  .leaderMessageMainTitle, .leaderMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle, .leaderSecondMessageSubTitle2 {
+  .leaderMessageMainTitle,
+  .leaderMessageSubTitle,
+  .leaderSecondMessageSubTitle,
+  .leaderSecondMessageSubTitle,
+  .leaderSecondMessageSubTitle2 {
     position: static;
   }
 
@@ -355,11 +366,16 @@ export default {};
     font-size: 1.3rem;
   }
 
-  .visionText h2, .leaderMessageSubTitle h2, .leaderSecondMessageSubTitle h2, .leaderSecondMessageSubTitle2 h2{
+  .visionText h2,
+  .leaderMessageSubTitle h2,
+  .leaderSecondMessageSubTitle h2,
+  .leaderSecondMessageSubTitle2 h2 {
     font-size: 0.9rem;
   }
 
-  .visionText p, .leaderMessageText p, .leaderSecondMessageText p {
+  .visionText p,
+  .leaderMessageText p,
+  .leaderSecondMessageText p {
     font-size: 0.7rem;
   }
 
@@ -386,11 +402,10 @@ export default {};
     margin-left: 20%;
   }
 
-  .leaderSecondMessageText{
+  .leaderSecondMessageText {
     width: 75%;
     margin: 30px auto 0 auto;
-    padding: 10px 10px ;
+    padding: 10px 10px;
   }
-
 }
 </style>

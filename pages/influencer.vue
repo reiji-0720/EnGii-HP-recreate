@@ -1,8 +1,8 @@
 <template>
   <div class="mainInfluencerContainer">
-    <div class="influencerTop">
-      <div class="influencerleft">
-        <div class="title-box">
+    <div class="maininfluencerTop">
+      <div class="maininfluencerleft">
+        <div class="maintitle-box">
           <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%" />
           <h2 class="influencerhead">インフルエンサー事業</h2>
         </div>
@@ -13,6 +13,7 @@
           </p>
         </div>
       </div>
+      
       <div class="influencerImg"></div>
     </div>
 
@@ -64,7 +65,7 @@
       <div class="influencerArea">
         <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
           <div class="mainInfluencerImg">
-            <img :src="member.img.url" alt width="20%" />
+            <img :src="member.img.url" alt width="70%" />
           </div>
           <div class="mainInfluencerName">
             <p>{{member.name}}</p>
@@ -74,7 +75,7 @@
             <p>{{member.title}}</p>
           </div>
           <div class="mainInfluencerText">
-            <p>{{member.introduction}}</p>
+            <p v-html="member.introduction"></p>
           </div>
         </div>
       </div>
@@ -109,14 +110,13 @@ export default {
 .mainInfluencerContainer {
   margin-top: 10%;
 }
-.title-box {
+.maintitle-box {
   padding-top: 100px;
   display: flex;
 }
-.title-box h2 {
+.maintitle-box h2 {
   font-weight: 700;
   line-height: 101.65px;
-  padding-left: 20px;
 }
 .influencerLogo {
   height: 101.65px;
@@ -126,7 +126,7 @@ export default {
   margin-top: 20px;
   text-align: left;
 }
-.influencerTop {
+.maininfluencerTop {
   height: 375.97px;
   padding: 0 0 0 15%;
   width: 100%;
@@ -134,7 +134,7 @@ export default {
   position: relative;
   z-index: 10;
 }
-.title-box {
+.maintitle-box {
   padding-top: 100px;
   display: flex;
 }
@@ -152,11 +152,6 @@ export default {
 .content {
   margin-top: 20px;
   text-align: left;
-}
-.btn-more {
-  padding-top: 20px;
-  text-align: left;
-  float: left;
 }
 
 .influencerImg {
@@ -176,7 +171,7 @@ export default {
   padding: 30px 0;
 }
 .winwin {
-  width: 352px;
+  /* width: 352px; */
   height: 98px;
 }
 .influencerWinArea h3 {
@@ -298,27 +293,144 @@ export default {
 .influencerArea {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  margin: 80px auto;
-  width: 60%;
-
+  margin: 3% auto;
+  width: 80%;
 }
 .mainInfluencerFrame {
   width: 33%;
-  margin: 0 auto;
+  margin: 10% auto;
   text-align: center;
 }
-.mainInfluencerImg{
+.mainInfluencerImg {
   margin: 0 auto;
 }
-.mainInfluencerName{
-
-}
-.mainInfluencerPosition{
-
-}
-.mainInfluencerText{
+.mainInfluencerText, .mainInfluencerName, .mainInfluencerPosition{
   text-align: left;
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* @media screen and (max-width: 1366px) {
+  .influencerImg {
+    width: 35%;
+  }
+} */
+@media screen and (max-width: 1000px) {
+  .main-container {
+    height: 300px;
+  }
+  .influencerhead {
+    line-height: 101.65px;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .Influencer {
+    margin-top: 5%;
+  }
+  .influencerImg {
+    /* width: 40%; */
+    height: 300px;
+  }
+  .maintitle-box {
+    padding-top: 50px;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .mainInfluencerContainer{
+    margin-top: 15%;
+  }
+  .influencerLogo {
+    height: 60px;
+    width: 60px;
+  }
+  .maininfluencerTop {
+    padding: 0;
+  }
+  .influencerImg {
+    width: 850px;
+    height: 150px;
+    position: relative;
+    position: absolute;
+  }
+  .main-container {
+    padding: 0;
+  }
+  .maininfluencerleft {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 50px;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .content p {
+    font-size: 12px;
+  }
+  .influencerhead {
+    line-height: 60px;
+    font-weight: 100;
+    font-size: 26px;
+  }
+  .influencerLogo {
+    width: 67.28px;
+    height: 67.28px;
+  }
+  .influencerWinArea {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .influencerWinArea h3,
+  .influencerMember,
+  .memberList {
+    font-size: 19px;
+  }
+  .influencerWinArea p {
+    font-size: 12px;
+  }
+  .EnGiiMerritText {
+    font-size: 12px;
+  }
+  .good {
+    margin: 0 30px;
+  }
+  .mainInfluencerFrame {
+    width: 90%;
+    margin-top: 80px;
+  }
+  .influencerMerritArea {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+  .ambassador {
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .influencerMerritText {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main-container {
+    height: 350px;
+  }
+  .maintitle-box {
+    display: block;
+    padding-top: 30px;
+    margin-top: 80px;
+  }
+  .content{
+    margin: 0;
+  }
+  .influencerImg {
+    height: 150px;
+  }
+  .influencerhead {
+    text-align: left;
+    padding: 0;
+  }
 }
 </style>

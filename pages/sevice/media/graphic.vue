@@ -8,7 +8,7 @@
           <p>GRAPHIC DESIGN</p>
         </div>
       </div>
-      <nuxt-link class="borderNone" to="/contact" >
+      <nuxt-link class="borderNone" to="/contact">
         <request />
       </nuxt-link>
     </div>
@@ -19,7 +19,8 @@
         <p class="LogoConcept">concept</p>
         <p class="LogoText">
           ロゴタイポを主体として作成。
-          <br />理由は、「縁起が良い」という言葉をアイコンでイメージさせるより、
+          <br />理由は、「縁起が良い」という言葉を
+          <br class="sp-br" />アイコンでイメージさせるより、
           <br />EnGiiをブランド化するため。
           <br />さらに、文字で表現することで認知されやすい特徴があるため。
           <br />また、プランドやEnGiiというグループを
@@ -102,7 +103,8 @@
         <br />
         <br />クライアント様が「お店に訪れると夢の中のような空間を
         <br />イメージ」してREMというネーミングしたので
-        <br />夢から連想する「幻」や「幻想」からぼやけた空間やフワッとした印象を
+        <br />夢から連想する「幻」や「幻想」から
+        <br class="sp-br" />ぼやけた空間やフワッとした印象を
         <br />文字の外側をぼかすことで表現
       </p>
       <div class="card">
@@ -137,7 +139,8 @@
         <br />左右で円の大きさが対象だと無機質になってしまうので
         <br />あえてバランスを崩した有機的なイメージを表現。
         <br />プレゼンツという名前は、リボンを結んだ状態を表しており
-        <br />お客様が訪れた時に、プレゼントをもらったような特別感を演出している
+        <br />お客様が訪れた時に、
+        <br class="sp-br" />プレゼントをもらったような特別感を演出している
       </p>
       <div class="atelierMain">
         <img
@@ -173,9 +176,9 @@
         </p>
       </div>
     </div>
-    <nuxt-link class="borderNone" to="/contact" >
-        <request />
-      </nuxt-link>
+    <nuxt-link class="borderNone" to="/contact">
+      <request />
+    </nuxt-link>
   </div>
 </template>
 
@@ -199,6 +202,9 @@ export default {
   .EnGiiConceptIISP {
     display: none;
   }
+}
+.sp-br {
+  display: none;
 }
 .graphicContainer {
   margin: 10% 0 300px;
@@ -462,6 +468,9 @@ export default {
   width: 209px;
 }
 @media screen and (max-width: 730px) {
+  .sp-br {
+    display: block;
+  }
   .graphicContainer {
     margin-top: 110px;
   }
