@@ -37,7 +37,7 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import MediaFooter from "~/components/MediaFooter.vue";
+import MediaFooter from "~/components/mediaFooter.vue";
 import Contact from "~/components/contact.vue";
 import Influencer from "~/components/influencer.vue";
 import engiiSupport from "~/components/engiiSupport.vue";
