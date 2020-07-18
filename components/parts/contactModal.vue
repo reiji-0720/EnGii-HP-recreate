@@ -8,11 +8,17 @@
     <p class="text-main">回答ありがとうございました</p>
     <p class="subText">回答いただいた内容は無事送信されました</p>
     </div>
-     <button class="btnCloseModal" @click="$emit('modal')"> 
+     <nuxt-link 
+       v-bind="$attrs"
+       class="btnCloseModal"
+       
+       @click="$emit('modal')"
+       
+    >
        <div class="btn-close">
        <p>閉じる</p>
        </div>
-     </button>
+     </nuxt-link>
    </div>
 
  </div>

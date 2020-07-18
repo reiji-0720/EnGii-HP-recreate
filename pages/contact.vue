@@ -115,7 +115,7 @@
             </form>
           </div>
         </div>
-        <modal @modal="show=false" v-if="show" />
+        <modal @modal="show=false" v-if="show" to="/"/>
     </div>
 </template>
 <script>
