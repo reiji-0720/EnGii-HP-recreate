@@ -98,7 +98,7 @@ ul {
     left: 0;
     content: "";
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: #39acd8;
     transform: scale(0, 1);
     transform-origin: left top;

@@ -45,7 +45,7 @@ import engiiMedia from "~/components/engiiMedia.vue";
 import About from "~/components/About.vue";
 import Newstop from "~/components/newstop.vue";
 import Vue from "vue";
-import Top from "~/components/Top.vue";
+import Top from "~/components/top.vue";
 import axios from "axios";
 
 export default {
@@ -86,12 +86,13 @@ export default {
   text-align: center;
 }
 
-#Top,
 #About,
 #indexContact {
   margin-top: 15%;
 }
-
+#Top {
+  margin-top: 17%;
+}
 #News {
   margin-top: 3%;
 }
