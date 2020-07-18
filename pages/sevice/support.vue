@@ -483,6 +483,7 @@ export default {
 .E-Fitness-wrapper p,
 .E-Start-wrapper p {
   line-height: 40px;
+  padding: 0 15px;
 }
 .sp-icon {
   width: 100px;

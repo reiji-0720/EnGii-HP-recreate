@@ -32,7 +32,7 @@ export default {
 .newsList {
   margin: 10px auto;
   padding-right: 20px;
-  width: 140%;
+  width: 100%;
 }
 
 .newsText {
@@ -54,5 +54,11 @@ export default {
   .newsText::after {
     top: 11px;
   }
+  .newsList {
+  margin: 10px auto;
+  padding-right: 20px;
+  width: 230%;
+}
+
 }
 </style>
