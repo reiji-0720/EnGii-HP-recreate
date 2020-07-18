@@ -1,8 +1,8 @@
 <template>
   <div class="mainInfluencerContainer">
-    <div class="influencerTop">
-      <div class="influencerleft">
-        <div class="title-box">
+    <div class="maininfluencerTop">
+      <div class="maininfluencerleft">
+        <div class="maintitle-box">
           <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%" />
           <h2 class="influencerhead">インフルエンサー事業</h2>
         </div>
@@ -110,11 +110,11 @@ export default {
 .mainInfluencerContainer {
   margin-top: 10%;
 }
-.title-box {
+.maintitle-box {
   padding-top: 100px;
   display: flex;
 }
-.title-box h2 {
+.maintitle-box h2 {
   font-weight: 700;
   line-height: 101.65px;
 }
@@ -126,7 +126,7 @@ export default {
   margin-top: 20px;
   text-align: left;
 }
-.influencerTop {
+.maininfluencerTop {
   height: 375.97px;
   padding: 0 0 0 15%;
   width: 100%;
@@ -134,7 +134,7 @@ export default {
   position: relative;
   z-index: 10;
 }
-.title-box {
+.maintitle-box {
   padding-top: 100px;
   display: flex;
 }
@@ -333,7 +333,7 @@ export default {
     /* width: 40%; */
     height: 300px;
   }
-  .title-box {
+  .maintitle-box {
     padding-top: 50px;
     margin-top: 90px;
   }
@@ -347,7 +347,7 @@ export default {
     height: 60px;
     width: 60px;
   }
-  .influencerTop {
+  .maininfluencerTop {
     padding: 0;
   }
   .influencerImg {
@@ -359,9 +359,13 @@ export default {
   .main-container {
     padding: 0;
   }
-  .influencerleft {
+  .maininfluencerleft {
     margin: 0 auto;
     padding: 0;
+    padding-top: 50px;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
   }
   .content p {
     font-size: 12px;
@@ -374,12 +378,6 @@ export default {
   .influencerLogo {
     width: 67.28px;
     height: 67.28px;
-  }
-  .influencerleft{
-    padding-top: 50px;
-    float: none;
-    text-align: center;
-    margin: 0 auto;
   }
   .influencerWinArea {
     width: 90%;
@@ -419,7 +417,7 @@ export default {
   .main-container {
     height: 350px;
   }
-  .title-box {
+  .maintitle-box {
     display: block;
     padding-top: 30px;
     margin-top: 80px;
