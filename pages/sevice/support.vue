@@ -64,7 +64,7 @@
       </div>
       <div class="E-Fitness-container">
         <div class="E-Fitness-wrapper">
-          <img class="E-FitnessIcon sp-icon" src="~/assets/サポート　アイコン　 fitness.png" />
+          <img class="E-FitnessIcon" src="~/assets/サポート　アイコン　 fitness.png" />
           <h2>E-Fitness</h2>
           <p class="underTitle">ダイエットサポート</p>
           <div class="borderSupport"></div>
@@ -508,6 +508,11 @@ export default {
 .E-Start-wrapper {
   text-align: center;
   padding-top: 100px;
+}
+
+.E-FitnessIcon {
+  height: 100px;
+  width: 180px;
 }
 
 .E-Fitness_reviewTitle,

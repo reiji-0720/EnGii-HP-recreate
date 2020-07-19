@@ -2,7 +2,7 @@
   <div class="graphics">
     <div class="graphicsBox">
       <div class="graphicsLogo"></div>
-      <p class="graphicsText">グラフィックスデザイン</p>
+      <p class="graphicsText">グラフィックデザイン</p>
       <p class="graphicsTextEng">GRAPHIC DESIGN</p>
     </div>
     <div class="center">

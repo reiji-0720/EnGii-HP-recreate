@@ -4,7 +4,7 @@
       <div class="graphicTopMain">
         <div class="graphicImg"></div>
         <div class="graphicText">
-          <h2>グラフィックスデザイン</h2>
+          <h2>グラフィックデザイン</h2>
           <p>GRAPHIC DESIGN</p>
         </div>
       </div>
