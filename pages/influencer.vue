@@ -65,7 +65,7 @@
       <div class="influencerArea">
         <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
           <div class="mainInfluencerImg">
-             <!-- <img :src="member.img.url" alt width="70%" />  -->
+             <img :src="member.img.url" alt="" width="70%">
           </div>
           <div class="mainInfluencerName">
             <p>{{member.name}}</p>
@@ -309,6 +309,15 @@ export default {
   text-align: left;
   margin: 0 auto;
   width: 85%;
+}
+.mainInfluencerName p, .mainInfluencerPosition p{
+  margin-top: 3%;
+  padding-left: 16%;
+}
+
+.mainInfluencerText p {
+  margin-top: 3%;
+  padding-left: 8%;
 }
 
 /* @media screen and (max-width: 1366px) {
