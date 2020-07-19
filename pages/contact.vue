@@ -18,7 +18,7 @@
                   <label for="genre" class="adjustP" >お問い合わせジャンル</label>
                 </div>
                 <div class="inputBox">
-                  <input
+                  <select
                     name="entry.398878031"
                     id="genre"
                     type="text"
@@ -26,6 +26,16 @@
                     v-model="userInfo.genre"
                     required
                   >
+                    <option value="E-Chat">E-Chat</option>
+                    <option value="E-Ring">E-Ring</option>
+                    <option value="E-Fitness">E-Fitness</option>
+                    <option value="E-Start">E-Start</option>
+                    <option value="グラフィックデザイン">グラフィックデザイン</option>
+                    <option value="アプリデザイン・制作">アプリデザイン・制作</option>
+                    <option value="Webデザイン・HP制作">Webデザイン・HP制作</option>
+                    <option value="動画・CG編集">動画・CG編集</option>
+                    <option value="その他">その他</option>
+                  </select>
                 </div>
               </div>
               <div class="formBox name">
@@ -51,7 +61,6 @@
                   <input
                     name="entry.1441505981"
                     id="nameFurigana"
-                    type="text"
                     pattern="(([\u30A1-\u30F6]*)||([\uFF66-\uFF9F]*))"
                     v-model="userInfo.nameFurigana"
                     required
@@ -179,6 +188,7 @@ export default {
 .inputBox{
   width:50%;
 }
+select,
 input,
 textarea{
   margin:0 auto;
@@ -188,6 +198,7 @@ textarea{
   border:none;
   background-color:#EDF8FC;
 }
+select,
 input{
   height:50px;
 
@@ -199,6 +210,8 @@ input{
   text-align:center;
   margin-bottom:100px;
 }
+
+
 .bg-mainColor{
 
 }
