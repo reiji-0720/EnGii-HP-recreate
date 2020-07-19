@@ -11,22 +11,22 @@
         <div class="supportlist1 clearfix">
           <p class="supportlistboxwork">
             <span class="blueCircle "></span>
-            ワークトーク
+            E-Chat
           </p>
           <p class="supportlistboxdai">
             <span class="blueCircle"></span>
-            ダイエットサポート
+            E-Support
           </p>
         </div>
 
         <div class="supportlist2 clearfix">
           <p class="supportlistboxchie">
             <span class="blueCircle"></span>
-            知恵の輪
+            E-Ring
           </p>
           <p class="supportlistboxEmployment">
             <span class="blueCircle"></span>
-            進学・就活サポート
+            E-Stat
           </p>
         </div>
       </div>
@@ -100,7 +100,6 @@ export default {};
   text-align: left;
   margin-bottom: 20px;
   font-size: 20px;
-  font-family: "YuGo-Bold-83pv-RKSJ-H";
 }
 .supportlistboxwork,
 .supportlistboxdai {
