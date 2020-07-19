@@ -10,10 +10,12 @@
           </p>
         </div>
         <div class="memberPosition">
-          <p>CEO・営業</p>
+          <p>EnGii代表・営業担当</p>
         </div>
         <div class="memberText">
-          <p>EnGiiの代表を務めています。</p>
+          <p>「自分ができることで何かみんなの為に」「学生にも沢山の機会提供をしたい」という思いから当サービスグループを立ち上げ代表に。
+              <br />大手鉄道企業退職後、現在のIT系広告代理店に就職。2019年度年間事業表彰を獲得。
+              <br />好きなものはお酒と筋肉。嫌いなものは足の多い虫。</p>
         </div>
       </div>
       <div class="memberIntroductionFrame">
