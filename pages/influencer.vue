@@ -65,7 +65,7 @@
       <div class="influencerArea">
         <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
           <div class="mainInfluencerImg">
-            <img :src="member.img.url" alt width="70%" />
+             <!-- <img :src="member.img.url" alt width="70%" />  -->
           </div>
           <div class="mainInfluencerName">
             <p>{{member.name}}</p>
