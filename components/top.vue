@@ -2,49 +2,30 @@
   <div class="topContainer">
     <div class="topMainTitle">
       <div class="topContents">
-        <img src="~/assets/EngiiLogoNew.png" class="topLogo" width="45%" />
-      
-      <p class="topText">EnGiiで叶える、EnGiiが適える。</p>
+        <img src="~/assets/EngiiLogoNew.png" class="topLogo" width="45%" alt="EnGii エンギー" />
+        <p class="topText">EnGiiで叶える、EnGiiが適える。</p>
       </div>
     </div>
 
     <div class="topImg slider">
       <div class="slider-wrap">
         <div class="slide">
-          <img
-            src="~/assets/TopSubSecond.jpg"
-            class="slide-image"
-          />
+          <img src="~/assets/TopSubSecond.jpg" class="slide-image" alt="EnGii エンギー" />
         </div>
         <div class="slide">
-          <img
-            src="~/assets/homeTop.png"
-            class="slide-image"
-          />
+          <img src="~/assets/homeTop.png" class="slide-image" alt="EnGii エンギー" />
         </div>
         <div class="slide">
-          <img
-            src="~/assets/TopSubOne.jpg"
-            class="slide-image"
-          />
+          <img src="~/assets/TopSubOne.jpg" class="slide-image" alt="EnGii エンギー" />
         </div>
         <div class="slide">
-          <img
-            src="~/assets/TopSubSecond.jpg"
-            class="slide-image"
-          />
+          <img src="~/assets/TopSubSecond.jpg" class="slide-image" alt="EnGii エンギー" />
         </div>
         <div class="slide">
-          <img
-            src="~/assets/homeTop.png"
-            class="slide-image"
-          />
+          <img src="~/assets/homeTop.png" class="slide-image" alt="EnGii エンギー" />
         </div>
         <div class="slide">
-          <img
-            src="~/assets/TopSubOne.jpg"
-            class="slide-image"
-          />
+          <img src="~/assets/TopSubOne.jpg" class="slide-image" alt="EnGii エンギー" />
         </div>
       </div>
     </div>
@@ -111,7 +92,7 @@ export default {};
   width: 100%;
   z-index: -200;
 }
-.topMainTitle{
+.topMainTitle {
   /* vertical-align: middle; */
   position: relative;
   height: 400px;
@@ -122,46 +103,44 @@ export default {};
   /* vertical-align: middle; */
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) {
   @keyframes scrollRes {
-  0% {
-    transform: translateX(0);
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-470px * 3));
+    }
   }
-  100% {
-    transform: translateX(calc(-470px * 3));
+  .topContainer {
+    height: 350px;
   }
-}
-.topContainer{
-  height: 350px;
-}
-  .topText{
+  .topText {
     font-size: 16px;
   }
-  .topContents{
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 140px
+  .topContents {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 140px;
+  }
+  .slide-image {
+    height: 100%;
+    width: 100%;
+  }
+  .slide {
+    margin: 0 10px;
+    width: 450px;
+    height: 260px;
+  }
+  .slider-wrap {
+    width: calc(470px * 6);
+    margin-top: 130px;
+    animation: scrollRes 20s linear infinite;
+  }
 }
-.slide-image{
-  height: 100%;
-  width: 100%;
-}
-.slide{
-  margin: 0 10px;
-  width: 450px;
-  height: 260px;
-}
-.slider-wrap{
-  width: calc(470px * 6);
-  margin-top: 130px;
-  animation: scrollRes 20s linear infinite;
-}
-}
-
-
 </style>

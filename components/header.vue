@@ -1,7 +1,7 @@
 <template>
   <div class="headerContainer">
     <nuxt-link class="borderNone headerImgPosition" to="/">
-      <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" />
+      <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" alt="EnGii エンギー" />
     </nuxt-link>
     <ul class="headerMenue">
       <li>
