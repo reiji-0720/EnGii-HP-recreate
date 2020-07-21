@@ -77,6 +77,7 @@ export default {};
   height: 400px;
   max-width: 1500px;
   margin: auto;
+  z-index: -200;
 }
 
 .topText {
