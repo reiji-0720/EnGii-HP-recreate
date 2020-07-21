@@ -532,6 +532,7 @@ export default {
 /*      Review       */
 .review-wrapper {
   text-align: center;
+  padding-bottom: 110px;
 }
 .sp-reviewIcon {
   width: 80px;
