@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header class="headerPosition"/>
+    <Header />
     <nuxt />
     <MediaFooter class="backColor" />
   </div>
