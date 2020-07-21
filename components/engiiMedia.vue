@@ -120,7 +120,7 @@ export default {};
 @media screen and (max-width:1000px){
 .media .medialogo{
     height: 67.28px;  /* 126×0.534 = 67.284 */
-    width: 67.28px;
+    width: 68.48px;
   }
   .media .mediahead {
     font-size: 28.84px;  /* 126×0.534 = 28.836 */
