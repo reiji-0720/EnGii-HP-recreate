@@ -303,7 +303,7 @@ export default {
 <style scoped>
 .supportContainer {
   margin: 10% auto 0;
-  max-width: 1500px;
+  /* max-width: 1500px; */
 }
 .supportTopLeft {
   float: right;
@@ -319,6 +319,8 @@ export default {
 }
 .supportTop {
   height: 568px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .supportImg {
   background-image: url("~@/assets/five-assorted-balloons.jpg");
@@ -435,14 +437,18 @@ export default {
   height: 80px;
   margin: 10px 0 0 35px;
 } */
-
+.E-Chat_E-Ring_container{
+  background-color: rgb(241, 241, 241);
+}
 .E-Chat_E-Ring_wrapper {
   display: flex;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .E-Chat-wrapper,
 .E-Ring-wrapper {
-  background-color: rgb(241, 241, 241);
+  /* background-color: rgb(241, 241, 241); */
   text-align: center;
   flex: 1;
   padding-bottom: 100px;
@@ -713,7 +719,10 @@ input {
 }
 
 /*      Review       */
-
+.review-main{
+  max-width: 1500px;
+  margin: 0 auto;
+}
 .E-Start_reviewTitle {
   width: 205px;
 }
