@@ -161,6 +161,10 @@ export default {
 }
 </script>
 <style scoped>
+.main {
+  max-width: 1500px;
+  margin: auto;
+}
 .cotactContainer{
   width:80%;
   margin: 0 auto;

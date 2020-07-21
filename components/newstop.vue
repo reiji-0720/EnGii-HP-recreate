@@ -21,6 +21,7 @@ export default {
 <style>
 .newsContainer {
   margin: 0 auto;
+  max-width: 1500px;
   width: 70%;
   overflow-y: scroll;
 	margin: 0 auto;
