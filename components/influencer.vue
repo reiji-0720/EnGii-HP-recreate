@@ -1,35 +1,35 @@
 <template>
   <div class="main-container">
-    <div class="influencerleft">
-      <div class="title-box">
-        <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%" />
-        <h2 class="influencerhead">インフルエンサー事業</h2>
+    <div class="conInfluencerPosi">
+      <div class="influencerleft">
+        <div class="title-box">
+          <img src="~/assets/influencer-logo.png" class="influencerLogo" width="15%" />
+          <h2 class="influencerhead">インフルエンサー事業</h2>
+        </div>
+        <div class="content">
+          <p>
+            EnGiiではインフルエンサーの方々に向けたサービス
+            <br />win-winを提供しています。
+          </p>
+        </div>
+        <div class="btn-more">
+          <nuxt-link to="/influencer" class="influencer">
+            <btnMore />
+          </nuxt-link>
+        </div>
       </div>
-      <div class="content">
-        <p>
-          EnGiiではインフルエンサーの方々に向けたサービス
-          <br />win-winを提供しています。
-        </p>
-      </div>
-      <div class="btn-more">
-        <nuxt-link to="/influencer" class="influencer">
-          <btnMore />
-        </nuxt-link>
-      </div>
+      <div class="influencerImg"></div>
     </div>
-
-    <div class="influencerImg"></div>
   </div>
 </template>
 <script>
-import btnMore from '~/components/parts/btnMore.vue'
+import btnMore from "~/components/parts/btnMore.vue";
 
 export default {
-	components:{
-		btnMore
-	}
+  components: {
+    btnMore
+  }
 };
-
 </script>
 
 
@@ -38,8 +38,21 @@ export default {
   height: 375.97px;
   background-color: #e2f1f7;
   padding: 0 15%;
-  position: relative;
+  margin: auto;
 }
+
+.conInfluencerPosi {
+  position: relative;
+  height: 375.97px;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.influencerleft {
+  margin: auto;
+}
+
 .title-box {
   padding-top: 100px;
   display: flex;
@@ -105,89 +118,90 @@ h2 {
   height: 375.97px;
   width: 612px;
   position: absolute;
-  right: 0;
+  margin: auto;
+  top: 0;
   z-index: -1;
   clip-path: polygon(15% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
-@media screen and (max-width:1366px){
-  .influencerImg{
+@media screen and (max-width: 1366px) {
+  .influencerImg {
     width: 35%;
   }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .main-container {
     height: 300px;
   }
-  .influencerhead{
+  .influencerhead {
     line-height: 101.65px;
     padding-left: 20px;
     font-weight: 100;
     font-size: 30px;
   }
-  .Influencer{
+  .Influencer {
     margin-top: 5%;
   }
-  .influencerImg{
+  .influencerImg {
     width: 40%;
     height: 300px;
   }
-  .title-box{
-    padding-top:50px;
+  .title-box {
+    padding-top: 50px;
   }
 }
 
-@media screen and (max-width:730px){
+@media screen and (max-width: 730px) {
   .influencerLogo {
     height: 60px;
     width: 60px;
   }
-  .influencerImg{
+  .influencerImg {
     width: 30%;
     height: 300px;
-    position:relative;
-    position:absolute;
+    position: relative;
+    position: absolute;
   }
-  .main-container{
-    padding:0;
+  .main-container {
+    padding: 0;
   }
-  .influencerleft{
-    margin:0 auto;
-    padding:0;
+  .influencerleft {
+    margin: 0 auto;
+    padding: 0;
   }
-  .content p{
+  .content p {
     font-size: 12px;
   }
-  .influencerhead{
+  .influencerhead {
     line-height: 60px;
     padding-left: 20px;
     font-weight: 100;
     font-size: 26px;
   }
-  .influencerLogo{
-    width:67.28px;
-    height:67.28px;
+  .influencerLogo {
+    width: 67.28px;
+    height: 67.28px;
   }
-  .influencerleft .btn-more{
-    padding-top:50px;
-    float:none;
+  .influencerleft .btn-more {
+    padding-top: 50px;
+    float: none;
     text-align: center;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 400px) {
-  .main-container{
-    height:350px;
+  .main-container {
+    height: 350px;
   }
-  .title-box{
-    display:block;
-    padding-top:30px;
+  .title-box {
+    display: block;
+    padding-top: 30px;
   }
-  .influencerImg{
-    height:350px;
+  .influencerImg {
+    height: 350px;
   }
-  .influencerhead{
+  .influencerhead {
     text-align: left;
-    padding:0;
+    padding: 0;
   }
 }
 </style>

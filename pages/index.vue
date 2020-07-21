@@ -91,7 +91,8 @@ export default {
   margin-top: 15%;
 }
 #Top {
-  margin-top: 17%;
+  margin-top: 150px;
+  max-width: 1500px;
 }
 #News {
   margin-top: 3%;
@@ -102,8 +103,8 @@ export default {
   max-width: 1500px;
 }
 
-.Influencer {
-  margin-top: 10%;
+#Influencer {
+  margin:5% auto auto auto;
 }
 
 .title {
@@ -230,6 +231,9 @@ export default {
 @media screen and (max-width: 730px) {
   .scrollOne {
     display: none;
+  }
+  #Top {
+    margin-top: 20px;
   }
   .newsMainText {
     font-size: 26px;
