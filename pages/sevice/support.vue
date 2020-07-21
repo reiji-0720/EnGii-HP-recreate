@@ -947,8 +947,8 @@ input {
   }
   .supportIcon {
     float: right;
-    width: 92px;
-    height: 92px;
+    width: 60px;
+    height: 60px;
   }
   .supportImg {
     width: 100%;
