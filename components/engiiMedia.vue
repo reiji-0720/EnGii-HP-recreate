@@ -157,7 +157,7 @@ export default {};
 }
 
 
-@media screen and (min-width:1001px) and (max-width:1365px){
+@media screen and (min-width:1001px) {
 .media .medialogo{
     height: 108px;  /* 126×0.732 = 92.232 */
     width: 110px;

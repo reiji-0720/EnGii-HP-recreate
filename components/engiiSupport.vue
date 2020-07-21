@@ -85,6 +85,10 @@ export default {};
   margin: 0 auto;
 }
 
+.supportBox {
+  text-align: center;
+}
+
 .supportlist1,
 .supportlist2 {
   /* display: flex; */
@@ -167,7 +171,7 @@ export default {};
     margin-left: 0;
   }
 }
-@media screen and (min-width:1001px) and (max-width:1365px){
+@media screen and (min-width:1001px) {
   .support .supportlogo{
     height: 108px;  /* 126×0.732 = 92.232 */
     width: 108px;

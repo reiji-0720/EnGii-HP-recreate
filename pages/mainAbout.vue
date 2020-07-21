@@ -51,13 +51,10 @@
           <br />私の人生は常に新しい人や知識との出会い助けられてきました。
         </p>
         <div class="blank"></div>
-        <p>
-          1人1人のこれまでの経験や知識は誰かの役に経つことを私は知っています。繋がりの大切さもこれまでの経験からとても学びました。「個の時代」と言われる現代ですが、より多くの人にいい出会いの提供ができればと思います。
-        </p>
+        <p>1人1人のこれまでの経験や知識は誰かの役に経つことを私は知っています。繋がりの大切さもこれまでの経験からとても学びました。「個の時代」と言われる現代ですが、より多くの人にいい出会いの提供ができればと思います。</p>
         <div class="blank"></div>
         <p>私が今まで経験してきた中で得たものを、皆さんに少しでも還元できればと思います。</p>
       </div>
-
     </div>
     <div class="leaderSecondMessage">
       <div class="leaderMessagePosition">
@@ -93,148 +90,302 @@ export default {};
 </script>
 
 <style>
-.mainAboutContainer {
-  margin-top: 10%;
+@media screen and (max-width: 1700px) {
+  .mainAboutContainer {
+    margin-top: 10%;
+  }
+
+  .visionText {
+    text-align: center;
+  }
+
+  .visionText h1 {
+    font-size: 58px;
+    color: #231815;
+    font-weight: 700;
+  }
+
+  .visionText h2 {
+    font-size: 39px;
+    color: #3bb2db;
+    font-weight: 600;
+    margin-top: 3%;
+  }
+
+  .visionText p {
+    font-size: 20px;
+    color: #3bb2db;
+    margin-top: 3%;
+  }
+
+  .leaderMessage {
+    position: relative;
+    background-color: #f0f0f0;
+    margin-top: 10%;
+    z-index: -100;
+  }
+
+  .leaderMessageMainTitle {
+    margin-top: 2%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    margin-left: 1%;
+    text-align: center;
+  }
+
+  .leaderMessageMainTitle h1 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #231815;
+    padding-top: 2%;
+  }
+
+  .leaderMessageSubTitle {
+    background-color: #3bb2db;
+    width: 52%;
+    z-index: 2;
+    margin-left: 7%;
+    margin-top: 22%;
+    position: absolute;
+    top: 0;
+  }
+
+  .leaderMessageSubTitle h2 {
+    font-weight: 500;
+    font-size: 34px;
+    padding-left: 30px;
+    color: #ffff;
+  }
+
+  .leaderImg {
+    margin-left: 50%;
+    z-index: -1;
+  }
+
+  .leaderMessageText {
+    width: 45%;
+    background-color: #3bb2db;
+    margin: -7px 0 auto 35%;
+    padding: 25px 10px 25px 25px;
+  }
+
+  .leaderMessageText p {
+    font-size: 16px;
+    color: #ffff;
+  }
+
+  .leaderSecondMessage {
+    background-color: #c2edfb;
+    padding-bottom: 20%;
+  }
+
+  .leaderMessagePosition {
+    position: relative;
+    padding-top: 12%;
+  }
+
+  .leaderSecondImg {
+    margin-left: 8%;
+  }
+
+  .leaderSecondMessageSubTitle {
+    position: absolute;
+    top: 0;
+    margin-top: 37.7%;
+    width: 38%;
+    margin-left: 50%;
+    background-color: #3bb2db;
+  }
+
+  .leaderSecondMessageSubTitle h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #ffff;
+    padding-left: 30px;
+  }
+
+  .leaderSecondMessageSubTitle2 {
+    position: absolute;
+    top: 0;
+    margin-top: 43%;
+    width: 45%;
+    margin-left: 52%;
+    background-color: #3bb2db;
+  }
+
+  .leaderSecondMessageSubTitle2 h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #ffff;
+    padding-left: 40px;
+  }
+
+  .leaderSecondMessageText {
+    background-color: #3bb2db;
+    width: 56%;
+    padding: 25px 10px 25px 25px;
+    margin: 10% 0 0 12%;
+  }
+
+  .leaderSecondMessageText p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+  }
+
+  .blank {
+    margin-top: 3%;
+  }
 }
 
-.visionText {
-  text-align: center;
-}
+@media screen and (min-width: 1701px) {
+  .mainAboutContainer {
+    margin-top: 10%;
+  }
 
-.visionText h1 {
-  font-size: 58px;
-  color: #231815;
-  font-weight: 700;
-}
+  .visionText {
+    text-align: center;
+  }
 
-.visionText h2 {
-  font-size: 39px;
-  color: #3bb2db;
-  font-weight: 500;
-  margin-top: 3%;
-}
+  .visionText h1 {
+    font-size: 58px;
+    color: #231815;
+    font-weight: 700;
+  }
 
-.visionText p {
-  font-size: 20px;
-  color: #3bb2db;
-  margin-top: 3%;
-}
+  .visionText h2 {
+    font-size: 39px;
+    color: #3bb2db;
+    font-weight: 600;
+    margin-top: 3%;
+  }
 
-.leaderMessage {
-  position: relative;
-  background-color: #f0f0f0;
-  margin-top: 10%;
-  z-index: -100;
-}
+  .visionText p {
+    font-size: 20px;
+    color: #3bb2db;
+    margin-top: 3%;
+  }
 
-.leaderMessageMainTitle {
-  margin-top: 2%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  margin-left: 1%;
-  text-align: center;
-}
+  .leaderMessage {
+    position: relative;
+    background-color: #f0f0f0;
+    margin-top: 10%;
+    z-index: -100;
+  }
 
-.leaderMessageMainTitle h1 {
-  font-weight: 700;
-  font-size: 54px;
-  color: #231815;
-  padding-top: 2%;
-}
+  .leaderMessageMainTitle {
+    margin-top: 2%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    margin-left: 1%;
+    text-align: center;
+  }
 
-.leaderMessageSubTitle {
-  background-color: #3bb2db;
-  width: 50%;
-  z-index: 2;
-  margin-left: 7%;
-  margin-top: 22%;
-  position: absolute;
-  top: 0;
-}
+  .leaderMessageMainTitle h1 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #231815;
+    padding-top: 2%;
+  }
 
-.leaderMessageSubTitle h2 {
-  font-weight: 500;
-  font-size: 34px;
-  color: #ffff;
-}
+  .leaderMessageSubTitle {
+    background-color: #3bb2db;
+    width: 40%;
+    z-index: 2;
+    margin-left: 7%;
+    margin-top: 22%;
+    position: absolute;
+    top: 0;
+  }
 
-.leaderImg {
-  margin-left: 50%;
-  z-index: -1;
-}
+  .leaderMessageSubTitle h2 {
+    font-weight: 500;
+    font-size: 34px;
+    padding-left: 30px;
+    color: #ffff;
+  }
 
-.leaderMessageText {
-  width: 45%;
-  background-color: #3bb2db;
-  margin: -7px 0 auto 35%;
-  padding: 25px 0 25px 25px;
-}
+  .leaderImg {
+    margin-left: 50%;
+    z-index: -1;
+  }
 
-.leaderMessageText p {
-  font-size: 16px;
-  color: #ffff;
-}
+  .leaderMessageText {
+    width: 40%;
+    background-color: #3bb2db;
+    margin: -7px 0 auto 35%;
+    padding: 25px 10px 25px 25px;
+  }
 
-.leaderSecondMessage {
-  background-color: #c2edfb;
-  padding-bottom: 20%;
-}
+  .leaderMessageText p {
+    font-size: 16px;
+    color: #ffff;
+  }
 
-.leaderMessagePosition {
-  position: relative;
-  padding-top: 12%;
-}
+  .leaderSecondMessage {
+    background-color: #c2edfb;
+    padding-bottom: 20%;
+  }
 
-.leaderSecondImg {
-  margin-left: 8%;
-}
+  .leaderMessagePosition {
+    position: relative;
+    padding-top: 12%;
+  }
 
-.leaderSecondMessageSubTitle {
-  position: absolute;
-  top: 0;
-  margin-top: 37.7%;
-  width: 35%;
-  margin-left: 50%;
-  background-color: #3bb2db;
-}
+  .leaderSecondImg {
+    margin-left: 8%;
+  }
 
-.leaderSecondMessageSubTitle h2 {
-  font-weight: 500;
-  font-size: 34px;
-  color: #ffff;
-}
+  .leaderSecondMessageSubTitle {
+    position: absolute;
+    top: 0;
+    margin-top: 38.7%;
+    width: 27%;
+    margin-left: 50%;
+    background-color: #3bb2db;
+  }
 
-.leaderSecondMessageSubTitle2 {
-  position: absolute;
-  top: 0;
-  margin-top: 43%;
-  width: 41%;
-  margin-left: 52%;
-  background-color: #3bb2db;
-}
+  .leaderSecondMessageSubTitle h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #ffff;
+    padding-left: 30px;
+  }
 
-.leaderSecondMessageSubTitle2 h2 {
-  font-weight: 500;
-  font-size: 34px;
-  color: #ffff;
-}
+  .leaderSecondMessageSubTitle2 {
+    position: absolute;
+    top: 0;
+    margin-top: 43%;
+    width: 34%;
+    margin-left: 52%;
+    background-color: #3bb2db;
+  }
 
-.leaderSecondMessageText {
-  background-color: #3bb2db;
-  width: 56%;
-  padding: 25px 0 25px 25px;
-  margin: 10% 0 0 12%;
-}
+  .leaderSecondMessageSubTitle2 h2 {
+    font-weight: 500;
+    font-size: 34px;
+    color: #ffff;
+    padding-left: 40px;
+  }
 
-.leaderSecondMessageText p {
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffff;
-}
+  .leaderSecondMessageText {
+    background-color: #3bb2db;
+    width: 40%;
+    padding: 25px 0 25px 25px;
+    margin: 10% 0 0 12%;
+  }
 
-.blank {
-  margin-top: 3%;
+  .leaderSecondMessageText p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+  }
+
+  .blank {
+    margin-top: 3%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -248,6 +399,10 @@ export default {};
 
   .visionText p {
     font-size: 0.87rem;
+  }
+
+  .leaderMessageSubTitle {
+    width: 55%;
   }
   .leaderMessageMainTitle h1 {
     font-size: 2.2rem;
@@ -288,6 +443,10 @@ export default {};
 }
 
 @media screen and (max-width: 1000px) {
+  .leaderMessageSubTitle {
+    width: 55%;
+  }
+
   .leaderMessageSubTitle h2 {
     font-size: 1.4rem;
   }
@@ -327,7 +486,7 @@ export default {};
 
   .leaderMessageSubTitle {
     margin-top: 12px;
-    width: 50%;
+    width: 76%;
   }
 
   .leaderMessageText {
@@ -338,13 +497,13 @@ export default {};
 
   .leaderSecondMessageSubTitle {
     margin-top: 12px;
-    width: 40%;
+    width: 55%;
     margin-left: 20%;
   }
 
   .leaderSecondMessageSubTitle2 {
     margin-top: 12px;
-    width: 50%;
+    width: 70%;
     margin-left: 20%;
   }
 

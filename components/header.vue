@@ -5,7 +5,7 @@
     </nuxt-link>
     <ul class="headerMenue">
       <li>
-        <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
+        <nuxt-link class="borderNone" to="/mainAbout">VISION</nuxt-link>
       </li>
       <li>
         <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
@@ -34,7 +34,7 @@
           <nuxt-link class="borderNone" to="/">TOP</nuxt-link>
         </li>
         <li>
-          <nuxt-link class="borderNone" to="/mainAbout">ABOUT</nuxt-link>
+          <nuxt-link class="borderNone" to="/mainAbout">VISION</nuxt-link>
         </li>
         <li>
           <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
