@@ -28,6 +28,8 @@ export default {};
   align-items: center;
   position: relative;
   padding: 10px 0 7px 0;
+  max-width: 1500px;
+  margin: auto;
 }
 .mediaFooter p {
   color: #ffff;

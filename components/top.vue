@@ -75,6 +75,8 @@ export default {};
   position: relative;
   z-index: 100;
   height: 400px;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .topText {
