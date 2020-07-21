@@ -422,6 +422,8 @@ export default {
   text-align: center;
   padding-top: 110px;
   margin-bottom: 110px;
+  max-width: 1500px;
+  margin: auto;
 }
 .atelierText {
   font-size: 18px;

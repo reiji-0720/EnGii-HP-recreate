@@ -54,6 +54,7 @@ export default {
 .applicationContainer {
   margin: 10% auto;
   text-align: center;
+  max-width: 1500px;
 }
 
 .applicationTitle {

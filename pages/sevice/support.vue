@@ -713,7 +713,7 @@ input {
  **                                                 **
 ****************************************************** */
 .E-Start-container {
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 .E-Start-wrapper img {
   width: auto;
