@@ -1008,5 +1008,8 @@ input {
   .E-Chat_E-Ring_wrapper {
     display: block;
   }
+  .startText {
+    width: 90%;
+  }
 }
 </style>
