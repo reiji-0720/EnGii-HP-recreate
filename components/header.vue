@@ -171,11 +171,12 @@ ul {
   }
 
   li.menu__single:hover + .result {
+    
   }
 
   .subMenuePosition {
     margin: auto 20px auto 0;
-    padding: 10px autos;
+    padding: 10px auto;
   }
   .borderNone {
     text-decoration: none;
