@@ -157,7 +157,7 @@ export default {
 
 .influencerImg {
   display: inline-block;
-  background-image: url("~@/assets/influencerTop.png");
+  background-image: url("~@/assets/インフルエンサーtop.jpg");
   background-size: cover;
   background-position: center;
   height: 375.97px;

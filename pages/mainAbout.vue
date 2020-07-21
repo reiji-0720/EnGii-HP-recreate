@@ -288,6 +288,12 @@ export default {};
     font-size: 0.87rem;
   }
 }
+@media screen and (min-width: 1500px){
+  .leaderSecondMessageText{
+    max-width: 1500px;
+    margin: 10% auto 0;
+  }
+}
 @media screen and (max-width: 1115px) {
   .leaderMessageSubTitle h2 {
     font-size: 1.8rem;
