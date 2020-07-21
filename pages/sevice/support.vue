@@ -36,11 +36,9 @@
           <p class="underTitle">職種別チャット</p>
           <div class="borderSupport"></div>
           <p>
-            E-Chatは興味がある業界や職種の人々と
-            <br />コミュニケーションができる
-            <br />オープンチャットサービスです。
-            <br />業界ならではの話や相談、
-            <br />気軽な雑談をすることができます。
+            E-Chatは、興味がある業界や職種の人々と
+            <br />コミュニケーションができるオープンチャットサービスです。
+            <br />業界ならではの話や相談、気軽な雑談をすることができます。
             <br />
           </p>
           <nuxt-link to>
@@ -53,9 +51,9 @@
           <p class="underTitle">知識共有</p>
           <div class="borderSupport"></div>
           <p>
-            <br /> E-Ringは、ユーザー同士で悩みを解決するEnGii独自のサービスです。
-            <br /> 周りの人に言えない悩みや疑問を質問したり、
-            <br /> 自分の持っている知識を使って質問に回答できます。
+            E-Ringは、ユーザー同士で悩みを解決するEnGii独自のサービスです。
+            <br />周りの人に言えない悩みや疑問を質問したり、
+            <br />自分の持っている知識を使って質問に回答できます。
           </p>
           <nuxt-link to>
             <btnService class="supportBtn" />
@@ -68,17 +66,11 @@
           <h2>E-Fitness</h2>
           <p class="underTitle">ダイエットサポート</p>
           <div class="borderSupport"></div>
-          <p>
+          <p class="dietText">
             ダイエットサポート（1000円〜）
             <br />理想的なダイエットを叶えるE-Fitness！
-            <br />1人だとついつい甘えてしまったり、
-            <br />どうしたら痩せられるかわからない、運動は苦手、
-            <br />などなどダイエットって難しいですよね。
-            <br />痩せたいのに痩せられない。そんな人の「痩せたい！」を叶える
-            <br />ダイエットサポートE-Fitness
-            <br />代表であるサポーターの宮坂が2週間、公式LINEでやり取りします！
-            <br />1日の振り返りを10分ほど行います。
-            <br />あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエットできるように致します！！
+            <br />1人だとついつい甘えてしまったり、どうしたら痩せられるかわからない、運動は苦手、などなどダイエットって難しいですよね。痩せたいのに痩せられない。そんな人の「痩せたい！」を叶えるダイエットサポートE-Fitness
+            <br />代表であるサポーターの宮坂が2週間、公式LINEでやり取りします！1日の振り返りを10分ほど行います。あなたの食生活、生活の仕方にフィードバックすることで1人でもしっかりダイエットできるように致します！！
             <br />サポートをご希望の方は以下の公式LINEを追加してください！
           </p>
           <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
@@ -218,24 +210,19 @@
           <h2>E-Start</h2>
           <p class="underTitle">進学・就活サポート</p>
           <div class="borderSupport"></div>
-          <p>
-            E-start （初回相談無料）<br />
-            E-startは、皆様の進学、就職、転職などの
+          <p class="startText">
+            E-start （初回相談無料）
+            <br />E-startは、皆様の進学、就職、転職などの
             進路についてやその他のお悩みを聞き、
-            アドバイスやサポートを行います！<br />
-            公式LINEのトークでのやり取りや<br />
-            お電話でのやり取りであなたの悩みに寄り添い、アドバイスします。<br />
-            これまで様々な経験をして、何十件もの相談にのってきた代表の宮坂が
-            皆様の相談にアドバイスいたします！<br />
-           　関東、関西圏で転職希望の方には特別に <br />
-            企業の紹介を出来ることもございます。 <br />
-            悩みや不安がある方は、ご気軽に以下の公式LINEを追加してください！
+            アドバイスやサポートを行います！公式LINEのトークでのやり取りやお電話でのやり取りであなたの悩みに寄り添い、アドバイスします。これまで様々な経験をして、何十件もの相談にのってきた代表の宮坂が
+            皆様の相談にアドバイスいたします！
+            関東、関西圏で転職希望の方には特別に企業の紹介を出来ることもございます。悩みや不安がある方は、ご気軽に以下の公式LINEを追加してください！
           </p>
           <a href="https://lin.ee/d8yRSCJ" class="LINEArea">
             <p class="LINE">公式LINEはこちら</p>
           </a>
         </div>
-        
+
         <div class="review-wrapper">
           <div class="E-Start_reviewTitle">
             <img class="sp-reviewIcon" src="~/assets/サポート　アイコン　 レビュー.png" />
@@ -315,7 +302,8 @@ export default {
 </script>
 <style scoped>
 .supportContainer {
-  margin-top: 10%;
+  margin: 10% auto 0;
+  /* max-width: 1500px; */
 }
 .supportTopLeft {
   float: right;
@@ -331,6 +319,8 @@ export default {
 }
 .supportTop {
   height: 568px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 .supportImg {
   background-image: url("~@/assets/five-assorted-balloons.jpg");
@@ -447,14 +437,18 @@ export default {
   height: 80px;
   margin: 10px 0 0 35px;
 } */
-
+.E-Chat_E-Ring_container{
+  background-color: rgb(241, 241, 241);
+}
 .E-Chat_E-Ring_wrapper {
   display: flex;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .E-Chat-wrapper,
 .E-Ring-wrapper {
-  background-color: rgb(241, 241, 241);
+  /* background-color: rgb(241, 241, 241); */
   text-align: center;
   flex: 1;
   padding-bottom: 100px;
@@ -472,6 +466,11 @@ export default {
   margin-top: 30px;
   margin-bottom: 20px;
   width: 250px;
+}
+.dietText {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
 }
 .E-Chat-wrapper h2,
 .E-Ring-wrapper h2,
@@ -720,7 +719,10 @@ input {
 }
 
 /*      Review       */
-
+.review-main{
+  max-width: 1500px;
+  margin: 0 auto;
+}
 .E-Start_reviewTitle {
   width: 205px;
 }
@@ -749,18 +751,22 @@ input {
   margin-left: 120px;
 }
 
-.LINEArea{
+.LINEArea {
   text-decoration: none;
   height: 60px;
-
 }
-.LINE{
+.LINE {
   width: 170px;
-  margin: 30px auto 0 auto;  
-  background-color: #17B005;
+  margin: 30px auto 0 auto;
+  background-color: #17b005;
   color: white;
   display: inline-block;
   line-height: 60px;
+}
+.startText {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
 }
 @media screen and (max-width: 1000px) {
   .supportText {
