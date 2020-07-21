@@ -13,7 +13,7 @@
           </p>
         </div>
       </div>
-      
+
       <div class="influencerImg"></div>
     </div>
 
@@ -65,7 +65,7 @@
       <div class="influencerArea">
         <div class="mainInfluencerFrame" v-for="member in influence" :key="member">
           <div class="mainInfluencerImg">
-             <img :src="member.img.url" alt="" width="70%">
+            <img :src="member.img.url" alt width="70%" />
           </div>
           <div class="mainInfluencerName">
             <p>{{member.name}}</p>
@@ -107,6 +107,7 @@ export default {
 </script>
 
 <style>
+
 .mainInfluencerContainer {
   margin-top: 10%;
 }
@@ -128,7 +129,7 @@ export default {
 }
 .maininfluencerTop {
   height: 375.97px;
-  padding: 0 0 0 15%;
+  padding-left: 15%;
   width: 100%;
   display: flex;
   position: relative;
@@ -305,12 +306,15 @@ export default {
 .mainInfluencerImg {
   margin: 0 auto;
 }
-.mainInfluencerText, .mainInfluencerName, .mainInfluencerPosition{
+.mainInfluencerText,
+.mainInfluencerName,
+.mainInfluencerPosition {
   text-align: left;
   margin: 0 auto;
   width: 85%;
 }
-.mainInfluencerName p, .mainInfluencerPosition p{
+.mainInfluencerName p,
+.mainInfluencerPosition p {
   margin-top: 3%;
   padding-left: 16%;
 }
@@ -325,6 +329,13 @@ export default {
     width: 35%;
   }
 } */
+@media screen and (min-width: 1500px) {
+  .maininfluencerTop {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
 @media screen and (max-width: 1000px) {
   .main-container {
     height: 300px;
@@ -349,7 +360,7 @@ export default {
 }
 
 @media screen and (max-width: 730px) {
-  .mainInfluencerContainer{
+  .mainInfluencerContainer {
     margin-top: 15%;
   }
   .influencerLogo {
@@ -431,7 +442,7 @@ export default {
     padding-top: 30px;
     margin-top: 80px;
   }
-  .content{
+  .content {
     margin: 0;
   }
   .influencerImg {

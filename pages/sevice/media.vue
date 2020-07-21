@@ -64,7 +64,8 @@ export default {
 
 <style scoped>
 .mediacontainer {
-  margin-top: 10%;
+  margin: 10% auto 0;
+  max-width: 1300px;
 }
 .mediaTopLeft {
   float: left;
