@@ -60,7 +60,7 @@
     </div>
     <div class="leaderSecondMessage">
       <div class="leaderMessagePosition">
-        <img src="~/assets/leaderVision.png" class="leaderSecondImg" width="70%" />
+        <img src="~/assets/leaderVision.jpg" class="leaderSecondImg" width="70%" />
         <div class="leaderSecondMessageSubTitle">
           <h2>「縁起のいい出会い」は</h2>
         </div>
