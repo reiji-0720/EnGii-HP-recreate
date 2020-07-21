@@ -98,7 +98,8 @@ export default {
 }
 
 .Activity {
-  margin: 3%;
+  margin: 3% auto;
+  max-width: 1500px;
 }
 
 .Influencer {
@@ -165,6 +166,8 @@ export default {
 
 .scrollsecond {
   padding-top: 5%;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .scrollborder {

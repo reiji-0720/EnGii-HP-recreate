@@ -212,7 +212,7 @@ export default {
 .EnGiiMerritText {
   text-align: left;
   display: inline-block;
-  margin-top: 30px;
+  margin:70px auto;
   font-size: 18px;
   line-height: 30px;
 }
@@ -222,7 +222,7 @@ export default {
   padding: 5px 10px;
   font-size: 20px;
   width: 204px;
-  margin: 30px auto 0;
+  margin: 30px auto 120px auto;
 }
 .influencerArrow {
   display: flex;
@@ -270,7 +270,7 @@ export default {
 }
 .influencerMerritArea {
   text-align: center;
-  margin-top: 30px;
+  margin:70px auto;
 }
 .ambassador {
   margin-left: -390px;
