@@ -90,9 +90,9 @@ export default {};
 </script>
 
 <style>
-@media screen and (max-width: 1700px) {
   .mainAboutContainer {
-    margin-top: 10%;
+    margin:10% auto auto auto;
+    max-width: 1500px;
   }
 
   .visionText {
@@ -237,156 +237,6 @@ export default {};
   .blank {
     margin-top: 3%;
   }
-}
-
-@media screen and (min-width: 1701px) {
-  .mainAboutContainer {
-    margin-top: 10%;
-  }
-
-  .visionText {
-    text-align: center;
-  }
-
-  .visionText h1 {
-    font-size: 58px;
-    color: #231815;
-    font-weight: 700;
-  }
-
-  .visionText h2 {
-    font-size: 39px;
-    color: #3bb2db;
-    font-weight: 600;
-    margin-top: 3%;
-  }
-
-  .visionText p {
-    font-size: 20px;
-    color: #3bb2db;
-    margin-top: 3%;
-  }
-
-  .leaderMessage {
-    position: relative;
-    background-color: #f0f0f0;
-    margin-top: 10%;
-    z-index: -100;
-  }
-
-  .leaderMessageMainTitle {
-    margin-top: 2%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    margin-left: 1%;
-    text-align: center;
-  }
-
-  .leaderMessageMainTitle h1 {
-    font-weight: 700;
-    font-size: 54px;
-    color: #231815;
-    padding-top: 2%;
-  }
-
-  .leaderMessageSubTitle {
-    background-color: #3bb2db;
-    width: 40%;
-    z-index: 2;
-    margin-left: 7%;
-    margin-top: 22%;
-    position: absolute;
-    top: 0;
-  }
-
-  .leaderMessageSubTitle h2 {
-    font-weight: 500;
-    font-size: 34px;
-    padding-left: 30px;
-    color: #ffff;
-  }
-
-  .leaderImg {
-    margin-left: 50%;
-    z-index: -1;
-  }
-
-  .leaderMessageText {
-    width: 40%;
-    background-color: #3bb2db;
-    margin: -7px 0 auto 35%;
-    padding: 25px 10px 25px 25px;
-  }
-
-  .leaderMessageText p {
-    font-size: 16px;
-    color: #ffff;
-  }
-
-  .leaderSecondMessage {
-    background-color: #c2edfb;
-    padding-bottom: 20%;
-  }
-
-  .leaderMessagePosition {
-    position: relative;
-    padding-top: 12%;
-  }
-
-  .leaderSecondImg {
-    margin-left: 8%;
-  }
-
-  .leaderSecondMessageSubTitle {
-    position: absolute;
-    top: 0;
-    margin-top: 38.7%;
-    width: 27%;
-    margin-left: 50%;
-    background-color: #3bb2db;
-  }
-
-  .leaderSecondMessageSubTitle h2 {
-    font-weight: 500;
-    font-size: 34px;
-    color: #ffff;
-    padding-left: 30px;
-  }
-
-  .leaderSecondMessageSubTitle2 {
-    position: absolute;
-    top: 0;
-    margin-top: 43%;
-    width: 34%;
-    margin-left: 52%;
-    background-color: #3bb2db;
-  }
-
-  .leaderSecondMessageSubTitle2 h2 {
-    font-weight: 500;
-    font-size: 34px;
-    color: #ffff;
-    padding-left: 40px;
-  }
-
-  .leaderSecondMessageText {
-    background-color: #3bb2db;
-    width: 40%;
-    padding: 25px 0 25px 25px;
-    margin: 10% 0 0 12%;
-  }
-
-  .leaderSecondMessageText p {
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffff;
-  }
-
-  .blank {
-    margin-top: 3%;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .visionText h1 {
