@@ -174,7 +174,9 @@ export default {
 .winwin {
   /* width: 352px; */
   height: 98px;
+  margin-bottom: 50px;
 }
+
 .influencerWinArea h3 {
   font-size: 20px;
 }
@@ -190,7 +192,7 @@ export default {
   background-size: cover;
   width: 217px;
   height: 128px;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
 .influencerExplanation {
   background-color: #dff3f9;
