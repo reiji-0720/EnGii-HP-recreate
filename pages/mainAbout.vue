@@ -412,7 +412,7 @@ export default {};
 
   .leaderMessageSubTitle {
     margin-top: 12px;
-    width: 73%;
+    width: 80%;
   }
 
   .leaderMessageText {
@@ -423,13 +423,13 @@ export default {};
 
   .leaderSecondMessageSubTitle {
     margin-top: 12px;
-    width: 50%;
+    width: 60%;
     margin-left: 20%;
   }
 
   .leaderSecondMessageSubTitle2 {
     margin-top: 12px;
-    width: 59%;
+    width: 70%;
     margin-left: 20%;
   }
 

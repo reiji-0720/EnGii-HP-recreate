@@ -63,12 +63,13 @@
 ul {
   list-style: none;
 }
+
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
     display: flex;
     align-items: center;
-    margin: auto auto 25px auto;
+    margin: auto;
     max-width: 1500px;
     height: 90px;
   }
@@ -121,6 +122,7 @@ ul {
     background-color: #ffff;
     height: 55px;
     display: flex;
+    /* position: fixed; */
     align-items: center;
     margin-bottom: 20px;
   }
@@ -171,7 +173,6 @@ ul {
   }
 
   li.menu__single:hover + .result {
-    
   }
 
   .subMenuePosition {

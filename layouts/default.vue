@@ -1,27 +1,28 @@
 <template>
   <div>
-    <Header />
+    <Header class="headerPosition" />
     <nuxt />
     <MediaFooter class="backColor" />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
+import Header from "~/components/Header.vue";
 import MediaFooter from "~/components/MediaFooter.vue";
 
 export default {
   components: {
     Header,
-    MediaFooter,
+    MediaFooter
   }
-}
+};
 </script>
 
 
 <style>
 html {
-  font-family: "YakuHanJP, “Open sans”, “ヒラギノ角ゴ ProN W3", “Hiragino Kaku Gothic ProN”, “メイリオ“, Meiryo, sans-serif;
+  font-family: "YakuHanJP, “Open sans”, “ヒラギノ角ゴ ProN W3",
+    “Hiragino Kaku Gothic ProN”, “メイリオ“, Meiryo, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -43,21 +44,13 @@ html {
   content: "";
   clear: both;
 }
+.headerPosition {
+  position: fixed;
+  margin: auto;
+}
 .backColor {
   background-color: #3e3a39;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .button--green {
   display: inline-block;
@@ -90,8 +83,7 @@ html {
 
 .headerPosition {
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 900;
 }
-
 </style>

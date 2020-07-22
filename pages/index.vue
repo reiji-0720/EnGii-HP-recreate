@@ -91,7 +91,7 @@ export default {
   margin-top: 15%;
 }
 #Top {
-  margin-top: 150px;
+  margin-top: 200px;
   max-width: 1500px;
 }
 #News {

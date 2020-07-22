@@ -2,7 +2,6 @@
   <div class="newsContainer">
     <div v-for="news in newstop" :key="news" class="newsList">
       <div class="newsText">
-        <p>{{news.title}}</p> 
         <p>{{news.date}}</p>
         <p v-html="news.text"></p>
       </div>
@@ -14,7 +13,7 @@
 import axios from "axios";
 
 export default {
-  props: ['newstop']
+  props: ["newstop"]
 };
 </script>
 
@@ -24,10 +23,10 @@ export default {
   max-width: 1500px;
   width: 70%;
   overflow-y: scroll;
-	margin: 0 auto;
+  margin: 0 auto;
   height: 300px;
-	padding: 10px 20px;
-	border: 2px solid #ccc;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
 }
 
 .newsList {
@@ -49,6 +48,9 @@ export default {
 }
 
 @media screen and (max-width: 730px) {
+  .newsContainer {
+    width: 80%;
+  }
   .newsText {
     font-size: 10px;
   }
@@ -56,10 +58,9 @@ export default {
     top: 11px;
   }
   .newsList {
-  margin: 10px auto;
-  padding-right: 20px;
-  width: 230%;
-}
-
+    margin: 10px auto;
+    padding-right: 20px;
+    width: 230%;
+  }
 }
 </style>

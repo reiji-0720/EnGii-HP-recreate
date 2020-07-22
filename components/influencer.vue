@@ -168,8 +168,12 @@ h2 {
     margin: 0 auto;
     padding: 0;
   }
+  .title-box h2 {
+    margin-left: 30px;
+  }
   .content p {
     font-size: 12px;
+    margin-left: 30px;
   }
   .influencerhead {
     line-height: 60px;
