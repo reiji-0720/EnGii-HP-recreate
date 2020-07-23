@@ -24,6 +24,7 @@
                     type="text"
                     pattern="[^\x20-\x7E]*"
                     v-model="userInfo.genre"
+                    style="text-decoration:none;"
                     required
                   >
                     <option value="E-Chat">E-Chat</option>
@@ -269,6 +270,15 @@ form input:valid:not(:last-child) {
 /* errorメッセージを赤くする */
 .error{
   color:red;
+}
+
+input[type="submit"]{
+-webkit-appearance: none;
+border-radius: 0;
+}
+select[type="text"]{
+-webkit-appearance: none;
+border-radius: 0;
 }
 @media screen and (max-width: 1000px) {
   .btn-submit {
