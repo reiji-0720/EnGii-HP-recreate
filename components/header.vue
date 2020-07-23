@@ -64,13 +64,16 @@ ul {
   list-style: none;
 }
 
+@media screen and (min-width: 1500px) {
+  .headerContainer {
+   right:calc(50% - 30%)
+  }
+}
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
     display: flex;
     align-items: center;
-    margin: auto;
-    max-width: 1500px;
     height: 90px;
   }
 
