@@ -44,10 +44,6 @@ html {
   content: "";
   clear: both;
 }
-.headerPosition {
-  position: fixed;
-  margin: auto;
-}
 .backColor {
   background-color: #3e3a39;
 }
@@ -85,5 +81,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 900;
+  margin: auto;
+  max-width: 1500px;
 }
 </style>
