@@ -1,6 +1,6 @@
 <template>
   <div class="headerContainer">
-    <div class="test">
+    <div class="headerContainerPosition">
       <nuxt-link class="borderNone headerImgPosition" to="/">
         <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" alt="EnGii エンギー" />
       </nuxt-link>
@@ -73,7 +73,7 @@ ul {
   margin: auto;
   /* max-width: 1500px; */
 }
-.test {
+.headerContainerPosition {
   display: flex;
   /* justify-content: center; */
 }
@@ -136,7 +136,7 @@ ul {
   /* .headerContainer {
     right: calc(50% - 30%);
   } */
-  .test {
+  .headerContainerPosition {
     display: flex;
     justify-content: center;
     max-width: 1500px;
