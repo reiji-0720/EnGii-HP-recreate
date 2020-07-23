@@ -515,7 +515,7 @@ export default {
   }
   .EnGiiLogo{
     width: 70%;
-    margin: 0 auto;
+    margin: 40px auto 0;
   }
   .LogoText {
     /* width: 393px; */
