@@ -76,12 +76,12 @@ html {
   color: #fff;
   background-color: #35495e;
 }
-
+/* 
 .headerPosition {
   position: fixed;
   top: 0;
   z-index: 900;
   margin: auto;
   max-width: 1500px;
-}
+} */
 </style>

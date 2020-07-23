@@ -1,28 +1,30 @@
 <template>
   <div class="headerContainer">
-    <nuxt-link class="borderNone headerImgPosition" to="/">
-      <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" alt="EnGii エンギー" />
-    </nuxt-link>
-    <ul class="headerMenue">
-      <li>
-        <nuxt-link class="borderNone" to="/mainAbout">VISION</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/sevice/support">SUPPORT</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/sevice/media">MEDIA</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/influencer">INFLUENCER</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
-      </li>
-    </ul>
+    <div class="test">
+      <nuxt-link class="borderNone headerImgPosition" to="/">
+        <img src="~/assets/EngiiLogoNew.png" class="headerLogo" width="57%" alt="EnGii エンギー" />
+      </nuxt-link>
+      <ul class="headerMenue">
+        <li>
+          <nuxt-link class="borderNone" to="/mainAbout">VISION</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/member">MEMBER</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/sevice/support">SUPPORT</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/sevice/media">MEDIA</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/influencer">INFLUENCER</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link class="borderNone" to="/contact">CONTACT</nuxt-link>
+        </li>
+      </ul>
+    </div>
     <div id="nav-drawer">
       <input id="nav-input" type="checkbox" class="nav-unshown" />
       <label id="nav-open" for="nav-input">
@@ -64,17 +66,26 @@ ul {
   list-style: none;
 }
 
-@media screen and (min-width: 1500px) {
-  .headerContainer {
-   right:calc(50% - 30%)
-  }
+.headerPosition {
+  position: fixed;
+  top: 0;
+  z-index: 900;
+  margin: auto;
+  /* max-width: 1500px; */
 }
+.test {
+  display: flex;
+  /* justify-content: center; */
+}
+
+
 @media screen and (min-width: 1001px) {
   .headerContainer {
     background-color: #ffff;
     display: flex;
     align-items: center;
     height: 90px;
+    width: 100%;
   }
 
   .headerImgPosition {
@@ -88,6 +99,7 @@ ul {
   .headerMenue {
     display: flex;
     font-weight: 700;
+    align-items: center;
   }
 
   .headerMenue li {
@@ -118,6 +130,20 @@ ul {
 
   #nav-drawer {
     display: none;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* .headerContainer {
+    right: calc(50% - 30%);
+  } */
+  .test {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .headerLogo{
+    margin:0 50px 0 0;
   }
 }
 @media screen and (min-width: 731px) and (max-width: 1000px) {
