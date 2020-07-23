@@ -70,7 +70,6 @@ export default {
 
 .applicationTitle p {
   font-size: 1.5rem;
-  font-weight: 500;
   color: #231815;
 }
 
@@ -108,7 +107,7 @@ export default {
 @media screen and (max-width: 1000px) {
   .applicationTitle h2 {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     color: #231815;
     margin-bottom: 1%;
   }
@@ -136,18 +135,17 @@ export default {
 
 @media screen and (max-width: 730px) {
   .applicationContainer {
-    margin: 15% auto;
+    margin: 25% auto;
     text-align: center;
   }
   .applicationTitle h2 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 700;
     color: #231815;
     margin-bottom: 1%;
   }
   .applicationTitle p {
     font-size: 1.1rem;
-    font-weight: 500;
     color: #231815;
   }
   .neopaImg img {
