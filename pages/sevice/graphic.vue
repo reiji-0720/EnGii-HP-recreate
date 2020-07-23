@@ -177,7 +177,7 @@
       </div>
     </div>
     <nuxt-link class="borderNone" to="/contact">
-      <request />
+      <request class="requestBottom"/>
     </nuxt-link>
   </div>
 </template>
@@ -469,6 +469,9 @@ export default {
   height: 289px;
   width: 209px;
 }
+.requestBottom{
+  margin-top: 50px;
+}
 @media screen and (max-width: 730px) {
   .sp-br {
     display: block;
@@ -506,9 +509,12 @@ export default {
   /* .atelierText, */
   .REMLogo,
   .atelierLogoMain,
-  .ConceptArea,
-  .EnGiiLogo {
+  .ConceptArea {
     width: 90%;
+    margin: 0 auto;
+  }
+  .EnGiiLogo{
+    width: 70%;
     margin: 0 auto;
   }
   .LogoText {
