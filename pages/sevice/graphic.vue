@@ -177,7 +177,7 @@
       </div>
     </div>
     <nuxt-link class="borderNone" to="/contact">
-      <request class="requestBottom"/>
+      <request class="requestBottom" />
     </nuxt-link>
   </div>
 </template>
@@ -186,8 +186,8 @@
 import request from "~/components/request.vue";
 export default {
   components: {
-    request
-  }
+    request,
+  },
 };
 </script>
 
@@ -266,7 +266,7 @@ export default {
 .ConceptRowPC {
   text-align: left;
   display: inline-block;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-size: 14px;
 }
 .EnGiiConcept {
@@ -469,7 +469,7 @@ export default {
   height: 289px;
   width: 209px;
 }
-.requestBottom{
+.requestBottom {
   margin-top: 50px;
 }
 
@@ -514,7 +514,7 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
-  .EnGiiLogo{
+  .EnGiiLogo {
     width: 70%;
     margin: 40px auto 0;
   }
@@ -531,7 +531,7 @@ export default {
   }
   .ConceptArea {
     max-width: 700px;
-    /* width: 330px; */
+    width: 430px;
     margin: 0 auto;
     display: block;
   }
@@ -562,6 +562,15 @@ export default {
   .lastconseptSP {
     font-size: 12px;
   }
+  .ConceptRowSP {
+    width: 180px;
+  }
+  .conceptdifSP {
+    width: 180px;
+  }
+  .ConceptAreaTopRight {
+    margin-left: 30px;
+  }
   .ConceptAreaSP {
     display: flex;
   }
@@ -591,7 +600,7 @@ export default {
     width: 58px;
     height: 46px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 80px;
   }
   .conceptBorderArea,
   .conceptBorderDown {
@@ -600,7 +609,7 @@ export default {
   .conceptBorder {
     border-left: 1px solid #999999;
     height: 25px;
-    margin: 0 0 25px 210px;
+    margin: 0 0 25px 263px;
   }
   .conceptBorderLeft {
     border-left: 1px solid #999999;
@@ -610,7 +619,7 @@ export default {
   .conceptBorderRight {
     border-left: 1px solid #999999;
     height: 25px;
-    margin: -5px 0 0 135px;
+    margin: -5px 0 0 191px;
   }
   .HelveticaSP {
     margin: 5px 0 0 34px;
@@ -618,10 +627,11 @@ export default {
   .EnGiiConceptHillSP {
     height: 6px;
     width: 58px;
-    margin: 8px 0 0 60px;
+    margin: 8px 0 0 110px;
   }
   .lastconseptSP {
-    margin: 5px 0 0 135px;
+    margin: 5px 0 0 175px;
+    width: 200px;
   }
   .Helvetica {
     display: none;
@@ -641,24 +651,57 @@ export default {
 }
 
 @media screen and (min-width: 731px) and (max-width: 970px) {
-.Helvetica{
-  margin-left: 0 ;
+  .Helvetica {
+    margin-left: 0;
+  }
+  .ArrowOne {
+    transform: rotateZ(90deg);
+    margin-left: 32px;
+  }
+  .topArrow {
+    margin: 30px;
+  }
+  .ArrowThird {
+    margin-left: 116px;
+  }
+  .ConceptAreaTop {
+    width: 731px;
+  }
+  .secondArrow,
+  .thirdConcept,
+  .conseptfin {
+    width: 731px;
+  }
 }
-.ArrowOne{
-  transform: rotateZ(90deg);
-  margin-left: 32px;
-}
-.topArrow{
-  margin: 30px;
-}
-.ArrowThird{
-  margin-left: 116px;
-}
-.ConceptAreaTop{
-  width: 731px;
-}
-.secondArrow, .thirdConcept, .conseptfin{
-  width: 731px;
-}
+@media screen and (max-width: 431px) {
+  .ConceptArea{
+    width: 90%;
+  }
+  .ConceptAreaTop{
+    /* width: 260px; */
+  
+  }
+  .ConceptRowSP {
+    width: 110px;
+  }
+  .conceptdifSP {
+    width: 110px;
+  }
+  .conceptBorder {
+    margin: 0 0 25px 193px;
+  }
+  .EnGiiConceptIISP {
+    margin-left: 10px;
+  }
+  .conceptBorderRight {
+    margin: -5px 0 0 121px;
+  }
+  .EnGiiConceptHillSP {
+    margin: 8px 0 0 45px;
+  }
+  .lastconseptSP {
+    width: 110px;
+    margin: 5px 0 0 145px;
+  }
 }
 </style>
