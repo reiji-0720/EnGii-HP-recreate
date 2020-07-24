@@ -472,6 +472,7 @@ export default {
 .requestBottom{
   margin-top: 50px;
 }
+
 @media screen and (max-width: 730px) {
   .sp-br {
     display: block;
@@ -637,5 +638,27 @@ export default {
   .lastconsept {
     margin: 0;
   }
+}
+
+@media screen and (min-width: 731px) and (max-width: 970px) {
+.Helvetica{
+  margin-left: 0 ;
+}
+.ArrowOne{
+  transform: rotateZ(90deg);
+  margin-left: 32px;
+}
+.topArrow{
+  margin: 30px;
+}
+.ArrowThird{
+  margin-left: 116px;
+}
+.ConceptAreaTop{
+  width: 731px;
+}
+.secondArrow, .thirdConcept, .conseptfin{
+  width: 731px;
+}
 }
 </style>
