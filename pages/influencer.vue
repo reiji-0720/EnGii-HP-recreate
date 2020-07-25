@@ -89,25 +89,24 @@ import axios from "axios";
 export default {
   data() {
     return {
-      influence: ""
+      influence: "",
     };
   },
   async asyncData() {
     const { data } = await axios.get(
       "https://engii.microcms.io/api/v1/influencer",
       {
-        headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" }
+        headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" },
       }
     );
     return {
-      influence: data.contents
+      influence: data.contents,
     };
-  }
+  },
 };
 </script>
 
 <style>
-
 .mainInfluencerContainer {
   margin-top: 10%;
 }
@@ -212,7 +211,7 @@ export default {
 .EnGiiMerritText {
   text-align: left;
   display: inline-block;
-  margin:40px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-size: 18px;
   line-height: 30px;
 }
@@ -270,7 +269,7 @@ export default {
 }
 .influencerMerritArea {
   text-align: center;
-  margin:70px auto;
+  margin: 70px auto;
 }
 .ambassador {
   margin-left: -390px;
@@ -331,6 +330,7 @@ export default {
     width: 35%;
   }
 } */
+
 @media screen and (min-width: 1500px) {
   .maininfluencerTop {
     max-width: 1500px;
@@ -338,6 +338,8 @@ export default {
     padding-left: 0;
   }
 }
+
+
 @media screen and (max-width: 1000px) {
   .main-container {
     height: 300px;
@@ -360,7 +362,11 @@ export default {
     margin-top: 90px;
   }
 }
-
+@media screen and (min-width: 731px) and (max-width: 1000px) {
+  .maintitle-box {
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 730px) {
   .mainInfluencerContainer {
     margin-top: 15%;
