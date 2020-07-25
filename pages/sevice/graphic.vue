@@ -1,184 +1,190 @@
 <template>
-  <div class="graphicContainer">
-    <div class="graphicTop">
-      <div class="graphicTopMain">
-        <div class="graphicImg"></div>
-        <div class="graphicText">
-          <h2>グラフィックデザイン</h2>
-          <p>GRAPHIC DESIGN</p>
+  <div class="wrap">
+    <div class="graphicContainer">
+      <div class="graphicTop">
+        <div class="graphicTopMain">
+          <div class="graphicImg"></div>
+          <div class="graphicText">
+            <h2>グラフィックデザイン</h2>
+            <p>GRAPHIC DESIGN</p>
+          </div>
+        </div>
+        <nuxt-link class="borderNone" to="/contact">
+          <request />
+        </nuxt-link>
+      </div>
+
+      <div class="graphicLogo">
+        <div class="graphicLogoTop">
+          <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiLogo" width="25%" />
+          <p class="LogoConcept">concept</p>
+          <p class="LogoText">
+            ロゴタイポを主体として作成。
+            <br />理由は、「縁起が良い」という言葉を
+            <br class="sp-br" />アイコンでイメージさせるより、
+            <br />EnGiiをブランド化するため。
+            <br />さらに、文字で表現することで認知されやすい特徴があるため。
+            <br />また、プランドやEnGiiというグループを
+            <br />記憶されやすいということを考えたときに最適だと考えた。
+          </p>
+        </div>
+        <div class="ConceptArea">
+          <div class="ConceptAreaTop">
+            <div class="ConceptAreaSP">
+              <div class="ConceptAreaTopLeft">
+                <img src="~assets/EnGiiSideRound.png" alt="EnGii Logo" class="EnGiiSideRound" />
+                <p class="ConceptRowSP">渦を巻くように手書きで描くことで温かみをデザイン。アナログとデジタルのコントラストを表現</p>
+              </div>
+              <div class="ConceptAreaTopRight">
+                <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRodSP" />
+                <p class="conceptdifSP">様々な人と関わっていくことを文字の大きさを変えて表現</p>
+              </div>
+            </div>
+            <div class="conceptBorder"></div>
+            <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
+            <div class="conceptLogoLeft">
+              <img src="~assets/EnG.png" alt="EnGii Logo" class="EnGiiConceptSP" />
+            </div>
+            <img src="~assets/EnGiiII.png" alt="EnGii Logo" class="EnGiiConceptIISP" />
+            <div class="conceptBorderArea">
+              <div class="conceptBorderLeft"></div>
+              <div class="conceptBorderRight"></div>
+            </div>
+            <div class="conceptBorderDown">
+              <p class="HelveticaSP">Helveticaを使用</p>
+              <img src="~assets/EnGiiHillSP.png" alt="EnGii Logo" class="EnGiiConceptHillSP" />
+            </div>
+            <div class="conceptDown">
+              <p class="lastconseptSP">直線の下の部分を少し斜めにすることで丘の上に立ち、しっかりと立ち上がっていることをイメージさせるようにデザイン</p>
+            </div>
+            <div class="topArrow"></div>
+            <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
+            <p class="ConceptRowPC">
+              円が渦を巻いているような完璧な
+              <br />塗りつぶした丸ではないのは手書きで
+              <br />円を描くことで温かみをデザイン
+              <br />アナログとデジタルのコントラストを表現
+            </p>
+          </div>
+
+          <div class="secondArrow">
+            <div class="ArrowOne"></div>
+            <div class="ArrowSecond"></div>
+          </div>
+          <div class="thirdConcept">
+            <p class="Helvetica">Helveticaを使用</p>
+            <div class="ArrowThird"></div>
+            <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRod" />
+            <p class="conceptdif">
+              互いに違う大きさの丸と直線で
+              <br />様々な人と関わっていくことを
+              <br />iの文字の大きさを変えて表現
+            </p>
+          </div>
+          <div class="conseptHill">
+            <img src="~assets/graphicsHill.png" alt="EnGii Logo" class="EnGiiHill" />
+          </div>
+          <div class="conseptfin">
+            <p class="lastconsept">
+              直線の下の部分を少し斜めに
+              <br />することで丘の上に立ち、
+              <br />しっかりと立ち上がっていることを
+              <br />イメージさせるようにデザイン
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="REM">
+        <img src="~assets/REMLogo.png" alt="REM Logo ロゴ" class="REMLogo" width="30%" />
+        <p class="LogoConcept">concept</p>
+        <p class="REMText">
+          某法人様のサロンブランド立ち上げブランディングを担当
+          <br />REMのロゴ名刺、メンバーズカード制作
+          <br />
+          <br />クライアント様が「お店に訪れると夢の中のような空間を
+          <br />イメージ」してREMというネーミングしたので
+          <br />夢から連想する「幻」や「幻想」から
+          <br class="sp-br" />ぼやけた空間やフワッとした印象を
+          <br />文字の外側をぼかすことで表現
+        </p>
+        <div class="card">
+          <div class="cardtop">
+            <img src="~assets/REMBusinessCard.png" alt="REM 名刺デザイン" class="REMCardleft" />
+            <img src="~assets/REMBusiness.png" alt="REM 名刺デザイン" class="REMCardright" />
+          </div>
+          <p class="cardText">名刺デザイン</p>
+          <div class="cardDown">
+            <img src="~assets/memberLeft.png" alt="REM メンバーズカード" class="memberLeft" />
+            <img src="~assets/memberRight.png" alt="REM メンバーズカード" class="memberRight" />
+          </div>
+          <p class="memberText">メンバーズカード</p>
+        </div>
+      </div>
+
+      <div class="atelier">
+        <img
+          src="~assets/atelierLogoMain.png"
+          alt="atelier atelierLogo"
+          class="atelierLogoMain"
+          width="50%"
+        />
+        <p class="LogoConcept">concept</p>
+        <p class="atelierText">
+          某法人様のサロンリニューアルデザインを担当
+          <br />ロゴや名刺、チラシ、看板制作
+          <br />
+          <br />ロゴのイメージとして、お店の頭文字を使ったモノグラム手法で
+          <br />aとpの二文字を重なり合わせた。
+          <br />美容室をイメージしやすいようにハサミを表現している。
+          <br />左右で円の大きさが対象だと無機質になってしまうので
+          <br />あえてバランスを崩した有機的なイメージを表現。
+          <br />プレゼンツという名前は、リボンを結んだ状態を表しており
+          <br />お客様が訪れた時に、
+          <br class="sp-br" />プレゼントをもらったような特別感を演出している
+        </p>
+        <div class="atelierMain">
+          <img
+            src="~assets/atelierLogo.png"
+            alt="atelier atelierLogo"
+            width="50%"
+            class="atelierLogo"
+          />
+          <div class="atelieTop">
+            <img
+              src="~assets/atelierCardleft.png"
+              alt="atelier atelierLogo"
+              class="atelierCardleft"
+            />
+            <img
+              src="~assets/atelierCardright.png"
+              alt="atelier atelierLogo"
+              class="atelierCardright"
+            />
+          </div>
+          <p>名刺デザイン</p>
+          <div class="atelieDown">
+            <img
+              src="~assets/atelierTirasLeft.png"
+              alt="atelier atelierLogo"
+              class="atelierTirasLeft"
+            />
+            <img
+              src="~assets/atelierTirasRight.png"
+              alt="atelier atelierLogo"
+              class="atelierTirasRight"
+            />
+          </div>
+          <p>
+            ダイレクトメッセージ
+            <br />チラシデザイン
+          </p>
         </div>
       </div>
       <nuxt-link class="borderNone" to="/contact">
-        <request />
+        <request class="requestBottom" />
       </nuxt-link>
     </div>
-
-    <div class="graphicLogo">
-      <div class="graphicLogoTop">
-        <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiLogo" width="25%" />
-        <p class="LogoConcept">concept</p>
-        <p class="LogoText">
-          ロゴタイポを主体として作成。
-          <br />理由は、「縁起が良い」という言葉を
-          <br class="sp-br" />アイコンでイメージさせるより、
-          <br />EnGiiをブランド化するため。
-          <br />さらに、文字で表現することで認知されやすい特徴があるため。
-          <br />また、プランドやEnGiiというグループを
-          <br />記憶されやすいということを考えたときに最適だと考えた。
-        </p>
-      </div>
-      <div class="ConceptArea">
-        <div class="ConceptAreaTop">
-          <div class="ConceptAreaSP">
-            <div class="ConceptAreaTopLeft">
-              <img src="~assets/EnGiiSideRound.png" alt="EnGii Logo" class="EnGiiSideRound" />
-              <p class="ConceptRowSP">渦を巻くように手書きで描くことで温かみをデザイン。アナログとデジタルのコントラストを表現</p>
-            </div>
-            <div class="ConceptAreaTopRight">
-              <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRodSP" />
-              <p class="conceptdifSP">様々な人と関わっていくことを文字の大きさを変えて表現</p>
-            </div>
-          </div>
-          <div class="conceptBorder"></div>
-          <img src="~assets/EngiiLogoNew.png" alt="EnGii Logo" class="EnGiiConcept" />
-          <div class="conceptLogoLeft">
-            <img src="~assets/EnG.png" alt="EnGii Logo" class="EnGiiConceptSP" />
-          </div>
-          <img src="~assets/EnGiiII.png" alt="EnGii Logo" class="EnGiiConceptIISP" />
-          <div class="conceptBorderArea">
-            <div class="conceptBorderLeft"></div>
-            <div class="conceptBorderRight"></div>
-          </div>
-          <div class="conceptBorderDown">
-            <p class="HelveticaSP">Helveticaを使用</p>
-            <img src="~assets/EnGiiHillSP.png" alt="EnGii Logo" class="EnGiiConceptHillSP" />
-          </div>
-          <div class="conceptDown">
-            <p class="lastconseptSP">直線の下の部分を少し斜めにすることで丘の上に立ち、しっかりと立ち上がっていることをイメージさせるようにデザイン</p>
-          </div>
-          <div class="topArrow"></div>
-          <img src="~assets/round.png" alt="EnGii Logo" class="EnGiiRound" width="40px" />
-          <p class="ConceptRowPC">
-            円が渦を巻いているような完璧な
-            <br />塗りつぶした丸ではないのは手書きで
-            <br />円を描くことで温かみをデザイン
-            <br />アナログとデジタルのコントラストを表現
-          </p>
-        </div>
-
-        <div class="secondArrow">
-          <div class="ArrowOne"></div>
-          <div class="ArrowSecond"></div>
-        </div>
-        <div class="thirdConcept">
-          <p class="Helvetica">Helveticaを使用</p>
-          <div class="ArrowThird"></div>
-          <img src="~assets/graphicsRod.png" alt="EnGii Logo" class="EnGiiRod" />
-          <p class="conceptdif">
-            互いに違う大きさの丸と直線で
-            <br />様々な人と関わっていくことを
-            <br />iの文字の大きさを変えて表現
-          </p>
-        </div>
-        <div class="conseptHill">
-          <img src="~assets/graphicsHill.png" alt="EnGii Logo" class="EnGiiHill" />
-        </div>
-        <div class="conseptfin">
-          <p class="lastconsept">
-            直線の下の部分を少し斜めに
-            <br />することで丘の上に立ち、
-            <br />しっかりと立ち上がっていることを
-            <br />イメージさせるようにデザイン
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="REM">
-      <img src="~assets/REMLogo.png" alt="REM Logo ロゴ" class="REMLogo" width="30%" />
-      <p class="LogoConcept">concept</p>
-      <p class="REMText">
-        某法人様のサロンブランド立ち上げブランディングを担当
-        <br />REMのロゴ名刺、メンバーズカード制作
-        <br />
-        <br />クライアント様が「お店に訪れると夢の中のような空間を
-        <br />イメージ」してREMというネーミングしたので
-        <br />夢から連想する「幻」や「幻想」から
-        <br class="sp-br" />ぼやけた空間やフワッとした印象を
-        <br />文字の外側をぼかすことで表現
-      </p>
-      <div class="card">
-        <div class="cardtop">
-          <img src="~assets/REMBusinessCard.png" alt="REM 名刺デザイン" class="REMCardleft" />
-          <img src="~assets/REMBusiness.png" alt="REM 名刺デザイン" class="REMCardright" />
-        </div>
-        <p class="cardText">名刺デザイン</p>
-        <div class="cardDown">
-          <img src="~assets/memberLeft.png" alt="REM メンバーズカード" class="memberLeft" />
-          <img src="~assets/memberRight.png" alt="REM メンバーズカード" class="memberRight" />
-        </div>
-        <p class="memberText">メンバーズカード</p>
-      </div>
-    </div>
-
-    <div class="atelier">
-      <img
-        src="~assets/atelierLogoMain.png"
-        alt="atelier atelierLogo"
-        class="atelierLogoMain"
-        width="50%"
-      />
-      <p class="LogoConcept">concept</p>
-      <p class="atelierText">
-        某法人様のサロンリニューアルデザインを担当
-        <br />ロゴや名刺、チラシ、看板制作
-        <br />
-        <br />ロゴのイメージとして、お店の頭文字を使ったモノグラム手法で
-        <br />aとpの二文字を重なり合わせた。
-        <br />美容室をイメージしやすいようにハサミを表現している。
-        <br />左右で円の大きさが対象だと無機質になってしまうので
-        <br />あえてバランスを崩した有機的なイメージを表現。
-        <br />プレゼンツという名前は、リボンを結んだ状態を表しており
-        <br />お客様が訪れた時に、
-        <br class="sp-br" />プレゼントをもらったような特別感を演出している
-      </p>
-      <div class="atelierMain">
-        <img
-          src="~assets/atelierLogo.png"
-          alt="atelier atelierLogo"
-          width="50%"
-          class="atelierLogo"
-        />
-        <div class="atelieTop">
-          <img src="~assets/atelierCardleft.png" alt="atelier atelierLogo" class="atelierCardleft" />
-          <img
-            src="~assets/atelierCardright.png"
-            alt="atelier atelierLogo"
-            class="atelierCardright"
-          />
-        </div>
-        <p>名刺デザイン</p>
-        <div class="atelieDown">
-          <img
-            src="~assets/atelierTirasLeft.png"
-            alt="atelier atelierLogo"
-            class="atelierTirasLeft"
-          />
-          <img
-            src="~assets/atelierTirasRight.png"
-            alt="atelier atelierLogo"
-            class="atelierTirasRight"
-          />
-        </div>
-        <p>
-          ダイレクトメッセージ
-          <br />チラシデザイン
-        </p>
-      </div>
-    </div>
-    <nuxt-link class="borderNone" to="/contact">
-      <request class="requestBottom" />
-    </nuxt-link>
   </div>
 </template>
 
@@ -192,17 +198,6 @@ export default {
 </script>
 
 <style>
-@media screen and (min-width: 731px) {
-  .ConceptAreaSP,
-  .ConceptAreaSP,
-  .ConceptRowSP,
-  .conceptdifSP,
-  .conceptBorderDown,
-  .conceptDown,
-  .EnGiiConceptIISP {
-    display: none;
-  }
-}
 .sp-br {
   display: none;
 }
@@ -473,6 +468,42 @@ export default {
   margin-top: 50px;
 }
 
+@media screen and (min-width: 731px) and (max-width: 970px) {
+  .Helvetica {
+    margin-left: 0;
+  }
+  .ArrowOne {
+    transform: rotateZ(90deg);
+    margin-left: 32px;
+  }
+  .topArrow {
+    margin: 30px;
+  }
+  .ArrowThird {
+    margin-left: 116px;
+  }
+  .ConceptAreaTop {
+    width: 731px;
+  }
+  .secondArrow,
+  .thirdConcept,
+  .conseptfin {
+    width: 731px;
+  }
+}
+
+@media screen and (min-width: 731px) {
+  .ConceptAreaSP,
+  .ConceptAreaSP,
+  .ConceptRowSP,
+  .conceptdifSP,
+  .conceptBorderDown,
+  .conceptDown,
+  .EnGiiConceptIISP {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .sp-br {
     display: block;
@@ -650,36 +681,12 @@ export default {
   }
 }
 
-@media screen and (min-width: 731px) and (max-width: 970px) {
-  .Helvetica {
-    margin-left: 0;
-  }
-  .ArrowOne {
-    transform: rotateZ(90deg);
-    margin-left: 32px;
-  }
-  .topArrow {
-    margin: 30px;
-  }
-  .ArrowThird {
-    margin-left: 116px;
-  }
-  .ConceptAreaTop {
-    width: 731px;
-  }
-  .secondArrow,
-  .thirdConcept,
-  .conseptfin {
-    width: 731px;
-  }
-}
 @media screen and (max-width: 431px) {
-  .ConceptArea{
+  .ConceptArea {
     width: 90%;
   }
-  .ConceptAreaTop{
+  .ConceptAreaTop {
     /* width: 260px; */
-  
   }
   .ConceptRowSP {
     width: 110px;
@@ -703,5 +710,8 @@ export default {
     width: 110px;
     margin: 5px 0 0 145px;
   }
+}
+.wrap{
+  overflow: hidden;
 }
 </style>
