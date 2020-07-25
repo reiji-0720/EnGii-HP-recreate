@@ -901,7 +901,7 @@ input {
   }
   .E-Fitness-container p,
   .E-Start-container p {
-    margin: 20px;
+    margin: 20px auto;
   }
   .scrollsecond {
     display: none;
@@ -973,7 +973,7 @@ input {
   }
   .E-Fitness-container p,
   .E-Start-container p {
-    margin: 20px;
+    margin: 20px auto;
   }
   .scrollsecond {
     display: none;
