@@ -42,7 +42,7 @@
             <br />
           </p>
           <nuxt-link to>
-            <btnService class="supportBtn" />
+            <btnComing class="supportBtn" />
           </nuxt-link>
         </div>
         <div class="E-Ring-wrapper">
@@ -56,7 +56,7 @@
             <br />自分の持っている知識を使って質問に回答できます。
           </p>
           <nuxt-link to>
-            <btnService class="supportBtn" />
+            <btnComing class="supportBtn" />
           </nuxt-link>
         </div>
       </div>
@@ -288,7 +288,7 @@ import Graphics from "~/components/graphics.vue";
 import App from "~/components/app.vue";
 import WebHP from "~/components/webHP.vue";
 import Video from "~/components/video.vue";
-import btnService from "~/components/parts/btnService.vue";
+import btnComing from "~/components/parts/btnComing.vue";
 
 export default {
   components: {
@@ -296,7 +296,7 @@ export default {
     App,
     WebHP,
     Video,
-    btnService
+    btnComing
   }
 };
 </script>

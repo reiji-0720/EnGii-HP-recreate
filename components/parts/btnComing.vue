@@ -1,16 +1,11 @@
 <template>
   <div class="more bg-mainColor">
     C.O.S.
-    <Triangle />
   </div>
 </template>
 <script>
-import Triangle from "~/components/Triangle.vue";
 
 export default {
-  components: {
-    Triangle
-  }
 };
 </script>
 <style scoped>
