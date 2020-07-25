@@ -13,17 +13,17 @@
       </p>
     </div>
     <div class="webHPBtn">
-      <btnMore />
+      <btnComing />
     </div>
   </div>
 </template>
 
 <script>
-import btnMore from "~/components/parts/btnMore.vue";
+import btnComing from "~/components/parts/btnComing.vue";
 
 export default {
   components: {
-    btnMore
+    btnComing
   }
 };
 </script>

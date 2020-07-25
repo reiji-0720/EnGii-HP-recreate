@@ -13,17 +13,17 @@
       </p>
     </div>
     <div class="videoBtn">
-      <btnMore />
+      <btnComing />
     </div>
   </div>
 </template>
 
 <script>
-import btnMore from "~/components/parts/btnMore.vue";
+import btnComing from "~/components/parts/btnComing.vue";
 
 export default {
   components: {
-    btnMore
+    btnComing
   }
 };
 </script>
