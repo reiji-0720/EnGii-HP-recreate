@@ -413,6 +413,9 @@ export default {
   font-size: 18px;
   margin-top: 15px;
 }
+.atelierLogoMain{
+    border: 1px solid #3C3C3C;
+  }
 .atelier {
   text-align: center;
   padding-top: 110px;
@@ -545,12 +548,13 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
+  
   .EnGiiLogo {
     width: 70%;
     margin: 40px auto 0;
   }
   .LogoText {
-    /* width: 393px; */
+    padding: 0 10px;
   }
   .ConceptAreaTop,
   .secondArrow,
