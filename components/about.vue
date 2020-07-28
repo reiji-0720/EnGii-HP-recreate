@@ -96,7 +96,7 @@ export default {
   text-align: left;
   line-height: 33px;
 }
-.btn-more {
+.aboutText .btn-more {
   margin-top: 55px;
   text-align: left;
 }
@@ -173,7 +173,7 @@ export default {
   }
   /* .aboutText p {
   } */
-  .btn-more {
+  .aboutText .btn-more {
     margin: 0 auto;
     margin-top: 50px;
     width: 159.88px;
