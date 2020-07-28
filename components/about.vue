@@ -6,7 +6,7 @@
     <div class="aboutMain">
       <div class="aboutImg">
         <div class="aboutImgBox">
-          <img src="~/assets/IMG_5646.JPG" class="leaderLogo" />
+          <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
         </div>
       </div>
       <div class="aboutText">
@@ -39,8 +39,8 @@ import btnMore from "~/components/parts/btnMore";
 
 export default {
   components: {
-    btnMore,
-  },
+    btnMore
+  }
 };
 </script>
 
@@ -72,10 +72,9 @@ export default {
   top: 10px;
   left: 0;
   z-index: 100;
-  width: 415px;
-  height: 415px;
-  /* filter: drop-shadow(30px 30px 0 #3bb2db);
-  -webkit-filter: drop-shadow(30px 30px 0 #3bb2db); */
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  /* filter: drop-shadow(30px 30px 0 #3bb2db); */
   box-shadow: 30px 30px #3bb2db;
 }
 .aboutMain {
@@ -108,20 +107,20 @@ export default {
   align-items: center;
 }
 @media screen and (min-width: 1001px) and (max-width: 1365px) {
-  .aboutMainText {
+  .aboutText .aboutMainText {
     font-size: 32.64px;
     margin-bottom: 10px;
   }
-  .aboutSubText {
+  .aboutText .aboutSubText {
     font-size: 16.32px;
     line-height: 32px;
   }
-  .aboutImgBox {
+  .aboutImg .aboutImgBox {
     height: 426.8px; /* 455pxの0.9380倍　aboutTextの高さと等しい*/
     width: 426.8px;
   }
 
-  .leaderLogo {
+  .aboutImgBox .leaderLogo {
     z-index: 100;
   }
 }
@@ -130,20 +129,20 @@ export default {
   .aboutTitle p {
     font-size: 35px;
   }
-  .aboutMainText {
+  .aboutText .aboutMainText {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  .aboutSubText {
+  .aboutText .aboutSubText {
     font-size: 12px;
     line-height: 24px;
   }
-  .aboutImgBox {
+  .aboutImg .aboutImgBox {
     height: 344.8px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 344.8px;
   }
 
-  .leaderLogo {
+  .aboutImgBox .leaderLogo {
     position: absolute;
     top: 10px;
     left: 0;
@@ -163,7 +162,7 @@ export default {
     margin: 0 auto;
     width: 277.67px;
   }
-  .aboutImgBox {
+  .aboutImg .aboutImgBox {
     height: 277.67px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 277.67px;
   }
@@ -172,9 +171,9 @@ export default {
     margin: 0 auto;
     width: 277.67px;
   }
-  /* .aboutText p {
-  } */
-  .btn-more {
+  .aboutText p {
+  }
+  .aboutText .btn-more {
     margin: 0 auto;
     margin-top: 50px;
     width: 159.88px;
@@ -185,7 +184,7 @@ export default {
     width: 220px;
     height: 250px;
   }
-  .aboutImgBox {
+  .aboutImg .aboutImgBox {
     height: 220px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 220px;
   }
