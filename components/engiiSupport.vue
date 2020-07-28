@@ -93,8 +93,11 @@ export default {};
 .supportlist2 {
   /* display: flex; */
   margin: 30px 0;
-  width: 50%;
+  /* width: 50%; */
   float: left;
+}
+.supportlist1{
+  margin: 30px 0 0 58px;
 }
 .supportlistboxwork,
 .supportlistboxdai,
