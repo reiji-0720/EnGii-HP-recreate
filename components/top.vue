@@ -116,7 +116,7 @@ export default {};
     }
   }
   .topContainer {
-    height: 350px;
+    height: 495px;
   }
   .topText {
     font-size: 16px;

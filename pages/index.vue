@@ -238,6 +238,9 @@ export default {
   .newsMainText {
     font-size: 26px;
   }
+  .MediaFooter {
+    
+  }
   .colorOne {
     margin-bottom: 25px;
   }
