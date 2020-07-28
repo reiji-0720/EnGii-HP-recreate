@@ -144,10 +144,18 @@ export default {
        }
  },
   mounted: function(){
-    window.addEventListener('resize',this.handleResize)
+    if((this.windowWidth > 730 )&&(this.windowWidth>this.windowHeight) ){
+        window.addEventListener('resize',this.handleResize)
+    }
+    
   },
   beforeDestroy: function(){
-    window.removeEventListener('resize',this.handleResize)
+
+    if((this.windowWidth > 730 )||((this.windowWidth <730)&&(this.windowWidth>this.windowHeight))){
+       window.removeEventListener('resize',this.handleResize)
+    }
+
+    
   }
 };
 </script>
