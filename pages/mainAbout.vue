@@ -117,7 +117,10 @@ export default {};
 .visionText p {
   font-size: 20px;
   color: #3bb2db;
-  margin-top: 3%;
+  margin: 3% auto;
+  padding: 0 40px;
+  display: inline-block;
+  text-align: left;
 }
 
 .leaderMessage {

@@ -121,9 +121,14 @@ export default {};
   .topText {
     font-size: 16px;
   }
+
+  .topImg {
+    height: 500px;
+  }
   .topContents {
     position: absolute;
     margin: auto;
+    padding-top: 80px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -136,7 +141,7 @@ export default {};
     width: 100%;
   }
   .slide {
-    margin: 0 10px;
+    margin: 80px 10px;
     width: 450px;
     height: 260px;
   }
