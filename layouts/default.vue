@@ -84,4 +84,11 @@ html {
   margin: auto;
   max-width: 1500px;
 } */
+
+@media screen and (max-width:730px){
+  br{
+    display: none;
+  }
+  
+}
 </style>
