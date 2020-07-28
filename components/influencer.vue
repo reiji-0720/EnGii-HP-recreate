@@ -156,10 +156,8 @@ h2 {
     width: 60px;
   }
   .influencerImg {
-    width: 30%;
+    width: 50%;
     height: 300px;
-    position: relative;
-    position: absolute;
   }
   .main-container {
     padding: 0;
