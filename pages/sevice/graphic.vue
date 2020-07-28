@@ -99,14 +99,14 @@
         <img src="~assets/REMLogo.png" alt="REM Logo ロゴ" class="REMLogo" width="30%" />
         <p class="LogoConcept">concept</p>
         <p class="REMText">
-          某法人様のサロンブランド立ち上げブランディングを担当
-          <br />REMのロゴ名刺、メンバーズカード制作
-          <br />
+          某法人様の新ブランド立ち上げ時におけるブランディングを担当
+          <br />新ブランドのロゴ名刺、店舗メンバーズカード制作。
+          <br>
           <br />クライアント様が「お店に訪れると夢の中のような空間を
-          <br />イメージ」してREMというネーミングしたので
+          <br />イメージ」してブランドネーミングしたので
           <br />夢から連想する「幻」や「幻想」から
           <br class="sp-br" />ぼやけた空間やフワッとした印象を
-          <br />文字の外側をぼかすことで表現
+          <br />文字の外側をぼかすことで表現。
         </p>
         <div class="card">
           <div class="cardtop">
@@ -413,9 +413,9 @@ export default {
   font-size: 18px;
   margin-top: 15px;
 }
-.atelierLogoMain{
-    border: 1px solid #3C3C3C;
-  }
+.atelierLogoMain {
+  border: 1px solid #3c3c3c;
+}
 .atelier {
   text-align: center;
   padding-top: 110px;
@@ -548,7 +548,7 @@ export default {
     width: 90%;
     margin: 0 auto;
   }
-  
+
   .EnGiiLogo {
     width: 70%;
     margin: 40px auto 0;
@@ -715,7 +715,7 @@ export default {
     margin: 5px 0 0 145px;
   }
 }
-.wrap{
+.wrap {
   overflow: hidden;
 }
 </style>
