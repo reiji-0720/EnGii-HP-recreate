@@ -58,6 +58,8 @@ export default {
       newsitems: "",
 
        windowWidth: window.innerWidth,
+       windowHeight: window.innerHeight,
+
        styleObject:{
          height: null,
        }
@@ -97,19 +99,48 @@ export default {
 
         handleResize: function(){
         this.windowWidth = window.innerWidth;
+        this.windowHeight = window.innerHeight;
+
+        
        if(this.windowWidth > 730){
-           this.styleObject.height = window.innerHeight-200+'px';
+         if(this.windowHeight < 620 ){
+           this.styleObject.height = '420px';
+         }else{
+            this.styleObject.height = window.innerHeight-200+'px';
+         }
+           
        } else  {
-         this.styleObject.height = window.innerHeight-20+'px';
+          //スマホサイズで高さより横幅が大きいとき
+         if(this.windowWidth > this.windowHeight){
+           this.styleObject.height = '480px';
+         }
+         else{
+           this.styleObject.height = window.innerHeight-20+'px';
+         }
        }
     }
   },
  created: function(){
+   //ウインドウの横幅と高さを取得
   this.windowWidth = window.innerWidth;
+  this.windowHeight = window.innerHeight;
+
+　　
        if(this.windowWidth > 730){
-           this.styleObject.height = window.innerHeight-200+'px';
+         if(this.windowHeight < 620 ){
+           this.styleObject.height = '420px';
+         }else{
+            this.styleObject.height = window.innerHeight-200+'px';
+         }
+
        } else  {
-         this.styleObject.height = window.innerHeight-20+'px';
+          //スマホサイズで高さより横幅が大きいとき
+         if(this.windowWidth > this.windowHeight){
+           this.styleObject.height = '480px';
+         }
+         else{
+           this.styleObject.height = window.innerHeight-20+'px';
+         }
        }
  },
   mounted: function(){
