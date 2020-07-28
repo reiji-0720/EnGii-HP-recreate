@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <div class="adjustClass" v-bind:style="styleObject" >
+
     <Top id="Top" />
 
     <div class="scrollOne">
@@ -7,6 +9,8 @@
       <p class="textOne colorOne">scroll</p>
     </div>
     <MediaFooter class="MediaFooter" />
+    </div>
+    
     <h2 class="newsMainText">NEWS</h2>
     <Newstop :newstop="newsitems" id="News" />
     <div id="sreviceTitle">
@@ -52,8 +56,13 @@ export default {
   data() {
     return {
       newsitems: "",
+      styleObject:{
+        height: window.innerHeight-200 +'px'
+      }
+      
     };
   },
+
   async asyncData() {
     const { data } = await axios.get("https://engii.microcms.io/api/v1/news", {
       headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" },
@@ -62,6 +71,7 @@ export default {
       newsitems: data.contents,
     };
   },
+ 
   components: {
     Logo,
     MediaFooter,
@@ -73,6 +83,17 @@ export default {
     Newstop,
     Top,
   },
+     methods:{
+    handleResize: function(){
+      this.styleObject.height = window.innerHeight;
+    }
+  },
+  mounted: function(){
+    window.addEventListener('resize',this.handleResize)
+  },
+  beforeDestroy: function(){
+    window.removeEventListener('resize',this.handleResize)
+  }
 };
 </script>
 
@@ -85,6 +106,17 @@ export default {
   align-items: center;
   text-align: center;
 }
+
+/**adjustClass */
+.adjustClass{
+  position: relative;
+}
+.MediaFooter{
+  position:absolute;
+  bottom:0px;
+}
+
+
 
 #About,
 #indexContact {
