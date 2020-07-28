@@ -6,7 +6,7 @@
     <div class="aboutMain">
       <div class="aboutImg">
         <div class="aboutImgBox">
-          <img src="~/assets/IMG_5646.JPG" class="leaderLogo" width="415" />
+          <img src="~/assets/IMG_5646.JPG" class="leaderLogo" />
         </div>
       </div>
       <div class="aboutText">
@@ -39,8 +39,8 @@ import btnMore from "~/components/parts/btnMore";
 
 export default {
   components: {
-    btnMore
-  }
+    btnMore,
+  },
 };
 </script>
 
@@ -96,7 +96,7 @@ export default {
   text-align: left;
   line-height: 33px;
 }
-.aboutText .btn-more {
+.btn-more {
   margin-top: 55px;
   text-align: left;
 }
@@ -107,20 +107,20 @@ export default {
   align-items: center;
 }
 @media screen and (min-width: 1001px) and (max-width: 1365px) {
-  .aboutText .aboutMainText {
+  .aboutMainText {
     font-size: 32.64px;
     margin-bottom: 10px;
   }
-  .aboutText .aboutSubText {
+  .aboutSubText {
     font-size: 16.32px;
     line-height: 32px;
   }
-  .aboutImg .aboutImgBox {
+  .aboutImgBox {
     height: 426.8px; /* 455pxの0.9380倍　aboutTextの高さと等しい*/
     width: 426.8px;
   }
 
-  .aboutImgBox .leaderLogo {
+  .leaderLogo {
     z-index: 100;
   }
 }
@@ -129,20 +129,20 @@ export default {
   .aboutTitle p {
     font-size: 35px;
   }
-  .aboutText .aboutMainText {
+  .aboutMainText {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  .aboutText .aboutSubText {
+  .aboutSubText {
     font-size: 12px;
     line-height: 24px;
   }
-  .aboutImg .aboutImgBox {
+  .aboutImgBox {
     height: 344.8px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 344.8px;
   }
 
-  .aboutImgBox .leaderLogo {
+  .leaderLogo {
     position: absolute;
     top: 10px;
     left: 0;
@@ -162,7 +162,7 @@ export default {
     margin: 0 auto;
     width: 277.67px;
   }
-  .aboutImg .aboutImgBox {
+  .aboutImgBox {
     height: 277.67px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 277.67px;
   }
@@ -171,9 +171,9 @@ export default {
     margin: 0 auto;
     width: 277.67px;
   }
-  .aboutText p {
-  }
-  .aboutText .btn-more {
+  /* .aboutText p {
+  } */
+  .btn-more {
     margin: 0 auto;
     margin-top: 50px;
     width: 159.88px;
@@ -184,7 +184,7 @@ export default {
     width: 220px;
     height: 250px;
   }
-  .aboutImg .aboutImgBox {
+  .aboutImgBox {
     height: 220px; /* 455pxの0.615倍　aboutTextの高さと等しい*/
     width: 220px;
   }
