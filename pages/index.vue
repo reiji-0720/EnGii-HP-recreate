@@ -56,10 +56,11 @@ export default {
   data() {
     return {
       newsitems: "",
-      styleObject:{
-        height: window.innerHeight-200 +'px'
-      }
-      
+
+       windowWidth: window.innerWidth,
+       styleObject:{
+         height: null,
+       }
     };
   },
 
@@ -83,11 +84,34 @@ export default {
     Newstop,
     Top,
   },
+  
      methods:{
-    handleResize: function(){
-      this.styleObject.height = window.innerHeight;
+       window:onload = function(){
+        this.windowWidth = window.innerWidth;
+       if(this.windowWidth > 730){
+           this.styleObject.height = window.innerHeight-200+'px';
+       } else  {
+         this.styleObject.height = window.innerHeight-20+'px';
+       }
+       },
+
+        handleResize: function(){
+        this.windowWidth = window.innerWidth;
+       if(this.windowWidth > 730){
+           this.styleObject.height = window.innerHeight-200+'px';
+       } else  {
+         this.styleObject.height = window.innerHeight-20+'px';
+       }
     }
   },
+ created: function(){
+  this.windowWidth = window.innerWidth;
+       if(this.windowWidth > 730){
+           this.styleObject.height = window.innerHeight-200+'px';
+       } else  {
+         this.styleObject.height = window.innerHeight-20+'px';
+       }
+ },
   mounted: function(){
     window.addEventListener('resize',this.handleResize)
   },
@@ -220,6 +244,9 @@ export default {
   display: inline-block;
 }
 .scrollOne {
+  position:absolute;
+  width: 100%;
+  bottom:20px;
   margin: 0 auto -6px;
 }
 .colorOne {
