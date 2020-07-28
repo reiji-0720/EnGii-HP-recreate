@@ -78,7 +78,6 @@ export default {
 }
 .aboutMain {
   display: flex;
-  margin-top: 70px;
 }
 .aboutText {
   width: 50%;

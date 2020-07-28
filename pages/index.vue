@@ -51,15 +51,15 @@ import axios from "axios";
 export default {
   data() {
     return {
-      newsitems: ""
+      newsitems: "",
     };
   },
   async asyncData() {
     const { data } = await axios.get("https://engii.microcms.io/api/v1/news", {
-      headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" }
+      headers: { "X-API-KEY": "ff71a3f4-d0d9-4250-9060-9b660b690fe6" },
     });
     return {
-      newsitems: data.contents
+      newsitems: data.contents,
     };
   },
   components: {
@@ -71,8 +71,8 @@ export default {
     engiiMedia,
     About,
     Newstop,
-    Top
-  }
+    Top,
+  },
 };
 </script>
 
@@ -104,7 +104,7 @@ export default {
 }
 
 #Influencer {
-  margin:5% auto auto auto;
+  margin: 5% auto auto auto;
 }
 
 .title {
@@ -235,18 +235,21 @@ export default {
   #Top {
     margin-top: 20px;
   }
+  #News {
+    margin-top: 20px;
+  }
   .newsMainText {
     font-size: 26px;
+    margin-top: 110px;
   }
   .MediaFooter {
-    
   }
   .colorOne {
     margin-bottom: 25px;
   }
   #sreviceTitle {
     width: 90%;
-    margin: 20% auto 10% auto;
+    margin: 110px auto 10% auto;
   }
   .serviceSubText {
     font-size: 10px;
@@ -264,7 +267,11 @@ export default {
   }
 
   #Influencer {
-    margin-top: 20%;
+    margin-top: 110px;
+  }
+
+  #About, #indexContact {
+    margin-top: 110px;
   }
 }
 </style>
