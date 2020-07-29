@@ -144,8 +144,8 @@ export default {
        }
  },
   mounted: function(){
-    if((this.windowWidth > 730 )&&(this.windowWidth>this.windowHeight) ){
-        window.addEventListener('resize',this.handleResize)
+    if((this.windowWidth > 730 )||((this.windowWidth <730)&&(this.windowWidth>this.windowHeight))){
+       window.addEventListener('resize',this.handleResize)
     }
     
   },
