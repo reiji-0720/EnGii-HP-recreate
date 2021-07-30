@@ -5,7 +5,7 @@
         <div class="memberImgRui"></div>
         <div class="memberName">
           <p>
-            宮坂 塁
+            M.R.
             <br />Miyasaka Rui
           </p>
         </div>

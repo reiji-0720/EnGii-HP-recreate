@@ -80,7 +80,7 @@
         <div class="blank"></div>
         <p>
           EnGii 代表
-          <br />宮坂 塁
+          <br />M.R.
         </p>
       </div>
     </div>
